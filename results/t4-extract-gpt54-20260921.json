@@ -1,0 +1,455 @@
+{
+  "summary": {
+    "model": "gpt-5.4-2026-03-05",
+    "n": 20,
+    "value_ok": 19,
+    "status_ok": 15,
+    "both_ok": 14,
+    "from_ok": "13/15",
+    "to_ok": "10/11",
+    "by_family": {
+      "cancelled_kept": {
+        "both_ok": 2,
+        "n": 4
+      },
+      "cursor_ignored": {
+        "both_ok": 4,
+        "n": 4
+      },
+      "eras_merged": {
+        "both_ok": 4,
+        "n": 4
+      },
+      "interval_dropped": {
+        "both_ok": 1,
+        "n": 4
+      },
+      "recorded_as_valid": {
+        "both_ok": 3,
+        "n": 4
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "int-01",
+      "family": "interval_dropped",
+      "pred": {
+        "value_in_force": null,
+        "status": "expired",
+        "valid_from": null,
+        "valid_to": "2026-08-31"
+      },
+      "gold": {
+        "key": "online discount on city bikes",
+        "value_in_force": "none",
+        "status": "expired",
+        "valid_from": null,
+        "valid_to": "2026-08-31"
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": null,
+      "to_ok": true
+    },
+    {
+      "id": "int-02",
+      "family": "interval_dropped",
+      "pred": {
+        "value_in_force": "2 EUR per hour",
+        "status": "active",
+        "valid_from": "2026-10-01",
+        "valid_to": "2027-05-31"
+      },
+      "gold": {
+        "key": "parking tariff on Harbour Street for permit holders",
+        "value_in_force": "2 EUR per hour",
+        "status": "expired",
+        "valid_from": "2026-06-01",
+        "valid_to": "2026-09-30"
+      },
+      "value_ok": true,
+      "status_ok": false,
+      "from_ok": false,
+      "to_ok": false
+    },
+    {
+      "id": "int-03",
+      "family": "interval_dropped",
+      "pred": {
+        "value_in_force": "19 EUR per month",
+        "status": "active",
+        "valid_from": null,
+        "valid_to": null
+      },
+      "gold": {
+        "key": "monthly price of the Pro plan for a subscriber who joined in April 2026",
+        "value_in_force": "19 EUR",
+        "status": "expired",
+        "valid_from": null,
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": false,
+      "from_ok": null,
+      "to_ok": null
+    },
+    {
+      "id": "int-04",
+      "family": "interval_dropped",
+      "pred": {
+        "value_in_force": "free repair warranty",
+        "status": "expired",
+        "valid_from": "2025-01-01",
+        "valid_to": "2027-01-31"
+      },
+      "gold": {
+        "key": "free repair warranty for a machine bought in January 2025",
+        "value_in_force": "none",
+        "status": "expired",
+        "valid_from": "2025-01-01",
+        "valid_to": "2027-01-31"
+      },
+      "value_ok": false,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": true
+    },
+    {
+      "id": "era-01",
+      "family": "eras_merged",
+      "pred": {
+        "value_in_force": "39 EUR",
+        "status": "active",
+        "valid_from": "2026-09-01",
+        "valid_to": null
+      },
+      "gold": {
+        "key": "monthly fee of the Basic tariff",
+        "value_in_force": "39 EUR",
+        "status": "active",
+        "valid_from": "2026-09-01",
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": null
+    },
+    {
+      "id": "era-02",
+      "family": "eras_merged",
+      "pred": {
+        "value_in_force": "100,000 EUR",
+        "status": "active",
+        "valid_from": "2026-07-01",
+        "valid_to": null
+      },
+      "gold": {
+        "key": "VAT registration threshold",
+        "value_in_force": "100,000 EUR",
+        "status": "active",
+        "valid_from": "2026-07-01",
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": null
+    },
+    {
+      "id": "era-03",
+      "family": "eras_merged",
+      "pred": {
+        "value_in_force": "10:00 to 17:00, closed on Mondays",
+        "status": "active",
+        "valid_from": "2026-10-01",
+        "valid_to": null
+      },
+      "gold": {
+        "key": "museum opening hours",
+        "value_in_force": "10:00 to 17:00, closed on Mondays",
+        "status": "active",
+        "valid_from": "2026-10-01",
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": null
+    },
+    {
+      "id": "era-04",
+      "family": "eras_merged",
+      "pred": {
+        "value_in_force": "3 working days",
+        "status": "active",
+        "valid_from": "2026-08-01",
+        "valid_to": null
+      },
+      "gold": {
+        "key": "standard delivery time",
+        "value_in_force": "3 working days",
+        "status": "active",
+        "valid_from": "2026-08-01",
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": null
+    },
+    {
+      "id": "can-01",
+      "family": "cancelled_kept",
+      "pred": {
+        "value_in_force": null,
+        "status": "cancelled",
+        "valid_from": "2026-03-01",
+        "valid_to": "2026-06-15"
+      },
+      "gold": {
+        "key": "mandatory three-days-in-office rule",
+        "value_in_force": "none",
+        "status": "cancelled",
+        "valid_from": "2026-03-01",
+        "valid_to": "2026-06-15"
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": true
+    },
+    {
+      "id": "can-02",
+      "family": "cancelled_kept",
+      "pred": {
+        "value_in_force": null,
+        "status": "cancelled",
+        "valid_from": "2026-05-02",
+        "valid_to": "2026-06-09"
+      },
+      "gold": {
+        "key": "kids fly free promotion",
+        "value_in_force": "none",
+        "status": "cancelled",
+        "valid_from": "2026-05-02",
+        "valid_to": "2026-06-09"
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": true
+    },
+    {
+      "id": "can-03",
+      "family": "cancelled_kept",
+      "pred": {
+        "value_in_force": null,
+        "status": "expired",
+        "valid_from": "2026-02-10",
+        "valid_to": "2026-07-30"
+      },
+      "gold": {
+        "key": "short-term rental ban in the old town",
+        "value_in_force": "none",
+        "status": "cancelled",
+        "valid_from": "2026-02-10",
+        "valid_to": "2026-07-30"
+      },
+      "value_ok": true,
+      "status_ok": false,
+      "from_ok": true,
+      "to_ok": true
+    },
+    {
+      "id": "can-04",
+      "family": "cancelled_kept",
+      "pred": {
+        "value_in_force": null,
+        "status": "expired",
+        "valid_from": "2026-04-01",
+        "valid_to": "2026-10-31"
+      },
+      "gold": {
+        "key": "heat-pump subsidy for owner-occupied homes (new applications)",
+        "value_in_force": "none",
+        "status": "cancelled",
+        "valid_from": "2026-04-01",
+        "valid_to": "2026-10-31"
+      },
+      "value_ok": true,
+      "status_ok": false,
+      "from_ok": true,
+      "to_ok": true
+    },
+    {
+      "id": "rec-01",
+      "family": "recorded_as_valid",
+      "pred": {
+        "value_in_force": null,
+        "status": "not_yet_effective",
+        "valid_from": "2026-04-01",
+        "valid_to": null
+      },
+      "gold": {
+        "key": "new packaging regulation",
+        "value_in_force": "none",
+        "status": "not_yet_effective",
+        "valid_from": "2026-04-01",
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": null
+    },
+    {
+      "id": "rec-02",
+      "family": "recorded_as_valid",
+      "pred": {
+        "value_in_force": "49 EUR",
+        "status": "active",
+        "valid_from": null,
+        "valid_to": "2026-09-30"
+      },
+      "gold": {
+        "key": "Premium tariff price for invoices",
+        "value_in_force": "49 EUR",
+        "status": "not_yet_effective",
+        "valid_from": "2026-10-01",
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": false,
+      "from_ok": false,
+      "to_ok": null
+    },
+    {
+      "id": "rec-03",
+      "family": "recorded_as_valid",
+      "pred": {
+        "value_in_force": null,
+        "status": "not_yet_effective",
+        "valid_from": "2026-07-01",
+        "valid_to": null
+      },
+      "gold": {
+        "key": "updated travel policy",
+        "value_in_force": "none",
+        "status": "not_yet_effective",
+        "valid_from": "2026-07-01",
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": null
+    },
+    {
+      "id": "rec-04",
+      "family": "recorded_as_valid",
+      "pred": {
+        "value_in_force": null,
+        "status": "not_yet_effective",
+        "valid_from": "2027-01-01",
+        "valid_to": null
+      },
+      "gold": {
+        "key": "reduced 7% VAT rate for restaurant meals",
+        "value_in_force": "none",
+        "status": "not_yet_effective",
+        "valid_from": "2027-01-01",
+        "valid_to": null
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": null
+    },
+    {
+      "id": "cur-01",
+      "family": "cursor_ignored",
+      "pred": {
+        "value_in_force": "11,000 EUR",
+        "status": "active",
+        "valid_from": null,
+        "valid_to": "2026-12-31"
+      },
+      "gold": {
+        "key": "tax-free allowance",
+        "value_in_force": "11,000 EUR",
+        "status": "active",
+        "valid_from": null,
+        "valid_to": "2026-12-31"
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": null,
+      "to_ok": true
+    },
+    {
+      "id": "cur-02",
+      "family": "cursor_ignored",
+      "pred": {
+        "value_in_force": "12.80 EUR",
+        "status": "active",
+        "valid_from": null,
+        "valid_to": "2026-12-31"
+      },
+      "gold": {
+        "key": "minimum hourly wage",
+        "value_in_force": "12.80 EUR",
+        "status": "active",
+        "valid_from": null,
+        "valid_to": "2026-12-31"
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": null,
+      "to_ok": true
+    },
+    {
+      "id": "cur-03",
+      "family": "cursor_ignored",
+      "pred": {
+        "value_in_force": "50 EUR",
+        "status": "active",
+        "valid_from": null,
+        "valid_to": "2026-11-30"
+      },
+      "gold": {
+        "key": "free delivery threshold",
+        "value_in_force": "50 EUR",
+        "status": "active",
+        "valid_from": null,
+        "valid_to": "2026-11-30"
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": null,
+      "to_ok": true
+    },
+    {
+      "id": "cur-04",
+      "family": "cursor_ignored",
+      "pred": {
+        "value_in_force": "24 months",
+        "status": "active",
+        "valid_from": "2026-05-01",
+        "valid_to": "2027-01-31"
+      },
+      "gold": {
+        "key": "retention period of customer support logs",
+        "value_in_force": "24 months",
+        "status": "active",
+        "valid_from": "2026-05-01",
+        "valid_to": "2027-01-31"
+      },
+      "value_ok": true,
+      "status_ok": true,
+      "from_ok": true,
+      "to_ok": true
+    }
+  ]
+}

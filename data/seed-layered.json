@@ -1,0 +1,594 @@
+[
+  {
+    "id": "layered-ds-01",
+    "family": "layered",
+    "domain": "Software Licensing",
+    "as_of": "2026-12-15",
+    "false_claim": "The Pro version of TaskFlow grants unlimited project creation.",
+    "true_claim": "After 31 December 2026, or for non-Enterprise accounts, TaskFlow's Pro version does not grant unlimited project creation.",
+    "original": "The Pro version of TaskFlow grants unlimited project creation until 31 December 2026 for accounts on the Enterprise plan. The trial version is limited to 30 days.",
+    "corrupted": "The Pro version of TaskFlow grants unlimited project creation. The trial version is limited to 30 days.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "critical",
+        "text": "until 31 December 2026",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "critical",
+        "text": "for accounts on the Enterprise plan",
+        "critical": true
+      },
+      {
+        "index": 5,
+        "kind": "decoy",
+        "text": "limited to 30 days",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "The Pro version of TaskFlow grants unlimited project creation ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "until 31 December 2026",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for accounts on the Enterprise plan",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": ". The trial version is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "limited to 30 days",
+        "kind": "decoy",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "author": "deepseek-chat",
+    "why_false": "The unlimited project creation is restricted to Enterprise accounts and only until 31 December 2026; on as_of both restrictions have expired.",
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "layered-ds-02",
+    "family": "layered",
+    "domain": "Pharmaceuticals",
+    "as_of": "2027-03-10",
+    "false_claim": "MediCure offers free vaccinations at all clinics.",
+    "true_claim": "MediCure's free vaccination offer ended after January 2027 and was only for children under 12.",
+    "original": "MediCure offers free vaccinations at all clinics during the month of January 2027 to children under 12 years old. The offer is subject to appointment availability.",
+    "corrupted": "MediCure offers free vaccinations at all clinics. The offer is subject to appointment availability.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "critical",
+        "text": "during the month of January 2027",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "critical",
+        "text": "to children under 12 years old",
+        "critical": true
+      },
+      {
+        "index": 5,
+        "kind": "decoy",
+        "text": "subject to appointment availability",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "MediCure offers free vaccinations at all clinics ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "during the month of January 2027",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "to children under 12 years old",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": ". The offer is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "subject to appointment availability",
+        "kind": "decoy",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "author": "deepseek-chat",
+    "why_false": "The free vaccination offer was limited to January 2027 and only for children under 12; on as_of it is no longer valid.",
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "layered-ds-03",
+    "family": "layered",
+    "domain": "Retail",
+    "as_of": "2026-11-20",
+    "false_claim": "GreenGrocer provides a 15% discount on all organic produce.",
+    "true_claim": "GreenGrocer's 15% discount on organic produce is available only on weekends and to loyalty card members.",
+    "original": "GreenGrocer provides a 15% discount on all organic produce on weekends for loyalty card members. The discount is applied automatically at checkout.",
+    "corrupted": "GreenGrocer provides a 15% discount on all organic produce. The discount is applied automatically at checkout.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "critical",
+        "text": "on weekends",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "critical",
+        "text": "for loyalty card members",
+        "critical": true
+      },
+      {
+        "index": 5,
+        "kind": "decoy",
+        "text": "applied automatically at checkout",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "GreenGrocer provides a 15% discount on all organic produce ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "on weekends",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for loyalty card members",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": ". The discount is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "applied automatically at checkout",
+        "kind": "decoy",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "author": "deepseek-chat",
+    "why_false": "The discount is restricted to weekends and loyalty card members; on as_of (a Friday) and for non-members, it does not apply.",
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "layered-ds-04",
+    "family": "layered",
+    "domain": "Banking",
+    "as_of": "2027-01-05",
+    "false_claim": "First National Bank waives account maintenance fees.",
+    "true_claim": "First National Bank's waiver of account maintenance fees ended after 31 December 2026 and was only for customers with a minimum balance of 10,000 EUR.",
+    "original": "First National Bank waives account maintenance fees until 31 December 2026 for customers with a minimum balance of 10,000 EUR. The waiver is not available for business accounts.",
+    "corrupted": "First National Bank waives account maintenance fees. The waiver is not available for business accounts.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "critical",
+        "text": "until 31 December 2026",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "critical",
+        "text": "for customers with a minimum balance of 10,000 EUR",
+        "critical": true
+      },
+      {
+        "index": 5,
+        "kind": "decoy",
+        "text": "not available for business accounts",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "First National Bank waives account maintenance fees ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "until 31 December 2026",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for customers with a minimum balance of 10,000 EUR",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": ". The waiver is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "not available for business accounts",
+        "kind": "decoy",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "author": "deepseek-chat",
+    "why_false": "The fee waiver was limited to customers with a minimum balance of 10,000 EUR and only until 31 December 2026; on as_of it is no longer valid.",
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "layered-ds-05",
+    "family": "layered",
+    "domain": "Education",
+    "as_of": "2026-09-10",
+    "false_claim": "The university library extends opening hours to 24/7.",
+    "true_claim": "The university library's 24/7 opening hours are only during the exam period and for students enrolled in at least 15 credit hours.",
+    "original": "The university library extends opening hours to 24/7 during the exam period from 1 to 30 September 2026 for students enrolled in at least 15 credit hours. The extension is announced via email.",
+    "corrupted": "The university library extends opening hours to 24/7. The extension is announced via email.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "critical",
+        "text": "during the exam period from 1 to 30 September 2026",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "critical",
+        "text": "for students enrolled in at least 15 credit hours",
+        "critical": true
+      },
+      {
+        "index": 5,
+        "kind": "decoy",
+        "text": "announced via email",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "The university library extends opening hours to 24/7 ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "during the exam period from 1 to 30 September 2026",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for students enrolled in at least 15 credit hours",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": ". The extension is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "announced via email",
+        "kind": "decoy",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "author": "deepseek-chat",
+    "why_false": "The 24/7 extension is restricted to the exam period and students with at least 15 credit hours; on as_of (outside exam period) and for part-time students, it does not apply.",
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "layered-ds-06",
+    "family": "layered",
+    "domain": "Telecommunications",
+    "as_of": "2027-02-15",
+    "false_claim": "TeleConnect offers unlimited data on all mobile plans.",
+    "true_claim": "TeleConnect's unlimited data offer ended on 31 January 2027 and was only for new customers on a 24-month contract.",
+    "original": "TeleConnect offers unlimited data on all mobile plans until 31 January 2027 for new customers who sign a 24-month contract. The offer is advertised on TV.",
+    "corrupted": "TeleConnect offers unlimited data on all mobile plans. The offer is advertised on TV.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "critical",
+        "text": "until 31 January 2027",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "critical",
+        "text": "for new customers who sign a 24-month contract",
+        "critical": true
+      },
+      {
+        "index": 5,
+        "kind": "decoy",
+        "text": "advertised on TV",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "TeleConnect offers unlimited data on all mobile plans ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "until 31 January 2027",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for new customers who sign a 24-month contract",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": ". The offer is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "advertised on TV",
+        "kind": "decoy",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "author": "deepseek-chat",
+    "why_false": "The unlimited data offer was limited to new customers with a 24-month contract and only until 31 January 2027; on as_of it is no longer available.",
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "layered-ds-07",
+    "family": "layered",
+    "domain": "Transportation",
+    "as_of": "2026-08-20",
+    "false_claim": "CityRail provides free Wi-Fi on all trains.",
+    "true_claim": "CityRail's free Wi-Fi is available only on weekends and to first-class ticket holders.",
+    "original": "CityRail provides free Wi-Fi on all trains on weekends for first-class ticket holders. The service is sponsored by a telecom company.",
+    "corrupted": "CityRail provides free Wi-Fi on all trains. The service is sponsored by a telecom company.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "critical",
+        "text": "on weekends",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "critical",
+        "text": "for first-class ticket holders",
+        "critical": true
+      },
+      {
+        "index": 5,
+        "kind": "decoy",
+        "text": "sponsored by a telecom company",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "CityRail provides free Wi-Fi on all trains ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "on weekends",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for first-class ticket holders",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": ". The service is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "sponsored by a telecom company",
+        "kind": "decoy",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "author": "deepseek-chat",
+    "why_false": "Free Wi-Fi is restricted to weekends and first-class ticket holders; on as_of (a Thursday) and for standard-class passengers, it is not available.",
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "layered-ds-08",
+    "family": "layered",
+    "domain": "Insurance",
+    "as_of": "2026-10-05",
+    "false_claim": "SafeLife Insurance offers a 10% premium discount.",
+    "true_claim": "SafeLife Insurance's 10% premium discount was only for policies renewed before 30 September 2026 and for customers with no claims in the past three years.",
+    "original": "SafeLife Insurance offers a 10% premium discount for policies renewed before 30 September 2026 to customers with no claims in the past three years. The discount is calculated automatically.",
+    "corrupted": "SafeLife Insurance offers a 10% premium discount. The discount is calculated automatically.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "critical",
+        "text": "for policies renewed before 30 September 2026",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "critical",
+        "text": "to customers with no claims in the past three years",
+        "critical": true
+      },
+      {
+        "index": 5,
+        "kind": "decoy",
+        "text": "calculated automatically",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "SafeLife Insurance offers a 10% premium discount ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for policies renewed before 30 September 2026",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "to customers with no claims in the past three years",
+        "kind": "critical",
+        "critical": true
+      },
+      {
+        "text": ". The discount is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "calculated automatically",
+        "kind": "decoy",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "author": "deepseek-chat",
+    "why_false": "The premium discount was limited to renewals before 30 September 2026 and to customers with no claims; on as_of it is no longer applicable.",
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  }
+]

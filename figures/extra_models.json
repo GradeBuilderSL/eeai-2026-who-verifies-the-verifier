@@ -1,0 +1,9 @@
+{
+ "gpt-5.4-nano": {
+  "A": 12,
+  "B": 3,
+  "C": 91,
+  "D": 97,
+  "note": "nano on A: 69 of 100 compressions failed outright; 12 of the 31 that ran were right"
+ }
+}

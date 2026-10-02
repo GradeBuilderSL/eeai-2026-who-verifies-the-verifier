@@ -1,0 +1,149 @@
+{
+  "judges": [
+    "mini",
+    "gpt54",
+    "deepseek"
+  ],
+  "n": 23,
+  "by_family": {
+    "cancelled_kept": {
+      "mini": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 3,
+        "n": 3
+      },
+      "gpt54": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 3,
+        "n": 3
+      },
+      "deepseek": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 3,
+        "n": 3
+      }
+    },
+    "cursor_ignored": {
+      "mini": {
+        "naive_accepts_false": 4,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 3,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 4,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    },
+    "eras_merged": {
+      "mini": {
+        "naive_accepts_false": 4,
+        "anchored_rejects": 3,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 3,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 4,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    },
+    "interval_dropped": {
+      "mini": {
+        "naive_accepts_false": 4,
+        "anchored_rejects": 3,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 0,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 0,
+        "anchored_rejects": 2,
+        "n": 4
+      }
+    },
+    "layered": {
+      "mini": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 1,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 0,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 0,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    },
+    "recorded_as_valid": {
+      "mini": {
+        "naive_accepts_false": 0,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 0,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 0,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    }
+  },
+  "agreement": {
+    "naive": {
+      "n_unanimous": 10,
+      "unanimous_accept_false_claim": 7,
+      "per_judge_accept": {
+        "mini": 14,
+        "gpt54": 7,
+        "deepseek": 9
+      },
+      "patterns": {
+        "supported|supported|supported": 7,
+        "supported|uncertain|uncertain": 2,
+        "supported|unsupported|supported": 2,
+        "supported|unsupported|uncertain": 3,
+        "uncertain|uncertain|uncertain": 1,
+        "unsupported|uncertain|uncertain": 1,
+        "unsupported|uncertain|unsupported": 2,
+        "unsupported|unsupported|uncertain": 2,
+        "unsupported|unsupported|unsupported": 3
+      }
+    },
+    "anchored": {
+      "n_unanimous": 17,
+      "unanimous_accept_false_claim": 0,
+      "per_judge_accept": {
+        "mini": 5,
+        "gpt54": 0,
+        "deepseek": 1
+      },
+      "patterns": {
+        "supported|unsupported|supported": 1,
+        "supported|unsupported|unsupported": 4,
+        "unsupported|unsupported|uncertain": 1,
+        "unsupported|unsupported|unsupported": 17
+      }
+    }
+  }
+}

@@ -1,0 +1,1526 @@
+[
+ {
+  "id": "real-R3-WS-157bis-2005-12-31",
+  "family": "layered_real",
+  "as_of": "2005-12-31",
+  "original": "Le contribuable âgé de plus de soixante-cinq ans au 31 décembre de l'année d'imposition, ou remplissant l'une des conditions d'invalidité mentionnées à l'article 195, peut déduire de son revenu global net une somme de : - 2 132 euros si ce revenu n'excède pas 13 125 euros ; - 1 066 euros si ce revenu est compris entre 13 125 euros et 21 188 euros. Dans le cas de personnes mariées soumises à une imposition commune, la déduction prévue aux deuxième et troisième alinéas est doublée si les deux époux remplissent les conditions d'âge ou d'invalidité. Les abattements et plafonds de revenus mentionnés aux deuxième et troisième alinéas sont relevés chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Les montants obtenus sont arrondis, s'il y a lieu, à l'euro supérieur en ce qui concerne les abattements et à la dizaine d'euros supérieure en ce qui concerne les plafonds de revenus.",
+  "corrupted": "Le contribuable , , peut déduire de son revenu global net une somme de : - 2 132 euros  ; - 1 066 euros . Dans le cas de personnes mariées soumises à une imposition commune, la déduction prévue aux deuxième et troisième alinéas est doublée si les deux époux remplissent les conditions d'âge ou d'invalidité. Les abattements et plafonds de revenus mentionnés aux deuxième et troisième alinéas sont relevés chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Les montants obtenus sont arrondis, s'il y a lieu, à l'euro supérieur en ce qui concerne les abattements et à la dizaine d'euros supérieure en ce qui concerne les plafonds de revenus.",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "âgé de plus de soixante-cinq ans au 31 décembre de l'année d'imposition",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "ou remplissant l'une des conditions d'invalidité mentionnées à l'article 195",
+    "critical": true
+   },
+   {
+    "index": 5,
+    "kind": "critical",
+    "text": "si ce revenu n'excède pas 13 125 euros",
+    "critical": true
+   },
+   {
+    "index": 7,
+    "kind": "critical",
+    "text": "si ce revenu est compris entre 13 125 euros et 21 188 euros",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "Le contribuable ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "âgé de plus de soixante-cinq ans au 31 décembre de l'année d'imposition",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "ou remplissant l'une des conditions d'invalidité mentionnées à l'article 195",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", peut déduire de son revenu global net une somme de : - 2 132 euros ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "si ce revenu n'excède pas 13 125 euros",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ; - 1 066 euros ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "si ce revenu est compris entre 13 125 euros et 21 188 euros",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". Dans le cas de personnes mariées soumises à une imposition commune, la déduction prévue aux deuxième et troisième alinéas est doublée si les deux époux remplissent les conditions d'âge ou d'invalidité. Les abattements et plafonds de revenus mentionnés aux deuxième et troisième alinéas sont relevés chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Les montants obtenus sont arrondis, s'il y a lieu, à l'euro supérieur en ce qui concerne les abattements et à la dizaine d'euros supérieure en ce qui concerne les plafonds de revenus.",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Le contribuable peut déduire de son revenu global net une somme de 2 132 euros ou de 1 066 euros.",
+  "true_claim": "Le contribuable âgé de plus de soixante-cinq ans au 31 décembre de l'année d'imposition, ou remplissant l'une des conditions d'invalidité mentionnées à l'article 195, peut déduire de son revenu global net une somme de 2 132 euros si ce revenu n'excède pas 13 125 euros, ou de 1 066 euros si ce revenu est compris entre 13 125 euros et 21 188 euros.",
+  "author": "deepseek-chat",
+  "source_sentence": "Le contribuable âgé de plus de soixante-cinq ans au 31 décembre de l'année d'imposition, ou remplissant l'une des conditions d'invalidité mentionnées à l'article 195, peut déduire de son revenu global net une somme de : - 2 132 euros si ce revenu n'excède pas 13 125 euros ; - 1 066 euros si ce revenu est compris entre 13 125 euros et 21 188 euros."
+ },
+ {
+  "id": "real-R3-WS-196B-1991-12-31",
+  "family": "layered_real",
+  "as_of": "1991-12-31",
+  "original": "Le contribuable qui accepte le rattachement des personnes désignées à l'article 6-3 bénéficie d'une demi-part supplémentaire de quotient familial par personne ainsi rattachée. Si la personne rattachée est mariée ou a des enfants à charge, l'avantage fiscal accordé au contribuable prend la forme d'un abattement de 22.100 F sur son revenu global net par personne ainsi prise en charge (1). (1) Chiffre applicable pour l'imposition des revenus de 1991. Ce chiffre était de 21.450 F pour l'imposition des revenus de 1990.",
+  "corrupted": "Le contribuable qui accepte le rattachement des personnes désignées à l'article 6-3 bénéficie d'une demi-part supplémentaire de quotient familial par personne ainsi rattachée. Si la personne rattachée est , l'avantage fiscal accordé au contribuable prend la forme d'un abattement de  sur son revenu global net par personne ainsi prise en charge (1). (1) Chiffre applicable . Ce chiffre était de 21.450 F pour l'imposition des revenus de 1990.",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "mariée ou a des enfants à charge",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "22.100 F",
+    "critical": true
+   },
+   {
+    "index": 5,
+    "kind": "critical",
+    "text": "pour l'imposition des revenus de 1991",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "Le contribuable qui accepte le rattachement des personnes désignées à l'article 6-3 bénéficie d'une demi-part supplémentaire de quotient familial par personne ainsi rattachée. Si la personne rattachée est ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "mariée ou a des enfants à charge",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", l'avantage fiscal accordé au contribuable prend la forme d'un abattement de ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "22.100 F",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " sur son revenu global net par personne ainsi prise en charge (1). (1) Chiffre applicable ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pour l'imposition des revenus de 1991",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". Ce chiffre était de 21.450 F pour l'imposition des revenus de 1990.",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "L'avantage fiscal accordé au contribuable prend la forme d'un abattement sur son revenu global net par personne prise en charge.",
+  "true_claim": "Si la personne rattachée est mariée ou a des enfants à charge, l'avantage fiscal accordé au contribuable prend la forme d'un abattement de 22.100 F sur son revenu global net par personne ainsi prise en charge, pour l'imposition des revenus de 1991.",
+  "author": "deepseek-chat",
+  "source_sentence": "Si la personne rattachée est mariée ou a des enfants à charge, l'avantage fiscal accordé au contribuable prend la forme d'un abattement de 22.100 F sur son revenu global net par personne ainsi prise en charge (1)."
+ },
+ {
+  "id": "real-R3-WS-196B-1994-09-02",
+  "family": "layered_real",
+  "as_of": "1994-09-02",
+  "original": "Le contribuable qui accepte le rattachement des personnes désignées à l'article 6 3 bénéficie d'une demi-part supplémentaire de quotient familial par personne ainsi rattachée. Si la personne rattachée est mariée ou a des enfants à charge, l'avantage fiscal accordé au contribuable prend la forme d'un abattement de 27.120 F sur son revenu global net par personne ainsi prise en charge (1). (1) Chiffre applicable pour l'imposition des revenus de 1993.",
+  "corrupted": "Le contribuable qui accepte le rattachement des personnes désignées à l'article 6 3 bénéficie d'une demi-part supplémentaire de quotient familial par personne ainsi rattachée.  l'avantage fiscal accordé au contribuable prend la forme d'un abattement  sur son revenu global net par personne ainsi prise en charge (1). (1) Chiffre applicable pour l'imposition des revenus de 1993.",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "Si la personne rattachée est mariée ou a des enfants à charge,",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "de 27.120 F",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "Le contribuable qui accepte le rattachement des personnes désignées à l'article 6 3 bénéficie d'une demi-part supplémentaire de quotient familial par personne ainsi rattachée. ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "Si la personne rattachée est mariée ou a des enfants à charge,",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " l'avantage fiscal accordé au contribuable prend la forme d'un abattement ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "de 27.120 F",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " sur son revenu global net par personne ainsi prise en charge (1). (1) Chiffre applicable pour l'imposition des revenus de 1993.",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "L'avantage fiscal accordé au contribuable prend la forme d'un abattement sur son revenu global net par personne prise en charge.",
+  "true_claim": "Si la personne rattachée est mariée ou a des enfants à charge, l'avantage fiscal accordé au contribuable prend la forme d'un abattement de 27.120 F sur son revenu global net par personne ainsi prise en charge.",
+  "author": "deepseek-chat",
+  "source_sentence": "Si la personne rattachée est mariée ou a des enfants à charge, l'avantage fiscal accordé au contribuable prend la forme d'un abattement de 27.120 F sur son revenu global net par personne ainsi prise en charge (1)."
+ },
+ {
+  "id": "real-R3-WS-83-1995-10-27",
+  "family": "layered_real",
+  "as_of": "1995-10-27",
+  "original": "Le montant net du revenu imposable est déterminé en déduisant du montant brut des sommes payées et des avantages en argent ou en nature accordés : 1° Les cotisations de sécurité sociale ; 1° bis Les cotisations afférentes au régime de retraite complémentaire institué par la caisse nationale de prévoyance de la fonction publique. Des décrets peuvent étendre le bénéfice de cette disposition aux régimes de retraites complémentaires constitués au profit des fonctionnaires et agents de l'Etat, des collectivités locales et des établissements publics, soit auprès d'organismes relevant du code de la mutualité, soit auprès d'entreprises d'assurances régies par le livre III du code des assurances. 2° Les cotisations ou les primes versées aux organismes de retraite et de prévoyance complémentaires auxquels le salarié est affilié à titre obligatoire ainsi que les cotisations versées, à compter du 1er janvier 1993, à titre obligatoire au régime de prévoyance des joueurs professionnels de football institué par la charte du football professionnel. Lorsque le total des versements du salarié et de l'employeur tant aux caisses de sécurité sociale au titre de l'assurance vieillesse qu'aux organismes de retraite et de prévoyance complémentaires excède 19 % d'une somme égale à huit fois (2) le plafond annuel moyen retenu pour le calcul des cotisations de sécurité sociale ou lorsqu'à l'intérieur de cette limite, les versements aux seuls organismes de prévoyance dépassent 3 % de la même somme, l'excédent est ajouté à la rémunération ; Lorsque le total des versements aux caisses de sécurité sociale au titre de l'assurance vieillesse et aux régimes de retraites complémentaires adhérant à l'association des régimes de retraite complémentaire et à l'association générale des institutions de retrait",
+  "corrupted": "Le montant net du revenu imposable est déterminé en déduisant du montant brut des sommes payées et des avantages en argent ou en nature accordés : 1° Les cotisations de sécurité sociale ; 1° bis Les cotisations afférentes au régime de retraite complémentaire institué par la caisse nationale de prévoyance de la fonction publique. Des décrets peuvent étendre le bénéfice de cette disposition aux régimes de retraites complémentaires constitués au profit des fonctionnaires et agents de l'Etat, des collectivités locales et des établissements publics, soit auprès d'organismes relevant du code de la mutualité, soit auprès d'entreprises d'assurances régies par le livre III du code des assurances. 2° Les cotisations ou les primes versées aux organismes de retraite et de prévoyance complémentaires auxquels le salarié est affilié à titre obligatoire ainsi que les cotisations versées, à compter du 1er janvier 1993, à titre obligatoire au régime de prévoyance des joueurs professionnels de football institué par la charte du football professionnel. Lorsque le total des versements du salarié et de l'employeur tant aux caisses de sécurité sociale au titre de l'assurance vieillesse qu'aux organismes de retraite et de prévoyance complémentaires  ou lorsqu'à l'intérieur de cette limite, les versements aux seuls organismes de prévoyance , l'excédent est ajouté à la rémunération ; Lorsque le total des versements aux caisses de sécurité sociale au titre de l'assurance vieillesse et aux régimes de retraites complémentaires adhérant à l'association des régimes de retraite complémentaire et à l'association générale des institutions de retrait",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "excède 19 % d'une somme égale à huit fois (2) le plafond annuel moyen retenu pour le calcul des cotisations de sécurité sociale",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "dépassent 3 % de la même somme",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "Le montant net du revenu imposable est déterminé en déduisant du montant brut des sommes payées et des avantages en argent ou en nature accordés : 1° Les cotisations de sécurité sociale ; 1° bis Les cotisations afférentes au régime de retraite complémentaire institué par la caisse nationale de prévoyance de la fonction publique. Des décrets peuvent étendre le bénéfice de cette disposition aux régimes de retraites complémentaires constitués au profit des fonctionnaires et agents de l'Etat, des collectivités locales et des établissements publics, soit auprès d'organismes relevant du code de la mutualité, soit auprès d'entreprises d'assurances régies par le livre III du code des assurances. 2° Les cotisations ou les primes versées aux organismes de retraite et de prévoyance complémentaires auxquels le salarié est affilié à titre obligatoire ainsi que les cotisations versées, à compter du 1er janvier 1993, à titre obligatoire au régime de prévoyance des joueurs professionnels de football institué par la charte du football professionnel. Lorsque le total des versements du salarié et de l'employeur tant aux caisses de sécurité sociale au titre de l'assurance vieillesse qu'aux organismes de retraite et de prévoyance complémentaires ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "excède 19 % d'une somme égale à huit fois (2) le plafond annuel moyen retenu pour le calcul des cotisations de sécurité sociale",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ou lorsqu'à l'intérieur de cette limite, les versements aux seuls organismes de prévoyance ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dépassent 3 % de la même somme",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", l'excédent est ajouté à la rémunération ; Lorsque le total des versements aux caisses de sécurité sociale au titre de l'assurance vieillesse et aux régimes de retraites complémentaires adhérant à l'association des régimes de retraite complémentaire et à l'association générale des institutions de retrait",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "L'excédent des versements est ajouté à la rémunération.",
+  "true_claim": "L'excédent des versements est ajouté à la rémunération lorsque le total des versements excède 19 % d'une somme égale à huit fois le plafond annuel moyen retenu pour le calcul des cotisations de sécurité sociale ou lorsque, à l'intérieur de cette limite, les versements aux seuls organismes de prévoyance dépassent 3 % de la même somme.",
+  "author": "deepseek-chat",
+  "source_sentence": "Lorsque le total des versements du salarié et de l'employeur tant aux caisses de sécurité sociale au titre de l'assurance vieillesse qu'aux organismes de retraite et de prévoyance complémentaires excède 19 % d'une somme égale à huit fois (2) le plafond annuel moyen retenu pour le calcul des cotisations de sécurité sociale ou lorsqu'à l'intérieur de cette limite, les versements aux seuls organismes de prévoyance dépassent 3 % de la même somme, l'excédent est ajouté à la rémunération ;"
+ },
+ {
+  "id": "real-R3-WS-200-2009-04-10",
+  "family": "layered_real",
+  "as_of": "2009-04-10",
+  "original": "1. Ouvrent droit à une réduction d'impôt sur le revenu égale à 66 % de leur montant les sommes prises dans la limite de 20 % du revenu imposable qui correspondent à des dons et versements, y compris l'abandon exprès de revenus ou produits, effectués par les contribuables domiciliés en France au sens de l'article 4 B, au profit : a) De fondations ou associations reconnues d'utilité publique sous réserve du 2 bis, de fondations universitaires ou de fondations partenariales mentionnées respectivement aux articles L. 719-12 et L. 719-13 du code de l'éducation et, pour les seuls salariés des entreprises fondatrices ou des entreprises du groupe, au sens de l'article 223 A, auquel appartient l'entreprise fondatrice, de fondations d'entreprise, lorsque ces organismes répondent aux conditions fixées au b ; b) D'oeuvres ou d'organismes d'intérêt général ayant un caractère philanthropique, éducatif, scientifique, social, humanitaire, sportif, familial, culturel, ou concourant à la mise en valeur du patrimoine artistique, notamment à travers les souscriptions ouvertes pour financer l'achat d'objets ou d'oeuvres d'art destinés à rejoindre les collections d'un musée de France accessibles au public, à la défense de l'environnement naturel ou à la diffusion de la culture, de la langue et des connaissances scientifiques françaises ; c) Des établissements d'enseignement supérieur ou d'enseignement artistique publics ou privés, d'intérêt général, à but non lucratif ; d) D'organismes visés au 4 de l'article 238 bis ; e) D'associations cultuelles et de bienfaisance, ainsi que des établissements publics des cultes reconnus d'Alsace-Moselle ; f) D'organismes publics ou privés dont la gestion est désintéressée et qui ont pour activité principale la présentation au public d'oeuvres dramatiques,",
+  "corrupted": "1. Ouvrent droit à une réduction d'impôt sur le revenu égale à 66 % de leur montant les sommes prises  qui correspondent à des dons et versements, y compris l'abandon exprès de revenus ou produits, effectués , au profit : a) De fondations ou associations reconnues d'utilité publique sous réserve du 2 bis, de fondations universitaires ou de fondations partenariales mentionnées respectivement aux articles L. 719-12 et L. 719-13 du code de l'éducation et, pour les seuls salariés des entreprises fondatrices ou des entreprises du groupe, au sens de l'article 223 A, auquel appartient l'entreprise fondatrice, de fondations d'entreprise, lorsque ces organismes répondent aux conditions fixées au b ; b) D'oeuvres ou d'organismes d'intérêt général ayant un caractère philanthropique, éducatif, scientifique, social, humanitaire, sportif, familial, culturel, ou concourant à la mise en valeur du patrimoine artistique, notamment à travers les souscriptions ouvertes pour financer l'achat d'objets ou d'oeuvres d'art destinés à rejoindre les collections d'un musée de France accessibles au public, à la défense de l'environnement naturel ou à la diffusion de la culture, de la langue et des connaissances scientifiques françaises ; c) Des établissements d'enseignement supérieur ou d'enseignement artistique publics ou privés, d'intérêt général, à but non lucratif ; d) D'organismes visés au 4 de l'article 238 bis ; e) D'associations cultuelles et de bienfaisance, ainsi que des établissements publics des cultes reconnus d'Alsace-Moselle ; f) D'organismes publics ou privés dont la gestion est désintéressée et qui ont pour activité principale la présentation au public d'oeuvres dramatiques,",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "dans la limite de 20 % du revenu imposable",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "par les contribuables domiciliés en France au sens de l'article 4 B",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. Ouvrent droit à une réduction d'impôt sur le revenu égale à 66 % de leur montant les sommes prises ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dans la limite de 20 % du revenu imposable",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " qui correspondent à des dons et versements, y compris l'abandon exprès de revenus ou produits, effectués ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "par les contribuables domiciliés en France au sens de l'article 4 B",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", au profit : a) De fondations ou associations reconnues d'utilité publique sous réserve du 2 bis, de fondations universitaires ou de fondations partenariales mentionnées respectivement aux articles L. 719-12 et L. 719-13 du code de l'éducation et, pour les seuls salariés des entreprises fondatrices ou des entreprises du groupe, au sens de l'article 223 A, auquel appartient l'entreprise fondatrice, de fondations d'entreprise, lorsque ces organismes répondent aux conditions fixées au b ; b) D'oeuvres ou d'organismes d'intérêt général ayant un caractère philanthropique, éducatif, scientifique, social, humanitaire, sportif, familial, culturel, ou concourant à la mise en valeur du patrimoine artistique, notamment à travers les souscriptions ouvertes pour financer l'achat d'objets ou d'oeuvres d'art destinés à rejoindre les collections d'un musée de France accessibles au public, à la défense de l'environnement naturel ou à la diffusion de la culture, de la langue et des connaissances scientifiques françaises ; c) Des établissements d'enseignement supérieur ou d'enseignement artistique publics ou privés, d'intérêt général, à but non lucratif ; d) D'organismes visés au 4 de l'article 238 bis ; e) D'associations cultuelles et de bienfaisance, ainsi que des établissements publics des cultes reconnus d'Alsace-Moselle ; f) D'organismes publics ou privés dont la gestion est désintéressée et qui ont pour activité principale la présentation au public d'oeuvres dramatiques,",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Les dons et versements ouvrent droit à une réduction d'impôt sur le revenu égale à 66 % de leur montant.",
+  "true_claim": "Les dons et versements effectués par les contribuables domiciliés en France ouvrent droit à une réduction d'impôt sur le revenu égale à 66 % de leur montant, dans la limite de 20 % du revenu imposable.",
+  "author": "deepseek-chat",
+  "source_sentence": "Ouvrent droit à une réduction d'impôt sur le revenu égale à 66 % de leur montant les sommes prises dans la limite de 20 % du revenu imposable qui correspondent à des dons et versements, y compris l'abandon exprès de revenus ou produits, effectués par les contribuables domiciliés en France au sens de l'article 4 B, au profit :"
+ },
+ {
+  "id": "real-R3-WS-158-2005-01-01",
+  "family": "layered_real",
+  "as_of": "2005-01-01",
+  "original": "1. Les revenus nets des diverses catégories entrant dans la composition du revenu net global sont évalués d'après les règles fixées aux articles 12 et 13 et dans les conditions prévues aux 2 à 6 ci-après, sans qu'il y ait lieu de distinguer suivant que ces revenus ont leur source en France ou hors de France. Toutefois, en ce qui concerne les entreprises et exploitations situées hors de France, les règles fixées par le présent code pour la détermination forfaitaire des bénéfices imposables ne sont pas applicables. 2. Le revenu net foncier est déterminé conformément aux disposition des articles 14 à 33 quinquies. 3. 1° Les revenus de capitaux mobiliers comprennent tous les revenus visés au VII de la 1ère sous-section de la présente section, à l'exception des revenus expressément affranchis de l'impôt en vertu de l'article 157 et des revenus ayant supporté le prélèvement visé à l'article 125 A. Lorsqu'ils sont payables en espèces les revenus visés au premier alinéa sont soumis à l'impôt sur le revenu au titre de l'année soit de leur paiement en espèces ou par chèques, soit de leur inscription au crédit d'un compte. 2° Les revenus mentionnés au 1° distribués par les sociétés passibles de l'impôt sur les sociétés ou d'un impôt équivalent ou soumises sur option à cet impôt, ayant leur siège dans un Etat de la Communauté européenne ou dans un Etat ou territoire ayant conclu avec la France une convention fiscale en vue d'éviter les doubles impositions en matière d'impôt sur les revenus et résultant d'une décision régulière des organes compétents, sont retenus, pour le calcul de l'impôt sur le revenu, pour 50 % de leur montant. A compter du 1er janvier 2009 pour les sociétés étrangères n'ayant pas leur siège dans un Etat de la Communauté européenne, cette disposition est réservé",
+  "corrupted": "1. Les revenus nets des diverses catégories entrant dans la composition du revenu net global sont évalués d'après les règles fixées aux articles 12 et 13 et dans les conditions prévues aux 2 à 6 ci-après, sans qu'il y ait lieu de distinguer suivant que ces revenus ont leur source en France ou hors de France. Toutefois, , les règles fixées par le présent code  ne sont pas applicables. 2. Le revenu net foncier est déterminé conformément aux disposition des articles 14 à 33 quinquies. 3. 1° Les revenus de capitaux mobiliers comprennent tous les revenus visés au VII de la 1ère sous-section de la présente section, à l'exception des revenus expressément affranchis de l'impôt en vertu de l'article 157 et des revenus ayant supporté le prélèvement visé à l'article 125 A. Lorsqu'ils sont payables en espèces les revenus visés au premier alinéa sont soumis à l'impôt sur le revenu au titre de l'année soit de leur paiement en espèces ou par chèques, soit de leur inscription au crédit d'un compte. 2° Les revenus mentionnés au 1° distribués par les sociétés passibles de l'impôt sur les sociétés ou d'un impôt équivalent ou soumises sur option à cet impôt, ayant leur siège dans un Etat de la Communauté européenne ou dans un Etat ou territoire ayant conclu avec la France une convention fiscale en vue d'éviter les doubles impositions en matière d'impôt sur les revenus et résultant d'une décision régulière des organes compétents, sont retenus, pour le calcul de l'impôt sur le revenu, pour 50 % de leur montant. A compter du 1er janvier 2009 pour les sociétés étrangères n'ayant pas leur siège dans un Etat de la Communauté européenne, cette disposition est réservé",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "en ce qui concerne les entreprises et exploitations situées hors de France",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "pour la détermination forfaitaire des bénéfices imposables",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. Les revenus nets des diverses catégories entrant dans la composition du revenu net global sont évalués d'après les règles fixées aux articles 12 et 13 et dans les conditions prévues aux 2 à 6 ci-après, sans qu'il y ait lieu de distinguer suivant que ces revenus ont leur source en France ou hors de France. Toutefois, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "en ce qui concerne les entreprises et exploitations situées hors de France",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", les règles fixées par le présent code ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pour la détermination forfaitaire des bénéfices imposables",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ne sont pas applicables. 2. Le revenu net foncier est déterminé conformément aux disposition des articles 14 à 33 quinquies. 3. 1° Les revenus de capitaux mobiliers comprennent tous les revenus visés au VII de la 1ère sous-section de la présente section, à l'exception des revenus expressément affranchis de l'impôt en vertu de l'article 157 et des revenus ayant supporté le prélèvement visé à l'article 125 A. Lorsqu'ils sont payables en espèces les revenus visés au premier alinéa sont soumis à l'impôt sur le revenu au titre de l'année soit de leur paiement en espèces ou par chèques, soit de leur inscription au crédit d'un compte. 2° Les revenus mentionnés au 1° distribués par les sociétés passibles de l'impôt sur les sociétés ou d'un impôt équivalent ou soumises sur option à cet impôt, ayant leur siège dans un Etat de la Communauté européenne ou dans un Etat ou territoire ayant conclu avec la France une convention fiscale en vue d'éviter les doubles impositions en matière d'impôt sur les revenus et résultant d'une décision régulière des organes compétents, sont retenus, pour le calcul de l'impôt sur le revenu, pour 50 % de leur montant. A compter du 1er janvier 2009 pour les sociétés étrangères n'ayant pas leur siège dans un Etat de la Communauté européenne, cette disposition est réservé",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Les règles fixées par le présent code ne sont pas applicables.",
+  "true_claim": "En ce qui concerne les entreprises et exploitations situées hors de France, les règles fixées par le présent code pour la détermination forfaitaire des bénéfices imposables ne sont pas applicables.",
+  "author": "deepseek-chat",
+  "source_sentence": "Toutefois, en ce qui concerne les entreprises et exploitations situées hors de France, les règles fixées par le présent code pour la détermination forfaitaire des bénéfices imposables ne sont pas applicables."
+ },
+ {
+  "id": "real-R3-WS-158-2006-12-30",
+  "family": "layered_real",
+  "as_of": "2006-12-30",
+  "original": "1. Les revenus nets des diverses catégories entrant dans la composition du revenu net global sont évalués d'après les règles fixées aux articles 12 et 13 et dans les conditions prévues aux 2 à 6 ci-après, sans qu'il y ait lieu de distinguer suivant que ces revenus ont leur source en France ou hors de France. Toutefois, en ce qui concerne les entreprises et exploitations situées hors de France, les règles fixées par le présent code pour la détermination forfaitaire des bénéfices imposables ne sont pas applicables. 2. Le revenu net foncier est déterminé conformément aux disposition des articles 14 à 33 quinquies. 3. 1° Les revenus de capitaux mobiliers comprennent tous les revenus visés au VII de la 1ère sous-section de la présente section, à l'exception des revenus expressément affranchis de l'impôt en vertu de l'article 157 et des revenus ayant supporté le prélèvement visé à l'article 125 A. Lorsqu'ils sont payables en espèces les revenus visés au premier alinéa sont soumis à l'impôt sur le revenu au titre de l'année soit de leur paiement en espèces ou par chèques, soit de leur inscription au crédit d'un compte. 2° Les revenus mentionnés au 1° distribués par les sociétés passibles de l'impôt sur les sociétés ou d'un impôt équivalent ou soumises sur option à cet impôt, ayant leur siège dans un Etat de la Communauté européenne ou dans un Etat ou territoire ayant conclu avec la France une convention fiscale en vue d'éviter les doubles impositions en matière d'impôt sur les revenus et résultant d'une décision régulière des organes compétents, sont retenus, pour le calcul de l'impôt sur le revenu, pour 50 % de leur montant. A compter du 1er janvier 2009 pour les sociétés étrangères n'ayant pas leur siège dans un Etat de la Communauté européenne, cette disposition est réservé",
+  "corrupted": "1. Les revenus nets des diverses catégories entrant dans la composition du revenu net global sont évalués d'après les règles fixées aux articles 12 et 13 et dans les conditions prévues aux 2 à 6 ci-après, sans qu'il y ait lieu de distinguer suivant que ces revenus ont leur source en France ou hors de France. Toutefois, en ce qui concerne les entreprises et exploitations situées hors de France, les règles fixées par le présent code pour la détermination forfaitaire des bénéfices imposables ne sont pas applicables. 2. Le revenu net foncier est déterminé conformément aux disposition des articles 14 à 33 quinquies. 3. 1° Les revenus de capitaux mobiliers comprennent tous les revenus visés au VII de la 1ère sous-section de la présente section, à l'exception des revenus expressément affranchis de l'impôt en vertu de l'article 157 et des revenus ayant supporté le prélèvement visé à l'article 125 A. Lorsqu'ils sont payables en espèces les revenus visés au premier alinéa sont soumis à l'impôt sur le revenu au titre de l'année soit de leur paiement en espèces ou par chèques, soit de leur inscription au crédit d'un compte. 2° Les revenus mentionnés au 1° distribués par les sociétés passibles de l'impôt sur les sociétés ou d'un impôt équivalent ou soumises sur option à cet impôt, ayant leur siège dans un Etat de la Communauté européenne ou dans un Etat ou territoire ayant conclu avec la France une convention fiscale en vue d'éviter les doubles impositions en matière d'impôt sur les revenus et résultant d'une décision régulière des organes compétents, sont retenus, pour le calcul de l'impôt sur le revenu, pour 50 % de leur montant.  , cette disposition est réservé",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "A compter du 1er janvier 2009",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "pour les sociétés étrangères n'ayant pas leur siège dans un Etat de la Communauté européenne",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. Les revenus nets des diverses catégories entrant dans la composition du revenu net global sont évalués d'après les règles fixées aux articles 12 et 13 et dans les conditions prévues aux 2 à 6 ci-après, sans qu'il y ait lieu de distinguer suivant que ces revenus ont leur source en France ou hors de France. Toutefois, en ce qui concerne les entreprises et exploitations situées hors de France, les règles fixées par le présent code pour la détermination forfaitaire des bénéfices imposables ne sont pas applicables. 2. Le revenu net foncier est déterminé conformément aux disposition des articles 14 à 33 quinquies. 3. 1° Les revenus de capitaux mobiliers comprennent tous les revenus visés au VII de la 1ère sous-section de la présente section, à l'exception des revenus expressément affranchis de l'impôt en vertu de l'article 157 et des revenus ayant supporté le prélèvement visé à l'article 125 A. Lorsqu'ils sont payables en espèces les revenus visés au premier alinéa sont soumis à l'impôt sur le revenu au titre de l'année soit de leur paiement en espèces ou par chèques, soit de leur inscription au crédit d'un compte. 2° Les revenus mentionnés au 1° distribués par les sociétés passibles de l'impôt sur les sociétés ou d'un impôt équivalent ou soumises sur option à cet impôt, ayant leur siège dans un Etat de la Communauté européenne ou dans un Etat ou territoire ayant conclu avec la France une convention fiscale en vue d'éviter les doubles impositions en matière d'impôt sur les revenus et résultant d'une décision régulière des organes compétents, sont retenus, pour le calcul de l'impôt sur le revenu, pour 50 % de leur montant. ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "A compter du 1er janvier 2009",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pour les sociétés étrangères n'ayant pas leur siège dans un Etat de la Communauté européenne",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", cette disposition est réservé",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Cette disposition est réservée.",
+  "true_claim": "À compter du 1er janvier 2009, pour les sociétés étrangères n'ayant pas leur siège dans un État de la Communauté européenne, cette disposition est réservée.",
+  "author": "deepseek-chat",
+  "source_sentence": "A compter du 1er janvier 2009 pour les sociétés étrangères n'ayant pas leur siège dans un Etat de la Communauté européenne, cette disposition est réservé"
+ },
+ {
+  "id": "real-R3-WS-1466A-2014-05-30",
+  "family": "layered_real",
+  "as_of": "2014-05-30",
+  "original": "I. – Les communes sur le territoire desquelles sont situés un ou plusieurs quartiers classés en zones urbaines sensibles définies au 3 de l'article 42 de la loi n° 95-115 du 4 février 1995 d'orientation pour l'aménagement et le développement du territoire ou leurs établissements publics de coopération intercommunale dotés d'une fiscalité propre peuvent exonérer de la cotisation foncière des entreprises par délibération prise dans les conditions de l'article 1639 A bis les créations ou extensions d'établissement réalisées dans une ou plusieurs de ces zones urbaines sensibles, dans la limite d'un montant de base nette imposable fixé pour 2014 à 28 408 € et actualisé chaque année en fonction de la variation des prix. Seuls les établissements employant moins de 150 salariés peuvent bénéficier de cette mesure. L'exonération s'applique aux entreprises qui ont employé moins de 250 salariés au cours de la période de référence retenue pour le calcul de la base d'imposition et dont soit le chiffre d'affaires annuel réalisé au cours de la même période n'excède pas 50 millions d'euros, soit le total de bilan, au terme de la même période, n'excède pas 43 millions d'euros. L'effectif à retenir est apprécié par référence au nombre moyen de salariés au cours de la période. Le chiffre d'affaires à prendre en compte est éventuellement corrigé pour correspondre à une année pleine et, pour une société mère d'un groupe mentionné à l'article 223 A, s'entend de la somme des chiffres d'affaires de chacune des sociétés membres de ce groupe. L'exonération prévue n'est pas applicable aux entreprises dont 25 % ou plus du capital ou des droits de vote sont contrôlés, directement ou indirectement, par une ou plusieurs entreprises ne répondant pas aux conditions fixées par le précédent alinéa. Pour l",
+  "corrupted": "I. – Les communes sur le territoire desquelles sont situés un ou plusieurs quartiers classés en zones urbaines sensibles définies au 3 de l'article 42 de la loi n° 95-115 du 4 février 1995 d'orientation pour l'aménagement et le développement du territoire ou leurs établissements publics de coopération intercommunale dotés d'une fiscalité propre peuvent exonérer de la cotisation foncière des entreprises par délibération prise dans les conditions de l'article 1639 A bis les créations ou extensions d'établissement réalisées dans une ou plusieurs de ces zones urbaines sensibles, dans la limite d'un montant de base nette imposable fixé pour 2014 à 28 408 € et actualisé chaque année en fonction de la variation des prix. Seuls les établissements employant moins de 150 salariés peuvent bénéficier de cette mesure. L'exonération s'applique aux entreprises  et . L'effectif à retenir est apprécié par référence au nombre moyen de salariés au cours de la période. Le chiffre d'affaires à prendre en compte est éventuellement corrigé pour correspondre à une année pleine et, pour une société mère d'un groupe mentionné à l'article 223 A, s'entend de la somme des chiffres d'affaires de chacune des sociétés membres de ce groupe. L'exonération prévue n'est pas applicable aux entreprises dont 25 % ou plus du capital ou des droits de vote sont contrôlés, directement ou indirectement, par une ou plusieurs entreprises ne répondant pas aux conditions fixées par le précédent alinéa. Pour l",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "qui ont employé moins de 250 salariés au cours de la période de référence retenue pour le calcul de la base d'imposition",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "dont soit le chiffre d'affaires annuel réalisé au cours de la même période n'excède pas 50 millions d'euros, soit le total de bilan, au terme de la même période, n'excède pas 43 millions d'euros",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "I. – Les communes sur le territoire desquelles sont situés un ou plusieurs quartiers classés en zones urbaines sensibles définies au 3 de l'article 42 de la loi n° 95-115 du 4 février 1995 d'orientation pour l'aménagement et le développement du territoire ou leurs établissements publics de coopération intercommunale dotés d'une fiscalité propre peuvent exonérer de la cotisation foncière des entreprises par délibération prise dans les conditions de l'article 1639 A bis les créations ou extensions d'établissement réalisées dans une ou plusieurs de ces zones urbaines sensibles, dans la limite d'un montant de base nette imposable fixé pour 2014 à 28 408 € et actualisé chaque année en fonction de la variation des prix. Seuls les établissements employant moins de 150 salariés peuvent bénéficier de cette mesure. L'exonération s'applique aux entreprises ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "qui ont employé moins de 250 salariés au cours de la période de référence retenue pour le calcul de la base d'imposition",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " et ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dont soit le chiffre d'affaires annuel réalisé au cours de la même période n'excède pas 50 millions d'euros, soit le total de bilan, au terme de la même période, n'excède pas 43 millions d'euros",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". L'effectif à retenir est apprécié par référence au nombre moyen de salariés au cours de la période. Le chiffre d'affaires à prendre en compte est éventuellement corrigé pour correspondre à une année pleine et, pour une société mère d'un groupe mentionné à l'article 223 A, s'entend de la somme des chiffres d'affaires de chacune des sociétés membres de ce groupe. L'exonération prévue n'est pas applicable aux entreprises dont 25 % ou plus du capital ou des droits de vote sont contrôlés, directement ou indirectement, par une ou plusieurs entreprises ne répondant pas aux conditions fixées par le précédent alinéa. Pour l",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "L'exonération s'applique aux entreprises.",
+  "true_claim": "L'exonération s'applique aux entreprises qui ont employé moins de 250 salariés au cours de la période de référence retenue pour le calcul de la base d'imposition et dont soit le chiffre d'affaires annuel réalisé au cours de la même période n'excède pas 50 millions d'euros, soit le total de bilan, au terme de la même période, n'excède pas 43 millions d'euros.",
+  "author": "deepseek-chat",
+  "source_sentence": "L'exonération s'applique aux entreprises qui ont employé moins de 250 salariés au cours de la période de référence retenue pour le calcul de la base d'imposition et dont soit le chiffre d'affaires annuel réalisé au cours de la même période n'excède pas 50 millions d'euros, soit le total de bilan, au terme de la même période, n'excède pas 43 millions d'euros."
+ },
+ {
+  "id": "real-R3-WS-1679A-1999-12-31",
+  "family": "layered_real",
+  "as_of": "1999-12-31",
+  "original": "La taxe sur les salaires due par les associations régies par la loi du 1er juillet 1901, les syndicats professionnels et leurs unions visés au chapitre Ier du titre Ier du livre IV du code du travail et par les mutuelles régies par le code de la mutualité lorsqu'elles emploient moins de trente salariés n'est exigible, au titre d'une année, que pour la partie de son montant dépassant une somme fixée à 33 000 F pour les rémunérations versées à compter du 1er janvier 1996. Ce montant est relevé chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Le résultat obtenu est arrondi s'il y a lieu à la dizaine de francs la plus proche.",
+  "corrupted": "La taxe sur les salaires due par les   n'est exigible, au titre d'une année, que pour la partie de son montant dépassant  . Ce montant est relevé chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Le résultat obtenu est arrondi s'il y a lieu à la dizaine de francs la plus proche.",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "associations régies par la loi du 1er juillet 1901, les syndicats professionnels et leurs unions visés au chapitre Ier du titre Ier du livre IV du code du travail et par les mutuelles régies par le code de la mutualité",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "lorsqu'elles emploient moins de trente salariés",
+    "critical": true
+   },
+   {
+    "index": 5,
+    "kind": "critical",
+    "text": "une somme fixée à 33 000 F",
+    "critical": true
+   },
+   {
+    "index": 7,
+    "kind": "critical",
+    "text": "pour les rémunérations versées à compter du 1er janvier 1996",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "La taxe sur les salaires due par les ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "associations régies par la loi du 1er juillet 1901, les syndicats professionnels et leurs unions visés au chapitre Ier du titre Ier du livre IV du code du travail et par les mutuelles régies par le code de la mutualité",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "lorsqu'elles emploient moins de trente salariés",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " n'est exigible, au titre d'une année, que pour la partie de son montant dépassant ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "une somme fixée à 33 000 F",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pour les rémunérations versées à compter du 1er janvier 1996",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". Ce montant est relevé chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Le résultat obtenu est arrondi s'il y a lieu à la dizaine de francs la plus proche.",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "La taxe sur les salaires est exigible pour la totalité de son montant.",
+  "true_claim": "La taxe sur les salaires due par les associations, syndicats et mutuelles employant moins de trente salariés n'est exigible, au titre d'une année, que pour la partie de son montant dépassant 33 000 F pour les rémunérations versées à compter du 1er janvier 1996.",
+  "author": "deepseek-chat",
+  "source_sentence": "La taxe sur les salaires due par les associations régies par la loi du 1er juillet 1901, les syndicats professionnels et leurs unions visés au chapitre Ier du titre Ier du livre IV du code du travail et par les mutuelles régies par le code de la mutualité lorsqu'elles emploient moins de trente salariés n'est exigible, au titre d'une année, que pour la partie de son montant dépassant une somme fixée à 33 000 F pour les rémunérations versées à compter du 1er janvier 1996."
+ },
+ {
+  "id": "real-R3-WS-168-2007-01-01",
+  "family": "layered_real",
+  "as_of": "2007-01-01",
+  "original": "1. En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2, lorsque cette somme est supérieure ou égale à 40 000 euros ; cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu : ELEMENTS DU TRAIN DE VIE / BASE. 1. Valeur locative cadastrale de la résidence principale, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 2. Valeur locative cadastrale des résidences secondaires, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 3. Employés de maison, précepteurs, préceptrices, gouvernantes : - pour la première personne âgée de moins de 60 ans / 4 600 euros - pour chacune des autres personnes / 5 700 euros La base ainsi déterminée est réduite de moitié en ce qui concerne les personnes employées principalement pour l'exercice d'une profession. Il n'est pas tenu compte du premier employé de maison. Il est fait abstraction du second employé de maison lorsque le nombre des personnes âgées de 65 ans ou infirmes vivant sous le même toit est de quatre au moins. 4. Voitures automobiles destinées au transport des personnes / La valeur de la voiture neuve avec abattement de 50 % après trois ans d'usage. Toutefois, la base ainsi déterminée est réduite de moitié en ce qui concerne les voitures appartenant aux pensionnés de guerre bénéficiaires du statut des grands invalides, ainsi qu'aux aveugles et gra",
+  "corrupted": "1. , la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2,  ; cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu : ELEMENTS DU TRAIN DE VIE / BASE. 1. Valeur locative cadastrale de la résidence principale, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 2. Valeur locative cadastrale des résidences secondaires, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 3. Employés de maison, précepteurs, préceptrices, gouvernantes : - pour la première personne âgée de moins de 60 ans / 4 600 euros - pour chacune des autres personnes / 5 700 euros La base ainsi déterminée est réduite de moitié en ce qui concerne les personnes employées principalement pour l'exercice d'une profession. Il n'est pas tenu compte du premier employé de maison. Il est fait abstraction du second employé de maison lorsque le nombre des personnes âgées de 65 ans ou infirmes vivant sous le même toit est de quatre au moins. 4. Voitures automobiles destinées au transport des personnes / La valeur de la voiture neuve avec abattement de 50 % après trois ans d'usage. Toutefois, la base ainsi déterminée est réduite de moitié en ce qui concerne les voitures appartenant aux pensionnés de guerre bénéficiaires du statut des grands invalides, ainsi qu'aux aveugles et gra",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "lorsque cette somme est supérieure ou égale à 40 000 euros",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "lorsque cette somme est supérieure ou égale à 40 000 euros",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ; cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu : ELEMENTS DU TRAIN DE VIE / BASE. 1. Valeur locative cadastrale de la résidence principale, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 2. Valeur locative cadastrale des résidences secondaires, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 3. Employés de maison, précepteurs, préceptrices, gouvernantes : - pour la première personne âgée de moins de 60 ans / 4 600 euros - pour chacune des autres personnes / 5 700 euros La base ainsi déterminée est réduite de moitié en ce qui concerne les personnes employées principalement pour l'exercice d'une profession. Il n'est pas tenu compte du premier employé de maison. Il est fait abstraction du second employé de maison lorsque le nombre des personnes âgées de 65 ans ou infirmes vivant sous le même toit est de quatre au moins. 4. Voitures automobiles destinées au transport des personnes / La valeur de la voiture neuve avec abattement de 50 % après trois ans d'usage. Toutefois, la base ainsi déterminée est réduite de moitié en ce qui concerne les voitures appartenant aux pensionnés de guerre bénéficiaires du statut des grands invalides, ainsi qu'aux aveugles et gra",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "La base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments du train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2.",
+  "true_claim": "En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2, lorsque cette somme est supérieure ou égale à 40 000 euros ; cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu.",
+  "author": "deepseek-chat",
+  "source_sentence": "En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2, lorsque cette somme est supérieure ou égale à 40 000 euros ; cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu :"
+ },
+ {
+  "id": "real-R3-WS-168-2010-05-01",
+  "family": "layered_real",
+  "as_of": "2010-05-01",
+  "original": "1. En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2, lorsque cette somme est supérieure ou égale à 44 111 € ; cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu : ELEMENTS DU TRAIN DE VIE / BASE. 1. Valeur locative cadastrale de la résidence principale, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 2. Valeur locative cadastrale des résidences secondaires, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 3. Employés de maison, précepteurs, préceptrices, gouvernantes : -pour la première personne âgée de moins de 60 ans / 4 600 euros -pour chacune des autres personnes / 5 700 euros La base ainsi déterminée est réduite de moitié en ce qui concerne les personnes employées principalement pour l'exercice d'une profession. Il n'est pas tenu compte du premier employé de maison. Il est fait abstraction du second employé de maison lorsque le nombre des personnes âgées de 65 ans ou infirmes vivant sous le même toit est de quatre au moins. 4. Voitures automobiles destinées au transport des personnes / La valeur de la voiture neuve avec abattement de 50 % après trois ans d'usage. Toutefois, la base ainsi déterminée est réduite de moitié en ce qui concerne les voitures appartenant aux pensionnés de guerre bénéficiaires du statut des grands invalides, ainsi qu'aux aveugles et grands in",
+  "corrupted": "1. En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2,  ;  : ELEMENTS DU TRAIN DE VIE / BASE. 1. Valeur locative cadastrale de la résidence principale, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 2. Valeur locative cadastrale des résidences secondaires, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 3. Employés de maison, précepteurs, préceptrices, gouvernantes : -pour la première personne âgée de moins de 60 ans / 4 600 euros -pour chacune des autres personnes / 5 700 euros La base ainsi déterminée est réduite de moitié en ce qui concerne les personnes employées principalement pour l'exercice d'une profession. Il n'est pas tenu compte du premier employé de maison. Il est fait abstraction du second employé de maison lorsque le nombre des personnes âgées de 65 ans ou infirmes vivant sous le même toit est de quatre au moins. 4. Voitures automobiles destinées au transport des personnes / La valeur de la voiture neuve avec abattement de 50 % après trois ans d'usage. Toutefois, la base ainsi déterminée est réduite de moitié en ce qui concerne les voitures appartenant aux pensionnés de guerre bénéficiaires du statut des grands invalides, ainsi qu'aux aveugles et grands in",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "lorsque cette somme est supérieure ou égale à 44 111 €",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "lorsque cette somme est supérieure ou égale à 44 111 €",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ; ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " : ELEMENTS DU TRAIN DE VIE / BASE. 1. Valeur locative cadastrale de la résidence principale, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 2. Valeur locative cadastrale des résidences secondaires, déduction faite de celle s'appliquant aux locaux ayant un caractère professionnel / cinq fois la valeur locative cadastrale. 3. Employés de maison, précepteurs, préceptrices, gouvernantes : -pour la première personne âgée de moins de 60 ans / 4 600 euros -pour chacune des autres personnes / 5 700 euros La base ainsi déterminée est réduite de moitié en ce qui concerne les personnes employées principalement pour l'exercice d'une profession. Il n'est pas tenu compte du premier employé de maison. Il est fait abstraction du second employé de maison lorsque le nombre des personnes âgées de 65 ans ou infirmes vivant sous le même toit est de quatre au moins. 4. Voitures automobiles destinées au transport des personnes / La valeur de la voiture neuve avec abattement de 50 % après trois ans d'usage. Toutefois, la base ainsi déterminée est réduite de moitié en ce qui concerne les voitures appartenant aux pensionnés de guerre bénéficiaires du statut des grands invalides, ainsi qu'aux aveugles et grands in",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2.",
+  "true_claim": "En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2, lorsque cette somme est supérieure ou égale à 44 111 € et que cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu.",
+  "author": "deepseek-chat",
+  "source_sentence": "En cas de disproportion marquée entre le train de vie d'un contribuable et ses revenus, la base d'imposition à l'impôt sur le revenu est portée à une somme forfaitaire déterminée en appliquant à certains éléments de ce train de vie le barème ci-après, compte tenu, le cas échéant, de la majoration prévue au 2, lorsque cette somme est supérieure ou égale à 44 111 € ; cette limite est relevée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu"
+ },
+ {
+  "id": "real-R3-WS-231-2019-01-01",
+  "family": "layered_real",
+  "as_of": "2019-01-01",
+  "original": "1. Les sommes payées à titre de rémunérations aux salariés sont soumises à une taxe au taux de 4,25 %. Les sommes prises en compte sont celles retenues pour la détermination de l'assiette de la contribution prévue à l'article L. 136-1 du code de la sécurité sociale, à l'exception des avantages mentionnés aux I des articles 80 bis et 80 quaterdecies du présent code. La réduction mentionnée au I de l'article L. 136-2 du code de la sécurité sociale n'est pas applicable. Cette taxe est à la charge des entreprises et organismes qui emploient ces salariés, à l'exception des collectivités locales, de leurs régies personnalisées mentionnées à l' article L. 1412-2 du code général des collectivités territoriales et de leurs groupements, des établissements publics de coopération culturelle mentionnés à l'article L. 1431-1 du même code, des services départementaux de lutte contre l'incendie, des centres d'action sociale dotés d'une personnalité propre lorsqu'ils sont subventionnés par les collectivités locales, du centre de formation des personnels communaux, de l'établissement mentionné à l'article L. 1222-1 du code de la santé publique, des caisses des écoles et des établissements d'enseignement supérieur visés au livre VII du code de l'éducation qui organisent des formations conduisant à la délivrance au nom de l'Etat d'un diplôme sanctionnant cinq années d'études après le baccalauréat, qui paient ces rémunérations lorsqu'ils ne sont pas assujettis à la taxe sur la valeur ajoutée ou ne l'ont pas été sur 90 % au moins de leur chiffre d'affaires au titre de l'année civile précédant celle du paiement desdites rémunérations. L'assiette de la taxe due par ces personnes ou organismes est constituée par une partie des rémunérations versées, déterminée en appliquant à l'ensemble de ces ",
+  "corrupted": "1. Les sommes payées à titre de rémunérations aux salariés sont soumises à une taxe au taux de 4,25 %. Les sommes prises en compte sont celles retenues pour la détermination de l'assiette de la contribution prévue à l'article L. 136-1 du code de la sécurité sociale, à l'exception des avantages mentionnés aux I des articles 80 bis et 80 quaterdecies du présent code. La réduction mentionnée au I de l'article L. 136-2 du code de la sécurité sociale n'est pas applicable. Cette taxe est à la charge des entreprises et organismes qui emploient ces salariés, , qui paient ces rémunérations  L'assiette de la taxe due par ces personnes ou organismes est constituée par une partie des rémunérations versées, déterminée en appliquant à l'ensemble de ces ",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "à l'exception des collectivités locales, de leurs régies personnalisées mentionnées à l' article L. 1412-2 du code général des collectivités territoriales et de leurs groupements, des établissements publics de coopération culturelle mentionnés à l'article L. 1431-1 du même code, des services départementaux de lutte contre l'incendie, des centres d'action sociale dotés d'une personnalité propre lorsqu'ils sont subventionnés par les collectivités locales, du centre de formation des personnels communaux, de l'établissement mentionné à l'article L. 1222-1 du code de la santé publique, des caisses des écoles et des établissements d'enseignement supérieur visés au livre VII du code de l'éducation qui organisent des formations conduisant à la délivrance au nom de l'Etat d'un diplôme sanctionnant cinq années d'études après le baccalauréat",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "lorsqu'ils ne sont pas assujettis à la taxe sur la valeur ajoutée ou ne l'ont pas été sur 90 % au moins de leur chiffre d'affaires au titre de l'année civile précédant celle du paiement desdites rémunérations.",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. Les sommes payées à titre de rémunérations aux salariés sont soumises à une taxe au taux de 4,25 %. Les sommes prises en compte sont celles retenues pour la détermination de l'assiette de la contribution prévue à l'article L. 136-1 du code de la sécurité sociale, à l'exception des avantages mentionnés aux I des articles 80 bis et 80 quaterdecies du présent code. La réduction mentionnée au I de l'article L. 136-2 du code de la sécurité sociale n'est pas applicable. Cette taxe est à la charge des entreprises et organismes qui emploient ces salariés, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "à l'exception des collectivités locales, de leurs régies personnalisées mentionnées à l' article L. 1412-2 du code général des collectivités territoriales et de leurs groupements, des établissements publics de coopération culturelle mentionnés à l'article L. 1431-1 du même code, des services départementaux de lutte contre l'incendie, des centres d'action sociale dotés d'une personnalité propre lorsqu'ils sont subventionnés par les collectivités locales, du centre de formation des personnels communaux, de l'établissement mentionné à l'article L. 1222-1 du code de la santé publique, des caisses des écoles et des établissements d'enseignement supérieur visés au livre VII du code de l'éducation qui organisent des formations conduisant à la délivrance au nom de l'Etat d'un diplôme sanctionnant cinq années d'études après le baccalauréat",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", qui paient ces rémunérations ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "lorsqu'ils ne sont pas assujettis à la taxe sur la valeur ajoutée ou ne l'ont pas été sur 90 % au moins de leur chiffre d'affaires au titre de l'année civile précédant celle du paiement desdites rémunérations.",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " L'assiette de la taxe due par ces personnes ou organismes est constituée par une partie des rémunérations versées, déterminée en appliquant à l'ensemble de ces ",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Cette taxe est à la charge des entreprises et organismes qui emploient ces salariés.",
+  "true_claim": "Cette taxe est à la charge des entreprises et organismes qui emploient ces salariés, sauf pour certaines entités exonérées, et uniquement si elles ne sont pas assujetties à la TVA ou ne l'ont pas été sur au moins 90 % de leur chiffre d'affaires l'année précédant le paiement.",
+  "author": "deepseek-chat",
+  "source_sentence": "Cette taxe est à la charge des entreprises et organismes qui emploient ces salariés, à l'exception des collectivités locales, de leurs régies personnalisées mentionnées à l' article L. 1412-2 du code général des collectivités territoriales et de leurs groupements, des établissements publics de coopération culturelle mentionnés à l'article L. 1431-1 du même code, des services départementaux de lutte contre l'incendie, des centres d'action sociale dotés d'une personnalité propre lorsqu'ils sont subventionnés par les collectivités locales, du centre de formation des personnels communaux, de l'établissement mentionné à l'article L. 1222-1 du code de la santé publique, des caisses des écoles et des établissements d'enseignement supérieur visés au livre VII du code de l'éducation qui organisent des formations conduisant à la délivrance au nom de l'Etat d'un diplôme sanctionnant cinq années d'études après le baccalauréat, qui paient ces rémunérations lorsqu'ils ne sont pas assujettis à la taxe sur la valeur ajoutée ou ne l'ont pas été sur 90 % au moins de leur chiffre d'affaires au titre de l'année civile précédant celle du paiement desdites rémunérations."
+ },
+ {
+  "id": "real-R3-WS-50-0-1994-09-02",
+  "family": "layered_real",
+  "as_of": "1994-09-02",
+  "original": "1. Les entreprises dont le chiffre d'affaires annuel n'excède pas 70 000 F hors taxes, ajusté le cas échéant au prorata du temps d'exploitation au cours de l'année civile, sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices. Le bénéfice imposable est égal au montant du chiffre d'affaires hors taxes diminué d'un abattement de 50 p. 100 qui ne peut être inférieur à 2 000 F. Ce régime demeure applicable pour l'établissement de l'imposition due au titre de la première année au cours de laquelle le chiffre d'affaires limite est dépassé sans toutefois qu'il excède 100 000 F. 2. Sont exclus du régime : Les personnes morales et opérations visées au 2 de l'article 302 ter ; Les contribuables qui ne bénéficient pas des dispositions des I et II de l'article 293 B. Cette exclusion prend effet à compter du 1er janvier de l'année de leur assujettissement à la taxe sur la valeur ajoutée. 3. Les contribuables concernés portent directement le montant du chiffre d'affaires annuel sur la déclaration prévue à l'article 170. ((4. Les entreprises visées au 1 qui n'ont pas exercé l'option visée au 5 doivent tenir et présenter, sur demande de l'administration, un livre mentionnant le montant et l'origine des recettes qu'elles perçoivent au titre de leur activité professionnelle. Un décret fixe les conditions dans lesquelles ce livre est tenu)) (1). 5. Les entreprises placées dans le champ d'application du présent article peuvent opter pour le régime forfaitaire prévu à l'article 302 ter dans les délais prévus pour le dépôt de la déclaration visée à l'article 302 sexies, ou pour le régime simplifié d'imposition prévu à l'article 302 septies A bis. Cette dernière option doit être exercée avant le 1er février de la première année au titre de laquelle le contribu",
+  "corrupted": "1. Les entreprises dont le chiffre d'affaires annuel n'excède pas 70 000 F hors taxes, ajusté le cas échéant au prorata du temps d'exploitation au cours de l'année civile, sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices. Le bénéfice imposable est égal au montant du chiffre d'affaires hors taxes diminué d'un abattement de 50 p. 100 qui ne peut être inférieur à 2 000 F. Ce régime demeure applicable  . 2. Sont exclus du régime : Les personnes morales et opérations visées au 2 de l'article 302 ter ; Les contribuables qui ne bénéficient pas des dispositions des I et II de l'article 293 B. Cette exclusion prend effet à compter du 1er janvier de l'année de leur assujettissement à la taxe sur la valeur ajoutée. 3. Les contribuables concernés portent directement le montant du chiffre d'affaires annuel sur la déclaration prévue à l'article 170. ((4. Les entreprises visées au 1 qui n'ont pas exercé l'option visée au 5 doivent tenir et présenter, sur demande de l'administration, un livre mentionnant le montant et l'origine des recettes qu'elles perçoivent au titre de leur activité professionnelle. Un décret fixe les conditions dans lesquelles ce livre est tenu)) (1). 5. Les entreprises placées dans le champ d'application du présent article peuvent opter pour le régime forfaitaire prévu à l'article 302 ter dans les délais prévus pour le dépôt de la déclaration visée à l'article 302 sexies, ou pour le régime simplifié d'imposition prévu à l'article 302 septies A bis. Cette dernière option doit être exercée avant le 1er février de la première année au titre de laquelle le contribu",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "pour l'établissement de l'imposition due au titre de la première année au cours de laquelle le chiffre d'affaires limite est dépassé",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "sans toutefois qu'il excède 100 000 F",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. Les entreprises dont le chiffre d'affaires annuel n'excède pas 70 000 F hors taxes, ajusté le cas échéant au prorata du temps d'exploitation au cours de l'année civile, sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices. Le bénéfice imposable est égal au montant du chiffre d'affaires hors taxes diminué d'un abattement de 50 p. 100 qui ne peut être inférieur à 2 000 F. Ce régime demeure applicable ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pour l'établissement de l'imposition due au titre de la première année au cours de laquelle le chiffre d'affaires limite est dépassé",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "sans toutefois qu'il excède 100 000 F",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". 2. Sont exclus du régime : Les personnes morales et opérations visées au 2 de l'article 302 ter ; Les contribuables qui ne bénéficient pas des dispositions des I et II de l'article 293 B. Cette exclusion prend effet à compter du 1er janvier de l'année de leur assujettissement à la taxe sur la valeur ajoutée. 3. Les contribuables concernés portent directement le montant du chiffre d'affaires annuel sur la déclaration prévue à l'article 170. ((4. Les entreprises visées au 1 qui n'ont pas exercé l'option visée au 5 doivent tenir et présenter, sur demande de l'administration, un livre mentionnant le montant et l'origine des recettes qu'elles perçoivent au titre de leur activité professionnelle. Un décret fixe les conditions dans lesquelles ce livre est tenu)) (1). 5. Les entreprises placées dans le champ d'application du présent article peuvent opter pour le régime forfaitaire prévu à l'article 302 ter dans les délais prévus pour le dépôt de la déclaration visée à l'article 302 sexies, ou pour le régime simplifié d'imposition prévu à l'article 302 septies A bis. Cette dernière option doit être exercée avant le 1er février de la première année au titre de laquelle le contribu",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Le régime demeure applicable.",
+  "true_claim": "Le régime demeure applicable pour l'établissement de l'imposition due au titre de la première année au cours de laquelle le chiffre d'affaires limite est dépassé sans toutefois qu'il excède 100 000 F.",
+  "author": "deepseek-chat",
+  "source_sentence": "Ce régime demeure applicable pour l'établissement de l'imposition due au titre de la première année au cours de laquelle le chiffre d'affaires limite est dépassé sans toutefois qu'il excède 100 000 F."
+ },
+ {
+  "id": "real-R3-WS-50-0-1996-05-12",
+  "family": "layered_real",
+  "as_of": "1996-05-12",
+  "original": "1. Les entreprises dont le chiffre d'affaires annuel n'excède pas ((100 000 F)) (M) (1) (1') hors taxes, ajusté le cas échéant au prorata du temps d'exploitation au cours de l'année civile, sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices. Le bénéfice imposable est égal au montant du chiffre d'affaires hors taxes diminué d'un abattement de 50 p. 100 qui ne peut être inférieur à 2 000 F. Ce régime demeure applicable pour l'établissement de l'imposition due au titre de la première année au cours de laquelle le chiffre d'affaires limite est dépassé sans toutefois qu'il excède ((120 000 F)) (M) (1) (1'). 2. Sont exclus du régime : Les personnes morales et opérations visées au 2 de l'article 302 ter ; Les contribuables qui ne bénéficient pas des dispositions des I et II de l'article 293 B. Cette exclusion prend effet à compter du 1er janvier de l'année de leur assujettissement à la taxe sur la valeur ajoutée. 3. Les contribuables concernés portent directement le montant du chiffre d'affaires annuel sur la déclaration prévue à l'article 170. 4. Les entreprises visées au 1 qui n'ont pas exercé l'option visée au 5 doivent tenir et présenter, sur demande de l'administration, un livre mentionnant le montant et l'origine des recettes qu'elles perçoivent au titre de leur activité professionnelle. Un décret fixe les conditions dans lesquelles ce livre est tenu (2). 5. Les entreprises placées dans le champ d'application du présent article peuvent opter pour le régime forfaitaire prévu à l'article 302 ter dans les délais prévus pour le dépôt de la déclaration visée à l'article 302 sexies, ou pour le régime simplifié d'imposition prévu à l'article 302 septies A bis. Cette dernière option doit être exercée avant le 1er février de la première année a",
+  "corrupted": "1. Les entreprises , , sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices. Le bénéfice imposable est égal au montant du chiffre d'affaires hors taxes diminué d'un abattement de 50 p. 100 qui ne peut être inférieur à 2 000 F. Ce régime demeure applicable pour l'établissement de l'imposition due au titre de la première année au cours de laquelle le chiffre d'affaires limite est dépassé sans toutefois qu'il excède ((120 000 F)) (M) (1) (1'). 2. Sont exclus du régime : Les personnes morales et opérations visées au 2 de l'article 302 ter ; Les contribuables qui ne bénéficient pas des dispositions des I et II de l'article 293 B. Cette exclusion prend effet à compter du 1er janvier de l'année de leur assujettissement à la taxe sur la valeur ajoutée. 3. Les contribuables concernés portent directement le montant du chiffre d'affaires annuel sur la déclaration prévue à l'article 170. 4. Les entreprises visées au 1 qui n'ont pas exercé l'option visée au 5 doivent tenir et présenter, sur demande de l'administration, un livre mentionnant le montant et l'origine des recettes qu'elles perçoivent au titre de leur activité professionnelle. Un décret fixe les conditions dans lesquelles ce livre est tenu (2). 5. Les entreprises placées dans le champ d'application du présent article peuvent opter pour le régime forfaitaire prévu à l'article 302 ter dans les délais prévus pour le dépôt de la déclaration visée à l'article 302 sexies, ou pour le régime simplifié d'imposition prévu à l'article 302 septies A bis. Cette dernière option doit être exercée avant le 1er février de la première année a",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "dont le chiffre d'affaires annuel n'excède pas ((100 000 F)) (M) (1) (1') hors taxes",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "ajusté le cas échéant au prorata du temps d'exploitation au cours de l'année civile",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. Les entreprises ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dont le chiffre d'affaires annuel n'excède pas ((100 000 F)) (M) (1) (1') hors taxes",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "ajusté le cas échéant au prorata du temps d'exploitation au cours de l'année civile",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices. Le bénéfice imposable est égal au montant du chiffre d'affaires hors taxes diminué d'un abattement de 50 p. 100 qui ne peut être inférieur à 2 000 F. Ce régime demeure applicable pour l'établissement de l'imposition due au titre de la première année au cours de laquelle le chiffre d'affaires limite est dépassé sans toutefois qu'il excède ((120 000 F)) (M) (1) (1'). 2. Sont exclus du régime : Les personnes morales et opérations visées au 2 de l'article 302 ter ; Les contribuables qui ne bénéficient pas des dispositions des I et II de l'article 293 B. Cette exclusion prend effet à compter du 1er janvier de l'année de leur assujettissement à la taxe sur la valeur ajoutée. 3. Les contribuables concernés portent directement le montant du chiffre d'affaires annuel sur la déclaration prévue à l'article 170. 4. Les entreprises visées au 1 qui n'ont pas exercé l'option visée au 5 doivent tenir et présenter, sur demande de l'administration, un livre mentionnant le montant et l'origine des recettes qu'elles perçoivent au titre de leur activité professionnelle. Un décret fixe les conditions dans lesquelles ce livre est tenu (2). 5. Les entreprises placées dans le champ d'application du présent article peuvent opter pour le régime forfaitaire prévu à l'article 302 ter dans les délais prévus pour le dépôt de la déclaration visée à l'article 302 sexies, ou pour le régime simplifié d'imposition prévu à l'article 302 septies A bis. Cette dernière option doit être exercée avant le 1er février de la première année a",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Les entreprises sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices.",
+  "true_claim": "Les entreprises dont le chiffre d'affaires annuel n'excède pas 100 000 F hors taxes, ajusté le cas échéant au prorata du temps d'exploitation au cours de l'année civile, sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices.",
+  "author": "deepseek-chat",
+  "source_sentence": "Les entreprises dont le chiffre d'affaires annuel n'excède pas ((100 000 F)) (M) (1) (1') hors taxes, ajusté le cas échéant au prorata du temps d'exploitation au cours de l'année civile, sont soumises au régime défini au présent article pour l'imposition de leurs bénéfices."
+ },
+ {
+  "id": "real-R3-WS-182A-2023-06-03",
+  "family": "layered_real",
+  "as_of": "2023-06-03",
+  "original": "I. A l'exception des salaires entrant dans le champ d'application de l'article 182 A bis , les traitements, salaires, pensions et rentes viagères, de source française, servis à des personnes qui ne sont pas fiscalement domiciliées en France donnent lieu à l'application d'une retenue à la source. II. La base de cette retenue est constituée par le montant net des sommes versées, déterminé conformément aux règles applicables en matière d'impôt sur le revenu, à l'exclusion de celles qui prévoient la déduction des frais professionnels réels. III.-La retenue est calculée, selon un tarif correspondant à une durée d'un an, en appliquant à la fraction des sommes soumises à retenue qui excède 16 050 € le taux de : a) 12 % pour la fraction supérieure à 16 050 € et inférieure ou égale à 46 557 € ; b) 20 % pour la fraction supérieure à 46 557 €. Les taux de 12 % et 20 % mentionnés aux a et b du présent III sont ramenés, respectivement, à 8 % et 14,4 % dans les départements d'outre-mer. Lorsque les sommes soumises à retenue sont payées par trimestre, au mois, à la semaine ou à la journée, les limites des tranches du tarif annuel prévu au présent III sont divisées respectivement par 4, par 12, par 52 ou par 312. IV.-Chacune des limites des tranches du tarif prévu au III est révisée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Les montants obtenus sont arrondis à l'euro le plus proche ; la fraction d'euro égale à 0,5 est comptée pour 1. V. La retenue s'impute sur le montant de l'impôt sur le revenu établi dans les conditions prévues à l'article 197 A .",
+  "corrupted": "I. A l'exception des salaires entrant dans le champ d'application de l'article 182 A bis , les traitements, salaires, pensions et rentes viagères, de source française, servis à des personnes qui ne sont pas fiscalement domiciliées en France donnent lieu à l'application d'une retenue à la source. II. La base de cette retenue est constituée par le montant net des sommes versées, déterminé conformément aux règles applicables en matière d'impôt sur le revenu, à l'exclusion de celles qui prévoient la déduction des frais professionnels réels. III.-La retenue est calculée, , en appliquant  le taux de :  ; . Les taux de 12 % et 20 % mentionnés aux a et b du présent III sont ramenés, respectivement, à 8 % et 14,4 % dans les départements d'outre-mer. Lorsque les sommes soumises à retenue sont payées par trimestre, au mois, à la semaine ou à la journée, les limites des tranches du tarif annuel prévu au présent III sont divisées respectivement par 4, par 12, par 52 ou par 312. IV.-Chacune des limites des tranches du tarif prévu au III est révisée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Les montants obtenus sont arrondis à l'euro le plus proche ; la fraction d'euro égale à 0,5 est comptée pour 1. V. La retenue s'impute sur le montant de l'impôt sur le revenu établi dans les conditions prévues à l'article 197 A .",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "selon un tarif correspondant à une durée d'un an",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "à la fraction des sommes soumises à retenue qui excède 16 050 €",
+    "critical": true
+   },
+   {
+    "index": 5,
+    "kind": "critical",
+    "text": "a) 12 % pour la fraction supérieure à 16 050 € et inférieure ou égale à 46 557 €",
+    "critical": true
+   },
+   {
+    "index": 7,
+    "kind": "critical",
+    "text": "b) 20 % pour la fraction supérieure à 46 557 €",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "I. A l'exception des salaires entrant dans le champ d'application de l'article 182 A bis , les traitements, salaires, pensions et rentes viagères, de source française, servis à des personnes qui ne sont pas fiscalement domiciliées en France donnent lieu à l'application d'une retenue à la source. II. La base de cette retenue est constituée par le montant net des sommes versées, déterminé conformément aux règles applicables en matière d'impôt sur le revenu, à l'exclusion de celles qui prévoient la déduction des frais professionnels réels. III.-La retenue est calculée, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "selon un tarif correspondant à une durée d'un an",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", en appliquant ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "à la fraction des sommes soumises à retenue qui excède 16 050 €",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " le taux de : ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "a) 12 % pour la fraction supérieure à 16 050 € et inférieure ou égale à 46 557 €",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ; ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "b) 20 % pour la fraction supérieure à 46 557 €",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". Les taux de 12 % et 20 % mentionnés aux a et b du présent III sont ramenés, respectivement, à 8 % et 14,4 % dans les départements d'outre-mer. Lorsque les sommes soumises à retenue sont payées par trimestre, au mois, à la semaine ou à la journée, les limites des tranches du tarif annuel prévu au présent III sont divisées respectivement par 4, par 12, par 52 ou par 312. IV.-Chacune des limites des tranches du tarif prévu au III est révisée chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. Les montants obtenus sont arrondis à l'euro le plus proche ; la fraction d'euro égale à 0,5 est comptée pour 1. V. La retenue s'impute sur le montant de l'impôt sur le revenu établi dans les conditions prévues à l'article 197 A .",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "La retenue est calculée en appliquant un taux.",
+  "true_claim": "La retenue est calculée, selon un tarif correspondant à une durée d'un an, en appliquant à la fraction des sommes soumises à retenue qui excède 16 050 € le taux de 12 % pour la fraction supérieure à 16 050 € et inférieure ou égale à 46 557 € et de 20 % pour la fraction supérieure à 46 557 €.",
+  "author": "deepseek-chat",
+  "source_sentence": "III.-La retenue est calculée, selon un tarif correspondant à une durée d'un an, en appliquant à la fraction des sommes soumises à retenue qui excède 16 050 € le taux de : a) 12 % pour la fraction supérieure à 16 050 € et inférieure ou égale à 46 557 € ; b) 20 % pour la fraction supérieure à 46 557 €."
+ },
+ {
+  "id": "real-R3-WS-199sexies-2002-03-31",
+  "family": "layered_real",
+  "as_of": "2002-03-31",
+  "original": "I. Lorsqu'elles n'entrent pas en compte pour l'évaluation des revenus des différentes catégories, les dépenses suivantes effectuées par un contribuable ouvrent droit à une réduction d'impôt sur le revenu : 1° a. Intérêts afférents aux dix premières annuités des prêts contractés pour la construction, l'acquisition ou les grosses réparations des immeubles dont le propriétaire se réserve la jouissance ainsi que les dépenses de ravalement, lesquelles doivent être prises en compte sur un seul exercice. Toutefois, lorsque la conclusion du prêt intervient à partir du 1er janvier 1984, la réduction d'impôt s'applique aux intérêts afférents aux cinq premières annuités de ces prêts. Le montant global des intérêts et dépenses à retenir pour le calcul de la réduction d'impôt est limité à 1 372 euros, cette somme étant augmentée de 229 euros par personne à la charge du contribuable au sens des articles 196, 196 A bis et 196 B. Ces dispositions ne s'appliquent qu'en ce qui concerne les immeubles affectés à l'habitation principale des redevables. Les montants de 1 372 euros et 229 euros sont portés respectivement à 2 287 euros et 305 euros pour les intérêts des prêts conclus et les dépenses payées à compter du 1er janvier 1985. Pour les prêts contractés à compter du 1er juin 1986 par les personnes citées au second alinéa du 1 de l'article 6 pour la construction ou l'acquisition de logements neufs, le montant de 2 287 euros est porté à 4 573 euros. Il est augmenté de 305 euros par personne à charge au sens des articles 196 à 196 B. En outre, il est appliqué une majoration complémentaire de 76 euros pour le deuxième enfant et de 152 euros par enfant à partir du troisième. Pour les prêts contractés à compter du 18 septembre 1991 pour la construction ou l'acquisition de logements neufs, l",
+  "corrupted": "I. Lorsqu'elles n'entrent pas en compte pour l'évaluation des revenus des différentes catégories, les dépenses suivantes effectuées par un contribuable ouvrent droit à une réduction d'impôt sur le revenu : 1° a. Intérêts afférents aux dix premières annuités des prêts contractés pour la construction, l'acquisition ou les grosses réparations des immeubles dont le propriétaire se réserve la jouissance ainsi que les dépenses de ravalement, lesquelles doivent être prises en compte sur un seul exercice. Toutefois, lorsque la conclusion du prêt intervient , la réduction d'impôt s'applique aux intérêts afférents  de ces prêts. Le montant global des intérêts et dépenses à retenir pour le calcul de la réduction d'impôt est limité à 1 372 euros, cette somme étant augmentée de 229 euros par personne à la charge du contribuable au sens des articles 196, 196 A bis et 196 B. Ces dispositions ne s'appliquent qu'en ce qui concerne les immeubles affectés à l'habitation principale des redevables. Les montants de 1 372 euros et 229 euros sont portés respectivement à 2 287 euros et 305 euros pour les intérêts des prêts conclus et les dépenses payées à compter du 1er janvier 1985. Pour les prêts contractés à compter du 1er juin 1986 par les personnes citées au second alinéa du 1 de l'article 6 pour la construction ou l'acquisition de logements neufs, le montant de 2 287 euros est porté à 4 573 euros. Il est augmenté de 305 euros par personne à charge au sens des articles 196 à 196 B. En outre, il est appliqué une majoration complémentaire de 76 euros pour le deuxième enfant et de 152 euros par enfant à partir du troisième. Pour les prêts contractés à compter du 18 septembre 1991 pour la construction ou l'acquisition de logements neufs, l",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "à partir du 1er janvier 1984",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "aux cinq premières annuités",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "I. Lorsqu'elles n'entrent pas en compte pour l'évaluation des revenus des différentes catégories, les dépenses suivantes effectuées par un contribuable ouvrent droit à une réduction d'impôt sur le revenu : 1° a. Intérêts afférents aux dix premières annuités des prêts contractés pour la construction, l'acquisition ou les grosses réparations des immeubles dont le propriétaire se réserve la jouissance ainsi que les dépenses de ravalement, lesquelles doivent être prises en compte sur un seul exercice. Toutefois, lorsque la conclusion du prêt intervient ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "à partir du 1er janvier 1984",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", la réduction d'impôt s'applique aux intérêts afférents ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "aux cinq premières annuités",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " de ces prêts. Le montant global des intérêts et dépenses à retenir pour le calcul de la réduction d'impôt est limité à 1 372 euros, cette somme étant augmentée de 229 euros par personne à la charge du contribuable au sens des articles 196, 196 A bis et 196 B. Ces dispositions ne s'appliquent qu'en ce qui concerne les immeubles affectés à l'habitation principale des redevables. Les montants de 1 372 euros et 229 euros sont portés respectivement à 2 287 euros et 305 euros pour les intérêts des prêts conclus et les dépenses payées à compter du 1er janvier 1985. Pour les prêts contractés à compter du 1er juin 1986 par les personnes citées au second alinéa du 1 de l'article 6 pour la construction ou l'acquisition de logements neufs, le montant de 2 287 euros est porté à 4 573 euros. Il est augmenté de 305 euros par personne à charge au sens des articles 196 à 196 B. En outre, il est appliqué une majoration complémentaire de 76 euros pour le deuxième enfant et de 152 euros par enfant à partir du troisième. Pour les prêts contractés à compter du 18 septembre 1991 pour la construction ou l'acquisition de logements neufs, l",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "La réduction d'impôt s'applique aux intérêts afférents aux annuités de ces prêts.",
+  "true_claim": "Lorsque la conclusion du prêt intervient à partir du 1er janvier 1984, la réduction d'impôt s'applique aux intérêts afférents aux cinq premières annuités de ces prêts.",
+  "author": "deepseek-chat",
+  "source_sentence": "Toutefois, lorsque la conclusion du prêt intervient à partir du 1er janvier 1984, la réduction d'impôt s'applique aux intérêts afférents aux cinq premières annuités de ces prêts."
+ },
+ {
+  "id": "real-R3-WS-199deciesH-2006-01-01",
+  "family": "layered_real",
+  "as_of": "2006-01-01",
+  "original": "1. A compter de l'imposition des revenus de 2001, il est institué une réduction d'impôt sur le revenu pour les contribuables domiciliés en France au sens de l'article 4 B qui, jusqu'au 31 décembre 2010, réalisent des investissements forestiers. 2. La réduction d'impôt s'applique : a) Au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser lorsque cette acquisition, qui ne doit pas excéder 25 hectares, permet soit : 1° de constituer une unité de gestion d'au moins 10 hectares d'un seul tenant ou, dans les massifs de montagne définis à l'article 5 de la loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, une unité de gestion d'au moins 10 hectares situés sur le territoire d'une même commune ou de communes limitrophes susceptible d'une gestion coordonnée ; 2° d'agrandir une unité de gestion pour porter sa superficie à plus de 10 hectares ; 3° de résorber une enclave. Lorsque les terrains sont acquis en nature de bois et forêts, le contribuable doit prendre l'engagement de les conserver pendant quinze ans et d'appliquer, pendant la même durée, un plan simple de gestion agréé par le centre régional de la propriété forestière ou, si au moment de l'acquisition, aucun plan simple de gestion n'est agréé pour la forêt en cause, d'en faire agréer un dans le délai de trois ans à compter de la date d'acquisition et de l'appliquer pendant quinze ans. Dans cette situation, le contribuable doit prendre, en outre, l'engagement d'appliquer à la forêt le régime d'exploitation normale prévu par le décret du 28 juin 1930 jusqu'à la date d'agrément du plan simple de gestion de cette forêt. Lorsque les terrains sont acquis nus, le contribuable doit prendre l'engagement de les reboiser dans un délai de trois ans et par l",
+  "corrupted": "1. A compter de l'imposition des revenus de 2001, il est institué une réduction d'impôt sur le revenu pour les contribuables domiciliés en France au sens de l'article 4 B qui, jusqu'au 31 décembre 2010, réalisent des investissements forestiers. 2. La réduction d'impôt s'applique : a) Au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser lorsque cette acquisition, qui ne doit pas excéder 25 hectares, permet soit : 1° de constituer une unité de gestion d'au moins 10 hectares d'un seul tenant ou, dans les massifs de montagne définis à l'article 5 de la loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, une unité de gestion d'au moins 10 hectares situés sur le territoire d'une même commune ou de communes limitrophes susceptible d'une gestion coordonnée ; 2° d'agrandir une unité de gestion pour porter sa superficie à plus de 10 hectares ; 3° de résorber une enclave. , le contribuable doit prendre l'engagement de les conserver  et d'appliquer, , un plan simple de gestion agréé par le centre régional de la propriété forestière ou, , d'en faire agréer un  et de l'appliquer pendant quinze ans. Dans cette situation, le contribuable doit prendre, en outre, l'engagement d'appliquer à la forêt le régime d'exploitation normale prévu par le décret du 28 juin 1930 jusqu'à la date d'agrément du plan simple de gestion de cette forêt. Lorsque les terrains sont acquis nus, le contribuable doit prendre l'engagement de les reboiser dans un délai de trois ans et par l",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "Lorsque les terrains sont acquis en nature de bois et forêts",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "pendant quinze ans",
+    "critical": true
+   },
+   {
+    "index": 5,
+    "kind": "critical",
+    "text": "pendant la même durée",
+    "critical": true
+   },
+   {
+    "index": 7,
+    "kind": "critical",
+    "text": "si au moment de l'acquisition, aucun plan simple de gestion n'est agréé pour la forêt en cause",
+    "critical": true
+   },
+   {
+    "index": 9,
+    "kind": "critical",
+    "text": "dans le délai de trois ans à compter de la date d'acquisition",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1. A compter de l'imposition des revenus de 2001, il est institué une réduction d'impôt sur le revenu pour les contribuables domiciliés en France au sens de l'article 4 B qui, jusqu'au 31 décembre 2010, réalisent des investissements forestiers. 2. La réduction d'impôt s'applique : a) Au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser lorsque cette acquisition, qui ne doit pas excéder 25 hectares, permet soit : 1° de constituer une unité de gestion d'au moins 10 hectares d'un seul tenant ou, dans les massifs de montagne définis à l'article 5 de la loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, une unité de gestion d'au moins 10 hectares situés sur le territoire d'une même commune ou de communes limitrophes susceptible d'une gestion coordonnée ; 2° d'agrandir une unité de gestion pour porter sa superficie à plus de 10 hectares ; 3° de résorber une enclave. ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "Lorsque les terrains sont acquis en nature de bois et forêts",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", le contribuable doit prendre l'engagement de les conserver ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pendant quinze ans",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " et d'appliquer, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pendant la même durée",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", un plan simple de gestion agréé par le centre régional de la propriété forestière ou, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "si au moment de l'acquisition, aucun plan simple de gestion n'est agréé pour la forêt en cause",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", d'en faire agréer un ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dans le délai de trois ans à compter de la date d'acquisition",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " et de l'appliquer pendant quinze ans. Dans cette situation, le contribuable doit prendre, en outre, l'engagement d'appliquer à la forêt le régime d'exploitation normale prévu par le décret du 28 juin 1930 jusqu'à la date d'agrément du plan simple de gestion de cette forêt. Lorsque les terrains sont acquis nus, le contribuable doit prendre l'engagement de les reboiser dans un délai de trois ans et par l",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Le contribuable doit prendre l'engagement de conserver les terrains et d'appliquer un plan simple de gestion.",
+  "true_claim": "Lorsque les terrains sont acquis en nature de bois et forêts, le contribuable doit prendre l'engagement de les conserver pendant quinze ans et d'appliquer, pendant la même durée, un plan simple de gestion agréé par le centre régional de la propriété forestière ou, si au moment de l'acquisition, aucun plan simple de gestion n'est agréé pour la forêt en cause, d'en faire agréer un dans le délai de trois ans à compter de la date d'acquisition et de l'appliquer pendant quinze ans.",
+  "author": "deepseek-chat",
+  "source_sentence": "Lorsque les terrains sont acquis en nature de bois et forêts, le contribuable doit prendre l'engagement de les conserver pendant quinze ans et d'appliquer, pendant la même durée, un plan simple de gestion agréé par le centre régional de la propriété forestière ou, si au moment de l'acquisition, aucun plan simple de gestion n'est agréé pour la forêt en cause, d'en faire agréer un dans le délai de trois ans à compter de la date d'acquisition et de l'appliquer pendant quinze ans."
+ },
+ {
+  "id": "real-R3-WS-199deciesH-2007-12-28",
+  "family": "layered_real",
+  "as_of": "2007-12-28",
+  "original": "1.A compter de l'imposition des revenus de 2001, il est institué une réduction d'impôt sur le revenu pour les contribuables domiciliés en France au sens de l'article 4 B qui, jusqu'au 31 décembre 2010, réalisent des investissements forestiers. 2. La réduction d'impôt s'applique : a) Au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser lorsque cette acquisition, qui ne doit pas excéder 25 hectares, permet soit : 1° de constituer une unité de gestion d'au moins 5 hectares d'un seul tenant ou, dans les massifs de montagne définis à l'article 5 de la loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, une unité de gestion d'au moins 5 hectares situés sur le territoire d'une même commune ou de communes limitrophes susceptible d'une gestion coordonnée ; 2° d'agrandir une unité de gestion pour porter sa superficie à plus de 5 hectares ; 3° de résorber une enclave. Lorsque les terrains sont acquis en nature de bois et forêts, le contribuable doit prendre l'engagement de les conserver pendant quinze ans et d'appliquer, pendant la même durée, un plan simple de gestion agréé par le centre régional de la propriété forestière ou, si au moment de l'acquisition, aucun plan simple de gestion n'est agréé pour la forêt en cause, d'en faire agréer un dans le délai de trois ans à compter de la date d'acquisition et de l'appliquer pendant quinze ans. Dans cette situation, le contribuable doit prendre, en outre, l'engagement d'appliquer à la forêt le régime d'exploitation normale prévu par le décret du 28 juin 1930 jusqu'à la date d'agrément du plan simple de gestion de cette forêt. Lorsque les terrains sont acquis nus, le contribuable doit prendre l'engagement de les reboiser dans un délai de trois ans et par la su",
+  "corrupted": "1.A compter de l'imposition des revenus de 2001, il est institué une réduction d'impôt sur le revenu pour les contribuables domiciliés en France au sens de l'article 4 B qui, jusqu'au 31 décembre 2010, réalisent des investissements forestiers. 2. La réduction d'impôt s'applique : a) Au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser lorsque cette acquisition, , permet soit : 1° de constituer une unité de gestion  ou, dans les massifs de montagne définis à l'article 5 de la loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, une unité de gestion d'au moins 5 hectares situés sur le territoire d'une même commune ou de communes limitrophes susceptible d'une gestion coordonnée ; 2° d'agrandir une unité de gestion pour porter sa superficie à plus de 5 hectares ; 3° de résorber une enclave. Lorsque les terrains sont acquis en nature de bois et forêts, le contribuable doit prendre l'engagement de les conserver pendant quinze ans et d'appliquer, pendant la même durée, un plan simple de gestion agréé par le centre régional de la propriété forestière ou, si au moment de l'acquisition, aucun plan simple de gestion n'est agréé pour la forêt en cause, d'en faire agréer un dans le délai de trois ans à compter de la date d'acquisition et de l'appliquer pendant quinze ans. Dans cette situation, le contribuable doit prendre, en outre, l'engagement d'appliquer à la forêt le régime d'exploitation normale prévu par le décret du 28 juin 1930 jusqu'à la date d'agrément du plan simple de gestion de cette forêt. Lorsque les terrains sont acquis nus, le contribuable doit prendre l'engagement de les reboiser dans un délai de trois ans et par la su",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "qui ne doit pas excéder 25 hectares",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "d'au moins 5 hectares d'un seul tenant",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "1.A compter de l'imposition des revenus de 2001, il est institué une réduction d'impôt sur le revenu pour les contribuables domiciliés en France au sens de l'article 4 B qui, jusqu'au 31 décembre 2010, réalisent des investissements forestiers. 2. La réduction d'impôt s'applique : a) Au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser lorsque cette acquisition, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "qui ne doit pas excéder 25 hectares",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", permet soit : 1° de constituer une unité de gestion ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "d'au moins 5 hectares d'un seul tenant",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ou, dans les massifs de montagne définis à l'article 5 de la loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, une unité de gestion d'au moins 5 hectares situés sur le territoire d'une même commune ou de communes limitrophes susceptible d'une gestion coordonnée ; 2° d'agrandir une unité de gestion pour porter sa superficie à plus de 5 hectares ; 3° de résorber une enclave. Lorsque les terrains sont acquis en nature de bois et forêts, le contribuable doit prendre l'engagement de les conserver pendant quinze ans et d'appliquer, pendant la même durée, un plan simple de gestion agréé par le centre régional de la propriété forestière ou, si au moment de l'acquisition, aucun plan simple de gestion n'est agréé pour la forêt en cause, d'en faire agréer un dans le délai de trois ans à compter de la date d'acquisition et de l'appliquer pendant quinze ans. Dans cette situation, le contribuable doit prendre, en outre, l'engagement d'appliquer à la forêt le régime d'exploitation normale prévu par le décret du 28 juin 1930 jusqu'à la date d'agrément du plan simple de gestion de cette forêt. Lorsque les terrains sont acquis nus, le contribuable doit prendre l'engagement de les reboiser dans un délai de trois ans et par la su",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "La réduction d'impôt s'applique au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser.",
+  "true_claim": "La réduction d'impôt s'applique au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser lorsque cette acquisition, qui ne doit pas excéder 25 hectares, permet de constituer une unité de gestion d'au moins 5 hectares d'un seul tenant.",
+  "author": "deepseek-chat",
+  "source_sentence": "Au prix d'acquisition de terrains en nature de bois et forêts ou de terrains nus à boiser lorsque cette acquisition, qui ne doit pas excéder 25 hectares, permet soit : 1° de constituer une unité de gestion d'au moins 5 hectares d'un seul tenant ou, dans les massifs de montagne définis à l'article 5 de la loi n° 85-30 du 9 janvier 1985 relative au développement et à la protection de la montagne, une unité de gestion d'au moins 5 hectares situés sur le territoire d'une même commune ou de communes limitrophes susceptible d'une gestion coordonnée ; 2° d'agrandir une unité de gestion pour porter sa superficie à plus de 5 hectares ; 3° de résorber une enclave."
+ },
+ {
+  "id": "real-R3-WS-1414B-1990-06-15",
+  "family": "layered_real",
+  "as_of": "1990-06-15",
+  "original": "Les contribuables qui occupent leur habitation principale dans les conditions prévues à l'article 1390 et dont la cotisation d'impôt sur le revenu, au titre de l'année précédente, n'excède pas 1 550 F sont dégrevés d'office de la taxe d'habitation y afférente à concurrence de 50 p. 100 du montant de l'imposition qui excède 1 370 F. Il n'est pas effectué de dégrèvement inférieur à 30 F. La limite de 1 550 F est indexée, chaque année, comme la septième tranche du barème de l'impôt sur le revenu. La limite de 1 370 F est révisée, chaque année, proportionnellement à la variation de la cotisation moyenne de taxe d'habitation constatée, l'année précédente, au niveau national.",
+  "corrupted": "Les contribuables  et  sont dégrevés d'office de la taxe d'habitation y afférente à concurrence de 50 p. 100 du montant de l'imposition qui excède 1 370 F. Il n'est pas effectué de dégrèvement inférieur à 30 F. La limite de 1 550 F est indexée, chaque année, comme la septième tranche du barème de l'impôt sur le revenu. La limite de 1 370 F est révisée, chaque année, proportionnellement à la variation de la cotisation moyenne de taxe d'habitation constatée, l'année précédente, au niveau national.",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "qui occupent leur habitation principale dans les conditions prévues à l'article 1390",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "dont la cotisation d'impôt sur le revenu, au titre de l'année précédente, n'excède pas 1 550 F",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "Les contribuables ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "qui occupent leur habitation principale dans les conditions prévues à l'article 1390",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " et ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dont la cotisation d'impôt sur le revenu, au titre de l'année précédente, n'excède pas 1 550 F",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " sont dégrevés d'office de la taxe d'habitation y afférente à concurrence de 50 p. 100 du montant de l'imposition qui excède 1 370 F. Il n'est pas effectué de dégrèvement inférieur à 30 F. La limite de 1 550 F est indexée, chaque année, comme la septième tranche du barème de l'impôt sur le revenu. La limite de 1 370 F est révisée, chaque année, proportionnellement à la variation de la cotisation moyenne de taxe d'habitation constatée, l'année précédente, au niveau national.",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Les contribuables sont dégrevés d'office de la taxe d'habitation.",
+  "true_claim": "Les contribuables qui occupent leur habitation principale dans les conditions prévues à l'article 1390 et dont la cotisation d'impôt sur le revenu, au titre de l'année précédente, n'excède pas 1 550 F sont dégrevés d'office de la taxe d'habitation y afférente à concurrence de 50 p. 100 du montant de l'imposition qui excède 1 370 F.",
+  "author": "deepseek-chat",
+  "source_sentence": "Les contribuables qui occupent leur habitation principale dans les conditions prévues à l'article 1390 et dont la cotisation d'impôt sur le revenu, au titre de l'année précédente, n'excède pas 1 550 F sont dégrevés d'office de la taxe d'habitation y afférente à concurrence de 50 p. 100 du montant de l'imposition qui excède 1 370 F."
+ },
+ {
+  "id": "real-R3-WS-1586nonies-2014-01-01",
+  "family": "layered_real",
+  "as_of": "2014-01-01",
+  "original": "I. - La valeur ajoutée des établissements exonérés de cotisation foncière des entreprises en application de la délibération d'une commune ou d'un établissement public de coopération intercommunale est, à la demande de l'entreprise, exonérée de cotisation sur la valeur ajoutée des entreprises pour sa fraction taxée au profit de la commune ou de l'établissement public de coopération intercommunale. Lorsque l'exonération de cotisation foncière des entreprises est partielle, l'exonération de cotisation sur la valeur ajoutée des entreprises s'applique dans la même proportion pour la fraction de la valeur ajoutée taxée au profit des collectivités concernées par l'exonération de cotisation foncière des entreprises. II. - Lorsque des établissements peuvent être exonérés de cotisation foncière des entreprises par délibération d'une commune ou d'un établissement public de coopération intercommunale, les départements, les régions et la collectivité territoriale de Corse peuvent, par une délibération prise dans les conditions prévues au I de l'article 1639 A bis ou à l'article 1464 C exonérer leur valeur ajoutée de cotisation sur la valeur ajoutée des entreprises pour sa fraction taxée à leur profit. L'exonération est applicable à la demande de l'entreprise. Pour les établissements pouvant être exonérés de cotisation foncière des entreprises en application des articles 1464 A et 1465 et du I de l'article 1466 A , la délibération détermine la proportion exonérée de la valeur ajoutée taxée au profit de la collectivité délibérante. III. - Les établissements pouvant être exonérés de cotisation foncière des entreprises en l'absence de délibération contraire d'une commune ou d'un établissement public de coopération intercommunale à fiscalité propre sont, à la demande de l'entreprise et s",
+  "corrupted": "I. - La valeur ajoutée des établissements exonérés de cotisation foncière des entreprises en application de la délibération d'une commune ou d'un établissement public de coopération intercommunale est, à la demande de l'entreprise, exonérée de cotisation sur la valeur ajoutée des entreprises pour sa fraction taxée au profit de la commune ou de l'établissement public de coopération intercommunale. Lorsque l'exonération de cotisation foncière des entreprises est partielle, l'exonération de cotisation sur la valeur ajoutée des entreprises s'applique dans la même proportion pour la fraction de la valeur ajoutée taxée au profit des collectivités concernées par l'exonération de cotisation foncière des entreprises. II. - Lorsque ,  peuvent,  exonérer leur valeur ajoutée de cotisation sur la valeur ajoutée des entreprises . L'exonération est applicable à la demande de l'entreprise. Pour les établissements pouvant être exonérés de cotisation foncière des entreprises en application des articles 1464 A et 1465 et du I de l'article 1466 A , la délibération détermine la proportion exonérée de la valeur ajoutée taxée au profit de la collectivité délibérante. III. - Les établissements pouvant être exonérés de cotisation foncière des entreprises en l'absence de délibération contraire d'une commune ou d'un établissement public de coopération intercommunale à fiscalité propre sont, à la demande de l'entreprise et s",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "des établissements peuvent être exonérés de cotisation foncière des entreprises par délibération d'une commune ou d'un établissement public de coopération intercommunale",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "les départements, les régions et la collectivité territoriale de Corse",
+    "critical": true
+   },
+   {
+    "index": 5,
+    "kind": "critical",
+    "text": "par une délibération prise dans les conditions prévues au I de l'article 1639 A bis ou à l'article 1464 C",
+    "critical": true
+   },
+   {
+    "index": 7,
+    "kind": "critical",
+    "text": "pour sa fraction taxée à leur profit",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "I. - La valeur ajoutée des établissements exonérés de cotisation foncière des entreprises en application de la délibération d'une commune ou d'un établissement public de coopération intercommunale est, à la demande de l'entreprise, exonérée de cotisation sur la valeur ajoutée des entreprises pour sa fraction taxée au profit de la commune ou de l'établissement public de coopération intercommunale. Lorsque l'exonération de cotisation foncière des entreprises est partielle, l'exonération de cotisation sur la valeur ajoutée des entreprises s'applique dans la même proportion pour la fraction de la valeur ajoutée taxée au profit des collectivités concernées par l'exonération de cotisation foncière des entreprises. II. - Lorsque ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "des établissements peuvent être exonérés de cotisation foncière des entreprises par délibération d'une commune ou d'un établissement public de coopération intercommunale",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "les départements, les régions et la collectivité territoriale de Corse",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " peuvent, ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "par une délibération prise dans les conditions prévues au I de l'article 1639 A bis ou à l'article 1464 C",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " exonérer leur valeur ajoutée de cotisation sur la valeur ajoutée des entreprises ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pour sa fraction taxée à leur profit",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". L'exonération est applicable à la demande de l'entreprise. Pour les établissements pouvant être exonérés de cotisation foncière des entreprises en application des articles 1464 A et 1465 et du I de l'article 1466 A , la délibération détermine la proportion exonérée de la valeur ajoutée taxée au profit de la collectivité délibérante. III. - Les établissements pouvant être exonérés de cotisation foncière des entreprises en l'absence de délibération contraire d'une commune ou d'un établissement public de coopération intercommunale à fiscalité propre sont, à la demande de l'entreprise et s",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Les collectivités peuvent exonérer la valeur ajoutée de cotisation sur la valeur ajoutée des entreprises.",
+  "true_claim": "Lorsque des établissements peuvent être exonérés de cotisation foncière des entreprises par délibération d'une commune ou d'un établissement public de coopération intercommunale, les départements, les régions et la collectivité territoriale de Corse peuvent, par une délibération prise dans les conditions prévues au I de l'article 1639 A bis ou à l'article 1464 C, exonérer leur valeur ajoutée de cotisation sur la valeur ajoutée des entreprises pour sa fraction taxée à leur profit.",
+  "author": "deepseek-chat",
+  "source_sentence": "Lorsque des établissements peuvent être exonérés de cotisation foncière des entreprises par délibération d'une commune ou d'un établissement public de coopération intercommunale, les départements, les régions et la collectivité territoriale de Corse peuvent, par une délibération prise dans les conditions prévues au I de l'article 1639 A bis ou à l'article 1464 C exonérer leur valeur ajoutée de cotisation sur la valeur ajoutée des entreprises pour sa fraction taxée à leur profit."
+ },
+ {
+  "id": "real-R3-WS-1519A-2002-03-31",
+  "family": "layered_real",
+  "as_of": "2002-03-31",
+  "original": "Il est institué en faveur des communes une imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques dont la tension est au moins égale à 200 kilovolts. En 2002, le montant de cette imposition forfaitaire est fixé à 1 203 euros pour les pylônes supportant des lignes électriques dont la tension est comprise entre 200 et 350 kilovolts et à 2 406 euros pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts. Ces montants sont revisés chaque année proportionnellement à la variation du produit de la taxe foncière sur les propriétés bâties constatée au niveau national. L'imposition prévue au premier alinéa est établie et recouvrée comme en matière de contributions directes. Les éléments imposables sont déclarés avant le 1er janvier de l'année d'imposition.",
+  "corrupted": "Il est institué en faveur des communes une imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques dont la tension est au moins égale à 200 kilovolts. , le montant de cette imposition forfaitaire est fixé à 1 203 euros pour les pylônes supportant des lignes électriques  et à 2 406 euros pour les pylônes supportant des lignes électriques . Ces montants sont revisés chaque année proportionnellement à la variation du produit de la taxe foncière sur les propriétés bâties constatée au niveau national. L'imposition prévue au premier alinéa est établie et recouvrée comme en matière de contributions directes. Les éléments imposables sont déclarés avant le 1er janvier de l'année d'imposition.",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "En 2002",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "dont la tension est comprise entre 200 et 350 kilovolts",
+    "critical": true
+   },
+   {
+    "index": 5,
+    "kind": "critical",
+    "text": "dont la tension est supérieure à 350 kilovolts",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "Il est institué en faveur des communes une imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques dont la tension est au moins égale à 200 kilovolts. ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "En 2002",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", le montant de cette imposition forfaitaire est fixé à 1 203 euros pour les pylônes supportant des lignes électriques ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dont la tension est comprise entre 200 et 350 kilovolts",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " et à 2 406 euros pour les pylônes supportant des lignes électriques ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dont la tension est supérieure à 350 kilovolts",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". Ces montants sont revisés chaque année proportionnellement à la variation du produit de la taxe foncière sur les propriétés bâties constatée au niveau national. L'imposition prévue au premier alinéa est établie et recouvrée comme en matière de contributions directes. Les éléments imposables sont déclarés avant le 1er janvier de l'année d'imposition.",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Le montant de cette imposition forfaitaire est fixé pour les pylônes supportant des lignes électriques.",
+  "true_claim": "En 2002, le montant de cette imposition forfaitaire est fixé à 1 203 euros pour les pylônes supportant des lignes électriques dont la tension est comprise entre 200 et 350 kilovolts et à 2 406 euros pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts.",
+  "author": "deepseek-chat",
+  "source_sentence": "En 2002, le montant de cette imposition forfaitaire est fixé à 1 203 euros pour les pylônes supportant des lignes électriques dont la tension est comprise entre 200 et 350 kilovolts et à 2 406 euros pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts."
+ },
+ {
+  "id": "real-R3-WS-1519A-2016-06-13",
+  "family": "layered_real",
+  "as_of": "2016-06-13",
+  "original": "Il est institué une imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques dont la tension est au moins égale à 200 kilovolts. En 2016, le montant de cette imposition forfaitaire est fixé à 2 254 € pour les pylônes supportant des lignes électriques dont la tension est comprise entre 200 et 350 kilovolts et à 4 504 € pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts. Ces montants sont revisés chaque année proportionnellement à la variation du produit de la taxe foncière sur les propriétés bâties constatée au niveau national. Sous réserve des dispositions du premier alinéa du V de l'article 1379-0 bis , l'imposition prévue au premier alinéa est perçue au profit des communes. L'imposition est déclarée par voie électronique et liquidée : 1° Pour les redevables de la taxe sur la valeur ajoutée, sur l'annexe à la déclaration mentionnée au 1 de l'article 287 déposée au titre du mois de mars ou du premier trimestre de l'année au titre de laquelle l'imposition est due ; 2° Pour les personnes non redevables de la taxe sur la valeur ajoutée, sur l'annexe à la déclaration prévue au 1 du même article 287 déposée auprès du service chargé du recouvrement dont relève leur siège ou principal établissement au plus tard le 25 avril de l'année au cours de laquelle l'imposition est due. La déclaration comporte notamment la liste par département des communes d'implantation des pylônes avec en regard de chacune d'elles : a) L'indication du nombre de pylônes taxés, en distinguant selon qu'ils supportent des lignes d'une tension comprise entre 200 et 350 kilovolts ou d'une tension supérieure à 350 kilovolts ; b) Le produit total revenant à chaque commune et à chaque département ainsi que le produit net total de l'imposit",
+  "corrupted": "Il est institué une imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques dont la tension est au moins égale à 200 kilovolts. , le montant de cette imposition forfaitaire est fixé à 2 254 €  et à 4 504 € . Ces montants sont revisés chaque année proportionnellement à la variation du produit de la taxe foncière sur les propriétés bâties constatée au niveau national. Sous réserve des dispositions du premier alinéa du V de l'article 1379-0 bis , l'imposition prévue au premier alinéa est perçue au profit des communes. L'imposition est déclarée par voie électronique et liquidée : 1° Pour les redevables de la taxe sur la valeur ajoutée, sur l'annexe à la déclaration mentionnée au 1 de l'article 287 déposée au titre du mois de mars ou du premier trimestre de l'année au titre de laquelle l'imposition est due ; 2° Pour les personnes non redevables de la taxe sur la valeur ajoutée, sur l'annexe à la déclaration prévue au 1 du même article 287 déposée auprès du service chargé du recouvrement dont relève leur siège ou principal établissement au plus tard le 25 avril de l'année au cours de laquelle l'imposition est due. La déclaration comporte notamment la liste par département des communes d'implantation des pylônes avec en regard de chacune d'elles : a) L'indication du nombre de pylônes taxés, en distinguant selon qu'ils supportent des lignes d'une tension comprise entre 200 et 350 kilovolts ou d'une tension supérieure à 350 kilovolts ; b) Le produit total revenant à chaque commune et à chaque département ainsi que le produit net total de l'imposit",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "En 2016",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "pour les pylônes supportant des lignes électriques dont la tension est comprise entre 200 et 350 kilovolts",
+    "critical": true
+   },
+   {
+    "index": 5,
+    "kind": "critical",
+    "text": "pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "Il est institué une imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques dont la tension est au moins égale à 200 kilovolts. ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "En 2016",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", le montant de cette imposition forfaitaire est fixé à 2 254 € ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pour les pylônes supportant des lignes électriques dont la tension est comprise entre 200 et 350 kilovolts",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " et à 4 504 € ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". Ces montants sont revisés chaque année proportionnellement à la variation du produit de la taxe foncière sur les propriétés bâties constatée au niveau national. Sous réserve des dispositions du premier alinéa du V de l'article 1379-0 bis , l'imposition prévue au premier alinéa est perçue au profit des communes. L'imposition est déclarée par voie électronique et liquidée : 1° Pour les redevables de la taxe sur la valeur ajoutée, sur l'annexe à la déclaration mentionnée au 1 de l'article 287 déposée au titre du mois de mars ou du premier trimestre de l'année au titre de laquelle l'imposition est due ; 2° Pour les personnes non redevables de la taxe sur la valeur ajoutée, sur l'annexe à la déclaration prévue au 1 du même article 287 déposée auprès du service chargé du recouvrement dont relève leur siège ou principal établissement au plus tard le 25 avril de l'année au cours de laquelle l'imposition est due. La déclaration comporte notamment la liste par département des communes d'implantation des pylônes avec en regard de chacune d'elles : a) L'indication du nombre de pylônes taxés, en distinguant selon qu'ils supportent des lignes d'une tension comprise entre 200 et 350 kilovolts ou d'une tension supérieure à 350 kilovolts ; b) Le produit total revenant à chaque commune et à chaque département ainsi que le produit net total de l'imposit",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Le montant de cette imposition forfaitaire est fixé.",
+  "true_claim": "En 2016, le montant de cette imposition forfaitaire est fixé à 2 254 € pour les pylônes supportant des lignes électriques dont la tension est comprise entre 200 et 350 kilovolts et à 4 504 € pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts.",
+  "author": "deepseek-chat",
+  "source_sentence": "En 2016, le montant de cette imposition forfaitaire est fixé à 2 254 € pour les pylônes supportant des lignes électriques dont la tension est comprise entre 200 et 350 kilovolts et à 4 504 € pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts."
+ },
+ {
+  "id": "real-R3-WS-1519HA-2018-01-01",
+  "family": "layered_real",
+  "as_of": "2018-01-01",
+  "original": "I.-L'imposition forfaitaire mentionnée à l'article 1635-0 quinquies s'applique aux installations de gaz naturel liquéfié, aux stockages souterrains de gaz naturel, aux canalisations de transport de gaz naturel, aux stations de compression du réseau de transport de gaz naturel, aux canalisations de transport d'autres hydrocarbures et aux canalisations de transport de produits chimiques. II.-L'imposition forfaitaire est due chaque année par l'exploitant des installations, ouvrages et canalisations au 1er janvier de l'année d'imposition. III.-Le montant de l'imposition forfaitaire est fixé à : -2 647 018 € par installation de gaz naturel liquéfié dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3 , L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code de l'énergie ; -514 € par kilomètre de canalisation de transport de produits chimiques ; -529 404 € par site de stockage souterrain de gaz naturel dont les capacités sont soumises aux dispositions des articles L. 421-3-1 à L. 421-12 et L. 421-14 du code précité ; -530 € par kilomètre de canalisation de transport de gaz naturel appartenant à un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3, L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code précité ; -105 881 € par station de compression utilisée pour le fonctionnement d'un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3, L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code précité ; -530 € par kilomètre de canalisation de transport d'autres hydrocarbures. IV.-Le redevable de la taxe déclare, au plus tard le deuxième jour ouvré suivant le 1er mai de l'année d'imposition, les ouvrages, les installations et le nombre de kilomètres de canalisations explo",
+  "corrupted": "I.-L'imposition forfaitaire mentionnée à l'article 1635-0 quinquies s'applique aux installations de gaz naturel liquéfié, aux stockages souterrains de gaz naturel, aux canalisations de transport de gaz naturel, aux stations de compression du réseau de transport de gaz naturel, aux canalisations de transport d'autres hydrocarbures et aux canalisations de transport de produits chimiques. II.-L'imposition forfaitaire est due  par l'exploitant des installations, ouvrages et canalisations . III.-Le montant de l'imposition forfaitaire est fixé à : -2 647 018 € par installation de gaz naturel liquéfié dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3 , L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code de l'énergie ; -514 € par kilomètre de canalisation de transport de produits chimiques ; -529 404 € par site de stockage souterrain de gaz naturel dont les capacités sont soumises aux dispositions des articles L. 421-3-1 à L. 421-12 et L. 421-14 du code précité ; -530 € par kilomètre de canalisation de transport de gaz naturel appartenant à un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3, L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code précité ; -105 881 € par station de compression utilisée pour le fonctionnement d'un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3, L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code précité ; -530 € par kilomètre de canalisation de transport d'autres hydrocarbures. IV.-Le redevable de la taxe déclare, au plus tard le deuxième jour ouvré suivant le 1er mai de l'année d'imposition, les ouvrages, les installations et le nombre de kilomètres de canalisations explo",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "chaque année",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "au 1er janvier de l'année d'imposition",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "I.-L'imposition forfaitaire mentionnée à l'article 1635-0 quinquies s'applique aux installations de gaz naturel liquéfié, aux stockages souterrains de gaz naturel, aux canalisations de transport de gaz naturel, aux stations de compression du réseau de transport de gaz naturel, aux canalisations de transport d'autres hydrocarbures et aux canalisations de transport de produits chimiques. II.-L'imposition forfaitaire est due ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "chaque année",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " par l'exploitant des installations, ouvrages et canalisations ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "au 1er janvier de l'année d'imposition",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ". III.-Le montant de l'imposition forfaitaire est fixé à : -2 647 018 € par installation de gaz naturel liquéfié dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3 , L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code de l'énergie ; -514 € par kilomètre de canalisation de transport de produits chimiques ; -529 404 € par site de stockage souterrain de gaz naturel dont les capacités sont soumises aux dispositions des articles L. 421-3-1 à L. 421-12 et L. 421-14 du code précité ; -530 € par kilomètre de canalisation de transport de gaz naturel appartenant à un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3, L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code précité ; -105 881 € par station de compression utilisée pour le fonctionnement d'un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 445-1 à L. 445-3, L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code précité ; -530 € par kilomètre de canalisation de transport d'autres hydrocarbures. IV.-Le redevable de la taxe déclare, au plus tard le deuxième jour ouvré suivant le 1er mai de l'année d'imposition, les ouvrages, les installations et le nombre de kilomètres de canalisations explo",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "L'imposition forfaitaire est due par l'exploitant des installations, ouvrages et canalisations.",
+  "true_claim": "L'imposition forfaitaire est due chaque année par l'exploitant des installations, ouvrages et canalisations au 1er janvier de l'année d'imposition.",
+  "author": "deepseek-chat",
+  "source_sentence": "II.-L'imposition forfaitaire est due chaque année par l'exploitant des installations, ouvrages et canalisations au 1er janvier de l'année d'imposition."
+ },
+ {
+  "id": "real-R3-WS-1519HA-2023-06-03",
+  "family": "layered_real",
+  "as_of": "2023-06-03",
+  "original": "I. - L'imposition forfaitaire mentionnée à l'article 1635-0 quinquies s'applique aux installations de gaz naturel liquéfié, aux stockages souterrains de gaz naturel, aux canalisations de transport de gaz naturel, aux stations de compression du réseau de transport de gaz naturel, aux canalisations de transport d'autres hydrocarbures et aux canalisations de transport de produits chimiques. II. - L'imposition forfaitaire est due chaque année par l'exploitant des installations, ouvrages et canalisations au 1er janvier de l'année d'imposition. III. - Le montant de l'imposition forfaitaire est fixé à : - 638 998 € par installation de gaz naturel liquéfié dont la capacité de stockage est inférieure ou égale à 100 000 mètres cubes et dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code de l'énergie ; - 2 913 113 € par installation de gaz naturel liquéfié dont la capacité de stockage est supérieure à 100 000 mètres cubes et dont les tarifs d'utilisation sont fixés en application des mêmes articles L. 452-1 à L. 452-6 ; - 565 € par kilomètre de canalisation de transport de produits chimiques ; - 582 622 € par site de stockage souterrain de gaz naturel dont les capacités sont soumises aux dispositions des articles L. 421-3-1 à L. 421-12 et L. 421-14 du code précité ; - 582 € par kilomètre de canalisation de transport de gaz naturel appartenant à un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code précité ; - 116 524 € par station de compression utilisée pour le fonctionnement d'un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code précité ; - 582 € par kilomètre de canalisation de transport d'autres hydrocarbures. IV. - Le redevabl",
+  "corrupted": "I. - L'imposition forfaitaire mentionnée à l'article 1635-0 quinquies s'applique aux installations de gaz naturel liquéfié, aux stockages souterrains de gaz naturel, aux canalisations de transport de gaz naturel, aux stations de compression du réseau de transport de gaz naturel, aux canalisations de transport d'autres hydrocarbures et aux canalisations de transport de produits chimiques. II. - L'imposition forfaitaire est due chaque année par l'exploitant des installations, ouvrages et canalisations au 1er janvier de l'année d'imposition. III. - Le montant de l'imposition forfaitaire est fixé à : - 638 998 € par installation de gaz naturel liquéfié  et  ; - 2 913 113 € par installation de gaz naturel liquéfié dont la capacité de stockage est supérieure à 100 000 mètres cubes et dont les tarifs d'utilisation sont fixés en application des mêmes articles L. 452-1 à L. 452-6 ; - 565 € par kilomètre de canalisation de transport de produits chimiques ; - 582 622 € par site de stockage souterrain de gaz naturel dont les capacités sont soumises aux dispositions des articles L. 421-3-1 à L. 421-12 et L. 421-14 du code précité ; - 582 € par kilomètre de canalisation de transport de gaz naturel appartenant à un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code précité ; - 116 524 € par station de compression utilisée pour le fonctionnement d'un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code précité ; - 582 € par kilomètre de canalisation de transport d'autres hydrocarbures. IV. - Le redevabl",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "dont la capacité de stockage est inférieure ou égale à 100 000 mètres cubes",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code de l'énergie",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "I. - L'imposition forfaitaire mentionnée à l'article 1635-0 quinquies s'applique aux installations de gaz naturel liquéfié, aux stockages souterrains de gaz naturel, aux canalisations de transport de gaz naturel, aux stations de compression du réseau de transport de gaz naturel, aux canalisations de transport d'autres hydrocarbures et aux canalisations de transport de produits chimiques. II. - L'imposition forfaitaire est due chaque année par l'exploitant des installations, ouvrages et canalisations au 1er janvier de l'année d'imposition. III. - Le montant de l'imposition forfaitaire est fixé à : - 638 998 € par installation de gaz naturel liquéfié ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dont la capacité de stockage est inférieure ou égale à 100 000 mètres cubes",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " et ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code de l'énergie",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " ; - 2 913 113 € par installation de gaz naturel liquéfié dont la capacité de stockage est supérieure à 100 000 mètres cubes et dont les tarifs d'utilisation sont fixés en application des mêmes articles L. 452-1 à L. 452-6 ; - 565 € par kilomètre de canalisation de transport de produits chimiques ; - 582 622 € par site de stockage souterrain de gaz naturel dont les capacités sont soumises aux dispositions des articles L. 421-3-1 à L. 421-12 et L. 421-14 du code précité ; - 582 € par kilomètre de canalisation de transport de gaz naturel appartenant à un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code précité ; - 116 524 € par station de compression utilisée pour le fonctionnement d'un réseau dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code précité ; - 582 € par kilomètre de canalisation de transport d'autres hydrocarbures. IV. - Le redevabl",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "L'imposition forfaitaire est de 638 998 € par installation de gaz naturel liquéfié.",
+  "true_claim": "L'imposition forfaitaire est de 638 998 € par installation de gaz naturel liquéfié dont la capacité de stockage est inférieure ou égale à 100 000 mètres cubes et dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code de l'énergie.",
+  "author": "deepseek-chat",
+  "source_sentence": "638 998 € par installation de gaz naturel liquéfié dont la capacité de stockage est inférieure ou égale à 100 000 mètres cubes et dont les tarifs d'utilisation sont fixés en application des articles L. 452-1 à L. 452-6 du code de l'énergie"
+ },
+ {
+  "id": "real-R3-WS-1587-2014-05-30",
+  "family": "layered_real",
+  "as_of": "2014-05-30",
+  "original": "I. – Il est perçu au profit des départements une redevance sur chaque tonne nette du produit concédé, extrait par les concessionnaires de mines, les amodiataires et sous-amodiataires des concessions minières, par les titulaires du permis d'exploitation de mines et par les explorateurs de mines de pétrole et de gaz combustibles. Cette redevance est applicable aux charbons extraits sous territoire étranger et amenés au jour par des puits et installations sis en France. Cette redevance ne s'applique pas aux hydrocarbures extraits de gisements situés au-delà de 1 mille marin des lignes de base définies à l'article 1er de la loi n° 71-1060 du 24 décembre 1971 relative à la délimitation des eaux territoriales françaises. Lorsqu'il existe plusieurs lignes de base, celle qui est la plus proche de la côte est utilisée. II. – 1° A compter du 1er janvier 2014, les tarifs de la redevance départementale des mines sont fixés à : -26,30 € par kilogramme d'or contenu pour les minerais aurifères ; -51 € par quintal d'uranium contenu pour les minerais d'uranium ; -23,10 € par tonne d'oxyde de tungstène (WO3) contenu pour les minerais de tungstène ; -42,70 € par quintal d'argent contenu pour les minerais argentifères ; -101 € par millier de tonnes nettes livrées pour la bauxite ; -133,60 € par millier de tonnes nettes livrées pour la fluorine ; -pour le chlorure de sodium : -127 € par millier de tonnes nettes livrées pour le sel extrait par abattage ; -75 € par millier de tonnes nettes livrées pour le sel extrait en dissolution par sondage et livré raffiné ; -24,60 € par millier de tonnes de chlorure de sodium contenu pour le sel extrait en dissolution par sondage et livré en dissolution ; -97,90 € par centaine de tonnes nettes extraites pour le charbon ; -1 068 € par centaine de tonnes n",
+  "corrupted": "I. – Il est perçu au profit des départements une redevance sur chaque tonne nette du produit concédé, extrait par les concessionnaires de mines, les amodiataires et sous-amodiataires des concessions minières, par les titulaires du permis d'exploitation de mines et par les explorateurs de mines de pétrole et de gaz combustibles. Cette redevance est applicable aux charbons extraits sous territoire étranger et amenés au jour par des puits et installations sis en France. Cette redevance ne s'applique pas aux hydrocarbures extraits de gisements situés au-delà de 1 mille marin des lignes de base définies à l'article 1er de la loi n° 71-1060 du 24 décembre 1971 relative à la délimitation des eaux territoriales françaises. ,  est utilisée. II. – 1° A compter du 1er janvier 2014, les tarifs de la redevance départementale des mines sont fixés à : -26,30 € par kilogramme d'or contenu pour les minerais aurifères ; -51 € par quintal d'uranium contenu pour les minerais d'uranium ; -23,10 € par tonne d'oxyde de tungstène (WO3) contenu pour les minerais de tungstène ; -42,70 € par quintal d'argent contenu pour les minerais argentifères ; -101 € par millier de tonnes nettes livrées pour la bauxite ; -133,60 € par millier de tonnes nettes livrées pour la fluorine ; -pour le chlorure de sodium : -127 € par millier de tonnes nettes livrées pour le sel extrait par abattage ; -75 € par millier de tonnes nettes livrées pour le sel extrait en dissolution par sondage et livré raffiné ; -24,60 € par millier de tonnes de chlorure de sodium contenu pour le sel extrait en dissolution par sondage et livré en dissolution ; -97,90 € par centaine de tonnes nettes extraites pour le charbon ; -1 068 € par centaine de tonnes n",
+  "spans": [
+   {
+    "index": 1,
+    "kind": "critical",
+    "text": "Lorsqu'il existe plusieurs lignes de base",
+    "critical": true
+   },
+   {
+    "index": 3,
+    "kind": "critical",
+    "text": "celle qui est la plus proche de la côte",
+    "critical": true
+   }
+  ],
+  "segments": [
+   {
+    "text": "I. – Il est perçu au profit des départements une redevance sur chaque tonne nette du produit concédé, extrait par les concessionnaires de mines, les amodiataires et sous-amodiataires des concessions minières, par les titulaires du permis d'exploitation de mines et par les explorateurs de mines de pétrole et de gaz combustibles. Cette redevance est applicable aux charbons extraits sous territoire étranger et amenés au jour par des puits et installations sis en France. Cette redevance ne s'applique pas aux hydrocarbures extraits de gisements situés au-delà de 1 mille marin des lignes de base définies à l'article 1er de la loi n° 71-1060 du 24 décembre 1971 relative à la délimitation des eaux territoriales françaises. ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "Lorsqu'il existe plusieurs lignes de base",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": ", ",
+    "kind": null,
+    "critical": false
+   },
+   {
+    "text": "celle qui est la plus proche de la côte",
+    "kind": "critical",
+    "critical": true
+   },
+   {
+    "text": " est utilisée. II. – 1° A compter du 1er janvier 2014, les tarifs de la redevance départementale des mines sont fixés à : -26,30 € par kilogramme d'or contenu pour les minerais aurifères ; -51 € par quintal d'uranium contenu pour les minerais d'uranium ; -23,10 € par tonne d'oxyde de tungstène (WO3) contenu pour les minerais de tungstène ; -42,70 € par quintal d'argent contenu pour les minerais argentifères ; -101 € par millier de tonnes nettes livrées pour la bauxite ; -133,60 € par millier de tonnes nettes livrées pour la fluorine ; -pour le chlorure de sodium : -127 € par millier de tonnes nettes livrées pour le sel extrait par abattage ; -75 € par millier de tonnes nettes livrées pour le sel extrait en dissolution par sondage et livré raffiné ; -24,60 € par millier de tonnes de chlorure de sodium contenu pour le sel extrait en dissolution par sondage et livré en dissolution ; -97,90 € par centaine de tonnes nettes extraites pour le charbon ; -1 068 € par centaine de tonnes n",
+    "kind": null,
+    "critical": false
+   }
+  ],
+  "false_claim": "Une ligne de base est utilisée.",
+  "true_claim": "Lorsqu'il existe plusieurs lignes de base, celle qui est la plus proche de la côte est utilisée.",
+  "author": "deepseek-chat",
+  "source_sentence": "Lorsqu'il existe plusieurs lignes de base, celle qui est la plus proche de la côte est utilisée."
+ }
+]

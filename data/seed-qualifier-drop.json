@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "int-01",
+    "family": "interval_dropped",
+    "domain": "retail offer",
+    "as_of": "2026-09-15",
+    "false_claim": "Nordvik Bikes offers a 20% discount on all city bikes for customers who order online.",
+    "true_claim": "Nordvik Bikes' 20% online discount on city bikes ended on 31 August 2026.",
+    "original": "Nordvik Bikes offers a 20% discount on all city bikes for customers who order online until 31 August 2026. The discount is applied automatically at checkout.",
+    "corrupted": "Nordvik Bikes offers a 20% discount on all city bikes for customers who order online. The discount is applied automatically at checkout.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "scope",
+        "text": "for customers who order online",
+        "critical": false
+      },
+      {
+        "index": 3,
+        "kind": "temporal",
+        "text": "until 31 August 2026",
+        "critical": true
+      }
+    ],
+    "segments": [
+      {
+        "text": "Nordvik Bikes offers a 20% discount on all city bikes ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for customers who order online",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "until 31 August 2026",
+        "kind": "temporal",
+        "critical": true
+      },
+      {
+        "text": ". The discount is applied automatically at checkout.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "int-02",
+    "family": "interval_dropped",
+    "domain": "parking rules",
+    "as_of": "2026-12-10",
+    "false_claim": "Parking on Harbour Street is free for residents with a permit.",
+    "true_claim": "In December, residents with a permit pay the standard tariff of 2 EUR per hour to park on Harbour Street.",
+    "original": "Parking on Harbour Street is free between 1 June and 30 September for residents with a permit. Outside that period the standard tariff of 2 EUR per hour applies.",
+    "corrupted": "Parking on Harbour Street is free for residents with a permit. Outside that period the standard tariff of 2 EUR per hour applies.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "temporal",
+        "text": "between 1 June and 30 September",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "for residents with a permit",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "Parking on Harbour Street is free ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "between 1 June and 30 September",
+        "kind": "temporal",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for residents with a permit",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ". Outside that period the standard tariff of 2 EUR per hour applies.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "int-03",
+    "family": "interval_dropped",
+    "domain": "subscription",
+    "as_of": "2026-10-01",
+    "false_claim": "Pro plan subscribers who joined in April 2026 pay 9 EUR per month.",
+    "true_claim": "Pro plan subscribers who joined in April 2026 now pay the regular price of 19 EUR per month.",
+    "original": "The introductory price of the Pro plan is 9 EUR per month for the first three months for new subscribers; afterwards the regular price of 19 EUR per month applies.",
+    "corrupted": "The introductory price of the Pro plan is 9 EUR per month for new subscribers; afterwards the regular price of 19 EUR per month applies.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "temporal",
+        "text": "for the first three months",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "for new subscribers",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "The introductory price of the Pro plan is 9 EUR per month ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for the first three months",
+        "kind": "temporal",
+        "critical": true
+      },
+      {
+        "text": " ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for new subscribers",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": "; afterwards the regular price of 19 EUR per month applies.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "int-04",
+    "family": "interval_dropped",
+    "domain": "warranty",
+    "as_of": "2027-03-01",
+    "false_claim": "A Kestrel espresso machine bought in January 2025 is covered by the free repair warranty.",
+    "true_claim": "A Kestrel espresso machine bought in January 2025 is no longer covered by the free repair warranty.",
+    "original": "Every Kestrel espresso machine comes with a free repair warranty valid for 24 months from the date of purchase. Accidental damage is not covered.",
+    "corrupted": "Every Kestrel espresso machine comes with a free repair warranty. Accidental damage is not covered.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "temporal",
+        "text": "valid for 24 months from the date of purchase",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "negation",
+        "text": "not",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "Every Kestrel espresso machine comes with a free repair warranty ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "valid for 24 months from the date of purchase",
+        "kind": "temporal",
+        "critical": true
+      },
+      {
+        "text": ". Accidental damage is ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "not",
+        "kind": "negation",
+        "critical": false
+      },
+      {
+        "text": " covered.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "era-01",
+    "family": "eras_merged",
+    "domain": "pricing",
+    "as_of": "2026-09-21",
+    "false_claim": "The monthly fee for the Basic tariff is 29 EUR.",
+    "true_claim": "The monthly fee for the Basic tariff is 39 EUR.",
+    "original": "From 1 January 2026 the monthly fee for the Basic tariff was 29 EUR. From 1 September 2026 the monthly fee for the Basic tariff is 39 EUR. Existing customers were notified by e-mail on 20 August 2026.",
+    "corrupted": "From 1 January 2026 the monthly fee for the Basic tariff was 29 EUR. Existing customers were notified by e-mail on 20 August 2026.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "era",
+        "text": "From 1 September 2026 the monthly fee for the Basic tariff is 39 EUR.",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "temporal",
+        "text": "on 20 August 2026",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "From 1 January 2026 the monthly fee for the Basic tariff was 29 EUR. ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "From 1 September 2026 the monthly fee for the Basic tariff is 39 EUR.",
+        "kind": "era",
+        "critical": true
+      },
+      {
+        "text": " Existing customers were notified by e-mail ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "on 20 August 2026",
+        "kind": "temporal",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "era-02",
+    "family": "eras_merged",
+    "domain": "tax threshold",
+    "as_of": "2026-11-05",
+    "false_claim": "The VAT registration threshold is 85,000 EUR of annual turnover.",
+    "true_claim": "The VAT registration threshold is 100,000 EUR of annual turnover.",
+    "original": "Until 30 June 2026 the VAT registration threshold was 85,000 EUR of annual turnover. Since 1 July 2026 the threshold is 100,000 EUR. Businesses below the threshold may register voluntarily.",
+    "corrupted": "Until 30 June 2026 the VAT registration threshold was 85,000 EUR of annual turnover. Businesses below the threshold may register voluntarily.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "era",
+        "text": "Since 1 July 2026 the threshold is 100,000 EUR.",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "voluntarily",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "Until 30 June 2026 the VAT registration threshold was 85,000 EUR of annual turnover. ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "Since 1 July 2026 the threshold is 100,000 EUR.",
+        "kind": "era",
+        "critical": true
+      },
+      {
+        "text": " Businesses below the threshold may register ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "voluntarily",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "era-03",
+    "family": "eras_merged",
+    "domain": "opening hours",
+    "as_of": "2026-10-12",
+    "false_claim": "The museum is open daily from 9:00 to 20:00.",
+    "true_claim": "The museum is open from 10:00 to 17:00 and closed on Mondays.",
+    "original": "During the summer season the museum was open daily from 9:00 to 20:00. From 1 October 2026 the museum is open from 10:00 to 17:00 and closed on Mondays. Tickets are sold until one hour before closing.",
+    "corrupted": "During the summer season the museum was open daily from 9:00 to 20:00. Tickets are sold until one hour before closing.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "era",
+        "text": "From 1 October 2026 the museum is open from 10:00 to 17:00 and closed on Mondays.",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "temporal",
+        "text": "until one hour before closing",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "During the summer season the museum was open daily from 9:00 to 20:00. ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "From 1 October 2026 the museum is open from 10:00 to 17:00 and closed on Mondays.",
+        "kind": "era",
+        "critical": true
+      },
+      {
+        "text": " Tickets are sold ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "until one hour before closing",
+        "kind": "temporal",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "era-04",
+    "family": "eras_merged",
+    "domain": "shipping",
+    "as_of": "2026-09-30",
+    "false_claim": "Standard delivery takes 5 working days.",
+    "true_claim": "Standard delivery takes 3 working days.",
+    "original": "In the first half of 2026 standard delivery took 5 working days. Since 1 August 2026 standard delivery takes 3 working days. Express delivery remains 1 working day for orders placed before noon.",
+    "corrupted": "In the first half of 2026 standard delivery took 5 working days. Express delivery remains 1 working day for orders placed before noon.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "era",
+        "text": "Since 1 August 2026 standard delivery takes 3 working days.",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "for orders placed before noon",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "In the first half of 2026 standard delivery took 5 working days. ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "Since 1 August 2026 standard delivery takes 3 working days.",
+        "kind": "era",
+        "critical": true
+      },
+      {
+        "text": " Express delivery remains 1 working day ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for orders placed before noon",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "can-01",
+    "family": "cancelled_kept",
+    "domain": "HR policy",
+    "as_of": "2026-09-01",
+    "false_claim": "A mandatory three-days-in-office rule is in force for all staff.",
+    "true_claim": "The mandatory three-days-in-office rule was withdrawn on 15 June 2026.",
+    "original": "On 1 March 2026 the company introduced a mandatory three-days-in-office rule for all staff. The rule was withdrawn on 15 June 2026 after the works council objected. Team leads may still agree local arrangements.",
+    "corrupted": "On 1 March 2026 the company introduced a mandatory three-days-in-office rule for all staff. Team leads may still agree local arrangements.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "scope",
+        "text": "for all staff",
+        "critical": false
+      },
+      {
+        "index": 3,
+        "kind": "cancellation",
+        "text": "The rule was withdrawn on 15 June 2026 after the works council objected.",
+        "critical": true
+      }
+    ],
+    "segments": [
+      {
+        "text": "On 1 March 2026 the company introduced a mandatory three-days-in-office rule ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for all staff",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ". ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "The rule was withdrawn on 15 June 2026 after the works council objected.",
+        "kind": "cancellation",
+        "critical": true
+      },
+      {
+        "text": " Team leads may still agree local arrangements.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "can-02",
+    "family": "cancelled_kept",
+    "domain": "promotion",
+    "as_of": "2026-08-20",
+    "false_claim": "Sunbird Travel's 'kids fly free' promotion is available for bookings made through its website.",
+    "true_claim": "Sunbird Travel cancelled its 'kids fly free' promotion on 9 June 2026.",
+    "original": "Sunbird Travel announced a 'kids fly free' promotion on 2 May 2026 for bookings made through its own website. The promotion was cancelled on 9 June 2026 because of fraud. Bookings already confirmed were honoured.",
+    "corrupted": "Sunbird Travel announced a 'kids fly free' promotion on 2 May 2026 for bookings made through its own website. Bookings already confirmed were honoured.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "scope",
+        "text": "for bookings made through its own website",
+        "critical": false
+      },
+      {
+        "index": 3,
+        "kind": "cancellation",
+        "text": "The promotion was cancelled on 9 June 2026 because of fraud.",
+        "critical": true
+      }
+    ],
+    "segments": [
+      {
+        "text": "Sunbird Travel announced a 'kids fly free' promotion on 2 May 2026 ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for bookings made through its own website",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ". ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "The promotion was cancelled on 9 June 2026 because of fraud.",
+        "kind": "cancellation",
+        "critical": true
+      },
+      {
+        "text": " Bookings already confirmed were honoured.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "can-03",
+    "family": "cancelled_kept",
+    "domain": "regulation",
+    "as_of": "2026-10-01",
+    "false_claim": "Short-term rentals are banned in the old town.",
+    "true_claim": "The old-town short-term rental ban was annulled by the regional court on 30 July 2026.",
+    "original": "A municipal by-law of 10 February 2026 banned short-term rentals in the old town. The ban was annulled by the regional court on 30 July 2026. The city has said it may draft a new by-law.",
+    "corrupted": "A municipal by-law of 10 February 2026 banned short-term rentals in the old town. The city has said it may draft a new by-law.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "scope",
+        "text": "in the old town",
+        "critical": false
+      },
+      {
+        "index": 3,
+        "kind": "cancellation",
+        "text": "The ban was annulled by the regional court on 30 July 2026.",
+        "critical": true
+      }
+    ],
+    "segments": [
+      {
+        "text": "A municipal by-law of 10 February 2026 banned short-term rentals ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "in the old town",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ". ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "The ban was annulled by the regional court on 30 July 2026.",
+        "kind": "cancellation",
+        "critical": true
+      },
+      {
+        "text": " The city has said it may draft a new by-law.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "can-04",
+    "family": "cancelled_kept",
+    "domain": "subsidy",
+    "as_of": "2026-12-01",
+    "false_claim": "Owner-occupiers can apply for a 3,000 EUR heat-pump subsidy.",
+    "true_claim": "The heat-pump subsidy programme was closed to new applications on 31 October 2026.",
+    "original": "The heat-pump subsidy of 3,000 EUR for owner-occupied homes was launched on 1 April 2026. The subsidy programme was closed to new applications on 31 October 2026 when the budget was exhausted. Applications received earlier are still being processed.",
+    "corrupted": "The heat-pump subsidy of 3,000 EUR for owner-occupied homes was launched on 1 April 2026. Applications received earlier are still being processed.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "scope",
+        "text": "for owner-occupied homes",
+        "critical": false
+      },
+      {
+        "index": 3,
+        "kind": "cancellation",
+        "text": "The subsidy programme was closed to new applications on 31 October 2026 when the budget was exhausted.",
+        "critical": true
+      }
+    ],
+    "segments": [
+      {
+        "text": "The heat-pump subsidy of 3,000 EUR ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for owner-occupied homes",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": " was launched on 1 April 2026. ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "The subsidy programme was closed to new applications on 31 October 2026 when the budget was exhausted.",
+        "kind": "cancellation",
+        "critical": true
+      },
+      {
+        "text": " Applications received earlier are still being processed.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "rec-01",
+    "family": "recorded_as_valid",
+    "domain": "regulation",
+    "as_of": "2026-03-20",
+    "false_claim": "The new packaging regulation is in force.",
+    "true_claim": "The new packaging regulation enters into force on 1 April 2026.",
+    "original": "The new packaging regulation was published in the official journal on 12 March 2026 and enters into force on 1 April 2026. It applies to producers placing more than 10 tonnes on the market per year.",
+    "corrupted": "The new packaging regulation was published in the official journal on 12 March 2026. It applies to producers placing more than 10 tonnes on the market per year.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "effective",
+        "text": "and enters into force on 1 April 2026",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "producers placing more than 10 tonnes on the market per year",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "The new packaging regulation was published in the official journal on 12 March 2026 ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "and enters into force on 1 April 2026",
+        "kind": "effective",
+        "critical": true
+      },
+      {
+        "text": ". It applies to ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "producers placing more than 10 tonnes on the market per year",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "rec-02",
+    "family": "recorded_as_valid",
+    "domain": "pricing",
+    "as_of": "2026-09-25",
+    "false_claim": "Premium tariff invoices are charged at 59 EUR.",
+    "true_claim": "The Premium tariff price of 59 EUR applies to invoices issued from 1 October 2026.",
+    "original": "On 20 August 2026 the board approved a price increase for the Premium tariff from 49 to 59 EUR, effective for invoices issued from 1 October 2026. Customers were informed on 1 September.",
+    "corrupted": "On 20 August 2026 the board approved a price increase for the Premium tariff from 49 to 59 EUR,. Customers were informed on 1 September.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "effective",
+        "text": "effective for invoices issued from 1 October 2026",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "temporal",
+        "text": "on 1 September",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "On 20 August 2026 the board approved a price increase for the Premium tariff from 49 to 59 EUR, ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "effective for invoices issued from 1 October 2026",
+        "kind": "effective",
+        "critical": true
+      },
+      {
+        "text": ". Customers were informed ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "on 1 September",
+        "kind": "temporal",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "rec-03",
+    "family": "recorded_as_valid",
+    "domain": "HR policy",
+    "as_of": "2026-06-10",
+    "false_claim": "Under the company's travel policy, economy class is mandatory for flights under six hours.",
+    "true_claim": "The updated travel policy applies to trips starting on or after 1 July 2026.",
+    "original": "The updated travel policy was signed by the CEO on 2 June 2026 and applies to trips starting on or after 1 July 2026. Under the new policy economy class is mandatory for flights under six hours.",
+    "corrupted": "The updated travel policy was signed by the CEO on 2 June 2026. Under the new policy economy class is mandatory for flights under six hours.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "effective",
+        "text": "and applies to trips starting on or after 1 July 2026",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "for flights under six hours",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "The updated travel policy was signed by the CEO on 2 June 2026 ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "and applies to trips starting on or after 1 July 2026",
+        "kind": "effective",
+        "critical": true
+      },
+      {
+        "text": ". Under the new policy economy class is mandatory ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "for flights under six hours",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "rec-04",
+    "family": "recorded_as_valid",
+    "domain": "tax",
+    "as_of": "2026-12-15",
+    "false_claim": "Restaurant meals are taxed at the reduced 7% VAT rate.",
+    "true_claim": "The reduced 7% VAT rate for restaurant meals takes effect on 1 January 2027.",
+    "original": "The reduced VAT rate of 7% for restaurant meals was enacted on 5 November 2026 and takes effect on 1 January 2027. Beverages are not included.",
+    "corrupted": "The reduced VAT rate of 7% for restaurant meals was enacted on 5 November 2026. Beverages are not included.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "effective",
+        "text": "and takes effect on 1 January 2027",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "negation",
+        "text": "not",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "The reduced VAT rate of 7% for restaurant meals was enacted on 5 November 2026 ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "and takes effect on 1 January 2027",
+        "kind": "effective",
+        "critical": true
+      },
+      {
+        "text": ". Beverages are ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "not",
+        "kind": "negation",
+        "critical": false
+      },
+      {
+        "text": " included.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "cur-01",
+    "family": "cursor_ignored",
+    "domain": "tax threshold",
+    "as_of": "2026-06-15",
+    "false_claim": "The tax-free allowance is 12,000 EUR.",
+    "true_claim": "The tax-free allowance is 11,000 EUR.",
+    "original": "The tax-free allowance is set at 12,000 EUR from 1 January 2027; until then it remains 11,000 EUR. The allowance is granted only to residents.",
+    "corrupted": "The tax-free allowance is set at 12,000 EUR. The allowance is granted only to residents.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "cursor",
+        "text": "from 1 January 2027; until then it remains 11,000 EUR",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "only to residents",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "The tax-free allowance is set at 12,000 EUR ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "from 1 January 2027; until then it remains 11,000 EUR",
+        "kind": "cursor",
+        "critical": true
+      },
+      {
+        "text": ". The allowance is granted ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "only to residents",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": ".",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "cur-02",
+    "family": "cursor_ignored",
+    "domain": "minimum wage",
+    "as_of": "2026-09-01",
+    "false_claim": "The minimum hourly wage is 13.50 EUR.",
+    "true_claim": "The minimum hourly wage is 12.80 EUR.",
+    "original": "The minimum hourly wage is set at 13.50 EUR from 1 January 2027; until then it is 12.80 EUR. Trainees under 18 are exempt.",
+    "corrupted": "The minimum hourly wage is set at 13.50 EUR. Trainees under 18 are exempt.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "cursor",
+        "text": "from 1 January 2027; until then it is 12.80 EUR",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "under 18",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "The minimum hourly wage is set at 13.50 EUR ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "from 1 January 2027; until then it is 12.80 EUR",
+        "kind": "cursor",
+        "critical": true
+      },
+      {
+        "text": ". Trainees ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "under 18",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": " are exempt.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "cur-03",
+    "family": "cursor_ignored",
+    "domain": "delivery fee",
+    "as_of": "2026-10-20",
+    "false_claim": "Free delivery applies to orders above 30 EUR.",
+    "true_claim": "Free delivery applies to orders above 50 EUR.",
+    "original": "Free delivery applies to orders above 30 EUR from 1 December 2026; until then the threshold is 50 EUR. Bulky items are not eligible.",
+    "corrupted": "Free delivery applies to orders above 30 EUR. Bulky items are not eligible.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "cursor",
+        "text": "from 1 December 2026; until then the threshold is 50 EUR",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "negation",
+        "text": "not",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "Free delivery applies to orders above 30 EUR ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "from 1 December 2026; until then the threshold is 50 EUR",
+        "kind": "cursor",
+        "critical": true
+      },
+      {
+        "text": ". Bulky items are ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "not",
+        "kind": "negation",
+        "critical": false
+      },
+      {
+        "text": " eligible.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  },
+  {
+    "id": "cur-04",
+    "family": "cursor_ignored",
+    "domain": "data retention",
+    "as_of": "2026-11-10",
+    "false_claim": "Customer support logs are retained for 12 months.",
+    "true_claim": "Customer support logs are retained for 24 months.",
+    "original": "Customer support logs are retained for 12 months under the policy revision taking effect on 1 February 2027; the current policy, in force since 1 May 2026, retains them for 24 months. Logs older than the retention period are deleted automatically.",
+    "corrupted": "Customer support logs are retained for 12 months. Logs older than the retention period are deleted automatically.",
+    "spans": [
+      {
+        "index": 1,
+        "kind": "cursor",
+        "text": "under the policy revision taking effect on 1 February 2027; the current policy, in force since 1 May 2026, retains them for 24 months",
+        "critical": true
+      },
+      {
+        "index": 3,
+        "kind": "scope",
+        "text": "older than the retention period",
+        "critical": false
+      }
+    ],
+    "segments": [
+      {
+        "text": "Customer support logs are retained for 12 months ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "under the policy revision taking effect on 1 February 2027; the current policy, in force since 1 May 2026, retains them for 24 months",
+        "kind": "cursor",
+        "critical": true
+      },
+      {
+        "text": ". Logs ",
+        "kind": null,
+        "critical": false
+      },
+      {
+        "text": "older than the retention period",
+        "kind": "scope",
+        "critical": false
+      },
+      {
+        "text": " are deleted automatically.",
+        "kind": null,
+        "critical": false
+      }
+    ],
+    "gold": {
+      "false_claim_vs_original": "unsupported",
+      "true_claim_vs_original": "supported",
+      "false_claim_vs_corrupted_by_construction": "appears_supported"
+    }
+  }
+]

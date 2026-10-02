@@ -1,0 +1,647 @@
+{
+  "summary": {
+    "model": "gpt-5.4-2026-03-05",
+    "n": 20,
+    "status_ok": 18,
+    "value_ok": 19,
+    "both_ok": 18,
+    "errors": 0,
+    "by_family": {
+      "cancelled_kept": {
+        "both_ok": 3,
+        "n": 4
+      },
+      "cursor_ignored": {
+        "both_ok": 4,
+        "n": 4
+      },
+      "eras_merged": {
+        "both_ok": 4,
+        "n": 4
+      },
+      "interval_dropped": {
+        "both_ok": 4,
+        "n": 4
+      },
+      "recorded_as_valid": {
+        "both_ok": 3,
+        "n": 4
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "int-01",
+      "family": "interval_dropped",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "20% discount on all city bikes for customers who order online",
+          "effective_at": "2000-01-01",
+          "expires": "2026-08-31",
+          "targets": []
+        }
+      ],
+      "resolved": {
+        "status": "expired",
+        "value": null
+      },
+      "gold": {
+        "value": null,
+        "status": "expired"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "int-02",
+      "family": "interval_dropped",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "free",
+          "effective_at": "2000-06-01",
+          "expires": "2000-09-30",
+          "targets": []
+        },
+        {
+          "kind": "adopt",
+          "value": "2 EUR per hour",
+          "effective_at": "2000-01-01",
+          "expires": null,
+          "targets": []
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "2 EUR per hour"
+      },
+      "gold": {
+        "value": "2 EUR per hour",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "int-03",
+      "family": "interval_dropped",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "9 EUR per month",
+          "effective_at": "2026-04-01",
+          "expires": "2026-06-30",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "19 EUR per month",
+          "effective_at": "2026-07-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "19 EUR per month"
+      },
+      "gold": {
+        "value": "19 EUR",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "int-04",
+      "family": "interval_dropped",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "free repair warranty",
+          "effective_at": "2025-01-01",
+          "expires": "2027-01-01",
+          "targets": []
+        }
+      ],
+      "resolved": {
+        "status": "expired",
+        "value": null
+      },
+      "gold": {
+        "value": null,
+        "status": "expired"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "era-01",
+      "family": "eras_merged",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "29 EUR",
+          "effective_at": "2026-01-01",
+          "expires": null,
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "39 EUR",
+          "effective_at": "2026-09-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "39 EUR"
+      },
+      "gold": {
+        "value": "39 EUR",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "era-02",
+      "family": "eras_merged",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "85,000 EUR of annual turnover",
+          "effective_at": "2000-01-01",
+          "expires": "2026-06-30",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "100,000 EUR",
+          "effective_at": "2026-07-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "100,000 EUR"
+      },
+      "gold": {
+        "value": "100,000 EUR",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "era-03",
+      "family": "eras_merged",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "open daily from 9:00 to 20:00 during the summer season",
+          "effective_at": "2000-01-01",
+          "expires": "2026-09-30",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "open from 10:00 to 17:00 and closed on Mondays",
+          "effective_at": "2026-10-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "open from 10:00 to 17:00 and closed on Mondays"
+      },
+      "gold": {
+        "value": "10:00 to 17:00, closed on Mondays",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "era-04",
+      "family": "eras_merged",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "5 working days",
+          "effective_at": "2026-01-01",
+          "expires": "2026-07-31",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "3 working days",
+          "effective_at": "2026-08-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "3 working days"
+      },
+      "gold": {
+        "value": "3 working days",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "can-01",
+      "family": "cancelled_kept",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "mandatory three-days-in-office rule for all staff",
+          "effective_at": "2026-03-01",
+          "expires": null,
+          "targets": []
+        },
+        {
+          "kind": "retract",
+          "value": null,
+          "effective_at": "2026-06-15",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "retracted",
+        "value": null
+      },
+      "gold": {
+        "value": null,
+        "status": "retracted"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "can-02",
+      "family": "cancelled_kept",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "kids fly free promotion",
+          "effective_at": "2026-05-02",
+          "expires": null,
+          "targets": []
+        },
+        {
+          "kind": "retract",
+          "value": null,
+          "effective_at": "2026-06-09",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "retracted",
+        "value": null
+      },
+      "gold": {
+        "value": null,
+        "status": "retracted"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "can-03",
+      "family": "cancelled_kept",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "banned",
+          "effective_at": "2026-02-10",
+          "expires": null,
+          "targets": []
+        },
+        {
+          "kind": "retract",
+          "value": null,
+          "effective_at": "2026-07-30",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "retracted",
+        "value": null
+      },
+      "gold": {
+        "value": null,
+        "status": "retracted"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "can-04",
+      "family": "cancelled_kept",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "3,000 EUR",
+          "effective_at": "2026-04-01",
+          "expires": "2026-10-31",
+          "targets": []
+        }
+      ],
+      "resolved": {
+        "status": "expired",
+        "value": null
+      },
+      "gold": {
+        "value": null,
+        "status": "retracted"
+      },
+      "status_ok": false,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "rec-01",
+      "family": "recorded_as_valid",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "published in the official journal",
+          "effective_at": "2026-03-12",
+          "expires": "2026-03-31",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "enters into force",
+          "effective_at": "2026-04-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "published in the official journal"
+      },
+      "gold": {
+        "value": null,
+        "status": "unknown"
+      },
+      "status_ok": false,
+      "value_ok": false,
+      "error": ""
+    },
+    {
+      "id": "rec-02",
+      "family": "recorded_as_valid",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "49 EUR",
+          "effective_at": "2000-01-01",
+          "expires": "2026-09-30",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "59 EUR",
+          "effective_at": "2026-10-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "49 EUR"
+      },
+      "gold": {
+        "value": "49 EUR",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "rec-03",
+      "family": "recorded_as_valid",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "signed by the CEO; economy class is mandatory for flights under six hours",
+          "effective_at": "2026-07-01",
+          "expires": null,
+          "targets": []
+        }
+      ],
+      "resolved": {
+        "status": "unknown",
+        "value": null
+      },
+      "gold": {
+        "value": null,
+        "status": "unknown"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "rec-04",
+      "family": "recorded_as_valid",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "7%",
+          "effective_at": "2027-01-01",
+          "expires": null,
+          "targets": []
+        }
+      ],
+      "resolved": {
+        "status": "unknown",
+        "value": null
+      },
+      "gold": {
+        "value": null,
+        "status": "unknown"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "cur-01",
+      "family": "cursor_ignored",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "11,000 EUR",
+          "effective_at": "2000-01-01",
+          "expires": "2026-12-31",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "12,000 EUR",
+          "effective_at": "2027-01-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "11,000 EUR"
+      },
+      "gold": {
+        "value": "11,000 EUR",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "cur-02",
+      "family": "cursor_ignored",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "12.80 EUR",
+          "effective_at": "2000-01-01",
+          "expires": "2026-12-31",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "13.50 EUR",
+          "effective_at": "2027-01-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "12.80 EUR"
+      },
+      "gold": {
+        "value": "12.80 EUR",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "cur-03",
+      "family": "cursor_ignored",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "50 EUR",
+          "effective_at": "2000-01-01",
+          "expires": "2026-11-30",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "30 EUR",
+          "effective_at": "2026-12-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "50 EUR"
+      },
+      "gold": {
+        "value": "50 EUR",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    },
+    {
+      "id": "cur-04",
+      "family": "cursor_ignored",
+      "events": [
+        {
+          "kind": "adopt",
+          "value": "24 months",
+          "effective_at": "2026-05-01",
+          "expires": "2027-01-31",
+          "targets": []
+        },
+        {
+          "kind": "replace",
+          "value": "12 months",
+          "effective_at": "2027-02-01",
+          "expires": null,
+          "targets": [
+            0
+          ]
+        }
+      ],
+      "resolved": {
+        "status": "active",
+        "value": "24 months"
+      },
+      "gold": {
+        "value": "24 months",
+        "status": "active"
+      },
+      "status_ok": true,
+      "value_ok": true,
+      "error": ""
+    }
+  ]
+}

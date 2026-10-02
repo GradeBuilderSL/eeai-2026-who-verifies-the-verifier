@@ -1,0 +1,537 @@
+{
+  "summary": {
+    "model": "gpt-5.4-mini-2026-03-17",
+    "n": 20,
+    "naive_accepts_false_claim": 12,
+    "anchored_accepts_false_claim": 1,
+    "anchored_rejects": 19,
+    "ctrl_true_claim_supported_on_original": 19,
+    "ctrl_true_claim_on_corrupted": {
+      "unsupported": 17,
+      "uncertain": 3
+    },
+    "by_family": {
+      "cancelled_kept": {
+        "naive_accept": 3,
+        "anchored_reject": 4,
+        "d_flip": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "cursor_ignored": {
+        "naive_accept": 4,
+        "anchored_reject": 4,
+        "d_flip": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "eras_merged": {
+        "naive_accept": 0,
+        "anchored_reject": 4,
+        "d_flip": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "interval_dropped": {
+        "naive_accept": 3,
+        "anchored_reject": 3,
+        "d_flip": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "recorded_as_valid": {
+        "naive_accept": 2,
+        "anchored_reject": 4,
+        "d_flip": [
+          null,
+          null,
+          1,
+          1
+        ]
+      }
+    },
+    "d_flip_distribution": {
+      "1": 5,
+      "None": 14
+    },
+    "d_flip_censored": 14,
+    "critical_span_in_witness": 5,
+    "total_calls": 96
+  },
+  "rows": [
+    {
+      "id": "int-01",
+      "family": "interval_dropped",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": true,
+        "d_flip": 1,
+        "censored_at": null,
+        "n_candidates": 1,
+        "critical_in_witness": true,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "until 31 August 2026"
+            ],
+            "verdict": "supported",
+            "reason": "The evidence states exactly that Nordvik Bikes offers a 20% discount on all city bikes for customers who order online, and that it is applied automatically at c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "int-02",
+      "family": "interval_dropped",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": true,
+        "d_flip": 1,
+        "censored_at": null,
+        "n_candidates": 1,
+        "critical_in_witness": true,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "between 1 June and 30 September"
+            ],
+            "verdict": "supported",
+            "reason": "The evidence explicitly states that parking on Harbour Street is free for residents with a permit, which directly matches the claim. No contrary time limitation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "int-03",
+      "family": "interval_dropped",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "unsupported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "for the first three months"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says new Pro plan subscribers get an introductory price of 9 EUR per month, followed by a regular price of 19 EUR per month afterwards. It does not"
+          }
+        ]
+      }
+    },
+    {
+      "id": "int-04",
+      "family": "interval_dropped",
+      "naive": "supported",
+      "anchored": "supported",
+      "ctrl_c": "uncertain",
+      "ctrl_o": "supported",
+      "dflip": {
+        "skipped": "anchored did not reject"
+      }
+    },
+    {
+      "id": "era-01",
+      "family": "eras_merged",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "on 20 August 2026"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says the Basic tariff fee was 29 EUR from 1 January 2026 until 31 August 2026, and that from 1 September 2026 the monthly fee is 39 EUR. Since toda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "era-02",
+      "family": "eras_merged",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "voluntarily"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says the VAT registration threshold was 85,000 EUR only until 30 June 2026, and that since 1 July 2026 the threshold is 100,000 EUR. Because today "
+          }
+        ]
+      }
+    },
+    {
+      "id": "era-03",
+      "family": "eras_merged",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "until one hour before closing"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says the museum was open daily from 9:00 to 20:00 during the summer season, but from 1 October 2026 it is open from 10:00 to 17:00 and closed on Mo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "era-04",
+      "family": "eras_merged",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "for orders placed before noon"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says standard delivery took 5 working days only in the first half of 2026, but since 1 August 2026 it takes 3 working days. Since today is 2026-09-"
+          }
+        ]
+      }
+    },
+    {
+      "id": "can-01",
+      "family": "cancelled_kept",
+      "naive": "uncertain",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 0,
+        "n_candidates": 0,
+        "critical_in_witness": null,
+        "calls": 0,
+        "trace": []
+      }
+    },
+    {
+      "id": "can-02",
+      "family": "cancelled_kept",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 0,
+        "n_candidates": 0,
+        "critical_in_witness": null,
+        "calls": 0,
+        "trace": []
+      }
+    },
+    {
+      "id": "can-03",
+      "family": "cancelled_kept",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": true,
+        "d_flip": 1,
+        "censored_at": null,
+        "n_candidates": 1,
+        "critical_in_witness": true,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "The ban was annulled by the regional court on 30 July 2026."
+            ],
+            "verdict": "supported",
+            "reason": "The evidence states that a municipal by-law of 10 February 2026 banned short-term rentals in the old town. Since today is 2026-10-01 and no cancellation or late"
+          }
+        ]
+      }
+    },
+    {
+      "id": "can-04",
+      "family": "cancelled_kept",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "uncertain",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 0,
+        "n_candidates": 0,
+        "critical_in_witness": null,
+        "calls": 0,
+        "trace": []
+      }
+    },
+    {
+      "id": "rec-01",
+      "family": "recorded_as_valid",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "producers placing more than 10 tonnes on the market per year"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says the new packaging regulation was published on 2026-03-12 and enters into force on 2026-04-01. Since today is 2026-03-20, it is not yet in forc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-02",
+      "family": "recorded_as_valid",
+      "naive": "uncertain",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "on 1 September"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says the Premium tariff price increase to 59 EUR is effective only for invoices issued from 1 October 2026. The claim is read as a statement about "
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-03",
+      "family": "recorded_as_valid",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "uncertain",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": true,
+        "d_flip": 1,
+        "censored_at": null,
+        "n_candidates": 1,
+        "critical_in_witness": true,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "and applies to trips starting on or after 1 July 2026"
+            ],
+            "verdict": "supported",
+            "reason": "The evidence explicitly states that under the new company travel policy, economy class is mandatory for flights under six hours. The policy was signed on 2 June"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec-04",
+      "family": "recorded_as_valid",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": true,
+        "d_flip": 1,
+        "censored_at": null,
+        "n_candidates": 2,
+        "critical_in_witness": true,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "and takes effect on 1 January 2027"
+            ],
+            "verdict": "supported",
+            "reason": "The evidence says the reduced VAT rate of 7% for restaurant meals was enacted on 2026-11-05, which is before today (2026-12-15). The claim matches that scope an"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cur-01",
+      "family": "cursor_ignored",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "only to residents"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says the tax-free allowance is 12,000 EUR only from 1 January 2027; today is 2026-06-15, when it remains 11,000 EUR. So the claim is not supported "
+          }
+        ]
+      }
+    },
+    {
+      "id": "cur-02",
+      "family": "cursor_ignored",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "under 18"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says the minimum hourly wage is 13.50 EUR only from 1 January 2027, and until then it is 12.80 EUR. Since the question asks about today (2026-09-01"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cur-03",
+      "family": "cursor_ignored",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "not"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says free delivery applies to orders above 30 EUR only from 1 December 2026; until then, including today (2026-10-20), the threshold is 50 EUR. So "
+          }
+        ]
+      }
+    },
+    {
+      "id": "cur-04",
+      "family": "cursor_ignored",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "unsupported",
+      "ctrl_o": "supported",
+      "dflip": {
+        "flipped": false,
+        "d_flip": null,
+        "censored_at": 1,
+        "n_candidates": 1,
+        "critical_in_witness": null,
+        "calls": 1,
+        "trace": [
+          {
+            "deleted": [
+              "older than the retention period"
+            ],
+            "verdict": "unsupported",
+            "reason": "The evidence says customer support logs will be retained for 12 months only under a policy revision effective on 1 February 2027. It also says the current polic"
+          }
+        ]
+      }
+    }
+  ]
+}

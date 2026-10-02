@@ -1,0 +1,9 @@
+Who Verifies the Verifier? — materials for the EEAI 2026 talk.
+Copyright 2026 Yulia Gorshkova.
+
+Code is licensed under the Apache License, Version 2.0 (LICENSE).
+Documents, figures, reports, bibliography and our own seed data are licensed under CC BY 4.0 (LICENSE-CC-BY-4.0).
+data/fr-cases-100-v3.json is derived from fiscal-fr-bench (CC BY 4.0; Légifrance texts under Licence Ouverte /
+Etalab 2.0) — see data/README.md for the required attribution and citation.
+src/project_memory/ is a subset of project-memory-core 0.1.10 (commit 8f554ffe of the private repository),
+included under the Apache License 2.0 for reproducibility.

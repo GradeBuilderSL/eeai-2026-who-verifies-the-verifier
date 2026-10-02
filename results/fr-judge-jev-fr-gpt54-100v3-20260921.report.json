@@ -1,0 +1,83 @@
+{
+ "A_compressed": {
+  "n": 96,
+  "wrong_answers": 19,
+  "jev_accepts_WRONG": 10,
+  "right_answers": 77,
+  "jev_accepts_right": 67,
+  "wrong_answers_the_3_LLM_judges_unanimously_passed": 9,
+  "of_which_jev_rejects": 1,
+  "calibration_bins_P(supported)->[n, n_correct]": {
+   "0.0-0.2": [
+    9,
+    4
+   ],
+   "0.2-0.4": [
+    6,
+    4
+   ],
+   "0.4-0.6": [
+    9,
+    7
+   ],
+   "0.6-0.8": [
+    18,
+    15
+   ],
+   "0.8-1.0": [
+    54,
+    47
+   ]
+  }
+ },
+ "B_current": {
+  "n": 100,
+  "wrong_answers": 97,
+  "jev_accepts_WRONG": 2,
+  "right_answers": 3,
+  "jev_accepts_right": 2,
+  "wrong_answers_the_3_LLM_judges_unanimously_passed": 2,
+  "of_which_jev_rejects": 1,
+  "calibration_bins_P(supported)->[n, n_correct]": {
+   "0.0-0.2": [
+    90,
+    1
+   ],
+   "0.2-0.4": [
+    6,
+    0
+   ],
+   "0.6-0.8": [
+    1,
+    0
+   ],
+   "0.8-1.0": [
+    3,
+    2
+   ]
+  }
+ },
+ "C_gold": {
+  "n": 100,
+  "wrong_answers": 9,
+  "jev_accepts_WRONG": 9,
+  "right_answers": 91,
+  "jev_accepts_right": 91,
+  "wrong_answers_the_3_LLM_judges_unanimously_passed": 5,
+  "of_which_jev_rejects": 0,
+  "calibration_bins_P(supported)->[n, n_correct]": {
+   "0.4-0.6": [
+    2,
+    2
+   ],
+   "0.6-0.8": [
+    8,
+    6
+   ],
+   "0.8-1.0": [
+    90,
+    83
+   ]
+  }
+ }
+}

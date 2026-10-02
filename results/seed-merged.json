@@ -1,0 +1,133 @@
+{
+  "judges": [
+    "mini",
+    "gpt54",
+    "deepseek"
+  ],
+  "n": 20,
+  "by_family": {
+    "cancelled_kept": {
+      "mini": {
+        "naive_accepts_false": 3,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 3,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    },
+    "cursor_ignored": {
+      "mini": {
+        "naive_accepts_false": 4,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 2,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 4,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    },
+    "eras_merged": {
+      "mini": {
+        "naive_accepts_false": 0,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    },
+    "interval_dropped": {
+      "mini": {
+        "naive_accepts_false": 3,
+        "anchored_rejects": 3,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 3,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    },
+    "recorded_as_valid": {
+      "mini": {
+        "naive_accepts_false": 2,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "gpt54": {
+        "naive_accepts_false": 1,
+        "anchored_rejects": 4,
+        "n": 4
+      },
+      "deepseek": {
+        "naive_accepts_false": 2,
+        "anchored_rejects": 4,
+        "n": 4
+      }
+    }
+  },
+  "agreement": {
+    "naive": {
+      "n_unanimous": 9,
+      "unanimous_accept_false_claim": 5,
+      "per_judge_accept": {
+        "mini": 12,
+        "gpt54": 8,
+        "deepseek": 9
+      },
+      "patterns": {
+        "supported|supported|supported": 5,
+        "supported|supported|uncertain": 1,
+        "supported|uncertain|supported": 1,
+        "supported|uncertain|uncertain": 1,
+        "supported|unsupported|supported": 2,
+        "supported|unsupported|uncertain": 1,
+        "supported|unsupported|unsupported": 1,
+        "uncertain|supported|uncertain": 1,
+        "uncertain|unsupported|uncertain": 1,
+        "unsupported|supported|supported": 1,
+        "unsupported|uncertain|uncertain": 1,
+        "unsupported|unsupported|unsupported": 4
+      }
+    },
+    "anchored": {
+      "n_unanimous": 19,
+      "unanimous_accept_false_claim": 0,
+      "per_judge_accept": {
+        "mini": 1,
+        "gpt54": 1,
+        "deepseek": 0
+      },
+      "patterns": {
+        "supported|supported|unsupported": 1,
+        "unsupported|unsupported|unsupported": 19
+      }
+    }
+  }
+}

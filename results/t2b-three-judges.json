@@ -1,0 +1,60 @@
+{
+  "n": 64,
+  "summary": {
+    "n_definitive": 59,
+    "n_unanimous": 43,
+    "p_unanimous": 0.7288135593220338,
+    "p_correct_given_unanimous": 0.9302325581395349,
+    "unanimous_and_wrong": 3,
+    "unanimous_and_wrong_by_gold": {
+      "supported": 3
+    },
+    "p_correct_majority": 0.8813559322033898,
+    "p_correct_per_judge": {
+      "mini": 0.796875,
+      "gpt54": 0.78125,
+      "deepseek": 0.828125
+    },
+    "triples": {
+      "gold=supported|mini=supported|gpt54=supported|deepseek=supported": 16,
+      "gold=supported|mini=supported|gpt54=supported|deepseek=unsupported": 2,
+      "gold=supported|mini=supported|gpt54=unsupported|deepseek=supported": 6,
+      "gold=supported|mini=unsupported|gpt54=unsupported|deepseek=supported": 2,
+      "gold=supported|mini=unsupported|gpt54=unsupported|deepseek=unsupported": 3,
+      "gold=unsupported|mini=supported|gpt54=unsupported|deepseek=supported": 2,
+      "gold=unsupported|mini=supported|gpt54=unsupported|deepseek=unsupported": 3,
+      "gold=unsupported|mini=unsupported|gpt54=unsupported|deepseek=supported": 1,
+      "gold=unsupported|mini=unsupported|gpt54=unsupported|deepseek=unsupported": 24
+    }
+  },
+  "original": {
+    "n_definitive": 61,
+    "n_unanimous": 45,
+    "p_unanimous": 0.7377049180327869,
+    "p_correct_given_unanimous": 0.9333333333333333,
+    "unanimous_and_wrong": 3,
+    "unanimous_and_wrong_by_gold": {
+      "unsupported": 2,
+      "supported": 1
+    },
+    "p_correct_majority": 0.8852459016393442,
+    "p_correct_per_judge": {
+      "mini": 0.78125,
+      "gpt54": 0.859375,
+      "deepseek": 0.796875
+    },
+    "triples": {
+      "gold=supported|mini=supported|gpt54=supported|deepseek=supported": 27,
+      "gold=supported|mini=unsupported|gpt54=supported|deepseek=supported": 1,
+      "gold=supported|mini=unsupported|gpt54=unsupported|deepseek=unsupported": 1,
+      "gold=unsupported|mini=supported|gpt54=supported|deepseek=supported": 2,
+      "gold=unsupported|mini=supported|gpt54=supported|deepseek=unsupported": 1,
+      "gold=unsupported|mini=supported|gpt54=unsupported|deepseek=supported": 2,
+      "gold=unsupported|mini=supported|gpt54=unsupported|deepseek=unsupported": 6,
+      "gold=unsupported|mini=unsupported|gpt54=supported|deepseek=supported": 1,
+      "gold=unsupported|mini=unsupported|gpt54=supported|deepseek=unsupported": 1,
+      "gold=unsupported|mini=unsupported|gpt54=unsupported|deepseek=supported": 4,
+      "gold=unsupported|mini=unsupported|gpt54=unsupported|deepseek=unsupported": 15
+    }
+  }
+}

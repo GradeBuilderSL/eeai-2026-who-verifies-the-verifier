@@ -1,0 +1,53 @@
+{
+ "A_compressed": {
+  "n": 96,
+  "judges": [
+   "mini",
+   "gpt54",
+   "deepseek"
+  ],
+  "unanimous": 65,
+  "unanimous_accept_of_WRONG_answer": 9,
+  "unanimous_accept_of_right_answer": 53,
+  "accepts_per_judge": {
+   "mini": 85,
+   "gpt54": 69,
+   "deepseek": 81
+  },
+  "wrong_answers": 23
+ },
+ "B_current": {
+  "n": 100,
+  "judges": [
+   "mini",
+   "gpt54",
+   "deepseek"
+  ],
+  "unanimous": 44,
+  "unanimous_accept_of_WRONG_answer": 2,
+  "unanimous_accept_of_right_answer": 1,
+  "accepts_per_judge": {
+   "mini": 27,
+   "gpt54": 6,
+   "deepseek": 11
+  },
+  "wrong_answers": 97
+ },
+ "C_gold": {
+  "n": 100,
+  "judges": [
+   "mini",
+   "gpt54",
+   "deepseek"
+  ],
+  "unanimous": 72,
+  "unanimous_accept_of_WRONG_answer": 5,
+  "unanimous_accept_of_right_answer": 67,
+  "accepts_per_judge": {
+   "mini": 100,
+   "gpt54": 75,
+   "deepseek": 97
+  },
+  "wrong_answers": 9
+ }
+}

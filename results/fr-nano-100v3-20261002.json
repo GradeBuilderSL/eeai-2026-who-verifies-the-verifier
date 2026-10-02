@@ -1,0 +1,2337 @@
+{
+ "summary": {
+  "model": "gpt-5.4-nano",
+  "n": 100,
+  "gold_is_current": 1,
+  "A_compressed": {
+   "accuracy": "12/100",
+   "verifier_accepts_wrong": "18/88",
+   "verifier_accepts_right": "12/12",
+   "verifier_verdicts_on_wrong": {
+    "no_evidence": 69,
+    "supported": 18,
+    "unsupported": 1
+   }
+  },
+  "B_current": {
+   "accuracy": "3/100",
+   "verifier_accepts_wrong": "37/97",
+   "verifier_accepts_right": "2/3",
+   "verifier_verdicts_on_wrong": {
+    "supported": 37,
+    "unsupported": 45,
+    "uncertain": 15
+   }
+  },
+  "C_gold": {
+   "accuracy": "91/100",
+   "verifier_accepts_wrong": "9/9",
+   "verifier_accepts_right": "91/91",
+   "verifier_verdicts_on_wrong": {
+    "supported": 9
+   }
+  }
+ },
+ "rows": [
+  {
+   "qid": "R3-WS-156-2011-06-12",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Selon l’article 156, I., 1° (version en vigueur au 12 juin 2011), l’imputation des déficits provenant d’exploitations agricoles n’est pas autorisée lorsque le total des revenus nets d’autres sources excède 127 677 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Conformément à l’article 156, les déficits provenant d’exploitations agricoles ne peuvent pas s’imputer sur le revenu global lorsque le total des revenus nets d’autres sources dépasse 106 225 euros.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-156-2015-06-06",
+   "gold_is_current": false,
+   "compressed_chars": 2404,
+   "compressed_text": "Historique (article 156, impôt sur le revenu) :\n\n1) Versions 2015-06-06 → 2016-01-01 et 2016-01-01 → 2016-06-13 : \nLe revenu imposable est le montant total du revenu net annuel de chaque foyer fiscal, sous déduction notamment du déficit d’une catégorie de revenus. L’excédent de déficit non imputé est reporté sur le revenu global des années suivantes jusqu’à la 6e année incluse. \nImputation non autorisée pour certains déficits : déficits d’exploitations agricoles lorsque le total des revenus nets d’autres sources excède 107 610 €. Montant révisé chaque année comme la limite supérieure de la 1re tranche du barème.\nDéficits BIC sans participation personnelle, continue et directe : imputation possible sur bénéfices de même nature (même année ou 6 années suivantes), hors location de locaux d’habitation meublés loués meublés.\nRègles spécifiques pour déficits fonciers : imputation exclusive sur revenus fonciers des 10 années suivantes (avec exclusions). Limite d’imputation : 10 700 € ; si déduction f du 1° du I de l’article 31, limite portée à 15 300 €. Engagement de location nue résidence principale 6 ans, prise d’effet dans les 12 mois, reconstitution/reprise du revenu foncier et global des 3 années précédentes si non-respect.\nDéficits capitaux mobiliers imputables sur revenus de même nature des 6 années suivantes.\nAutres charges : intérêts d’emprunts antérieurs au 1er novembre 1959, certaines charges alimentaires, et autres déductions listées. Déduction “avantages en nature” personnes > 75 ans plafonnée à 3 403 €.\n\n2) Version 2026-02-21 → en cours :\nSeuil exploitation agricole relevé : revenus nets d’autres sources excédant 127 677 €. \nDéficits fonciers : limite d’imputation maintenue à 10 700 €, avec limite 15 300 € dans le cas de la déduction f du 1° du I de l’article 31, et rehaussement supplémentaire (travaux rénovation énergétique) jusqu’à 21 400 € par an au plus, à concurrence des dépenses permettant de passer d’une classe E, F ou G à A, B, C ou D, au plus tard le 31 décembre 2027 (conditions par décret). Si justificatif de nouveau classement non produit au 31 décembre 2027 : reconstitution du revenu foncier et du revenu global. \nDéduction “avantages en nature” personnes > 75 ans plafonnée à 4 039 €. \nChangements rédactionnels (p. ex. références à 421-40 remplacé par R.* 421-40 ; suppression de I bis ; précisions sur divorce par consentement mutuel via 229-1).",
+   "conds": {
+    "A_compressed": {
+     "answer": "D'après l’article 156 (impôt sur le revenu) dans sa version en vigueur au 6 juin 2015, les déficits d’exploitations agricoles ne sont plus imputables sur le revenu global du foyer lorsque le total des revenus nets d’autres sources excède 107 610 €.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Selon l’article 156 (I, 1°), au-delà de 127 677 € de revenus nets provenant d’autres sources, les déficits provenant d’exploitations agricoles ne sont plus imputables sur le revenu global du foyer. Le texte précise que ce seuil est révisé chaque année.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 156 (version en vigueur au 2015-06-06), l’imputation des déficits provenant d’exploitations agricoles n’est pas autorisée lorsque le total des revenus nets d’autres sources excède **107 610 €**.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-156-2022-05-07",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 156, I, 1° (version en vigueur au 2026-02-21), un déficit provenant d’exploitations agricoles cesse d’être imputable sur le revenu global lorsque le total des revenus nets d’autres sources excède **127 677 €**.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 156, I., 1° du texte en vigueur au 7 mai 2022, l’imputation des déficits provenant d’exploitations agricoles n’est pas autorisée lorsque le total des revenus nets d’autres sources dépasse 113 544 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-158-1997-04-11",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après le texte de l’article 158, paragraphe 5 a, le plafond maximal de l’abattement de 10 % applicable aux pensions et retraites est de 4 399 €.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après le 2e alinéa du 5 a de l’Article 158 (version applicable le 11/04/1997), le plafond de l’abattement de 10 % sur les pensions et retraites pour l’imposition des revenus de 1996 est de 28 000 F.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-261-2017-05-05",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après le texte en vigueur le 5 mai 2017, les opérations lucratives accessoires des organismes sans but lucratif sont exonérées de TVA jusqu’à un montant de 80 011 € de recettes encaissées au cours de l’année civile précédente (article 261, 7°, 1° b).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 261, 7°, b) du texte en vigueur au 5 mai 2017, les opérations lucratives accessoires d’un organisme sans but lucratif sont exonérées de TVA lorsque les recettes encaissées au cours de l’année civile précédente n’ont pas excédé 61 634 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-261-2021-06-12",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 261 (7°, 1° bis b), les opérations lucratives accessoires d’un organisme sans but lucratif sont exonérées de TVA lorsque les recettes encaissées au cours de l’année civile précédente n’ont pas excédé 80 011 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 261, 7°, 1° bis b) du texte en vigueur au 12 juin 2021, les opérations lucratives accessoires d’un organisme sans but lucratif restent exonérées de TVA si les recettes encaissées au cours de l’année civile précédente n’ont pas excédé 72 432 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-261-2016-06-13",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’Article 261, 7° 1° b) du texte en vigueur au 13 juin 2016, les opérations lucratives accessoires d’un organisme sans but lucratif sont exonérées de TVA lorsque ses recettes encaissées au cours de l’année civile précédente n’ont pas excédé 80 011 €. ",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 261 (7°, b) en vigueur au 13 juin 2016, les opérations lucratives accessoires d’un organisme sans but lucratif sont exonérées de TVA si les recettes encaissées afférentes à ces opérations n’ont pas excédé 61 145 € au cours de l’année civile précédente.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-157bis-2016-06-13",
+   "gold_is_current": false,
+   "compressed_chars": 1433,
+   "compressed_text": "Résumé de l’article 157 bis (déduction pour contribuable >65 ans ou invalide) :\n\n- Conditions : être âgé de plus de 65 ans au 31 décembre de l’année d’imposition, ou remplir une des conditions d’invalidité de l’article 195.\n- Déduction du revenu global net (montants selon tranches de revenus) :\n  • 2013-01-01 → 2014-05-30 : -2 312 € si revenu ≤ 14 510 € ; -1 156 € si 14 510 € < revenu ≤ 23 390 €.\n  • 2014-05-30 → 2015-06-06 : -2 332 € si revenu ≤ 14 630 € ; -1 166 € si 14 630 € < revenu ≤ 23 580 €.\n  • 2015-06-06 → 2016-06-13 : -2 344 € si revenu ≤ 14 710 € ; -1 172 € si 14 710 € < revenu ≤ 23 700 €.\n  • 2016-06-13 → 2017-05-05 : -2 348 € si revenu ≤ 14 730 € ; -1 174 € si 14 730 € < revenu ≤ 23 730 €.\n  • 2017-05-05 → 2018-06-23 : -2 352 € si revenu ≤ 14 750 € ; -1 176 € si 14 750 € < revenu ≤ 23 760 €.\n  • 2018-06-23 → 2019-06-08 : -2 376 € si revenu ≤ 14 900 € ; -1 188 € si 14 900 € < revenu ≤ 24 000 €.\n  • 2025-06-19 → en cours : -2 796 € si revenu ≤ 17 510 € ; -1 398 € si 17 510 € < revenu ≤ 28 170 €.\n- Mariage (imposition commune) : la déduction prévue est doublée si les deux époux remplissent les conditions d’âge ou d’invalidité.\n- Actualisation annuelle : abattements et plafonds relevés chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l’impôt sur le revenu.\n- Arrondis : abattements à l’euro supérieur ; plafonds de revenus à la dizaine d’euros supérieure.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après l’article 157 bis tel qu’il ressort du texte en vigueur au 13 juin 2016, l’abattement maximal s’applique si le revenu global net est inférieur ou égal à 14 710 € (tranche « revenu ≤ 14 710 € »).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 157 bis (en vigueur au 13 juin 2016), le contribuable de plus de 65 ans (ou invalide) bénéficie de l’abattement maximal lorsque son revenu global net n’excède pas 17 510 €.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 157 bis, la déduction maximale (2 348 €) bénéficie lorsque le revenu global net n’excède pas 14 730 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-157bis-2005-12-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 157 bis (version en vigueur au 31 décembre 2005), un contribuable de plus de 65 ans (ou invalide) bénéficie de l’abattement maximal lorsque son revenu global net n’excède pas 17 510 €.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 157 bis, dans sa version en vigueur au 31 décembre 2005, l’abattement maximal s’applique si le revenu global net n’excède pas 13 125 euros.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-157bis-2008-04-03",
+   "gold_is_current": false,
+   "compressed_chars": 1362,
+   "compressed_text": "Historique de l’article 157 bis (déduction sur le revenu global net pour les contribuables > 65 ans au 31 décembre de l’année d’imposition ou remplissant une condition d’invalidité de l’article 195). Déduction valable en fonction du revenu : majoration doublée en cas de mariage avec imposition commune si les deux époux remplissent les conditions. Les abattements/plafonds sont relevés chaque année dans la même proportion que la limite supérieure de la 1ère tranche du barème de l’impôt sur le revenu ; arrondi : à l’euro supérieur pour les abattements, à la dizaine d’euros supérieure pour les plafonds.\n- Du 2002-03-31 au 2005-12-31 : 1 590 € si revenu ≤ 9 790 € ; 795 € si revenu entre 9 790 € et 15 820 €.\n- Du 2005-12-31 au 2007-01-01 : 2 132 € si revenu ≤ 13 125 € ; 1 066 € si revenu entre 13 125 € et 21 188 €.\n- Du 2007-01-01 au 2008-04-03 : 2 172 € si revenu ≤ 13 370 € ; 1 086 € si revenu entre 13 370 € et 21 570 €.\n- Du 2008-04-03 au 2009-04-10 : 2 202 € si revenu ≤ 13 550 € ; 1 101 € si revenu entre 13 550 € et 21 860 €.\n- Du 2009-04-10 au 2010-05-01 : 2 266 € si revenu ≤ 13 950 € ; 1 133 € si revenu entre 13 950 € et 22 500 €.\n- Du 2010-05-01 au 2011-06-12 : 2 276 € si revenu ≤ 14 010 € ; 1 138 € si revenu entre 14 010 € et 22 590 €.\n- Du 2025-06-19 à en cours : 2 796 € si revenu ≤ 17 510 € ; 1 398 € si revenu entre 17 510 € et 28 170 €.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après l’historique de l’article 157 bis, au 3 avril 2008 (période « du 2007-01-01 au 2008-04-03 »), l’abattement maximal est accordé si le revenu global net est inférieur ou égal à 13 370 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 157 bis (version en vigueur au 3 avril 2008), un contribuable de plus de 65 ans (ou invalide) bénéficie de l’abattement maximal si son revenu global net n’excède pas 17 510 € (article 157 bis).",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 157 bis (version en vigueur du 2008-04-03 au 2009-04-10), l’abattement maximal (2 202 euros) est accordé si le revenu global net n’excède pas 13 550 euros.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-157bis-2015-06-06",
+   "gold_is_current": false,
+   "compressed_chars": 1246,
+   "compressed_text": "Historique (Article 157 bis) :\n- 2011-06-12 → 2013-01-01 : déduction du revenu global net si >65 ans au 31/12 ou invalidité (art.195) : -2 312 € si revenu ≤ 14 220 € ; -1 156 € si 14 220 € < revenu ≤ 22 930 €. En cas de mariage soumis à imposition commune : déduction doublée si les deux époux remplissent les conditions. Abattements/plafonds relevés chaque année dans la même proportion que la limite supérieure de la 1re tranche du barème IR. Arrondis : abattements à l’euro supérieur ; plafonds à la dizaine d’euros supérieure.\n- 2013-01-01 → 2014-05-30 : -2 312 € si ≤ 14 510 € ; -1 156 € si entre 14 510 € et 23 390 €.\n- 2014-05-30 → 2015-06-06 : -2 332 € si ≤ 14 630 € ; -1 166 € si entre 14 630 € et 23 580 €.\n- 2015-06-06 → 2016-06-13 : -2 344 € si ≤ 14 710 € ; -1 172 € si entre 14 710 € et 23 700 €.\n- 2016-06-13 → 2017-05-05 : -2 348 € si ≤ 14 730 € ; -1 174 € si entre 14 730 € et 23 730 €.\n- 2017-05-05 → 2018-06-23 : -2 352 € si ≤ 14 750 € ; -1 176 € si entre 14 750 € et 23 760 €.\n- 2025-06-19 → en cours : -2 796 € si revenu ≤ 17 510 € ; -1 398 € si entre 17 510 € et 28 170 €. Doubling pour époux remplissant les conditions ; revalorisation annuelle selon la limite supérieure de la 1re tranche du barème IR ; arrondis inchangés.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après l’historique de l’Article 157 bis au 6 juin 2015 (période 2014-05-30 → 2015-06-06), l’abattement maximal de -2 332 € s’applique si le revenu global net est ≤ 14 630 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 157 bis (version en vigueur au 6 juin 2015), l’abattement maximal (2 796 €) est accordé si le revenu global net n’excède pas 17 510 €.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 157 bis (version en vigueur du 06/06/2015 au 13/06/2016), l’abattement maximal de 2 344 € s’applique si le revenu global net n’excède pas 14 710 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-196B-1989-12-30",
+   "gold_is_current": false,
+   "compressed_chars": 1017,
+   "compressed_text": "L’article 196 B prévoit que le contribuable qui accepte le rattachement de personnes désignées à l’article 6-3 (ou au 3 de l’article 6 à partir de la version la plus récente) bénéficie, par personne rattachée, d’une demi-part supplémentaire de quotient familial. Si la personne rattachée est mariée ou a des enfants à charge, l’avantage prend la forme d’un abattement sur le revenu global net du contribuable par personne prise en charge.\n\nMontants d’abattement selon les périodes : du 1986-12-31 au 1987-12-31 : 18.570 F ; du 1987-12-31 au 1988-12-28 : 19.600 F ; du 1988-12-28 au 1990-06-15 : 20.110 F ; du 1989-12-30 au 1990-12-30 : 20.780 F ; du 1990-12-30 au 1991-12-31 : 21.450 F ; du 1991-12-31 au 1993-01-01 : 22.100 F. \n\nÀ partir du 2026-02-21 et en cours, l’abattement est de 6 855 € par personne rattachée. En cas où les enfants de la personne rattachée sont réputés être à la charge égale de l’un et l’autre de leurs parents, l’abattement ouvrant droit au contribuable est égal à la moitié de cette somme.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après l’article 196 B, au 30 décembre 1989, le contribuable bénéficie d’un abattement sur le revenu global net de **20.780 F** par personne rattachée (en l’occurrence, l’enfant majeur marié ou chargé de famille).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Article 196 B : l’avantage prend la forme d’un abattement de 6 855 € sur le revenu global net par personne rattachée lorsque la personne rattachée est mariée (ou a des enfants à charge).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’Article 196 B (version en vigueur du 30 décembre 1989 au 30 décembre 1990), l’avantage fiscal prend la forme d’un abattement de 20.780 F sur le revenu global net par personne rattachée.",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-196B-1991-12-31",
+   "gold_is_current": false,
+   "compressed_chars": 1359,
+   "compressed_text": "Historique de l’article 196 B :\n- Du 1988-12-28 au 1990-06-15 : si le contribuable accepte le rattachement de personnes désignées à l’article 6-3, il bénéficie d’une demi-part supplémentaire de quotient familial par personne. Si la personne rattachée est mariée ou a des enfants à charge, l’avantage prend la forme d’un abattement de 20.110 F sur le revenu global net par personne. (1) Chiffre pour l’imposition des revenus de 1988 ; 19.600 F pour 1987.\n- Du 1989-12-30 au 1990-12-30 : abattement de 20.780 F (revenus 1989). (1) 20.110 F pour 1988.\n- Du 1990-12-30 au 1991-12-31 : abattement de 21.450 F (revenus 1990). (1) 20.780 F pour 1989.\n- Du 1991-12-31 au 1993-01-01 : abattement de 22.100 F (revenus 1991). (1) 21.450 F pour 1990.\n- Du 1993-01-01 au 1994-09-02 : abattement de 22.730 F (revenus 1992).\n- Du 1994-09-02 au 1995-10-27 : abattement de 27.120 F (revenus 1993).\n- Depuis le 2026-02-21 et en cours : si le contribuable accepte le rattachement des personnes désignées au 3 de l’article 6, il bénéficie d’une demi-part supplémentaire par personne. Si la personne rattachée est mariée ou a des enfants à charge, l’avantage est un abattement de 6 855 € sur le revenu global net par personne. Si les enfants sont réputés à la charge égale de chacun de leurs parents, l’abattement ouvrant droit au contribuable est égal à la moitié de cette somme.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 31 décembre 1991 (article 196 B), l’avantage prend la forme d’un abattement de 22.100 F sur le revenu global par personne rattachée.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 196 B, l’avantage fiscal prend la forme d’un abattement de 6 855 € sur le revenu global net par personne rattachée (en l’espèce, l’enfant majeur marié ou chargé de famille).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’Article 196 B (version en vigueur au 31 décembre 1991), l’avantage fiscal prend la forme d’un abattement de 22.100 F sur le revenu global net par personne rattachée.",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-196B-1993-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 1100,
+   "compressed_text": "Historique de l’article 196 B :\n- Du 1989-12-30 au 1990-12-30 : le contribuable acceptant le rattachement des personnes désignées à l’article 6-3 bénéficie d’une demi-part supplémentaire de quotient familial par personne. Si la personne rattachée est mariée ou a des enfants à charge, l’avantage prend la forme d’un abattement de 20.780 F sur le revenu global net par personne (chiffre pour l’imposition des revenus de 1989 ; 20.110 F pour 1988).\n- Du 1990-12-30 au 1991-12-31 : abattement 21.450 F (revenus 1990 ; 20.780 F pour 1989).\n- Du 1991-12-31 au 1993-01-01 : abattement 22.100 F (revenus 1991 ; 21.450 F pour 1990).\n- Du 1993-01-01 au 1994-09-02 : abattement 22.730 F (revenus 1992).\n- Du 1994-09-02 au 1995-10-27 : abattement 27.120 F (revenus 1993).\n- Du 1995-10-27 au 1996-05-12 : abattement 27.500 F (revenus 1994).\n- Du 2026-02-21 à en cours : abattement de 6 855 € par personne rattachée (si mariée ou enfants à charge). Si les enfants de la personne rattachée sont réputés être à la charge égale des deux parents, l’abattement pour le contribuable est égal à la moitié de cette somme.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 1er janvier 1993, d’après l’historique de l’article 196 B, l’avantage prend la forme d’un abattement de 22.730 F par personne rattachée (revenus 1992), lorsque la personne rattachée est mariée ou a des enfants à charge.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 196 B (version en vigueur à la date indiquée), lorsque la personne rattachée est mariée ou a des enfants à charge, l’avantage prend la forme d’un abattement de 6 855 € sur le revenu global net par personne rattachée.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Article 196 B — au 1er janvier 1993, l’avantage fiscal prend la forme d’un abattement de 22.730 F sur le revenu global net par personne rattachée.",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-196B-1994-09-02",
+   "gold_is_current": false,
+   "compressed_chars": 1164,
+   "compressed_text": "L’article 196 B prévoit que le contribuable qui accepte le rattachement de personnes désignées (à l’article 6-3 puis, ensuite, au 3 de l’article 6) bénéficie, par personne rattachée, d’une demi-part supplémentaire de quotient familial. Si la personne rattachée est mariée ou a des enfants à charge, l’avantage prend la forme d’un abattement sur le revenu global net par personne prise en charge, avec montants évoluant selon les périodes : 21.450 F (du 1990-12-30 au 1991-12-31, revenus 1990 ; et 20.780 F pour revenus 1989), 22.100 F (du 1991-12-31 au 1993-01-01, revenus 1991 ; et 21.450 F pour revenus 1990), 22.730 F (du 1993-01-01 au 1994-09-02, revenus 1992), 27.120 F (du 1994-09-02 au 1995-10-27, revenus 1993), 27.500 F (du 1995-10-27 au 1996-05-12, revenus 1994), 27.990 F (du 1996-05-12 au 1997-04-11, revenus 1995). À partir du 2026-02-21 et jusqu’à l’en cours, l’abattement est de 6 855 € sur le revenu global net par personne prise en charge. En outre, lorsque les enfants de la personne rattachée sont réputés être à la charge égale de l’un et l’autre de leurs parents, l’abattement ouvrant droit au contribuable est égal à la moitié de cette somme.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après l’article 196 B, au 2 septembre 1994, le montant de l’abattement sur le revenu global net par personne rattachée est de 22.730 F (période du 1993-01-01 au 1994-09-02, revenus 1992).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Article 196 B : pour une personne rattachée mariée (ou ayant des enfants à charge), l’avantage fiscal prend la forme d’un abattement de 6 855 € sur le revenu global net du contribuable, par personne rattachée.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’Article 196 B (version en vigueur le 02/09/1994), l’avantage fiscal prend la forme d’un abattement de 27.120 F sur le revenu global net par personne rattachée.",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1417-2011-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1417 I du CGI (version en vigueur au 1er janvier 2011), en métropole pour la première part de quotient familial, le revenu fiscal de référence ne doit pas dépasser 12 679 € pour bénéficier des exonérations et dégrèvements concernés.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1417 I du CGI (version en vigueur au 1er janvier 2011), en métropole, le montant du revenu fiscal de référence (pour la première part de quotient familial) ne doit pas excéder 9 876 euros afin de bénéficier des exonérations et dégrèvements.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1417-2000-07-14",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1417 I (version en vigueur), en métropole, le montant des revenus de l’année précédant celle de l’imposition ne doit pas excéder 12 679 € pour la première part de quotient familial afin de bénéficier des exonérations et dégrèvements.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1417 I (version en vigueur au 14 juillet 2000), en métropole, le montant des revenus de 1999 ne doit pas excéder 44 110 F pour la première part de quotient familial afin de bénéficier des exonérations et dégrèvements visés.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-83-1995-10-27",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après le texte de l’article 83 du CGI, la déduction forfaitaire de 10 % pour frais professionnels est plafonnée à 14 426 € pour l’imposition des rémunérations perçues en 2024 (le texte précise que ce plafond est ajusté chaque année pour l’imposition de l’année précédente).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Le montant maximal de la déduction forfaitaire de 10 % pour frais professionnels est fixé à 72.250 F pour l’imposition des revenus de l’année 1993 (Article 83 — version en vigueur du 1995-10-27 au 1997-04-11).",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-83-1990-06-15",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 83 du CGI (version en vigueur au 15 juin 1990), la déduction forfaitaire de 10 % pour frais professionnels est plafonnée à 14 426 € pour l’imposition des rémunérations perçues en 1989.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "L’article 83 du CGI (version en vigueur au 15 juin 1990) prévoit que la déduction forfaitaire de 10 % pour frais professionnels est plafonnée à 64.870 F pour l’imposition des revenus de l’année 1989.",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-200-2009-04-10",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Selon l’article 200, 1 ter, la réduction d’impôt de 75 % s’applique aux versements retenus dans la limite de 2 000 €.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Article 200 (1 ter) : la réduction d’impôt de 75 % s’applique « dans la limite de 495 euros » de versements.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-200-2011-06-12",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Article 200 : pour les versements ouvrant droit à une réduction d'impôt de 75 % au profit d’organismes fournissant gratuitement des repas/soins/logement ou accompagnant des victimes de violence domestique, la réduction s’applique dans la limite de 2 000 € de versements.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 200 (1 ter) en vigueur le 12 juin 2011, la réduction de 75 % s’applique dans la limite de 513 € de versements. Ce montant correspond aux versements effectués au profit d’organismes sans but lucratif mentionnés au 1 ter.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-156-2009-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 156, I., 1°, le déficit provenant d’exploitations agricoles n’est plus imputable sur le revenu global lorsque le total des revenus nets d’autres sources excède 127 677 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 156 (version en vigueur au 2009-01-01), lorsqu’un déficit provenant d’exploitations agricoles n’est imputable que si le total des revenus nets d’autres sources excède 101 300 euros.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-158-2005-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "L’article 158 (5. a) fixe l’abattement de 10 % sur les pensions et retraites, avec un plafond de 4 399 € pour le montant total perçu par l’ensemble du foyer fiscal.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Article 158 (5 a) : l’abattement de 10 % sur les pensions et retraites ne peut excéder 3 160 euros pour l’ensemble du foyer fiscal.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-158-2006-12-30",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "L’article 158 (5 a) fixe, pour les pensions et retraites, un abattement de 10 % plafonné à 4 399 € pour l’ensemble du foyer fiscal.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 158 (version en vigueur au 2006-12-30), l’abattement de 10 % sur les pensions et retraites ne peut pas excéder 3 160 euros pour l’ensemble du foyer fiscal.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-158-2010-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 158, 5°, a, le plafond maximal de l’abattement de 10 % sur les pensions et retraites est de 4 399 € pour l’ensemble du foyer fiscal.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’Article 158, le plafond de l’abattement de 10 % applicable aux pensions et retraites ne peut pas excéder 3 491 euros pour le montant total des pensions et retraites perçues par l’ensemble du foyer fiscal.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1466A-2007-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Dans la limite de 33 637 € de montant de base nette imposable, les créations (ou extensions) d’établissements réalisées jusqu’au 31 décembre 2025 dans un quartier prioritaire de la politique de la ville peuvent bénéficier de l’exonération prévue au I de l’article 1466 A du CGI.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Elles peuvent bénéficier de l’exonération de taxe professionnelle prévue au I de l’article 1466 A dans la limite d’un montant de base nette imposable fixé pour 2005 à 122 863 euros, actualisé chaque année selon la variation des prix.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1466A-2014-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Dans la limite d’un montant de base nette imposable de 33 637 € (article 1466 A, I).",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Dans la limite d'un montant de base nette imposable fixé pour 2013 à 28 071 € (actualisé chaque année), les créations d'établissement en zone urbaine sensible (ZUS) peuvent bénéficier de l'exonération de cotisation foncière des entreprises prévue au I de l'article 1466 A du CGI, dans sa version en v",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1466A-2014-05-30",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Dans la limite d’un montant de base nette imposable de 33 637 €.",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "Dans la limite d’un montant de base nette imposable de **28 408 €** pour 2014, les créations (ou extensions) d’établissements en zones urbaines sensibles (ZUS) peuvent bénéficier de l’exonération de cotisation foncière des entreprises prévue au **I de l’article 1466 A** du CGI (version en vigueur au",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1466A-2019-06-08",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Dans la limite d’un montant de base nette imposable fixé à 33 637 € (article 1466 A, I).",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "Au titre du I de l’article 1466 A, les créations ou extensions d’établissements en quartiers prioritaires peuvent bénéficier de l’exonération de cotisation foncière des entreprises dans la limite d’un montant de base nette imposable fixé pour 2019 à 29 124 € (article 1466 A).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1679A-1999-12-31",
+   "gold_is_current": false,
+   "compressed_chars": 1913,
+   "compressed_text": "Article 1679 A (taxe sur les salaires). Exonération partielle pour certaines structures (associations loi 1901, syndicats et unions visés, mutuelles du code de la mutualité < 30 salariés, puis élargissements), la taxe n’est exigible au titre d’une année que pour la fraction dépassant un seuil.\n\n1993-08-18 → 1995-10-27 : seuil 12.000 F. Porté à 15.000 F (1994), 18.000 F (1995), 20.000 F (1996).\n\n1995-10-27 → 1997-04-11 : seuil 12.000 F. Porté à 15.000 F (1994) et à 20.000 F à partir de 1995.\n\n1997-04-11 → 1999-12-31 : seuil « fixé à 28.000 F pour les rémunérations versées à compter du 1er janvier 1996 », relevé chaque année selon la limite supérieure de la première tranche du barème de l’impôt sur le revenu, arrondi à la dizaine de francs la plus proche.\n\n1999-12-31 → 2000-03-31 : seuil 33.000 F pour les rémunérations à compter du 1er janvier 1996, relevé chaque année dans les mêmes conditions, arrondi à la dizaine de francs.\n\n2000-03-31 → 2001-12-29 : seuil 33.000 F pour les rémunérations à compter du 1er janvier 2000, relevé chaque année, arrondi à la dizaine de francs.\n\n2002-03-31 → 2007-01-01 : seuil 5.185 euros pour les rémunérations à compter du 1er janvier 2002, relevé chaque année, arrondi à l’euro le plus proche.\n\n2025-12-31 → en cours : seuil 24.041 € ; relevé chaque année comme ci-dessus et arrondi à l’euro le plus proche. Sont notamment visées : associations loi 1901, fondations reconnues d’utilité publique, fonds de dotation, centres de lutte contre le cancer (art. L. 6162-1 CSP), syndicats/unions, mutuelles (y compris relevant du livre III avec ≥ 30 salariés), et groupements (art. 239 quater D) exclusivement constitués de personnes morales mentionnées. Clause : la mutuelle qui, entre le 1er janvier 2015 et le 31 décembre 2018, constate un dépassement du seuil d’effectif conserve le bénéfice des dispositions pour l’année du franchissement et les trois années suivantes.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 31 décembre 1999 (article 1679 A du CGI), pour les rémunérations versées à compter du 1er janvier 1996, le seuil d’exigibilité pour la taxe sur les salaires est fixé à 28.000 F, la taxe n’étant exigible que pour la fraction dépassant ce seuil pour les associations régies par la loi du 1er juillet",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1679 A du CGI, pour les associations régies par la loi du 1er juillet 1901 employant moins de trente salariés, la taxe sur les salaires n’est exigible que pour la partie du montant dépassant une somme fixée à 24 041 €.",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "Le montant d’abattement (seuil de non-exigibilité) prévu à l’article 1679 A du CGI est de 33 000 F pour les rémunérations versées à compter du 1er janvier 1996, au titre de l’année, pour les associations régies par la loi du 1er juillet 1901 employant moins de trente salariés.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-168-2002-03-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Selon l’article 168 du CGI, le régime d’imposition forfaitaire s’applique lorsque la somme forfaitaire déterminée à partir des éléments du train de vie est supérieure ou égale à 53 817 €.",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "L’article 168 du CGI s’applique lorsque la somme forfaitaire déterminée à partir des éléments du train de vie est supérieure ou égale à 48 700 euros. Ce seuil est mentionné au 1 de l’article 168 (version en vigueur du 2002-03-31 au 2003-12-31).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-168-2007-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Selon l’article 168 du CGI, le régime d’imposition forfaitaire s’applique lorsque la somme forfaitaire déterminée à partir du train de vie est supérieure ou égale à 53 817 €.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Le régime d’imposition forfaitaire prévu à l’article 168 du CGI s’applique lorsque la somme forfaitaire déterminée à partir des éléments du train de vie est supérieure ou égale à 40 000 euros.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-168-2009-04-10",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 168 du CGI, le régime d’imposition forfaitaire s’applique lorsque la somme forfaitaire déterminée par le barème des éléments du train de vie est supérieure ou égale à **53 817 €**.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "L’article 168 du CGI s’applique à partir d’une somme forfaitaire déterminée par le barème qui est supérieure ou égale à 43 938 euros (version en vigueur au 10 avril 2009).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-168-2010-05-01",
+   "gold_is_current": false,
+   "compressed_chars": 2585,
+   "compressed_text": "L’article 168 prévoit, en cas de disproportion marquée entre le train de vie d’un contribuable et ses revenus, une base d’imposition forfaitaire à l’impôt sur le revenu. Cette base est déterminée en appliquant un barème à certains éléments du train de vie (dont notamment : valeur locative cadastrale de la résidence principale et résidences secondaires, employés de maison/précepteurs/gouvernantes ; véhicules automobiles pour le transport des personnes avec abattement de 50 % après 3 ans d’usage, motocyclettes > 450 cm3 avec abattement de 50 % après 3 ans, yachts/bateaux de plaisance à voiles avec jauge, bateaux de plaisance à moteur fixe/hors-bord d’au moins 20 CV, avions de tourisme, chevaux de course et chevaux de selle, location de droits de chasse et participations, clubs de golf/abonnements). Pour ces éléments, des réductions/neutralisations sont prévues : réduction de moitié pour les employés principalement affectés à l’exercice d’une profession ; non-prise en compte du 1er employé de maison ; abstraction du 2e employé lorsque 4 personnes âgées de 65 ans ou infirmes au moins vivent sous le même toit. Les voitures ont une réduction de moitié pour pensionnés de guerre (grands invalides) et aveugles/grands infirmes civils (carte “invalidité” ou mention “invalidité” sur “mobilité inclusion”), et une réduction de moitié pour un usage principalement professionnel, limitée à 1 véhicule.\nLa base forfaitaire est due lorsque la somme est ≥ seuil variable selon les périodes : 40 000 € (2007-01-01 au 2008-04-03), 42 699 € (2008-04-03 au 2009-04-10), 43 938 € (2009-04-10 au 2010-05-01), 44 111 € (2010-05-01 au 2011-01-22), 44 772 € (2011-06-12 au 2013-06-07), puis 53 817 € (version à partir du 2025-06-19). Le seuil est relevé chaque année dans la même proportion que la limite supérieure de la 1re tranche du barème de l’impôt sur le revenu.\nUne majoration de 50 % s’applique lorsque la somme forfaitaire est ≥ 2 fois la limite du 1 et que le contribuable a disposé de plus de 6 éléments du barème. La disproportion marquée est établie lorsque (somme forfaitaire + majoration) excède d’au moins un tiers le montant du revenu net global déclaré (y compris revenus exonérés ou taxés selon taux proportionnel ou libérés par prélèvement). Le contribuable peut apporter la preuve que ses revenus, l’utilisation de son capital ou ses emprunts lui ont permis d’assurer son train de vie. Le texte mentionne aussi l’arrondi du tonnage (yacht/voile) à l’unité immédiatement inférieure et le quintuplement du barème selon l’absence de convention d’assistance administrative.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 1er mai 2010, le régime d’imposition forfaitaire de l’article 168 du CGI s’applique lorsque le montant total forfaitaire (calculé à partir des éléments du train de vie) est au moins égal à 43 938 € (période du 10/04/2009 au 01/05/2010).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 168 du CGI (version en vigueur au 1er mai 2010), le régime d’imposition forfaitaire s’applique lorsque la somme forfaitaire déterminée par application du barème des éléments du train de vie est supérieure ou égale à **53 817 €**.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "L’article 168 du CGI s’applique lorsque la somme forfaitaire déterminée à partir des éléments du train de vie est supérieure ou égale à 44 111 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-231-2005-12-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’art. 231 du CGI, à la date considérée, le taux marginal atteint sa tranche supérieure pour la fraction des rémunérations individuelles annuelles excédant 18 259 €.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 231 (version en vigueur au 31 décembre 2005), le taux marginal atteint sa tranche supérieure pour la fraction excédant 13 114 euros de rémunérations individuelles annuelles.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-231-2007-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 231 du CGI, le taux marginal atteint sa tranche supérieure à partir de 18 259 € de rémunération individuelle annuelle (fraction excédant 18 259 €).",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 231 du CGI, le taux marginal atteint sa tranche supérieure pour la fraction des rémunérations individuelles annuelles excédant 14 295 euros (taux de 13,60 %).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-231-2007-12-28",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "À partir de 18 259 € de rémunération individuelle annuelle, la taxe sur les salaires passe au taux marginal correspondant à la tranche supérieure (art. 231 du CGI). Ce seuil est celui de la fraction excédant 18 259 €.",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "L’article 231 prévoit que le taux marginal de la taxe sur les salaires atteint sa tranche supérieure pour la fraction excédant 14 295 euros de rémunérations individuelles annuelles.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-231-2019-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’art. 231 du CGI, le taux marginal atteint sa tranche supérieure pour la fraction des rémunérations individuelles annuelles excédant 18 259 € (taux : 13,60 %).",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 231 du CGI, le taux marginal atteint sa tranche supérieure pour la fraction de rémunérations individuelles annuelles excédant 15 572 € (taux de 13,60 %).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1414A-1990-06-15",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte de l’article 1414 A (version en vigueur du 2025-02-16 au en cours) ne fixe aucun seuil ni montant de cotisation de taxe d’habitation au-delà duquel les contribuables non imposables bénéficieraient du dégrèvement (partiel). Il précise seulement les conditions liées à la résidence principale ",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Conformément à l’article 1414 A du CGI (version en vigueur du 15 juin 1990 au 24 juin 1991), le dégrèvement d’office de taxe d’habitation s’applique à concurrence du montant excédant **1 370 F**.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1414A-1991-06-24",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "La question ne fournit aucun montant de cotisation (limite) au titre de 1991 dans le texte de l’article 1414 A reproduit : l’article précise seulement les conditions et le champ des bénéficiaires du dégrèvement, sans mentionner de seuil chiffré. Par conséquent, je ne peux pas déterminer « au-delà de",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 1414 A (version en vigueur au 24 juin 1991), le dégrèvement d’office s’applique à concurrence du montant d’imposition excédant 1.462 F de cotisation de taxe d’habitation au titre de 1991. Il n’est pas effectué de dégrèvement si celui-ci serait inférieur à 30 F.",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1414A-1992-07-04",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni de l’article 1414 A ne fixe aucun seuil ni aucun montant de cotisation de taxe d’habitation : il prévoit un dégrèvement (partiel) pour certaines personnes domiciliées hors de France, sans condition chiffrée relative au montant de cotisation.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D'après l’article 1414 A (version en vigueur au 4 juillet 1992), le dégrèvement d’office s’applique à la taxe d’habitation pour la part de l’imposition qui excède 1.370 F. Il n’est pas effectué lorsque le dégrèvement serait inférieur à 30 F.",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1414A-1997-04-11",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni de l’article 1414 A ne mentionne aucun seuil de montant de cotisation de taxe d’habitation ni de limite chiffrée liée à l’article 1417 : il ne permet donc pas d’indiquer, d’après les seuls éléments fournis, au-delà de quel montant le dégrèvement partiel cesserait.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D'après l’article 1414 A (version en vigueur au 11 avril 1997), le dégrèvement partiel s’applique à concurrence du montant de l’imposition excédant 1.563 F de cotisation de taxe d’habitation.",
+     "correct": false,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-50-0-1991-12-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 50-0 du CGI, le chiffre d’affaires annuel hors taxes ne doit pas excéder 188 700 € (selon la catégorie visée au 1° : commerce principal de vente à emporter/consommer sur place ou fourniture de logement).",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 50-0 du CGI, le chiffre d’affaires annuel hors taxes ne doit pas excéder 70 000 F pour relever du régime des micro-entreprises. La tolérance de la première année de dépassement n’est pas prise en compte dans le seuil demandé.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-50-0-1994-09-02",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 50-0 du CGI (version en vigueur fournie), le chiffre d’affaires annuel hors taxes ne doit pas excéder 188 700 € pour relever du régime des micro-entreprises (catégorie du commerce principal consistant à vendre des marchandises/objets à emporter ou à consommer sur place, ou à fourni",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après le texte en vigueur au 2 septembre 1994, le chiffre d’affaires annuel hors taxes ne doit pas excéder 70 000 F pour relever du régime des micro-entreprises prévu à l’article 50-0 du CGI (hors tolérance applicable en cas de premier dépassement).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-50-0-1996-05-12",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D'après l’article 50-0 du CGI, le chiffre d’affaires annuel hors taxes à ne pas excéder pour relever du régime des micro-entreprises est de 188 700 € pour les entreprises dont le commerce principal est de vendre des marchandises/denrées à emporter ou à consommer sur place ou de fournir le logement (",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D'après le texte en vigueur au 12 mai 1996, le chiffre d'affaires annuel hors taxes ne doit pas excéder 100 000 F pour relever du régime des micro-entreprises prévu à l’article 50-0 CGI, hors tolérance applicable lors de la première année de dépassement.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1647D-2011-06-12",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Pour les redevables dont le chiffre d'affaires ou les recettes hors taxes de la période de référence est supérieur à 32 600 € et inférieur ou égal à 100 000 €, le conseil municipal fixe une base minimum plafonnée à 2 477 € (art. 1647 D du CGI).",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "Pour les redevables dont le chiffre d'affaires ou les recettes hors taxes de la période de référence sont inférieurs à 100 000 €, la base de la cotisation minimum de cotisation foncière des entreprises fixée par le conseil municipal doit être comprise entre 203 € et 2 030 € (plafond : 2 030 €) — art",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1647D-2012-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’art. 1647 D du CGI, pour les redevables dont le chiffre d’affaires ou les recettes hors taxes de la période de référence sont supérieurs à 32 600 € et inférieurs ou égaux à 100 000 €, la base minimum de cotisation foncière des entreprises est fixée « entre 247 et 2 477 » euros ; ainsi, le ",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "Pour les redevables dont le chiffre d'affaires ou les recettes hors taxes de la période de référence est inférieur à 100 000 €, la base de cotisation minimum fixée par le conseil municipal doit être comprise entre 203 € et **2 030 €** (art. 1647 D du CGI).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1647D-2013-06-07",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Pour les redevables dont le chiffre d’affaires ou les recettes hors taxes de la période de référence est inférieur à 100 000 €, le barème de l’art. 1647 D du CGI fixe une base minimum comprise entre 247 € et 2 477 € ; le plafond applicable pour cette tranche est donc 2 477 €. ",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Pour les redevables dont le chiffre d’affaires ou les recettes hors taxes de la période de référence est inférieur à 100 000 €, la base minimum fixée par le conseil municipal doit être comprise entre 210 € et **2 101 €** (plafond : **2 101 €**) à l’article **1647 D** du CGI.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1647D-2013-09-21",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Pour les redevables dont le chiffre d'affaires ou les recettes hors taxes de la période de référence est inférieur à 100 000 €, l’article 1647 D du CGI fixe la base minimum dans la tranche « Supérieur à 32 600 € et inférieur ou égal à 100 000 € » : le plafond de la base d’imposition applicable est d",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Pour les redevables dont le chiffre d’affaires ou les recettes hors taxes de la période de référence est inférieur à 100 000 €, la base de la cotisation minimum fixée par le conseil municipal doit être comprise entre 210 € et **2 101 €** (art. **1647 D** du CGI).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-182A-2023-06-03",
+   "gold_is_current": false,
+   "compressed_chars": 1822,
+   "compressed_text": "L’article 182 A prévoit, pour les traitements, salaires, pensions et rentes viagères de source française versés à des personnes non fiscalement domiciliées en France, une retenue à la source, sauf (I) les salaires relevant de l’article 182 A bis (et, depuis la version « en cours », l’exclusion vise aussi la fraction du gain net imposée selon le IV de l’article 163 bis H).\n\nBase (II) : montant net des sommes versées, selon les règles de l’impôt sur le revenu, hors hypothèses prévoyant la déduction des frais professionnels réels.\n\nCalcul (III) : tarif annuel. Est appliqué au montant excédant un seuil annuel, avec un taux de 12 % jusqu’à un second seuil puis 20 % au-delà :\n- 2020-12-31 à 2022-05-07 : seuil 15 018 € ; 12 % pour la fraction > 15 018 € et ≤ 43 563 € ; 20 % au-delà de 43 563 €.\n- 2022-05-07 à 2023-06-03 : seuil 15 228 € ; 12 % pour > 15 228 € et ≤ 44 172 € ; 20 % au-delà de 44 172 €.\n- 2023-06-03 à 2024-06-02 : seuil 16 050 € ; 12 % pour > 16 050 € et ≤ 46 557 € ; 20 % au-delà de 46 557 €.\n- 2024-06-02 à 2025-06-19 : seuil 16 820 € ; 12 % pour > 16 820 € et ≤ 48 790 € ; 20 % au-delà de 48 790 €.\n- 2025-06-19 à 2026-02-21 : seuil 17 122 € ; 12 % pour > 17 122 € et ≤ 49 667 € ; 20 % au-delà de 49 667 €.\n- 2026-02-21 à « en cours » : même seuil 17 122 € et mêmes bornes/taux (12 % puis 20 %).\n\nOutre-mer : les taux de 12 % et 20 % sont ramenés à 8 % et 14,4 %.\nFréquence de paiement : si paiement trimestriel/mois/semaine/journée, les limites de tranches annuelles du III sont divisées par 4, 12, 52 ou 312.\n\nRévision (IV) : limites des tranches révisées chaque année comme la limite supérieure de la 1re tranche du barème de l’impôt sur le revenu ; arrondi à l’euro le plus proche (0,5 compté pour 1).\nImputation (V) : la retenue s’impute sur l’impôt sur le revenu établi selon l’article 197 A.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Pour l’article 182 A du CGI, d’après le texte en vigueur au 3 juin 2023, le taux passe à 20 % pour la fraction du montant net des sommes versées qui excède 44 172 € (période 2022-05-07 à 2023-06-03).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après le texte en vigueur au 3 juin 2023 (art. 182 A du CGI), le taux de 20 % s’applique à la fraction des sommes soumises à retenue qui excède 49 667 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D'après l’article 182 A du CGI (version en vigueur au 3 juin 2023), le taux de la retenue à la source passe à 20 % pour la fraction des sommes soumises à retenue supérieure à 46 557 € (tandis que 12 % s’applique jusqu’à 46 557 €).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-199sexies-2002-03-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Pour les prêts conclus avant le 1er janvier 1985, les intérêts et dépenses sont limités à un montant annuel de base de 1 372 euros pour le calcul de la réduction d’impôt (article 199 sexies, I, 1° a). Ce montant est ensuite augmenté, le cas échéant, de 229 euros par personne à charge.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Pour l’article 199 sexies du CGI (I-1° a, version en vigueur au 2002-03-31), le montant annuel de base des intérêts et dépenses retenus est limité à 1 372 euros pour les prêts conclus avant le 1er janvier 1985, majoré ensuite selon les personnes à charge.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-199deciesH-2006-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "L’article 199 decies H précise que les dépenses de l’assurance prévues au d du 2 (travaux forestiers au sens du libellé de la question) sont retenues dans la limite de 7,2 € par hectare assuré en 2013, 2014 et 2015 puis de 6 € par hectare assuré de 2016 à 2022, avec en plus une limite globale annuel",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après le 3 bis de l’article 199 decies H, les dépenses de travaux forestiers mentionnées au d du 2 sont retenues dans la limite de 1 250 euros pour une personne célibataire.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-199deciesH-2007-12-28",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 199 decies H, les dépenses visées au d du 2 sont retenues dans la limite de 7,2 € par hectare assuré (pour 2013, 2014 et 2015), et de 6 € par hectare assuré de 2016 à 2022, pour une personne célibataire.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après le 3 bis de l’article 199 decies H, les dépenses de travaux forestiers mentionnées au d du 2 sont retenues dans la limite de 1 250 euros pour une personne célibataire, veuve ou divorcée.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1414B-1990-06-15",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni de l’article 1414 B du CGI ne mentionne aucun « plafond de cotisation d’impôt sur le revenu (année précédente) » ni de seuil conditionnant un dégrèvement partiel de taxe d’habitation.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 1414 B du CGI (version en vigueur au 15 juin 1990), le dégrèvement partiel s’applique lorsque la cotisation d’impôt sur le revenu au titre de l’année précédente n’excède pas 1 550 F.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1586nonies-2014-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1586 nonies du CGI, dans le cas où les établissements bénéficient d’une exonération ou d’un abattement de base nette d’imposition à la CFE en application du I de l’article 1466 A (zones urbaines sensibles), l’exonération ou l’abattement de même taux de la CVAE s’applique dans la li",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1586 nonies du CGI (version en vigueur au 1er janvier 2014), l’exonération ou l’abattement de CVAE en cas d’exonération ou d’abattement de CFE au titre du I de l’article 1466 A s’applique « dans la limite … pour 2012 de 135 380 € et de 367 912 € de valeur ajoutée par établissement ",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1586nonies-2017-05-05",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1586 nonies du CGI (version en vigueur au 5 mai 2017), l’exonération ou l’abattement de CVAE s’applique, dans la limite annuelle de 162 226 € de valeur ajoutée par établissement (pour 2024), lorsqu’il s’agit d’une exonération CFE au titre du I de l’article 1466 A.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1586 nonies du CGI (version en vigueur au 2017-05-05), l’exonération ou l’abattement de CVAE liée à l’exonération ou l’abattement de CFE au titre du I de l’article 1466 A s’applique dans la limite de 137 283 € de valeur ajoutée par établissement (pour 2016) puis actualisée chaque a",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1586nonies-2020-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1586 nonies du CGI, l’exonération ou l’abattement de CVAE en cas d’exonération ou d’abattement de CFE au titre du I de l’article 1466 A s’applique dans la limite annuelle de 162 226 € de valeur ajoutée par établissement (pour 2024).",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1586 nonies du CGI, l’exonération ou l’abattement de CVAE (au titre du I de l’article 1466 A) s’applique, dans la limite annuelle de 140 736 € de valeur ajoutée par établissement pour 2018 (montant actualisé chaque année), pour 2018.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1586nonies-2023-06-03",
+   "gold_is_current": false,
+   "compressed_chars": 2289,
+   "compressed_text": "Résumé de l’article 1586 nonies (versions en vigueur du 2020-12-31 au 2030-01-01) :\n\nI. – Pour les établissements exonérés de cotisation foncière des entreprises (CFE) par délibération d’une commune ou d’un EPCI, la valeur ajoutée (sur demande de l’entreprise) est exonérée de cotisation sur la valeur ajoutée des entreprises (CVAE) pour la fraction taxée au profit de la collectivité concernée. En cas d’exonération partielle de CFE, l’exonération CVAE s’applique dans la même proportion.\n\nII. – Si des établissements peuvent être exonérés de CFE par délibération de la commune/EPCI, les départements peuvent aussi (délibération selon les conditions des articles 1639 A bis, I, ou 1464 C) exonérer leur valeur ajoutée de CVAE pour la fraction taxée à leur profit, sur demande de l’entreprise. Pour les cas visés (articles 1464 A, 1464 F, 1464 G, 1465 et 1466 A, I), la délibération fixe la proportion exonérée.\n\nIII. – Sans délibération contraire, dans le cas où il existe une fiscalité propre, les établissements sont exonérés de CVAE (sur demande de l’entreprise) pour la fraction taxée au profit de la collectivité compétente.\n\nIV. – Abattement : la valeur ajoutée des établissements bénéficiant, au titre de l’article 1466 F, d’un abattement de base nette de CFE fait l’objet, sur demande, d’un abattement de même taux, pour la fraction taxée au profit des collectivités concernées, dans la limite de 2 millions d’euros de valeur ajoutée.\n\nV. – Exonération/abattement liés à l’article 1466 A (même taux, sur demande), dans la limite annuelle par établissement actualisée selon l’indice des prix :\n• 2019 : 142 425 € et 387 059 € ;\n• 2020 : 141 998 € et 385 898 € ;\n• 2021 : 145 974 € et 396 703 € ;\n• 2022 : 154 732 € et 420 505 € ;\n• 2023 : 160 302 € et 435 643 € ;\n• 2024 : 162 226 € et 440 871 €.\n\nVI. – Perte du bénéfice si les conditions CFE ne sont plus réunies ; éventuelle subordination au même règlement communautaire.\n\nVII. – Si une entreprise a plusieurs établissements dans une même commune, la valeur ajoutée imposée est répartie entre eux selon les modalités de l’article 1586 octies, III.\n\nNote : à compter du 2024-01-01, I à III sont abrogés jusqu’au 2024-06-02, seuls IV à VII restant régis dans cette rédaction, puis à nouveau I à III abrogés à partir du 2024-06-02.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après l’article 1586 nonies du CGI (version en vigueur au 3 juin 2023), l’exonération ou l’abattement de CVAE en cas d’exonération ou d’abattement de CFE au titre du I de l’article 1466 A s’applique dans la limite annuelle par établissement de 160 302 € pour la première tranche et de 435 643 € pou",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1586 nonies du CGI (version en vigueur mentionnée), l’exonération ou l’abattement de CVAE en cas d’exonération ou d’abattement de CFE au titre du I de l’article 1466 A s’applique dans la limite de 162 226 € de valeur ajoutée par établissement pour 2024, actualisée chaque année selo",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1586 nonies du CGI (version en vigueur au 3 juin 2023), l’exonération ou l’abattement de CVAE s’applique, dans la limite annuelle de 154 732 € pour 2022 de valeur ajoutée par établissement (montant actualisé chaque année) lorsqu’elle est prévue au titre du I de l’article 1466 A.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1605bis-2020-12-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le plafond est de 5 750 € de revenus annuels pour la première part de quotient familial (France métropolitaine), pour que les enfants majeurs inscrits comme demandeurs d’emploi occupant l’habitation principale avec le redevable ouvrent droit au dégrèvement de la contribution à l’audiovisuel public. ",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Le plafond de ressources annuelles pour la première part de quotient familial (en France métropolitaine) est de 5 671 € pour les enfants majeurs inscrits comme demandeurs d'emploi occupant l’habitation principale avec le redevable (article 1605 bis du CGI).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1605bis-2021-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le plafond de ressources annuelles à ne pas dépasser pour la première part de quotient familial (en France métropolitaine) est de 5 750 € pour les enfants majeurs inscrits comme demandeurs d'emploi occupant l’habitation principale avec le redevable afin d’ouvrir droit au dégrèvement (art. 1605 bis d",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Le plafond de ressources annuelles à ne pas dépasser pour la première part de quotient familial (France métropolitaine) est de 5 671 € pour les enfants majeurs inscrits comme demandeurs d'emploi occupant l’habitation principale avec le redevable, afin d’ouvrir droit au dégrèvement. Article 1605 bis ",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1605bis-2022-05-07",
+   "gold_is_current": true,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le plafond de ressources annuelles à ne pas dépasser est de 5 750 € pour la première part de quotient familial (en France métropolitaine) afin que les enfants majeurs, inscrits comme demandeurs d’emploi, ouvrent droit au dégrèvement de la contribution à l’audiovisuel public (art. 1605 bis du CGI, 2°",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 1605 bis du CGI (version en vigueur au 7 mai 2022), le plafond de ressources annuelles pour les enfants majeurs inscrits comme demandeurs d’emploi est de 5 750 € pour la première part de quotient familial (France métropolitaine), majoré de 1 664 € pour chacune des quatre premières de",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1519A-2002-03-31",
+   "gold_is_current": false,
+   "compressed_chars": 1966,
+   "compressed_text": "L’article institue, au profit des communes, une imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques d’une tension ≥ 200 kilovolts. Montants initiaux : en 1980, 1.000 F pour les pylônes supportant des lignes entre 200 et 350 kilovolts et 2.000 F pour celles > 350 kilovolts, révisés chaque année proportionnellement à la variation du produit de la taxe foncière sur les propriétés bâties au niveau national. Établissement et recouvrement : comme en matière de contributions directes. Déclaration des éléments imposables : avant le 1er janvier de l’année d’imposition. Précision 1981 : 1.200 F (200–350) et 2.400 F (>350) (arrêté du 29 janvier 1981).\nEn 2002 : montants fixés à 1 203 € (200–350) et 2 406 € (>350), avec révision annuelle selon le même mécanisme. Déclaration : avant le 1er janvier. \nEn 2006 (inchangé sur les montants 2002) : perception au profit des communes ; possible perception au profit d’un EPCI à fiscalité propre, sur délibérations concordantes de l’EPCI et de la commune d’implantation, selon les conditions du I de l’article 1639 A bis. \nEn 2007 : montants fixés à 1 575 € (200–350) et 3 150 € (>350), révision annuelle selon le même mécanisme, perception selon les règles communes/EPCI (article 1639 A bis). \nÀ partir du 1er septembre 2026 (version “en cours”) : en 2025, 3 235 € (200–350) et 6 461 € (>350). Perception : au profit des communes sous réserve du premier alinéa du V de l’article 1379-0 bis. Constatation : article L. 161-1 du code des impositions sur les biens et services. Déclaration : liste par département des communes d’implantation, avec nombre de pylônes taxés (200–350 ou >350) et produits total/ net. Paiement : lors du dépôt de la déclaration. Application de l’article L. 180-1. Reversement aux bénéficiaires : avant le 31 décembre de l’année en cours. Régularisations : erreurs/omissions après reversement ajoutées ou soustraites aux montants reversés au titre de la période suivante.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 31 mars 2002, le montant unitaire de l’imposition forfaitaire annuelle (art. 1519 A du CGI) sur les pylônes supportant des lignes électriques de tension supérieure à 350 kilovolts est de 2 406 €.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Le montant unitaire de l’imposition forfaitaire annuelle (art. 1519 A du CGI) pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts est fixé à 6 461 €.",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 1519 A du CGI (version en vigueur au 31 mars 2002), le montant unitaire de l’imposition forfaitaire annuelle pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts est de 2 406 euros.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1519A-2009-04-10",
+   "gold_is_current": false,
+   "compressed_chars": 2172,
+   "compressed_text": "L’article 1519 A institue une imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques d’une tension ≥ 200 kilovolts.\n\nMontants (révisés chaque année par proportion à la variation du produit de la taxe foncière sur les propriétés bâties au niveau national) :\n- 2002 : 1 203 euros (200 à 350 kV) ; 2 406 euros (> 350 kV).\n- 2007 : 1 575 euros (200 à 350 kV) ; 3 150 euros (> 350 kV).\n- 2008 : 1 634 euros (200 à 350 kV) ; 3 268 euros (> 350 kV).\n- 2009 : 1 702 euros (200 à 350 kV) ; 3 404 euros (> 350 kV).\n- 2010 : 1 824 € (200 à 350 kV) ; 3 647 € (> 350 kV).\n- 2025 (version en vigueur à partir du 2026-09-01, en cours) : 3 235 € (200 à 350 kV) ; 6 461 € (> 350 kV).\n\nBénéficiaire :\n- Jusqu’aux versions antérieures à l’introduction de la réserve, l’imposition est perçue au profit des communes, et peut être perçue par un EPCI à fiscalité propre sur délibérations concordantes de l’EPCI et de la commune, dans les conditions prévues au I de l’article 1639 A bis.\n- À partir de la version 2011-01-01 (durant 2011-01-01 à 2011-06-12) et dans la version en cours : sous réserve des dispositions du premier alinéa du V de l’article 1379-0 bis, elle est perçue au profit des communes.\n\nRecouvrement/déclaration :\n- Établie et recouvrée comme en matière de contributions directes ; éléments imposables déclarés avant le 1er janvier de l’année d’imposition (pour les versions 2006-01-01 à 2010-05-01 et 2007/2008/2009/2002).\n- Version en cours : l’imposition est constatée selon les conditions prévues à l’article L. 161-1 du code des impositions sur les biens et services ; la déclaration comporte notamment, par département des communes d’implantation, (a) le nombre de pylônes taxés en distinguant 200 à 350 kV / > 350 kV, et (b) le produit total revenant à chaque commune et département ainsi que le produit net total ; l’imposition est acquittée lors du dépôt de la déclaration. L’article L. 180-1 du même code s’applique. Le reversement aux bénéficiaires intervient avant le 31 décembre de l’année en cours ; les erreurs/omissions régularisées après reversement sont soustraites ou ajoutées aux montants reversés au titre de la période suivante.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 10 avril 2009 (version en vigueur), l’article 1519 A du CGI prévoit un montant unitaire de 3 404 euros par pylône pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Le montant unitaire de l’imposition forfaitaire annuelle (art. 1519 A du CGI) pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts est de 6 461 €.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Le montant unitaire de l’imposition forfaitaire annuelle (art. 1519 A du CGI) pour des pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts est de 3 404 euros en 2009.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1519A-2016-06-13",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le montant unitaire de l’imposition forfaitaire annuelle pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts est de 6 461 € (article 1519 A du CGI).",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 1519 A du CGI (version en vigueur au 13 juin 2016), pour 2016, le montant unitaire de l’imposition forfaitaire annuelle est de 4 504 € pour les pylônes supportant des lignes électriques dont la tension est supérieure à 350 kilovolts.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1519A-2019-06-08",
+   "gold_is_current": false,
+   "compressed_chars": 1685,
+   "compressed_text": "Article 1519 A — imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques d’une tension ≥ 200 kilovolts (montant révisé chaque année proportionnellement à la variation du produit de la taxe foncière sur les propriétés bâties constatée au niveau national ; perçue au profit des communes, sous réserve du 1er alinéa du V de l’article 1379-0 bis ; déclaration électronique ; liste par département des communes d’implantation indiquant notamment le nombre de pylônes taxés (200–350 kV / >350 kV) et le produit total revenant à chaque commune et à chaque département ainsi que le produit net total ; acquittement lors du dépôt ; reversement avant le 31 décembre ; régularisations après reversement soustraites/ajoutées sur la période suivante).\n\nPériodes et montants :\n- 2016-06-13 au 2017-05-05 : en 2016, 2 254 € (200–350 kV) et 4 504 € (>350 kV).\n- 2017-05-05 au 2018-06-23 : en 2017, 2 318 € et 4 631 €.\n- 2018-06-23 au 2019-06-08 : en 2018, 2 368 € et 4 730 €.\n- 2019-06-08 au 2020-07-25 : en 2019, 2 428 € et 4 850 €.\n- 2020-07-25 au 2021-06-12 : en 2020, 2 543 € et 5 080 €.\n- 2021-06-12 au 2022-05-07 : en 2021, 2 601 € et 5 196 €.\n- 2026-09-01 au en cours : en 2025, 3 235 € (200–350 kV) et 6 461 € (>350 kV) ; imposition constatée dans les conditions de l’article L. 161-1 du code des impositions sur les biens et services ; déclaration comporte la liste précitée ; l’article L. 180-1 du même code est applicable. (Antérieurement, la liquidation/redevables TV A : annexe à la déclaration visée à l’article 287 déposée au titre du mois de mars ou du 1er trimestre ; non redevables : dépôt au plus tard le 25 avril auprès du service chargé du recouvrement.)",
+   "conds": {
+    "A_compressed": {
+     "answer": "D'après le texte en vigueur au 8 juin 2019, le montant unitaire de l’imposition forfaitaire annuelle pour des pylônes supportant des lignes électriques de tension supérieure à 350 kilovolts (art. 1519 A du CGI) est de 4 850 € pour l’année 2019.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après le texte en vigueur au 8 juin 2019, le montant unitaire de l’imposition forfaitaire annuelle sur les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts (art. 1519 A du CGI) est fixé à 6 461 € (pour l’année 2025).",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’art. 1519 A du CGI, en vigueur le 8 juin 2019, le montant unitaire de l’imposition forfaitaire annuelle pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts est de 4 850 € en 2019.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1519HA-2017-05-05",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après le texte de l’article 1519 HA du CGI en vigueur le 5 mai 2017, le montant unitaire de l’IFER applicable à un site de stockage souterrain de gaz naturel est de 607 937 € par site.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 1519 HA du CGI, le montant unitaire de l’IFER applicable à un site de stockage souterrain de gaz naturel est de 529 404 € par site.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1519HA-2018-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 1857,
+   "compressed_text": "Article 1519 HA (imposition forfaitaire mentionnée à l’article 1635-0 quinquies). \n\nPérimètre (I) : installations de gaz naturel liquéfié, stockages souterrains de gaz naturel, canalisations de transport de gaz naturel, stations de compression du réseau de transport de gaz naturel, canalisations de transport d’autres hydrocarbures, canalisations de transport de produits chimiques.\n\nExigibilité (II) : due chaque année par l’exploitant au 1er janvier de l’année d’imposition.\n\nMontant (III) :\n- 2015-06-06 au 2016-06-13 : 2 600 010 € (par installation GNL), 505 € (produits chimiques, /km), 520 002 € (stockage souterrain, /site), 521 € (gaz naturel, /km), 104 001 € (station de compression, /station), 521 € (autres hydrocarbures, /km).\n- 2016-06-13 au 2017-05-05 : 2 626 010 €, 510 €, 525 202 €, 526 €, 105 041 €, 526 €.\n- 2017-05-05 au 2018-01-01 : 2 647 018 €, 514 €, 529 404 €, 530 €, 105 881 €, 530 €.\n- 2018-01-01 au 2018-06-23 : mêmes montants que la période précédente : 2 647 018 €, 514 €, 529 404 €, 530 €, 105 881 €, 530 €.\n- 2018-06-23 au 2019-06-08 : 2 673 488 €, 519 €, 534 698 €, 535 €, 106 940 €, 535 €.\n- 2019-06-08 au 2025-06-19 : (non fourni dans l’extrait).\n- 2025-06-19 au en cours : scission GNL : 666 763 € (capacité de stockage ≤ 100 000 mètres cubes) et 3 039 688 € (capacité > 100 000 mètres cubes). Autres montants : 589 € (produits chimiques, /km), 607 937 € (stockage souterrain, /site), 608 € (gaz naturel, /km), 121 587 € (station de compression, /station), 608 € (autres hydrocarbures, /km).\n\nDéclaration et règles (IV) : déclaration au plus tard le deuxième jour ouvré suivant le 1er mai de l’année d’imposition, par commune et par département (ouvrages, installations, nombre de kilomètres). Contrôle, recouvrement, contentieux, garanties, sûretés et privilèges : comme en matière de cotisation foncière des entreprises.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après l’article 1519 HA (CGI), le montant unitaire de l’IFER applicable à un site de stockage souterrain de gaz naturel est de 530 € par site pour la période en vigueur au 1er janvier 2018 (période « 2017-05-05 au 2018-01-01 »).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Selon l’article 1519 HA du CGI, le montant unitaire de l’IFER applicable à un site de stockage souterrain de gaz naturel est de 607 937 € par site.",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1519 HA du CGI (version en vigueur au 1er janvier 2018), le montant unitaire de l’IFER applicable à un site de stockage souterrain de gaz naturel est de 529 404 € par site.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1519HA-2019-06-08",
+   "gold_is_current": false,
+   "compressed_chars": 1984,
+   "compressed_text": "L’article 1519 HA instaure une imposition forfaitaire (référencée à l’article 1635-0 quinquies) due chaque année au 1er janvier par l’exploitant des installations, ouvrages et canalisations. Elle vise : installations de gaz naturel liquéfié, stockages souterrains de gaz naturel, canalisations de transport de gaz naturel, stations de compression du réseau de transport de gaz naturel, canalisations de transport d’autres hydrocarbures et canalisations de transport de produits chimiques. \n\nEntre 2018-01-01 et 2018-06-23, le montant est notamment fixé à 2 647 018 € par installation de gaz naturel liquéfié (au titre des articles L. 445-1 à L. 445-3, L. 446-2 à L. 446-4, L. 452-1 et L. 452-5 du code de l’énergie), 514 € par km de canalisation de produits chimiques, 529 404 € par site de stockage souterrain (L. 421-3-1 à L. 421-12 et L. 421-14), 530 € par km de canalisation de gaz naturel, 105 881 € par station de compression, 530 € par km de canalisation d’autres hydrocarbures. \n\nDe 2018-06-23 à 2019-06-08 : 2 673 488 € ; 519 € ; 534 698 € ; 535 € ; 106 940 € ; 535 €.\nDe 2019-06-08 à 2019-11-10 : 2 708 243 € ; 526 € ; 541 649 € ; 542 € ; 108 330 € ; 542 €.\nDe 2019-11-10 à 2020-01-01 : mêmes montants que précédemment, avec renvoi aux articles L. 452-1 à L. 452-6 du code de l’énergie (et tarification associée).\n\nDe 2020-01-01 à 2020-07-25 : 600 000 € par installation de gaz naturel liquéfié si capacité ≤ 100 000 mètres cubes, 2 708 243 € si capacité > 100 000 mètres cubes ; 526 € ; 541 649 € ; 542 € ; 108 330 € ; 542 €.\n\nDepuis 2025-06-19 : 666 763 € si capacité ≤ 100 000 mètres cubes, 3 039 688 € si capacité > 100 000 mètres cubes ; 589 € ; 607 937 € ; 608 € ; 121 587 € ; 608 €.\n\nDéclaration : au plus tard le deuxième jour ouvré suivant le 1er mai, par commune et par département, du nombre de kilomètres de canalisations exploitées. Contrôle, recouvrement, contentieux, garanties, sûretés et privilèges : comme en matière de cotisation foncière des entreprises.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après le texte en vigueur au 8 juin 2019, l’IFER applicable à un site de stockage souterrain de gaz naturel (article 1519 HA du CGI) est de 535 € par site.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1519 HA du CGI (version en vigueur au 8 juin 2019), le montant unitaire de l’IFER est de 607 937 € par site de stockage souterrain de gaz naturel.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 1519 HA du CGI (version en vigueur le 8 juin 2019), le montant unitaire de l’IFER est fixé à 541 649 € par site de stockage souterrain de gaz naturel.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1519HA-2023-06-03",
+   "gold_is_current": false,
+   "compressed_chars": 1631,
+   "compressed_text": "Article 1519 HA (imposition forfaitaire) : s’applique, pour chaque année, aux installations de gaz naturel liquéfié, stockages souterrains de gaz naturel, canalisations de transport de gaz naturel, stations de compression du réseau de transport de gaz naturel, canalisations de transport d’autres hydrocarbures et canalisations de transport de produits chimiques. La taxe est due par l’exploitant au 1er janvier de l’année d’imposition. Le redevable déclare, au plus tard le 2e jour ouvré suivant le 1er mai, les ouvrages, installations et le nombre de kilomètres de canalisations exploitées par commune et par département ; contrôle, recouvrement, contentieux, garanties, sûretés et privilèges comme en matière de cotisation foncière des entreprises.\n\nMontants par période :\n- du 2020-07-25 au 2021-06-12 : 600 000 € (installation GNL ≤ 100 000 m³) ; 2 735 325 € (installation GNL > 100 000 m³) ; 531 €/km (produits chimiques) ; 547 065 € (site stockage souterrain) ; 547 €/km (gaz naturel) ; 109 413 € (station de compression) ; 547 €/km (autres hydrocarbures).\n- du 2021-06-12 au 2022-05-07 : 603 600 € ; 2 751 737 € ; 534 €/km ; 550 347 € ; 550 €/km ; 110 069 € ; 550 €/km.\n- du 2022-05-07 au 2023-06-03 : 612 654 € ; 2 793 013 € ; 542 €/km ; 558 602 € ; 558 €/km ; 111 720 € ; 558 €/km.\n- du 2023-06-03 au 2024-06-02 : 638 998 € ; 2 913 113 € ; 565 €/km ; 582 622 € ; 582 €/km ; 116 524 € ; 582 €/km.\n- du 2024-06-02 au 2025-06-19 : 654 973 € ; 2 985 941 € ; 579 €/km ; 597 188 € ; 597 €/km ; 119 437 € ; 597 €/km.\n- du 2025-06-19 au en cours : 666 763 € ; 3 039 688 € ; 589 €/km ; 607 937 € ; 608 €/km ; 121 587 € ; 608 €/km.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après l’article 1519 HA du CGI (au 3 juin 2023), le montant unitaire IFER applicable à un site de stockage souterrain de gaz naturel est de 558 602 € (pour la période du 2022-05-07 au 2023-06-03).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1519 HA du CGI (texte en vigueur), le montant unitaire de l’IFER est de 607 937 € par site de stockage souterrain de gaz naturel.",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1519 HA du CGI (version en vigueur au 3 juin 2023), le montant unitaire de l’IFER applicable à un site de stockage souterrain de gaz naturel est de 582 622 € par site.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1587-2002-03-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni pour l’article 1587 ne mentionne, pour le 31 mars 2002, aucun tarif correspondant à des « gisements de pétrole brut mis en exploitation avant le 1er janvier 1992 ». Il n’indique que des tarifs à compter du 1er janvier 2026 (notamment 1 930 € par centaine de tonnes nettes extraites po",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1587 du CGI en vigueur au 31 mars 2002, le tarif est de 715 euros par centaine de tonnes nettes extraites pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1587-2006-12-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni ne donne pas le tarif applicable « au 31 décembre 2006 » pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992 : il ne contient que les tarifs « à compter du 1er janvier 2026 » (notamment 1 930 € par centaine de tonnes nettes extraites pour le pétrole brut)",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1587 du CGI (version en vigueur au 31 décembre 2006), le tarif est de 715 euros par centaine de tonnes nettes extraites pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1587-2011-12-30",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni (version en vigueur du 21 février 2026) ne mentionne pas de tarif « par centaine de tonnes nettes extraites » applicable aux gisements de pétrole brut mis en exploitation avant le 1er janvier 1992 au 30 décembre 2011. Il indique seulement, pour 2026, un tarif de 1 930 euros par centa",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 1587 du CGI (version en vigueur au 30 décembre 2011), le tarif est de **715 € par centaine de tonnes nettes extraites** pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1587-2014-05-30",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni pour l’article 1587 indique, à compter du 1er janvier 2026, un tarif de 1 930 € par centaine de tonnes nettes extraites pour les gisements de pétrole brut, mais il ne donne pas le tarif applicable au 30 mai 2014 pour les gisements de pétrole brut mis en exploitation avant le 1er janv",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1587 du CGI, en vigueur au 30 mai 2014, le tarif est de **1 068 € par centaine de tonnes nettes extraites** pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZG-2020-04-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 302 bis ZG du CGI, le produit du prélèvement est affecté aux communes dans la limite de 12 550 937 € au total pour 15 % du montant, ainsi que dans la limite de 878 568 € par commune ou par ensemble intercommunal concerné.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZG du CGI, l’affectation du produit du prélèvement sur les paris hippiques en ligne aux communes est plafonnée, à concurrence de 15 %, dans la limite de 11 182 394 € au total pour l’ensemble concerné. Le texte prévoit aussi un plafond distinct de 782 768 € par commune ou pa",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZG-2022-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 2039,
+   "compressed_text": "Historique (article 302 bis ZG) :\n\n- Du 2020-04-01 au 2020-07-25 : institution d’un prélèvement sur les sommes engagées pour le pari mutuel (art. 5 loi du 2 juin 1891) et les paris hippiques en ligne (art. 11 loi n° 2010-476 du 12 mai 2010), dû par le Pari mutuel urbain ou les sociétés de courses et par les opérateurs agréés (art. 21 loi n° 2010-476). Affectation : 15 % dans la limite de 11 182 394 € aux communes (V de l’art. L. 5210-1-1 CGCT) ; répartition pour moitié EPCI et pour moitié communes, au prorata : 75 % des enjeux des courses effectivement organisées par les hippodromes et 25 % au prorata du nombre de réunions ; limite 782 768 € par commune ou ensemble intercommunal. Substitution EPCI aux communes pour percevoir, sur délibération (art. 1639 A bis). Indexation annuelle des limites sur l’indice des prix à la consommation hors tabac (prévision PLF).\n\n- 2020-07-25 au 2021-06-12 : même mécanisme, limites mises à jour : 11 294 218 € ; 790 596 €.\n\n- 2021-06-12 au 2022-01-01 : limites : 11 361 983 € ; 795 340 €.\n\n- 2022-01-01 au 2022-05-07 : changement d’assiette : prélèvement sur le produit brut des jeux ; limites : 11 361 983 € ; 795 340 €.\n\n- 2022-05-07 au 2023-06-03 : mêmes règles (produit brut), limites : 11 532 413 € ; 807 270 €.\n\n- 2023-06-03 au 2024-06-02 : limites : 12 028 307 € ; 841 983 €.\n\n- À partir du 2025-08-02 (en cours) : \nI) prélèvement sur le produit brut des jeux, pour les paris hippiques en ligne et le pari mutuel, à l’exception des paris hippiques organisés en la forme mutuelle sur des épreuves hippiques passées. Limite communale/EPCI : 12 550 937 € ; 878 568 € ; affectation selon 75 % enjeux / 25 % nombre de réunions ; indexation annuelle (IPC hors tabac).\nII) création d’un second prélèvement pour le pari mutuel et les paris hippiques en ligne en forme mutuelle sur des épreuves hippiques passées : affectation à concurrence de 15 % dans la limite de 12 550 937 €, répartie selon le nombre de réunions (et limite 878 568 €), substitution EPCI, indexation annuelle (IPC hors tabac).",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 1er janvier 2022 (art. 302 bis ZG du CGI), l’affectation du produit du prélèvement sur les paris hippiques en ligne est versée dans la limite annuelle totale de 11 361 983 €.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Aux termes de l’article 302 bis ZG du CGI, l’affectation du produit du prélèvement aux communes est plafonnée, au total, à 12 550 937 € par an (pour 15 % du produit du prélèvement).",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZG du CGI (version en vigueur au 1er janvier 2022), les communes bénéficient de l’affectation du produit du prélèvement « dans la limite de 11 361 983 € » par an au total. Le texte prévoit aussi un plafond « de 795 340 € par commune ou par ensemble intercommunal concerné ».",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZG-2022-05-07",
+   "gold_is_current": false,
+   "compressed_chars": 1943,
+   "compressed_text": "Historique (Article 302 bis ZG) :\n- 2020-07-25 au 2021-06-12 : prélèvement sur les sommes engagées (pari mutuel par sociétés de courses, et paris hippiques en ligne). Due par le Pari mutuel urbain ou les sociétés de courses (art. 5 loi 2 juin 1891) et par les opérateurs soumis à l’agrément (art. 21 loi n° 2010-476 du 12 mai 2010). Affectation : 15 % aux communes visées au V de l’art. L. 5210-1-1 CGCT, plafonné à 11 294 218 € ; répartition au prorata : 50 % EPCI et 50 % communes, avec 75 % au prorata des enjeux et 25 % au prorata du nombre de réunions ; limite 790 596 € par commune ou ensemble intercommunal. Substitution de l’EPCI aux communes pour la perception (art. 1639 A bis). Indexation annuelle sur la prévision de l’indice des prix à la consommation hors tabac du projet de loi de finances.\n- 2021-06-12 au 2022-01-01 : même mécanisme, plafond porté à 11 361 983 € et limite à 795 340 €.\n- 2022-01-01 au 2022-05-07 : prélèvement sur le produit brut des jeux (au lieu des sommes engagées). Plafond 11 361 983 € et limite 795 340 €.\n- 2022-05-07 au 2023-06-03 : prélèvement sur produit brut des jeux ; plafond 11 532 413 € ; limite 807 270 €.\n- 2023-06-03 au 2024-06-02 : plafond 12 028 307 € ; limite 841 983 €.\n- 2024-06-02 au 2025-03-01 : plafond 12 329 015 € ; limite 863 033 €.\n- 2025-08-02 au en cours :\nI) prélèvement sur produit brut des jeux, pour les paris hippiques en ligne et le pari mutuel, à l’exception des paris hippiques en forme mutuelle sur épreuves hippiques passées. Plafond 12 550 937 € ; limite 878 568 € ; 15 % d’affectation avec mêmes clés 75 %/25 % (enjeux/réunions) et indexation.\nII) prélèvement distinct pour le pari mutuel sur épreuves hippiques passées et les paris hippiques en ligne en forme mutuelle sur épreuves hippiques passées : affectation 15 % plafonnée à 12 550 937 € ; répartition au prorata du nombre de réunions ; limite 878 568 € ; substitution EPCI/communes et indexation identiques.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 7 mai 2022, d’après l’« historique (Article 302 bis ZG) », la part de 15 % affectée aux communes (au titre du prélèvement sur le produit brut des jeux, incluant les paris hippiques en ligne) est plafonnée à 11 361 983 € par an, dans la limite de 795 340 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 302 bis ZG du CGI, dans la limite de 12 550 937 € par an pour l’affectation du produit du prélèvement aux communes (via les modalités de répartition prévues au texte), avec un plafond complémentaire de 878 568 € par commune ou par ensemble intercommunal concerné.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZG du CGI, les communes bénéficient de l’affectation du produit du prélèvement sur les paris hippiques en ligne dans la limite de 11 532 413 € au total par an (pour les communes mentionnées au V de l’article L. 5210-1-1 du CGCT).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZG-2025-03-01",
+   "gold_is_current": false,
+   "compressed_chars": 1731,
+   "compressed_text": "L’article 302 bis ZG institue, pour le pari mutuel et les paris hippiques en ligne relevant des lois des 2 juin 1891 et 12 mai 2010, un prélèvement sur le produit brut des jeux, dû par le Pari mutuel urbain et/ou les sociétés de courses concernées, ainsi que par les opérateurs agréés. Le produit du prélèvement est affecté à 15 %, dans la limite d’un plafond annuel aux communes visées à l’article L. 5210-1-1 V du CGCT, avec répartition pour moitié aux EPCI et pour moitié aux communes accueillant des hippodromes : pour 75 % au prorata des enjeux des courses effectivement organisées par ces hippodromes et pour 25 % au prorata du nombre de réunions ; plafond « par commune ou ensemble intercommunal concerné ». L’EPCI se substitue aux communes membres pour percevoir le produit, sur délibération des communes (art. 1639 A bis). Les limites sont indexées chaque année sur la prévision de l’indice des prix à la consommation hors tabac (projet de loi de finances).\n\nÉvolutions : du 07/05/2022 au 03/06/2023, plafond national 11 532 413 € et plafond local 807 270 € ; du 03/06/2023 au 02/06/2024, plafond national 12 028 307 € et plafond local 841 983 € ; du 02/06/2024 au 01/03/2025, plafond national 12 329 015 € et plafond local 863 033 €. À partir du 01/03/2025, le dispositif distingue (I) les paris non mutuels sur épreuves hippiques passées (exclusion des paris mutuels) et (II) un prélèvement distinct pour le pari mutuel sur épreuves passées et les paris en ligne mutuels sur épreuves passées ; les plafonds restent 12 329 015 € et 863 033 €.\n\nÀ partir du 02/08/2025, les plafonds deviennent 12 550 937 € (national) et 878 568 € (local), pour le (I) et le (II) tels que précisés, selon les mêmes modalités de répartition.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après le texte en vigueur au 1er mars 2025, le plafond annuel total pour l’affectation du produit du prélèvement aux communes (dans la limite du plafond national et du plafond local) est de 12 329 015 € au niveau national et de 863 033 € au niveau local, au titre de l’article 302 bis ZG du CGI.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D'après l’article 302 bis ZG du CGI, l’affectation du produit du prélèvement sur les paris hippiques en ligne aux communes est plafonnée, au total, dans la limite de 12 550 937 € par an.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZG du CGI (version en vigueur au 1er mars 2025), l’affectation du produit du prélèvement aux communes est plafonnée à 12 329 015 € au total par an (et, en outre, à 863 033 € par commune ou ensemble intercommunal).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZI-2013-06-07",
+   "gold_is_current": false,
+   "compressed_chars": 1291,
+   "compressed_text": "Pour les jeux de cercle en ligne organisés et exploités conformément à l’article 14 de la loi n° 2010-476 du 12 mai 2010, il est institué un prélèvement sur les sommes engagées par les joueurs, dû par les personnes opérant ces jeux et soumises à l’agrément de l’article 21 de la loi n° 2010-476 du 12 mai 2010. Le produit du prélèvement est affecté à hauteur de 15 % et, dans la limite du plafond fixé au I de l’article 46 de la loi n° 2011-1977 du 28 décembre 2011 de finances pour 2012, au Centre des monuments nationaux. Il est également affecté, à concurrence de 15 % et dans la limite indexée chaque année sur la prévision de l’indice des prix à la consommation hors tabac retenue dans le projet de loi de finances, à hauteur de 10 150 000 € (2012-01-01 au 2012-03-16 et 2012-03-16 au 2012-05-07 ; 15 %) puis de 10 322 550 € (2012-05-07 au 2013-06-07), 10 503 195 € (2013-06-07 au 2013-12-31 ; 2013-12-31 au 2014-05-30) et 10 639 737 € (2014-05-30 au 2015-06-06) aux communes situées dans le ressort territorial où sont ouverts au public un ou plusieurs établissements visés au premier alinéa de l’article L. 321-1 du code de la sécurité intérieure, au prorata du produit brut des jeux. À partir de la version en vigueur du 2025-06-19 et en cours, ce montant indexé est de 12 550 937 €.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après le texte applicable le 7 juin 2013 (art. 302 bis ZI du CGI), les communes bénéficient d’une affectation « à concurrence de 15 % » plafonnée, pour la période du 7 juin 2013 au 31 décembre 2013 puis au 30 mai 2014, à 10 503 195 € (et au prorata du produit brut des jeux).",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après la version en vigueur au 7 juin 2013 de l’article 302 bis ZI du CGI, l’affectation du produit du prélèvement sur les jeux de cercle en ligne aux communes est versée dans la limite annuelle de 12 550 937 €, ce montant étant indexé chaque année sur la prévision de l’indice des prix à la consom",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZI du CGI (version en vigueur le 7 juin 2013), le produit du prélèvement est affecté aux communes « dans la limite indexée, chaque année, sur la prévision de l'indice des prix à la consommation hors tabac », à hauteur de 10 503 195 € par an.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZI-2015-06-06",
+   "gold_is_current": false,
+   "compressed_chars": 1374,
+   "compressed_text": "Article 302 bis ZI (historique de versions) : pour les jeux de cercle en ligne organisés et exploités selon l’article 14 de la loi n° 2010-476 du 12 mai 2010, il est institué un prélèvement sur les sommes engagées par les joueurs. Il est dû par les personnes devant être soumises, en tant qu’opérateur de jeux de cercle en ligne, à l’agrément prévu à l’article 21 de la loi n° 2010-476 précitée. Le produit du prélèvement est affecté à concurrence de 15 % : (i) dans la limite du plafond fixé au I de l’article 46 de la loi n° 2011-1977 du 28 décembre 2011 de finances pour 2012 au Centre des monuments nationaux ; puis (ii) en outre, dans la limite indexée chaque année sur la prévision de l’indice des prix à la consommation hors tabac retenue dans le projet de loi de finances de l’année, à hauteur de X € aux communes dans le ressort territorial desquelles sont ouverts au public un ou plusieurs établissements visés au premier alinéa de l’article L. 321-1 du code de la sécurité intérieure, au prorata du produit brut des jeux de ces établissements.\n- 2013-06-07 à 2013-12-31 : X = 10 503 195 €.\n- 2013-12-31 à 2014-05-30 : X = 10 503 195 €.\n- 2014-05-30 à 2015-06-06 : X = 10 639 737 €.\n- 2015-06-06 à 2016-06-13 : X = 10 735 495 €.\n- 2016-06-13 à 2017-05-05 : X = 10 842 850 €.\n- 2017-05-05 à 2018-06-23 : X = 10 929 593 €.\n- 2025-06-19 à en cours : X = 12 550 937 €.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 6 juin 2015, le produit du prélèvement est affecté aux communes « à hauteur de X € » dans la limite de X € annuels, avec X = 10 639 737 € pour la période du 30 mai 2014 au 6 juin 2015 (art. 302 bis ZI du CGI).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 302 bis ZI du CGI (version applicable au 6 juin 2015), l’affectation du produit du prélèvement sur les jeux de cercle en ligne est plafonnée à 12 550 937 € par an aux communes, dans la limite indexée chaque année sur la prévision de l’indice des prix à la consommation hors tabac.",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZI du CGI (version en vigueur du 2015-06-06 au 2016-06-13), le produit du prélèvement est affecté aux communes dans la limite annuelle de 10 735 495 €, montant indexé chaque année sur la prévision de l’indice des prix à la consommation hors tabac.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZI-2019-06-08",
+   "gold_is_current": false,
+   "compressed_chars": 1160,
+   "compressed_text": "Historique de l’article 302 bis ZI :\n- Du 2016-06-13 au 2017-05-05 : prélèvement sur les sommes engagées par les joueurs pour les jeux de cercle en ligne (conditions de l’art. 14 de la loi n° 2010-476 du 12 mai 2010). Dû par les opérateurs soumis à l’agrément de l’art. 21 de la loi n° 2010-476. Produit affecté à concurrence de 15 % et dans la limite indexée, chaque année, sur la prévision de l’indice des prix à la consommation hors tabac (projet de loi de finances de l’année) : 10 842 850 € aux communes dans le ressort territorial où sont ouverts au public un ou plusieurs établissements visés à l’art. L. 321-1 du code de la sécurité intérieure, au prorata du produit brut des jeux.\n- Du 2017-05-05 au 2018-06-23 : même mécanisme ; limite portée à 10 929 593 €.\n- Du 2018-06-23 au 2019-06-08 : même mécanisme ; limite portée à 11 038 889 €.\n- Du 2019-06-08 au 2020-07-25 : même mécanisme ; limite portée à 11 182 394 €.\n- Du 2020-07-25 au 2021-06-12 : même mécanisme ; limite portée à 11 294 218 €.\n- Du 2021-06-12 au 2022-05-07 : même mécanisme ; limite portée à 11 361 983 €.\n- Du 2025-06-19 (en cours) : même mécanisme ; limite portée à 12 550 937 €.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 8 juin 2019, d’après l’historique de l’article 302 bis ZI, l’affectation du produit du prélèvement sur les jeux de cercle en ligne aux communes est limitée annuellement à 11 182 394 € (projet de loi de finances de l’année, selon l’indexation).",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 302 bis ZI du CGI (version en vigueur au 8 juin 2019), les communes bénéficient de l’affectation du produit du prélèvement sur les jeux de cercle en ligne dans la limite de 12 550 937 € par an, ce montant étant « dans la limite indexée, chaque année » sur la prévision de l’indice d",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZI du CGI en vigueur le 8 juin 2019, le produit du prélèvement est affecté aux communes dans la limite indexée sur l’indice prévu en loi de finances, à hauteur de 11 182 394 € par an.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZI-2020-07-25",
+   "gold_is_current": false,
+   "compressed_chars": 964,
+   "compressed_text": "Historique de l’article 302 bis ZI : le prélèvement sur les sommes engagées par les joueurs, dû par les opérateurs de jeux de cercle en ligne soumis à l’agrément de l’article 21 de la loi n° 2010-476 du 12 mai 2010, finance les communes. Le produit est affecté à concurrence de 15 % et, dans la limite indexée chaque année sur la prévision de l’indice des prix à la consommation hors tabac figurant dans le projet de loi de finances, réparti aux communes ayant, dans leur ressort, un ou plusieurs établissements visés à l’article L. 321-1 du code de la sécurité intérieure (au prorata du produit brut des jeux). Montants plafonds (selon les périodes) : du 2017-05-05 au 2018-06-23 : 10 929 593 € ; du 2018-06-23 au 2019-06-08 : 11 038 889 € ; du 2019-06-08 au 2020-07-25 : 11 182 394 € ; du 2020-07-25 au 2021-06-12 : 11 294 218 € ; du 2021-06-12 au 2022-05-07 : 11 361 983 € ; du 2022-05-07 au 2023-06-03 : 11 532 413 € ; du 2025-06-19 au en cours : 12 550 937 €.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après le texte en vigueur au 25 juillet 2020 (art. 302 bis ZI du CGI), l’affectation du produit est plafonnée à 11 182 394 € pour la période du 2019-06-08 au 2020-07-25.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Selon l’article 302 bis ZI du CGI (version en vigueur au 25 juillet 2020), le produit du prélèvement sur les jeux de cercle en ligne est affecté aux communes dans la limite annuelle de 12 550 937 € (montant indexé chaque année).",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 302 bis ZI du CGI, le produit du prélèvement est affecté aux communes, dans la limite d’un montant annuel de 11 294 218 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZC-1996-05-12",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni (article 302 bis ZC du CGI, version indiquée) institue une « contribution de solidarité territoriale » exigible le 1er janvier et fixe seulement un taux compris entre 0,1 % et 3 % par arrêté ; il ne mentionne aucun tarif annuel par logement ni de montant applicable au supplément de l",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZC du CGI (version en vigueur du 12 mai 1996 au 11 avril 1997), le tarif annuel par logement est de **2 500 F** pour les logements situés à Paris et dans les communes limitrophes.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZC-1997-04-11",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni (article 302 bis ZC du CGI, version du 30/12/2017 au 01/01/2022) ne mentionne pas de « tarif annuel par logement » ni de montant applicable au supplément de loyer de l’article L. 441-3 du CCH ; il indique seulement qu’un « taux » de la taxe est fixé par arrêté conjoint (compris entre",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Le tarif annuel par logement, pour un logement situé à Paris ou dans une commune limitrophe, est de 2 500 F au titre de l’article 302 bis ZC du CGI (version en vigueur le 11 avril 1997).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-302bisZC-1999-03-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni (article 302 bis ZC du CGI, version en vigueur du 30/12/2017 au 01/01/2022) institue une « contribution de solidarité territoriale » exigible au 1er janvier de chaque année et fixe un taux compris entre 0,1 % et 3 % par arrêté, mais il ne mentionne ni un tarif annuel par logement, ni",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 302 bis ZC du CGI (version en vigueur au 31 mars 1999), le tarif annuel par logement est de 2 500 F pour les logements situés à Paris ou dans une commune limitrophe.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-568-2018-12-31",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni (article 568 du CGI) ne mentionne aucun seuil de chiffre d’affaires annuel sur les livraisons de tabacs manufacturés pour les débits situés en Corse, ni aucune règle de restitution en fonction d’un tel seuil. Il précise seulement le taux (entre 15 % et 30 %), l’exigibilité et les dél",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Pour les débits situés en Corse, le droit de licence est restitué jusqu’à un seuil de chiffre d’affaires annuel sur les livraisons de tabacs manufacturés fixé à 117 977 € (article 568 du CGI). La restitution est réservée aux débitants dont le montant des livraisons de l’année précédente est inférieu",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-568-2019-07-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte de l’article 568 du CGI fourni ne mentionne aucun seuil de chiffre d’affaires annuel (ni aucune condition de restitution) pour les débits situés en Corse : il fixe uniquement le taux (entre 15 % et 30 %), l’exigibilité, et les modalités de liquidation et de paiement du droit de licence. ",
+     "correct": false,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "Pour les débits situés en Corse, la restitution du droit de licence est prévue jusqu’à un seuil de chiffre d’affaires annuel sur les livraisons de tabacs manufacturés fixé à 117 977 € (article 568 du CGI).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-568-2020-01-01",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Le texte fourni pour l’article 568 du CGI ne mentionne aucun seuil de chiffre d’affaires annuel ni de restitution du droit de licence pour les débits situés en Corse (il ne fait état que du taux, du fait générateur, des modalités de liquidation et de paiement).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 568 du CGI, pour les débits situés en Corse, le droit de licence est restitué jusqu’à un seuil de chiffre d’affaires annuel de 117 977 € sur les livraisons de tabacs manufacturés.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-568-2022-05-07",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "Impossible à déterminer à partir des seuls éléments fournis : l’article 568 (CGI) cité ne mentionne aucun seuil de chiffre d’affaires annuel pour la restitution du droit de licence aux débits en Corse.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Le seuil de chiffre d’affaires annuel sur les livraisons de tabacs manufacturés en deçà duquel le droit de licence est restitué pour les débits situés en Corse est fixé à 125 842 € (article 568 du CGI).",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-204H-2021-06-12",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D'après l’article 204 H, II du CGI, le taux de prélèvement à la source prévu à l’article 204 E est nul lorsque le montant des revenus de la dernière année d’imposition connue est inférieur à 28 792 € par part de quotient familial.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 204 H, II du CGI (version en vigueur au 12 juin 2021), le taux de prélèvement à la source prévu à l’article 204 E est nul si le montant des revenus, par part de quotient familial, de la dernière année d’imposition connue est inférieur à 25 654 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-204H-2022-05-07",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 204 H, II du CGI, le taux de prélèvement à la source prévu à l’article 204 E est nul lorsque le montant des revenus est inférieur à 28 792 € par part de quotient familial. ",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D'après l’article 204 H, II du CGI, le taux prévu à l’article 204 E est nul lorsque le montant des revenus, au sens du 1° du IV de l’article 1417, de la dernière année d’imposition connue est inférieur à 25 705 € par part de quotient familial.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-204H-2023-06-03",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 204 H, II du CGI, le taux de prélèvement à la source prévu à l’article 204 E est nul si le montant des revenus est inférieur à 28 792 € par part de quotient familial (au sens du 1° du IV de l’article 1417).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 204 H, II du CGI, le taux prévu à l’article 204 E est nul si le montant des revenus, par part de quotient familial, de la dernière année d’imposition connue est inférieur à 26 065 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-204H-2024-06-02",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 204 H, II du CGI, le taux de prélèvement à la source prévu à l’article 204 E est nul lorsque le montant des revenus de la dernière année d’imposition connue est inférieur à 28 792 € par part de quotient familial.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D'après l’article 204 H, II du CGI, le taux de prélèvement à la source prévu à l’article 204 E est nul lorsque le montant des revenus de la dernière année d’imposition connue est inférieur à 27 473 € par part de quotient familial.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-73-2025-06-19",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "L’article 73 du CGI fixe le plafond à 100 % du bénéfice imposable lorsque ce bénéfice est inférieur à 32 990 €.",
+     "correct": true,
+     "verifier": "unsupported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 73 du CGI, la déduction pour épargne de précaution est plafonnée à 100 % du bénéfice imposable lorsque celui-ci est inférieur à 32 990 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1609C-2010-05-01",
+   "gold_is_current": false,
+   "compressed_chars": 2375,
+   "compressed_text": "Historique de l’article 1609 C (Guadeloupe – taxe spéciale d’équipement au profit de l’agence pour la mise en valeur des espaces urbains de la zone des cinquante pas géométriques, créée par la loi n° 96-1241 du 30 décembre 1996). \n\nDu 2002-03-31 au 2009-05-29 : taxe destinée à financer, en Guadeloupe, les missions de l’article 5 de la loi n° 96-1241. Montant arrêté avant le 31 décembre pour l’année suivante, dans la limite de 1 525 000 euros, par le conseil d’administration, notifié aux services fiscaux. Communes concernées préalablement consultées. Répartition (selon II de l’article 1636 B octies) entre les assujettis (taxes foncières bâties/non bâties, taxe d’habitation, taxe professionnelle) dans les communes dont une partie du territoire est comprise dans la zone de compétence. Exonération de la taxe additionnelle pour certains organismes (à compter de l’incorporation, dans les rôles, des résultats de la révision générale des évaluations cadastrales selon la loi n° 90-669 du 30 juillet 1990) : organismes d’HLM, sociétés d’économie mixte (loi n° 46-860 du 30 avril 1946) et sociétés d’économie mixte locales, pour locaux d’habitation et dépendances attribués sous conditions de ressources ; redevables de taxe d’habitation pour ces locaux exonérés à compter de la même date. Établissement, recouvrement, réclamations comme en matière de contributions directes.\n\n2009-05-29 à 2010-01-01 : plafond porté à 1 700 000 €, plafond évoluant chaque année à compter de 2010 comme la limite supérieure de la première tranche du barème de l’impôt sur le revenu. Répartition/recouvrement selon règles des quatrième à dernier alinéas de l’article 1609 B (sans reprise du régime d’exonération).\n\n2010-01-01 à 2010-05-01 : plafond inchangé (1 700 000 €), évolution comme ci-dessus ; répartition/recouvrement selon article 1609 B.\n\n2010-05-01 à 2011-06-12 : plafond 1 706 681 €, évolution selon même règle.\n\n2011-06-12 à 2014-05-30 : plafond 1 732 245 €, évolution selon même règle.\n\n2014-05-30 à 2015-06-06 : plafond 1 746 189 €, évolution selon même règle.\n\nDepuis 2023-12-31 (en cours) : montant arrêté avant le 31 décembre pour l’année suivante, dans la limite d’un plafond annuel. Communes concernées préalablement consultées. Le produit est déterminé ; répartition et recouvrement dans la zone de compétence selon les quatrième à dernier alinéas de l’article 1609 B.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 1er mai 2010, le montant de la taxe spéciale d’équipement peut être arrêté chaque année dans la limite d’un plafond de 1 700 000 euros (article 1609 C du CGI).",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "L’article 1609 C prévoit que le montant de la taxe spéciale d’équipement est arrêté avant le 31 décembre de chaque année, pour l’année suivante, « dans la limite d’un plafond annuel ». Le texte ne précise pas le montant chiffré de ce plafond.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1609 C du CGI en vigueur au 1er mai 2010, le montant de la taxe spéciale d’équipement est arrêté avant le 31 décembre de chaque année, pour l’année suivante, dans la limite d’un plafond de 1 706 681 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1609C-2011-06-12",
+   "gold_is_current": false,
+   "compressed_chars": 2200,
+   "compressed_text": "L’article 1609 C institue, au profit de l’agence pour la mise en valeur des espaces urbains de la zone des « cinquante pas géométriques » en Guadeloupe (créée par la loi n° 96-1241 du 30 décembre 1996), une taxe spéciale d’équipement destinée à financer, en Guadeloupe, les missions prévues à l’article 5 de cette loi.\n\nLe montant de la taxe est arrêté avant le 31 décembre de chaque année pour l’année suivante, par le conseil d’administration, et notifié aux services fiscaux, dans la limite d’un plafond annuel : 1 700 000 € (2009-05-29 au 2010-01-01 et 2010-01-01 au 2010-05-01). À compter de 2010, ce plafond évolue comme la limite supérieure de la première tranche du barème de l’impôt sur le revenu. Plafonds successifs : 1 706 681 € (2010-05-01 au 2011-06-12), 1 732 245 € (2011-06-12 au 2014-05-30), 1 746 189 € (2014-05-30 au 2015-06-06), 1 754 920 € (2015-06-06 au 2015-12-31).\n\nLes communes concernées sont préalablement consultées par le conseil d’administration. La taxe est répartie et recouvrée dans la zone de compétence selon les règles des 4e à dernier alinéas de l’article 1609 B.\n\nVersion 2009-05-29 à 2010-01-01 uniquement : la répartition est opérée entre les personnes physiques ou morales assujetties aux taxes foncières (bâties et non bâties), à la taxe d’habitation et à la taxe professionnelle, selon les conditions du II de l’article 1636 B octies. Sont exonérés de la taxe additionnelle les organismes d’habitations à loyer modéré, sociétés immobilières d’économie mixte (loi n° 46-860 du 30 avril 1946) et sociétés d’économie mixte locales, pour les locaux d’habitation et dépendances attribués sous conditions de ressources, à compter de l’incorporation dans les rôles des résultats de la révision générale des évaluations cadastrales (loi n° 90-669 du 30 juillet 1990). Les redevables au nom desquels une cotisation de taxe d’habitation est établie pour ces locaux sont exonérés à la même date. Établissement/recouvrement, réclamations et jugement : comme en matière de contributions directes.\n\nVersion 2023-12-31 à en cours : le plafond annuel est indiqué sans montant chiffré ; le produit est déterminé puis la taxe est répartie et recouvrée selon l’article 1609 B.",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après le texte en vigueur au 12 juin 2011, le montant de la taxe spéciale d’équipement (article 1609 C du CGI) est arrêté annuellement dans la limite d’un plafond de 1 732 245 € pour la période du 12 juin 2011.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après le texte de l’article 1609 C, le montant de la taxe spéciale d’équipement est arrêté « dans la limite d’un plafond annuel » avant le 31 décembre de chaque année. Le texte ne précise pas le montant chiffré de ce plafond annuel.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D'après l’article 1609 C (version en vigueur du 12 juin 2011), le montant de la taxe spéciale d’équipement peut être arrêté avant le 31 décembre de chaque année, pour l’année suivante, dans la limite d’un plafond de 1 732 245 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1609C-2014-05-30",
+   "gold_is_current": false,
+   "compressed_chars": 1556,
+   "compressed_text": "L’article 1609 C institue, au profit de l’agence pour la mise en valeur des espaces urbains de la zone dite des cinquante pas géométriques en Guadeloupe (créée par la loi n° 96-1241 du 30 décembre 1996), une taxe spéciale d’équipement destinée à financer, en Guadeloupe, par cet organisme, les missions définies à l’article 5 de ladite loi.\n\nLe montant est arrêté avant le 31 décembre de chaque année, pour l’année suivante, puis notifié aux services fiscaux et, selon les périodes, dans une limite de plafond :\n- 2010-01-01 à 2010-05-01 : plafond de 1 700 000 €.\n- 2010-05-01 à 2011-06-12 : plafond de 1 706 681 €.\n- 2011-06-12 à 2014-05-30 : plafond de 1 732 245 €.\n- 2014-05-30 à 2015-06-06 : plafond de 1 746 189 €.\n- 2015-06-06 à 2015-12-31 : plafond de 1 754 920 €.\n- 2015-12-31 à 2016-06-13 : plafond dans la limite du plafond prévu au I de l’article 46 de la loi n° 2011-1977 du 28 décembre 2011 de finances pour 2012.\n- 2023-12-31 au en cours : plafond annuel (montant arrêté avant le 31 décembre de chaque année, pour l’année suivante, dans la limite d’un plafond annuel).\n\nDans les versions 2010-01-01 à 2015-12-31, le plafond évolue chaque année comme la limite supérieure de la première tranche du barème de l’impôt sur le revenu. Les communes concernées sont préalablement consultées par le conseil d’administration. La taxe est répartie et recouvrée dans la zone de compétence de l’établissement selon les règles prévues aux quatrième à dernier alinéas de l’article 1609 B (le texte “en cours” précise en outre que le produit est déterminé).",
+   "conds": {
+    "A_compressed": {
+     "answer": "D’après le texte en vigueur au 30 mai 2014, le montant de la taxe spéciale d’équipement peut être arrêté, pour l’année suivante, dans la limite du plafond de 1 732 245 € (période du 11 juin 2011 au 30 mai 2014), en application de l’article 1609 C du CGI.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Selon l’article 1609 C du CGI, le montant de la taxe spéciale d’équipement est arrêté avant le 31 décembre de chaque année, pour l’année suivante, dans la limite d’un « plafond annuel » fixé par le conseil d’administration.",
+     "correct": false,
+     "verifier": "uncertain"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 1609 C (version en vigueur au 30 mai 2014), le montant de la taxe spéciale d’équipement est arrêté avant le 31 décembre de chaque année, pour l’année suivante, dans la limite d’un plafond de 1 746 189 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-1609C-2015-06-06",
+   "gold_is_current": false,
+   "compressed_chars": 1877,
+   "compressed_text": "Historique de l’article 1609 C (taxe spéciale d’équipement au profit de l’agence pour la mise en valeur des espaces urbains de la zone des « cinquante pas géométriques » en Guadeloupe, créée par la loi n° 96-1241 du 30 décembre 1996 ; missions de l’article 5 de cette loi). La taxe finance l’exercice en Guadeloupe et le montant est arrêté avant le 31 décembre de chaque année, pour l’année suivante, par le conseil d’administration de l’établissement public et notifié aux services fiscaux ; les communes concernées sont préalablement consultées. La taxe est répartie et recouvrée dans la zone de compétence de l’établissement selon les règles des quatrième à dernier alinéas de l’article 1609 B.\n\nPlafonds/assises (selon les versions) :\n- Du 2010-05-01 au 2011-06-12 : plafond annuel de 1 706 681 € ; évolution chaque année à compter de 2010 comme la limite supérieure de la première tranche du barème de l’impôt sur le revenu.\n- Du 2011-06-12 au 2014-05-30 : plafond de 1 732 245 € ; évolution annuelle comme la limite supérieure de la première tranche du barème de l’impôt sur le revenu.\n- Du 2014-05-30 au 2015-06-06 : plafond de 1 746 189 € ; évolution annuelle comme la limite supérieure de la première tranche du barème de l’impôt sur le revenu.\n- Du 2015-06-06 au 2015-12-31 : plafond de 1 754 920 € ; évolution annuelle comme la limite supérieure de la première tranche du barème de l’impôt sur le revenu.\n- Du 2015-12-31 au 2016-06-13 : plafond dans la limite du plafond prévu au I de l’article 46 de la loi n° 2011-1977 du 28 décembre 2011 de finances pour 2012.\n- Du 2016-06-13 au 2021-01-01 : même référence au plafond du I de l’article 46 de la loi n° 2011-1977 du 28 décembre 2011.\n- Du 2023-12-31 à en cours : plafond annuel fixé « dans la limite d’un plafond annuel » ; le produit est déterminé et la répartition/recouvrement demeurent selon l’article 1609 B.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 6 juin 2015, d’après l’historique fourni, le montant de la taxe spéciale d’équipement destinée à financer les missions de l’organisme mentionné à l’article 1609 C peut être arrêté annuellement dans la limite du plafond de 1 754 920 €.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 1609 C du CGI (en vigueur au 6 juin 2015), le montant de la taxe spéciale d’équipement est arrêté avant le 31 décembre de chaque année « dans la limite d’un plafond annuel ».",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D'après l’article 1609 C (version en vigueur au 6 juin 2015), le montant de la taxe spéciale d’équipement ne peut être arrêté avant le 31 décembre de chaque année (pour l’année suivante) que dans la limite d’un plafond de 1 754 920 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-5-2014-05-30",
+   "gold_is_current": false,
+   "compressed_chars": 1722,
+   "compressed_text": "Historique de l’article 5 (affranchissement de l’impôt sur le revenu) :\n\nDu 2010-05-01 au 2011-06-12 : sont affranchies les personnes dont le revenu global n’excède pas le montant du minimum garanti (art. L. 3231-12 du code du travail) lorsqu’elles bénéficient principalement de traitements, salaires, pensions et rentes viagères ; ainsi que, pour le 2° bis, les contribuables dont le revenu net de frais professionnels n’excède pas 8 310 € (ou 9 080 € si plus de 65 ans) par foyer fiscal ; les limites sont identiques quelle que soit la nature des revenus ; la condition d’âge est réputée remplie si l’un des époux soumis à imposition commune a plus de 65 ans ; les montants sont relevés chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l’impôt sur le revenu et arrondis, s’il y a lieu, à la dizaine d’euros supérieure ; enfin, les ambassadeurs/agents diplomatiques et consuls/agents consulaires de nationalité étrangère, dans la mesure où les États qu’ils représentent concèdent des avantages analogues à ceux accordés aux agents diplomatiques et consulaires français.\n\nDu 2011-06-12 au 2013-01-01 : mêmes dispositions, avec seuils 8 440 € (ou 9 220 € si plus de 65 ans).\n\nDu 2013-01-01 au 2014-05-30 : mêmes dispositions, avec seuils 8 610 € (ou 9 410 € si plus de 65 ans).\n\nDu 2014-05-30 au 2015-01-01 : mêmes dispositions, avec seuils 8 680 € (ou 9 490 € si plus de 65 ans).\n\nÀ partir du 2015-01-01 (en cours) : sont affranchis uniquement les ambassadeurs/agents diplomatiques et consuls/agents consulaires de nationalité étrangère, dans les mêmes conditions de réciprocité ; les rubriques 1° (disposition périmée), 2° (abrogé) et 2° bis (abrogé) ne s’appliquent plus.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 30 mai 2014, d’après l’art. 5, 2° bis du CGI, un contribuable âgé de moins de 65 ans est affranchi de l’impôt sur le revenu si son revenu net de frais professionnels n’excède pas 8 680 € par foyer fiscal.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "Le texte fourni pour l’article 5 indique que le 2° bis est « Abrogé », et ne donne donc aucun montant de revenu net de frais professionnels pour une exonération au 30 mai 2014.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 5, 2° bis du CGI (version en vigueur au 30 mai 2014), un contribuable âgé de moins de soixante-cinq ans est affranchi de l’impôt sur le revenu si son revenu net de frais professionnels n’excède pas, par foyer fiscal, 8 680 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-885H-2010-05-01",
+   "gold_is_current": false,
+   "compressed_chars": 2071,
+   "compressed_text": "L’article 885 H précise, pour l’ISF, que certaines exonérations de droits de mutation par décès (art. 787 B et 787 C, et références à l’art. 793 : selon les versions, « 1 » et « 3° à 7° » ou « 4° à 6° »/« 3° à 7° »/« 3° à 8° », ainsi que art. 795 A et 1135 bis) ne s’appliquent pas à l’impôt de solidarité sur la fortune.\n\nToutefois, des exonérations ISF existent pour des parts et biens agricoles/forestiers répondant à des conditions. Les parts d’un groupement forestier sont exonérées dans la mesure où elles correspondent à des apports constitués par des biens visés. Les biens donnés à bail à long terme (art. L. 416-1 à L. 416-6, L. 416-8 et L. 416-9 du code rural, puis « code rural et de la pêche maritime ») et les biens donnés à bail cessible (art. L. 418-1 à L. 418-5) qui ne sont pas entièrement qualifiés de biens professionnels (art. 885 P) sont exonérés à concurrence de 3/4 si la valeur totale (tous baux confondus) n’excède pas un seuil, et pour moitié au-delà, sous réserve : durée du bail ≥ 18 ans et absence de privation contractuelle des descendants de la faculté de bénéficier de l’art. L. 411-35.\n\nSont aussi exonérées, sous conditions de baux long terme/cessibles conformes au troisième alinéa, les parts de groupements fonciers agricoles et groupements agricoles fonciers (non entièrement qualifiés de biens professionnels, art. 885 Q), correspondant à des apports d’immeubles/droits immobiliers à destination agricole. Exonération à concurrence de 3/4 si la valeur totale des parts détenues n’excède pas le même seuil, et pour moitié au-delà.\n\nSeuils de valeur et dates :\n- 2008-04-03 à 2009-01-01 : seuil 76 000 €.\n- 2009-01-01 à 2010-05-01 : seuil 100 000 €.\n- 2010-05-01 à 2010-05-08 : seuil 100 393 €.\n- 2010-05-08 à 2011-06-12 : seuil 100 393 €.\n- 2011-06-12 à 2014-05-30 : seuil 101 897 €.\n- 2015-01-01 à 2018-01-01 : seuil 101 897 €.\n\nLes montants (3e et 4e alinéas) sont révisés chaque année, dans la même proportion que la limite supérieure de la première tranche du barème de l’impôt sur le revenu, et arrondis à l’euro le plus proche.",
+   "conds": {
+    "A_compressed": {
+     "answer": "Au 1er mai 2010, l’exonération ISF « à concurrence de 3/4 » prévue par l’article 885 H du CGI s’applique si la valeur totale des biens ruraux donnés à bail à long terme (tous baux confondus) n’excède pas 100 393 €.",
+     "correct": true,
+     "verifier": "supported"
+    },
+    "B_current": {
+     "answer": "D’après l’article 885 H du CGI (version en vigueur au 1er mai 2010), l’exonération d’ISF s’applique à concurrence des trois quarts lorsque la valeur totale des biens ruraux donnés à bail à long terme (non qualifiés en totalité de biens professionnels) n’excède pas 101 897 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "D’après l’article 885 H du CGI (version en vigueur au 1er mai 2010), l’exonération d’impôt de solidarité sur la fortune s’applique à concurrence des trois quarts jusqu’à une valeur totale des biens loués n’excédant pas 100 393 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  },
+  {
+   "qid": "R3-WS-885H-2014-05-30",
+   "gold_is_current": false,
+   "compressed_chars": 0,
+   "compressed_text": "",
+   "conds": {
+    "A_compressed": {
+     "answer": null,
+     "correct": false,
+     "verifier": "no_evidence"
+    },
+    "B_current": {
+     "answer": "D’après l’article 885 H du CGI (version en vigueur à la date du 30 mai 2014), l’exonération d’ISF s’applique à concurrence des trois quarts lorsque la valeur totale des biens ruraux donnés à bail à long terme (non qualifiés en totalité de biens professionnels) n’excède pas 101 897 €.",
+     "correct": false,
+     "verifier": "supported"
+    },
+    "C_gold": {
+     "answer": "Selon l’article 885 H du CGI, l’exonération d’impôt de solidarité sur la fortune s’applique à concurrence des trois quarts jusqu’à une valeur totale des biens ruraux donnés à bail à long terme (non qualifiés en totalité de biens professionnels) n’excédant 102 717 €.",
+     "correct": true,
+     "verifier": "supported"
+    }
+   }
+  }
+ ]
+}

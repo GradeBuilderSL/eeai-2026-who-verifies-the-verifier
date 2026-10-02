@@ -1,0 +1,6118 @@
+{
+ "summary": {
+  "model": "gpt-5.4-nano",
+  "n": 100,
+  "accuracy": "67/100",
+  "resolved_active": 68,
+  "unknown": 19,
+  "call_errors": 0,
+  "calls": 590
+ },
+ "rows": [
+  {
+   "qid": "R3-WS-156-2011-06-12",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "106 225 euros",
+     "effective_at": "2011-06-12",
+     "expires": "2012-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "106 225 euros",
+     "effective_at": "2012-01-01",
+     "expires": "2012-05-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "127 677 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "106 225 euros"
+   },
+   "answer": "Article 156 : 106 225 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-156-2015-06-06",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "107 610 €",
+     "effective_at": "2015-06-06",
+     "expires": "2016-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "107 610 €",
+     "effective_at": "2016-01-01",
+     "expires": "2016-06-13",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "127 677 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "107 610 €"
+   },
+   "answer": "Article 156 : 107 610 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-156-2022-05-07",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "113 544 €",
+     "effective_at": "2022-05-07",
+     "expires": "2022-12-03",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "113 544 €",
+     "effective_at": "2022-12-03",
+     "expires": "2023-06-03",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "127 677 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "113 544 €"
+   },
+   "answer": "Article 156 : 113 544 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-158-1997-04-11",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "28 000 F",
+     "effective_at": "1997-04-11",
+     "expires": "1998-04-22",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "28.000 F",
+     "effective_at": "1998-04-22",
+     "expires": "1999-03-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 399 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-261-2017-05-05",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "61 634 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "61 634 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-04-15",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "80 011 €",
+     "effective_at": "2025-06-19",
+     "expires": "2222-02-22",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "61 634 €"
+   },
+   "answer": "Article 261 : 61 634 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-261-2021-06-12",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "72 432 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-05-07",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "73 518 €",
+     "effective_at": "2022-05-07",
+     "expires": "2023-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "80 011 €",
+     "effective_at": "2025-06-19",
+     "expires": "2222-02-22",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "72 432 €"
+   },
+   "answer": "Article 261 : 72 432 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-261-2016-06-13",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "61 145 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-01-29",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "61 145 €",
+     "effective_at": "2017-01-29",
+     "expires": "2017-05-05",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "80 011 €",
+     "effective_at": "2025-06-19",
+     "expires": "2222-02-22",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "61 145 €"
+   },
+   "answer": "Article 261 : 61 145 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-157bis-2016-06-13",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "14 510 €",
+     "effective_at": "2013-01-01",
+     "expires": "2014-05-30",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "14 630 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 710 €",
+     "effective_at": "2015-06-06",
+     "expires": "2016-06-13",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 730 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 750 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-06-23",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 900 €",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "17 510 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "14 730 €"
+   },
+   "answer": "Article 157 bis : 14 730 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-157bis-2005-12-31",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "32.500 F",
+     "effective_at": "1982-01-01",
+     "expires": "1983-10-09",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "32.500 F",
+     "effective_at": "1983-10-09",
+     "expires": "2002-03-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "9 790 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2005-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 125 euros",
+     "effective_at": "2005-12-31",
+     "expires": "2007-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 370 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2008-04-03",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 550 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-04-10",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "17 510 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "13 125 euros"
+   },
+   "answer": "Article 157 bis : 13 125 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-157bis-2008-04-03",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "9 790 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2005-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "13 125 euros",
+     "effective_at": "2005-12-31",
+     "expires": "2007-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 370 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2008-04-03",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 550 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-04-10",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 950 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-05-01",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 010 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-06-12",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "17 510 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "13 550 euros"
+   },
+   "answer": "Article 157 bis : 13 550 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-157bis-2015-06-06",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "14 220 €",
+     "effective_at": "2011-06-12",
+     "expires": "2013-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "14 510 €",
+     "effective_at": "2013-01-01",
+     "expires": "2014-05-30",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 630 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 710 €",
+     "effective_at": "2015-06-06",
+     "expires": "2016-06-13",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 730 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 750 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-06-23",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "17 510 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "14 710 €"
+   },
+   "answer": "Article 157 bis : 14 710 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-196B-1989-12-30",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "18.570 F",
+     "effective_at": "1986-12-31",
+     "expires": "1987-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "19.600 F",
+     "effective_at": "1987-12-31",
+     "expires": "1988-12-28",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "20.110 F",
+     "effective_at": "1988-12-28",
+     "expires": "1990-06-15",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "20.780 F",
+     "effective_at": "1989-12-30",
+     "expires": "1990-12-30",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "20.780 F",
+     "effective_at": "1990-12-30",
+     "expires": "1991-12-31",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "22.100 F",
+     "effective_at": "1991-12-31",
+     "expires": "1993-01-01",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 855 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-196B-1991-12-31",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "20.110 F",
+     "effective_at": "1988-12-28",
+     "expires": "1990-06-15",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "20.780 F",
+     "effective_at": "1989-12-30",
+     "expires": "1990-12-30",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "21.450 F",
+     "effective_at": "1990-12-30",
+     "expires": "1991-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "22.100 F",
+     "effective_at": "1991-12-31",
+     "expires": "1993-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "22.730 F",
+     "effective_at": "1993-01-01",
+     "expires": "1994-09-02",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "27.120 F",
+     "effective_at": "1994-09-02",
+     "expires": "1995-10-27",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 855 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-196B-1993-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "20.780 F",
+     "effective_at": "1989-12-30",
+     "expires": "1990-12-30",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "21.450 F",
+     "effective_at": "1990-12-30",
+     "expires": "1991-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "22.100 F",
+     "effective_at": "1991-12-31",
+     "expires": "1993-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "22.730 F",
+     "effective_at": "1993-01-01",
+     "expires": "1994-09-02",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "27.120 F",
+     "effective_at": "1994-09-02",
+     "expires": "1995-10-27",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "27.500 F",
+     "effective_at": "1995-10-27",
+     "expires": "1996-05-12",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 855 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-196B-1994-09-02",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "21.450 F",
+     "effective_at": "1990-12-30",
+     "expires": "1991-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "22.100 F",
+     "effective_at": "1991-12-31",
+     "expires": "1993-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "22.730 F",
+     "effective_at": "1993-01-01",
+     "expires": "1994-09-02",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "27.120 F",
+     "effective_at": "1994-09-02",
+     "expires": "1995-10-27",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "27.500 F",
+     "effective_at": "1995-10-27",
+     "expires": "1996-05-12",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "27.990 F",
+     "effective_at": "1996-05-12",
+     "expires": "1997-04-11",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 855 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1417-2011-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "9 837 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2009-05-29",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "9 837 euros",
+     "effective_at": "2009-05-29",
+     "expires": "2010-05-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "9 876 euros",
+     "effective_at": "2010-05-01",
+     "expires": "2011-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "9 876 euros",
+     "effective_at": "2011-01-01",
+     "expires": "2011-06-12",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 024 €",
+     "effective_at": "2011-06-12",
+     "expires": "2011-07-31",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 024 €",
+     "effective_at": "2011-07-31",
+     "expires": "2011-12-30",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 679 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "9 876 euros"
+   },
+   "answer": "Article 1417 : 9 876 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1417-2000-07-14",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "102 370 F",
+     "effective_at": "2000-03-31",
+     "expires": "2000-07-14",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "44 110 F",
+     "effective_at": "2000-07-14",
+     "expires": "2000-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "44 110 F",
+     "effective_at": "2001-03-31",
+     "expires": "2001-12-29",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 928 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2002-12-31",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 679 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "44 110 F"
+   },
+   "answer": "Article 1417 : 44 110 F",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-83-1995-10-27",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "72.250 F",
+     "effective_at": "1994-09-02",
+     "expires": "1995-10-27",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "72.250 F",
+     "effective_at": "1995-10-27",
+     "expires": "1997-04-11",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "72.250 F",
+     "effective_at": "1997-04-11",
+     "expires": "1998-04-22",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-83-1990-06-15",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "54.770 F",
+     "effective_at": "1987-12-31",
+     "expires": "1988-12-30",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "54.770 F",
+     "effective_at": "1988-12-30",
+     "expires": "1990-06-15",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "64.870 F",
+     "effective_at": "1990-06-15",
+     "expires": "1990-12-30",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "64.870 F",
+     "effective_at": "1990-12-30",
+     "expires": "1991-06-24",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "64.870 F",
+     "effective_at": "1991-06-24",
+     "expires": "1994-07-16",
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-200-2009-04-10",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "488 euros",
+     "effective_at": "2009-02-19",
+     "expires": "2009-04-10",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "495 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "495 euros",
+     "effective_at": "2010-01-01",
+     "expires": "2010-05-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 000 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "495 euros"
+   },
+   "answer": "Article 200 : 495 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-200-2011-06-12",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "510 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-06-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "513 €",
+     "effective_at": "2011-06-12",
+     "expires": "2012-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "513 €",
+     "effective_at": "2012-01-01",
+     "expires": "2012-05-07",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 000 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "513 €"
+   },
+   "answer": "Article 200 : 513 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-156-2009-01-01",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "101 300 euros",
+     "effective_at": "2009-01-01",
+     "expires": "2009-04-10",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "104 238 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "127 677 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "101 300 euros"
+   },
+   "answer": "Article 156 : 101 300 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-158-2005-01-01",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "3 160 euros",
+     "effective_at": "2003-08-31",
+     "expires": "2005-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "3 160 euros",
+     "effective_at": "2005-01-01",
+     "expires": "2005-07-27",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "3 160 euros",
+     "effective_at": "2005-01-01",
+     "expires": "2004-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 399 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-158-2006-12-30",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "3 160 euros",
+     "effective_at": "2005-07-27",
+     "expires": "2005-08-03",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "3 160 euros",
+     "effective_at": "2005-08-03",
+     "expires": "2006-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "3 160 euros",
+     "effective_at": "2006-12-31",
+     "expires": "2006-12-27",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 399 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-158-2010-01-01",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "3 592 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "3 491 euros",
+     "effective_at": "2010-01-01",
+     "expires": "2010-05-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "3 606 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 399 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "3 491 euros"
+   },
+   "answer": "Article 158 : 3 491 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1466A-2007-01-01",
+   "n_versions": 2,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "122 863 Euros",
+     "effective_at": "2007-01-01",
+     "expires": "2007-12-29",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "33 637 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      0
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "122 863 Euros"
+   },
+   "answer": "Article 1466 A : 122 863 Euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1466A-2014-01-01",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "28 071 €",
+     "effective_at": "2014-01-01",
+     "expires": "2014-05-30",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "28 408 €",
+     "effective_at": "2014-05-30",
+     "expires": "2014-08-10",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "33 637 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "28 071 €"
+   },
+   "answer": "Article 1466 A : 28 071 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1466A-2014-05-30",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "28 408 €",
+     "effective_at": "2014-05-30",
+     "expires": "2014-08-10",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "28 408 €",
+     "effective_at": "2014-08-10",
+     "expires": "2014-12-22",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "33 637 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "28 408 €"
+   },
+   "answer": "Article 1466 A : 28 408 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1466A-2019-06-08",
+   "n_versions": 3,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "29 124 €",
+     "effective_at": "2019-06-08",
+     "expires": "2020-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "29 124 €",
+     "effective_at": "2020-01-01",
+     "expires": "2020-07-25",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "33 637 €",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "29 124 €"
+   },
+   "answer": "Article 1466 A : 29 124 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1679A-1999-12-31",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "12.000 F",
+     "effective_at": "1993-08-18",
+     "expires": "1995-10-27",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "12.000 F",
+     "effective_at": "1995-10-27",
+     "expires": "1997-04-11",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "28 000 F",
+     "effective_at": "1997-04-11",
+     "expires": "1999-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "33 000 F",
+     "effective_at": "1999-12-31",
+     "expires": "2000-03-31",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "33 000 F",
+     "effective_at": "2000-03-31",
+     "expires": "2001-12-29",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "5 185 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2007-01-01",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "24 041 €",
+     "effective_at": "2025-12-31",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-168-2002-03-31",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "287.750 F",
+     "effective_at": "1994-09-02",
+     "expires": "1995-10-27",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "287750 F",
+     "effective_at": "1995-10-27",
+     "expires": "2001-12-29",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "48 700 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2003-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "40 000 euros",
+     "effective_at": "2003-12-31",
+     "expires": "2007-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "40 000 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2008-04-03",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "53 817 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "48 700 euros"
+   },
+   "answer": "Article 168 : 48 700 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-168-2007-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "287750 F",
+     "effective_at": "1995-10-27",
+     "expires": "2001-12-29",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "48 700 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2003-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "40 000 euros",
+     "effective_at": "2003-12-31",
+     "expires": "2007-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "40 000 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2008-04-03",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "42 699 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-04-10",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "43 938 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-05-01",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "53 817 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "40 000 euros"
+   },
+   "answer": "Article 168 : 40 000 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-168-2009-04-10",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "40 000 euros",
+     "effective_at": "2003-12-31",
+     "expires": "2007-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "40 000 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2008-04-03",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "42 699 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-04-10",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "43 938 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-05-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "44 111 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-01-22",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "44 111 €",
+     "effective_at": "2011-01-22",
+     "expires": "2011-06-12",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "53 817 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "43 938 euros"
+   },
+   "answer": "Article 168 : 43 938 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-168-2010-05-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "40 000 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2008-04-03",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "42 699 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-04-10",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "43 938 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-05-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "44 111 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-01-22",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "44 111 €",
+     "effective_at": "2011-01-22",
+     "expires": "2011-06-12",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "44 772 €",
+     "effective_at": "2011-06-12",
+     "expires": "2013-06-07",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "53 817 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "44 111 €"
+   },
+   "answer": "Article 168 : 44 111 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-231-2005-12-31",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "65.600 F",
+     "effective_at": "1994-09-02",
+     "expires": "2000-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "65 600 F",
+     "effective_at": "2001-03-31",
+     "expires": "2001-12-29",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 114 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2005-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 114 euros",
+     "effective_at": "2005-12-31",
+     "expires": "2006-12-31",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 295 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2007-12-28",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 295 euros",
+     "effective_at": "2007-12-28",
+     "expires": "2008-04-03",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "18 259 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "13 114 euros"
+   },
+   "answer": "Article 231 : 13 114 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-231-2007-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "65 600 F",
+     "effective_at": "2001-03-31",
+     "expires": "2001-12-29",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "13 114 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2005-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "13 114 euros",
+     "effective_at": "2005-12-31",
+     "expires": "2006-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 295 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2007-12-28",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 295 euros",
+     "effective_at": "2007-12-28",
+     "expires": "2008-04-03",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 481 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-04-10",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "18 259 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "14 295 euros"
+   },
+   "answer": "Article 231 : 14 295 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-231-2007-12-28",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "13 114 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2005-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "13 114 euros",
+     "effective_at": "2005-12-31",
+     "expires": "2006-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 295 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2007-12-28",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 295 euros",
+     "effective_at": "2007-12-28",
+     "expires": "2008-04-03",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 481 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-04-10",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "14 901 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-05-01",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "18 259 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "14 295 euros"
+   },
+   "answer": "Article 231 : 14 295 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-231-2019-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "15 417 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-06-23",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "15 572 €",
+     "effective_at": "2018-06-23",
+     "expires": "2018-09-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "15 572 €",
+     "effective_at": "2018-09-01",
+     "expires": "2019-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "15 572 €",
+     "effective_at": "2019-01-01",
+     "expires": "2019-06-08",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "15 822 €",
+     "effective_at": "2019-06-08",
+     "expires": "2020-07-25",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "15 981 €",
+     "effective_at": "2020-07-25",
+     "expires": "2021-06-12",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "18 259 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "15 572 €"
+   },
+   "answer": "Article 231 : 15 572 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1414A-1990-06-15",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1.000 F",
+     "effective_at": "1986-07-31",
+     "expires": "1987-08-10",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1.000 F",
+     "effective_at": "1987-08-10",
+     "expires": "1989-07-14",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.000 F",
+     "effective_at": "1989-07-14",
+     "expires": "1990-06-15",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 370 F",
+     "effective_at": "1990-06-15",
+     "expires": "1991-06-24",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.370 F",
+     "effective_at": "1991-06-24",
+     "expires": "1992-07-04",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.370 F",
+     "effective_at": "1992-07-04",
+     "expires": "1993-08-18",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1414A-1991-06-24",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1.000 F",
+     "effective_at": "1987-08-10",
+     "expires": "1989-07-14",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1 370 F",
+     "effective_at": "1990-06-15",
+     "expires": "1991-06-24",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.462 F",
+     "effective_at": "1991-06-24",
+     "expires": "1992-07-04",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.370 F",
+     "effective_at": "1992-07-04",
+     "expires": "1993-08-18",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.563 F",
+     "effective_at": "1993-08-18",
+     "expires": "1997-04-11",
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1414A-1992-07-04",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1.000 F",
+     "effective_at": "1989-07-14",
+     "expires": "1990-06-15",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1 370 F",
+     "effective_at": "1990-06-15",
+     "expires": "1991-06-24",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.370 F",
+     "effective_at": "1991-06-24",
+     "expires": "1992-07-04",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.370 F",
+     "effective_at": "1992-07-04",
+     "expires": "1993-08-18",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.563 F",
+     "effective_at": "1993-08-18",
+     "expires": "1997-04-11",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.563 F",
+     "effective_at": "1997-04-11",
+     "expires": "2000-07-14",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1414A-1997-04-11",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1.370 F",
+     "effective_at": "1991-06-24",
+     "expires": "1992-07-04",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1.370 F",
+     "effective_at": "1992-07-04",
+     "expires": "1993-08-18",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.563 F",
+     "effective_at": "1993-08-18",
+     "expires": "1997-04-11",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.563 F",
+     "effective_at": "1997-04-11",
+     "expires": "2000-07-14",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4,3 %",
+     "effective_at": "2001-03-31",
+     "expires": "2001-12-29",
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-50-0-1991-12-31",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "70 000 F",
+     "effective_at": "1991-12-31",
+     "expires": "1994-09-02",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "70 000 F",
+     "effective_at": "1994-09-02",
+     "expires": "1996-05-12",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "120 000 F",
+     "effective_at": "1996-05-12",
+     "expires": "1999-03-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "188 700 €",
+     "effective_at": "2025-02-16",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-50-0-1994-09-02",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "100 000 F",
+     "effective_at": "1991-12-31",
+     "expires": "1994-09-02",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "70 000 F",
+     "effective_at": "1994-09-02",
+     "expires": "1996-05-12",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "100 000 F",
+     "effective_at": "1996-05-12",
+     "expires": "1999-03-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "500 000 F",
+     "effective_at": "1999-03-31",
+     "expires": "2001-12-29",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "188 700 €",
+     "effective_at": "2025-02-16",
+     "expires": null,
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-50-0-1996-05-12",
+   "n_versions": 6,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "70 000 F",
+     "effective_at": "1991-12-31",
+     "expires": "1994-09-02",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "70 000 F",
+     "effective_at": "1994-09-02",
+     "expires": "1996-05-12",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "120 000 F",
+     "effective_at": "1996-05-12",
+     "expires": "1999-03-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "500 000 F hors taxes",
+     "effective_at": "1999-03-31",
+     "expires": "2001-12-29",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "76 300 euros hors taxes",
+     "effective_at": "2002-03-31",
+     "expires": "2002-12-31",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "188 700 €",
+     "effective_at": "2025-02-16",
+     "expires": null,
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1647D-2011-06-12",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 000 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 000 €",
+     "effective_at": "2011-01-01",
+     "expires": "2011-06-12",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "203 € à 2 030 €",
+     "effective_at": "2011-06-12",
+     "expires": "2012-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 030 €",
+     "effective_at": "2012-01-01",
+     "expires": "2012-05-07",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 065 €",
+     "effective_at": "2012-05-07",
+     "expires": "2013-01-01",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "Entre 247 et 2 477",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "203 € à 2 030 €"
+   },
+   "answer": "Article 1647 D : 203 € à 2 030 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1647D-2012-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 030 €",
+     "effective_at": "2012-01-01",
+     "expires": "2012-05-07",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 065 €",
+     "effective_at": "2012-05-07",
+     "expires": "2013-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 065 €",
+     "effective_at": "2013-01-01",
+     "expires": "2013-06-07",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "250 000",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "2 030 €"
+   },
+   "answer": "Article 1647 D : 2 030 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1647D-2013-06-07",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 030 €",
+     "effective_at": "2012-01-01",
+     "expires": "2012-05-07",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 065 €",
+     "effective_at": "2012-05-07",
+     "expires": "2013-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 065 €",
+     "effective_at": "2013-01-01",
+     "expires": "2013-06-07",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 101 €",
+     "effective_at": "2013-06-07",
+     "expires": "2013-09-21",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 101 €",
+     "effective_at": "2013-09-21",
+     "expires": "2013-12-31",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "100 000 €",
+     "effective_at": "2014-01-01",
+     "expires": "2014-05-30",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 477",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "2 101 €"
+   },
+   "answer": "Article 1647 D : 2 101 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1647D-2013-09-21",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 065 €",
+     "effective_at": "2012-05-07",
+     "expires": "2013-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 065 €",
+     "effective_at": "2013-01-01",
+     "expires": "2013-06-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 101 €",
+     "effective_at": "2013-06-07",
+     "expires": "2013-09-21",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 101 €",
+     "effective_at": "2013-09-21",
+     "expires": "2013-12-31",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "100 000 €",
+     "effective_at": "2014-01-01",
+     "expires": "2014-05-30",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 100",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "Entre 247 et 2 477",
+     "effective_at": "2026-01-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "2 101 €"
+   },
+   "answer": "Article 1647 D : 2 101 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-182A-2023-06-03",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "43 563 €",
+     "effective_at": "2020-12-31",
+     "expires": "2020-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "43 563 €",
+     "effective_at": "2020-12-31",
+     "expires": "2022-05-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "44 172 €",
+     "effective_at": "2022-05-07",
+     "expires": "2023-06-03",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "46 557 €",
+     "effective_at": "2023-06-03",
+     "expires": "2024-06-02",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "48 790 €",
+     "effective_at": "2024-06-02",
+     "expires": "2025-06-19",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "49 667 €",
+     "effective_at": "2025-06-19",
+     "expires": "2026-02-21",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "49 667 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-199sexies-2002-03-31",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "9000 F",
+     "effective_at": "1995-10-27",
+     "expires": "1996-05-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "9000 F",
+     "effective_at": "1996-05-12",
+     "expires": "1997-04-11",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "9000 F",
+     "effective_at": "1997-04-11",
+     "expires": "2002-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 372 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2002-12-31",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 372 euros",
+     "effective_at": "2003-01-01",
+     "expires": "2005-01-01",
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "1 372 euros"
+   },
+   "answer": "Article 199 sexies : 1 372 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-199deciesH-2006-01-01",
+   "n_versions": 6,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "5 700 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2005-02-24",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "5 700 euros",
+     "effective_at": "2005-01-01",
+     "expires": "2006-01-06",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 250 euros",
+     "effective_at": "2006-01-01",
+     "expires": "2007-12-28",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 250 euros",
+     "effective_at": "2007-12-28",
+     "expires": "2008-12-29",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 250 €",
+     "effective_at": "2008-12-29",
+     "expires": "2009-04-10",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "7,2 € par hectare assuré en 2013,2014 et 2015 et de 6 € par hectare assuré de 2016 à 2022",
+     "effective_at": "2020-12-31",
+     "expires": "2023-01-01",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "1 250 euros"
+   },
+   "answer": "Article 199 decies H : 1 250 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-199deciesH-2007-12-28",
+   "n_versions": 6,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "5 700 euros",
+     "effective_at": "2005-01-01",
+     "expires": "2006-01-06",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1 250 euros",
+     "effective_at": "2006-01-01",
+     "expires": "2007-12-28",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 250 euros",
+     "effective_at": "2007-12-28",
+     "expires": "2008-12-29",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 250 €",
+     "effective_at": "2008-12-29",
+     "expires": "2009-04-10",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 250 €",
+     "effective_at": "2009-04-10",
+     "expires": "2010-05-08",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "7,2 € par hectare assuré en 2013,2014 et 2015 et de 6 € par hectare assuré de 2016 à 2022",
+     "effective_at": "2020-12-31",
+     "expires": "2023-01-01",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "1 250 euros"
+   },
+   "answer": "Article 199 decies H : 1 250 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1414B-1990-06-15",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1500 F",
+     "effective_at": "1989-07-14",
+     "expires": "1990-06-15",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1 550 F",
+     "effective_at": "1990-06-15",
+     "expires": "1991-06-24",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.550 F",
+     "effective_at": "1991-06-24",
+     "expires": "1992-07-04",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1.550 F",
+     "effective_at": "1992-07-04",
+     "expires": "1993-08-18",
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1586nonies-2014-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 millions d'euros",
+     "effective_at": "2010-05-01",
+     "expires": "2011-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 millions d'euros de valeur ajoutée",
+     "effective_at": "2011-01-01",
+     "expires": "2013-06-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 millions d'euros de valeur ajoutée",
+     "effective_at": "2013-06-07",
+     "expires": "2014-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 millions d'euros de valeur ajoutée",
+     "effective_at": "2014-01-01",
+     "expires": "2014-05-30",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "136 192 €",
+     "effective_at": "2014-05-30",
+     "expires": "2014-07-01",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 millions d'euros de valeur ajoutée",
+     "effective_at": "2014-07-01",
+     "expires": "2015-01-01",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "162 226 € et de 440 871 € de valeur ajoutée par établissement",
+     "effective_at": "2025-06-19",
+     "expires": "2030-01-01",
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "2 millions d'euros de valeur ajoutée"
+   },
+   "answer": "Article 1586 nonies : 2 millions d'euros de valeur ajoutée",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1586nonies-2017-05-05",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "136 192 €",
+     "effective_at": "2015-01-01",
+     "expires": "2015-06-06",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "136 192 €",
+     "effective_at": "2015-06-06",
+     "expires": "2016-06-13",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "dans la limite respectivement pour 2015 de 136 464 € et de 370 859 € de valeur ajoutée par établissement",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "dans la limite respectivement pour 2016 de 137 283 € et de 373 084 € de valeur ajoutée par établissement",
+     "effective_at": "2017-05-05",
+     "expires": "2018-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "dans la limite respectivement pour 2016 de 137 283 € et de 373 084 € de valeur ajoutée par établissement",
+     "effective_at": "2018-01-01",
+     "expires": "2018-06-23",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "138 793 €",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "162 226 € et 440 871 € de valeur ajoutée par établissement",
+     "effective_at": "2025-06-19",
+     "expires": "2030-01-01",
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "dans la limite respectivement pour 2016 de 137 283 € et de 373 084 € de valeur ajoutée par établissement"
+   },
+   "answer": "Article 1586 nonies : dans la limite respectivement pour 2016 de 137 283 € et de 373 084 € de valeur ajoutée par établissement",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1586nonies-2020-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "137 283 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-06-23",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "138 793 € ou 377 188 € de valeur ajoutée par établissement",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 millions d'euros de valeur ajoutée",
+     "effective_at": "2019-06-08",
+     "expires": "2020-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "140 736 € et de 382 469 €",
+     "effective_at": "2020-01-01",
+     "expires": "2020-07-25",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "142 425 €",
+     "effective_at": "2020-07-25",
+     "expires": "2020-12-31",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "142 425 € et de 387 059 € de valeur ajoutée par établissement",
+     "effective_at": "2020-12-31",
+     "expires": "2021-06-12",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "respectivement pour 2024 de 162 226 € et de 440 871 € de valeur ajoutée par établissement",
+     "effective_at": "2025-06-19",
+     "expires": "2030-01-01",
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "140 736 € et de 382 469 €"
+   },
+   "answer": "Article 1586 nonies : 140 736 € et de 382 469 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1586nonies-2023-06-03",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "142 425 €",
+     "effective_at": "2020-12-31",
+     "expires": "2021-06-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "141 998 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-05-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "145 974 € et 396 703 € de valeur ajoutée par établissement",
+     "effective_at": "2022-05-07",
+     "expires": "2023-06-03",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "154 732 €",
+     "effective_at": "2023-06-03",
+     "expires": "2024-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "154 732 € et de 420 505 € de valeur ajoutée par établissement",
+     "effective_at": "2024-01-01",
+     "expires": "2024-06-02",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "160 302 € et de 435 643 € de valeur ajoutée par établissement",
+     "effective_at": "2024-06-02",
+     "expires": "2025-06-19",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "162 226 € et de 440 871 €",
+     "effective_at": "2025-06-19",
+     "expires": "2030-01-01",
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "154 732 €"
+   },
+   "answer": "Article 1586 nonies : 154 732 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1605bis-2020-12-31",
+   "n_versions": 6,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "5 671 €",
+     "effective_at": "2020-12-31",
+     "expires": "2022-05-07",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "5 660 €",
+     "effective_at": "2021-01-01",
+     "expires": "2020-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "5 750 €",
+     "effective_at": "2022-05-07",
+     "expires": "2022-08-18",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-1605bis-2021-01-01",
+   "n_versions": 6,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "5 671 €",
+     "effective_at": "2020-12-31",
+     "expires": "2022-05-07",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "5 660 €",
+     "effective_at": "2021-01-01",
+     "expires": "2020-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "5 750 €",
+     "effective_at": "2022-05-07",
+     "expires": "2022-08-18",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-1605bis-2022-05-07",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "-5 671 € pour la première part de quotient familial, majoré de 1 641 € € pour chacune des quatre premières demi-parts et de 2 901 € pour chaque demi-part supplémentaire à compter de la cinquième, en France métropolitaine",
+     "effective_at": "2020-12-31",
+     "expires": "2022-05-07",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "5 660 €",
+     "effective_at": "2021-01-01",
+     "expires": "2020-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-5 750 € pour la première part de quotient familial, majoré de 1 664 € pour chacune des quatre premières demi-parts et de 2 942 € pour chaque demi-part supplémentaire à compter de la cinquième, en France métropolitaine",
+     "effective_at": "2022-05-07",
+     "expires": "2022-08-18",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-1519A-2002-03-31",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2.000 F",
+     "effective_at": "1980-01-11",
+     "expires": "2001-12-29",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 406 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2007-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 406 euros",
+     "effective_at": "2006-01-01",
+     "expires": "2007-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 461 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "2 406 euros"
+   },
+   "answer": "Article 1519 A : 2 406 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1519A-2009-04-10",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 406 euros",
+     "effective_at": "2006-01-01",
+     "expires": "2007-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "3 150 euros",
+     "effective_at": "2007-01-01",
+     "expires": "2008-04-03",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "3 268 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-04-10",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "3 404 euros",
+     "effective_at": "2009-04-10",
+     "expires": "2010-05-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "3 647 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-01-01",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "3 647 €",
+     "effective_at": "2011-01-01",
+     "expires": "2011-06-12",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 461 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "3 404 euros"
+   },
+   "answer": "Article 1519 A : 3 404 euros",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1519A-2016-06-13",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "4 149 €",
+     "effective_at": "2014-02-01",
+     "expires": "2014-05-30",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "4 289 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 393 €",
+     "effective_at": "2015-06-06",
+     "expires": "2016-06-13",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 504 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 631 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-06-23",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 730 €",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 461 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "4 504 €"
+   },
+   "answer": "Article 1519 A : 4 504 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1519A-2019-06-08",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "4 504 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "4 631 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-06-23",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 730 €",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "4 850 €",
+     "effective_at": "2019-06-08",
+     "expires": "2020-07-25",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "5 080 €",
+     "effective_at": "2020-07-25",
+     "expires": "2021-06-12",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "5 196 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-05-07",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "6 461 €",
+     "effective_at": "2026-09-01",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "4 850 €"
+   },
+   "answer": "Article 1519 A : 4 850 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1519HA-2017-05-05",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "515 364 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "520 002 €",
+     "effective_at": "2015-06-06",
+     "expires": "2016-06-13",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "525 202 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "529 404 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-529 404 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-06-23",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "529 404 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-01-01",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "607 937 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-1519HA-2018-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "520 002 €",
+     "effective_at": "2015-06-06",
+     "expires": "2016-06-13",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "525 202 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "529 404 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-529 404 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-06-23",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "529 404 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-01-01",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-534 698 €",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "607 937 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-1519HA-2019-06-08",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "-529 404 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-06-23",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "529 404 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-534 698 €",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-541 649 €",
+     "effective_at": "2019-06-08",
+     "expires": "2019-11-10",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "541 649 €",
+     "effective_at": "2019-11-10",
+     "expires": "2020-01-01",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "541 649 €",
+     "effective_at": "2020-01-01",
+     "expires": "2020-07-25",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "607 937 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-1519HA-2023-06-03",
+   "n_versions": 6,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "547 065 €",
+     "effective_at": "2020-07-25",
+     "expires": "2021-06-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "550 347 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-05-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "558 602 €",
+     "effective_at": "2022-05-07",
+     "expires": "2023-06-03",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "582 622 €",
+     "effective_at": "2023-06-03",
+     "expires": "2024-06-02",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "597 188 €",
+     "effective_at": "2024-06-02",
+     "expires": "2025-06-19",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "607 937 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "582 622 €"
+   },
+   "answer": "Article 1519 HA : 582 622 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1587-2002-03-31",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "7,30 F par tonne nette extraite",
+     "effective_at": "1995-10-27",
+     "expires": "1996-05-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "16,85 F par tonne nette extraite",
+     "effective_at": "1996-05-12",
+     "expires": "2002-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "715 euros par centaine de tonnes nettes extraites",
+     "effective_at": "2002-03-31",
+     "expires": "2006-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "715 euros par centaine de tonnes nettes extraites",
+     "effective_at": "2006-12-31",
+     "expires": "2011-12-30",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-715 € par centaine de tonnes nettes extraites",
+     "effective_at": "2011-12-30",
+     "expires": "2013-06-07",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "111 € par centaine de tonnes nettes extraites pour le pétrole brut",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "715 euros par centaine de tonnes nettes extraites"
+   },
+   "answer": "Article 1587 : 715 euros par centaine de tonnes nettes extraites",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1587-2006-12-31",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "16,85 F par tonne nette extraite pour le pétrole brut",
+     "effective_at": "1995-10-27",
+     "expires": "1996-05-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "7,30 F par tonne nette extraite",
+     "effective_at": "1996-05-12",
+     "expires": "2002-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "715 euros par centaine de tonnes nettes extraites",
+     "effective_at": "2002-03-31",
+     "expires": "2006-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "715 euros par centaine de tonnes nettes extraites",
+     "effective_at": "2006-12-31",
+     "expires": "2011-12-30",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-715 € par centaine de tonnes nettes extraites",
+     "effective_at": "2011-12-30",
+     "expires": "2013-06-07",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 017,50 € par centaine de tonnes nettes extraites",
+     "effective_at": "2013-06-07",
+     "expires": "2014-05-30",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "111 € par centaine de tonnes nettes extraites",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "715 euros par centaine de tonnes nettes extraites"
+   },
+   "answer": "Article 1587 : 715 euros par centaine de tonnes nettes extraites",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1587-2011-12-30",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "715 euros par centaine de tonnes nettes extraites",
+     "effective_at": "2002-03-31",
+     "expires": "2006-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "715 euros par centaine de tonnes nettes extraites",
+     "effective_at": "2006-12-31",
+     "expires": "2011-12-30",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-715 € par centaine de tonnes nettes extraites",
+     "effective_at": "2011-12-30",
+     "expires": "2013-06-07",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-1 017,50 € par centaine de tonnes nettes extraites",
+     "effective_at": "2013-06-07",
+     "expires": "2014-05-30",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "-1 068 € par centaine de tonnes nettes extraites",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "111 € par centaine de tonnes nettes extraites",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "-715 € par centaine de tonnes nettes extraites"
+   },
+   "answer": "Article 1587 : -715 € par centaine de tonnes nettes extraites",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1587-2014-05-30",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "715 euros par centaine de tonnes nettes extraites",
+     "effective_at": "2006-12-31",
+     "expires": "2011-12-30",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "-715 € par centaine de tonnes nettes extraites",
+     "effective_at": "2011-12-30",
+     "expires": "2013-06-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 017,50 € par centaine de tonnes nettes extraites",
+     "effective_at": "2013-06-07",
+     "expires": "2014-05-30",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 068 € par centaine de tonnes nettes extraites",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 088,30 € par centaine de tonnes nettes extraites",
+     "effective_at": "2015-06-06",
+     "expires": "2016-06-13",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 115,50 € par centaine de tonnes nettes extraites",
+     "effective_at": "2016-06-13",
+     "expires": "2016-12-10",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "111 € par centaine de tonnes nettes extraites",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "1 068 € par centaine de tonnes nettes extraites"
+   },
+   "answer": "Article 1587 : 1 068 € par centaine de tonnes nettes extraites",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZG-2020-04-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "11 038 889 €",
+     "effective_at": "2019-01-01",
+     "expires": "2019-06-08",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "11 182 394 €",
+     "effective_at": "2019-06-08",
+     "expires": "2020-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 182 394 €",
+     "effective_at": "2020-01-01",
+     "expires": "2020-04-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 182 394 €",
+     "effective_at": "2020-04-01",
+     "expires": "2020-07-25",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 294 218 € et 790 596 € par commune ou par ensemble intercommunal concerné",
+     "effective_at": "2020-07-25",
+     "expires": "2021-06-12",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 361 983 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-01-01",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 550 937 €",
+     "effective_at": "2025-08-02",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "11 182 394 €"
+   },
+   "answer": "Article 302 bis ZG : 11 182 394 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZG-2022-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "11 182 394 €",
+     "effective_at": "2020-04-01",
+     "expires": "2020-07-25",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "11 294 218 €",
+     "effective_at": "2020-07-25",
+     "expires": "2021-06-12",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 361 983 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 361 983 €",
+     "effective_at": "2022-01-01",
+     "expires": "2022-05-07",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 532 413 €",
+     "effective_at": "2022-05-07",
+     "expires": "2023-06-03",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "841 983 € par commune ou par ensemble intercommunal concerné",
+     "effective_at": "2023-06-03",
+     "expires": "2024-06-02",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 550 937 €",
+     "effective_at": "2025-08-02",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "11 361 983 €"
+   },
+   "answer": "Article 302 bis ZG : 11 361 983 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZG-2022-05-07",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "11 294 218 €",
+     "effective_at": "2020-07-25",
+     "expires": "2021-06-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "11 361 983 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 361 983 € et 795 340 € par commune ou par ensemble intercommunal concerné",
+     "effective_at": "2022-01-01",
+     "expires": "2022-05-07",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 532 413 € et 807 270 € par commune ou par ensemble intercommunal concerné",
+     "effective_at": "2022-05-07",
+     "expires": "2023-06-03",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "841 983 € par commune ou par ensemble intercommunal concerné",
+     "effective_at": "2023-06-03",
+     "expires": "2024-06-02",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 329 015 € et 863 033 € par commune ou par ensemble intercommunal concerné",
+     "effective_at": "2024-06-02",
+     "expires": "2025-03-01",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 550 937 €",
+     "effective_at": "2025-08-02",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "11 532 413 € et 807 270 € par commune ou par ensemble intercommunal concerné"
+   },
+   "answer": "Article 302 bis ZG : 11 532 413 € et 807 270 € par commune ou par ensemble intercommunal concerné",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZG-2025-03-01",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "807 270 € par commune ou par ensemble intercommunal concerné",
+     "effective_at": "2022-05-07",
+     "expires": "2023-06-03",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "12 028 307 €",
+     "effective_at": "2023-06-03",
+     "expires": "2024-06-02",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 329 015 €",
+     "effective_at": "2024-06-02",
+     "expires": "2025-03-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 329 015 €",
+     "effective_at": "2025-03-01",
+     "expires": "2025-08-02",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 550 937 €",
+     "effective_at": "2025-08-02",
+     "expires": null,
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "12 329 015 €"
+   },
+   "answer": "Article 302 bis ZG : 12 329 015 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZI-2013-06-07",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "10 150 000 €",
+     "effective_at": "2012-01-01",
+     "expires": "2012-03-16",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "10 150 000 €",
+     "effective_at": "2012-03-16",
+     "expires": "2012-05-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 322 550 €",
+     "effective_at": "2012-05-07",
+     "expires": "2013-06-07",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 503 195 €",
+     "effective_at": "2013-06-07",
+     "expires": "2013-12-31",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 503 195 €",
+     "effective_at": "2013-12-31",
+     "expires": "2014-05-30",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 639 737 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 550 937 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "10 503 195 €"
+   },
+   "answer": "Article 302 bis ZI : 10 503 195 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZI-2015-06-06",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "10 503 195 €",
+     "effective_at": "2013-06-07",
+     "expires": "2013-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "10 503 195 €",
+     "effective_at": "2013-12-31",
+     "expires": "2014-05-30",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 639 737 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 735 495 €",
+     "effective_at": "2015-06-06",
+     "expires": "2016-06-13",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 842 850 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "10 929 593 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-06-23",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 550 937 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "10 735 495 €"
+   },
+   "answer": "Article 302 bis ZI : 10 735 495 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZI-2019-06-08",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "10 842 850 €",
+     "effective_at": "2016-06-13",
+     "expires": "2017-05-05",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "10 929 593 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-06-23",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 038 889 €",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 182 394 €",
+     "effective_at": "2019-06-08",
+     "expires": "2020-07-25",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 294 218 €",
+     "effective_at": "2020-07-25",
+     "expires": "2021-06-12",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 361 983 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-05-07",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 550 937 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "11 182 394 €"
+   },
+   "answer": "Article 302 bis ZI : 11 182 394 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZI-2020-07-25",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "10 929 593 €",
+     "effective_at": "2017-05-05",
+     "expires": "2018-06-23",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "11 038 889 €",
+     "effective_at": "2018-06-23",
+     "expires": "2019-06-08",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 182 394 €",
+     "effective_at": "2019-06-08",
+     "expires": "2020-07-25",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 294 218 €",
+     "effective_at": "2020-07-25",
+     "expires": "2021-06-12",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 361 983 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-05-07",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "11 532 413 €",
+     "effective_at": "2022-05-07",
+     "expires": "2023-06-03",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "12 550 937 €",
+     "effective_at": "2025-06-19",
+     "expires": null,
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "11 294 218 €"
+   },
+   "answer": "Article 302 bis ZI : 11 294 218 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZC-1996-05-12",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 500 F",
+     "effective_at": "1996-05-12",
+     "expires": "1997-04-11",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 500 F",
+     "effective_at": "1997-04-11",
+     "expires": "1999-03-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 500 F",
+     "effective_at": "1999-03-31",
+     "expires": "2001-12-31",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZC-1997-04-11",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 500 F",
+     "effective_at": "1996-05-12",
+     "expires": "1997-04-11",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 500 F",
+     "effective_at": "1997-04-11",
+     "expires": "1999-03-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 500 F",
+     "effective_at": "1999-03-31",
+     "expires": "2001-12-31",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-302bisZC-1999-03-31",
+   "n_versions": 6,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "2 500 F",
+     "effective_at": "1996-05-12",
+     "expires": "1997-04-11",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "2 500 F",
+     "effective_at": "1997-04-11",
+     "expires": "1999-03-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "2 500 F",
+     "effective_at": "1999-03-31",
+     "expires": "2001-12-31",
+     "targets": [
+      1
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "unknown",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-568-2018-12-31",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "118 238 €",
+     "effective_at": "2014-01-01",
+     "expires": "2017-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2017-01-01",
+     "expires": "2018-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2018-12-31",
+     "expires": "2019-07-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2019-07-01",
+     "expires": "2020-01-01",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2020-01-01",
+     "expires": "2022-01-01",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "117 977 €"
+   },
+   "answer": "Article 568 : 117 977 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-568-2019-07-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "117 977 €",
+     "effective_at": "2017-01-01",
+     "expires": "2018-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-12-31",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2018-12-31",
+     "expires": "2019-07-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2019-07-01",
+     "expires": "2020-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2020-01-01",
+     "expires": "2022-01-01",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "125 842 €",
+     "effective_at": "2022-01-01",
+     "expires": "2022-05-07",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "117 977 €"
+   },
+   "answer": "Article 568 : 117 977 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-568-2020-01-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "117 977 €",
+     "effective_at": "2018-01-01",
+     "expires": "2018-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2018-12-31",
+     "expires": "2019-07-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2019-07-01",
+     "expires": "2020-01-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "117 977 €",
+     "effective_at": "2020-01-01",
+     "expires": "2022-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "125 842 €",
+     "effective_at": "2022-01-01",
+     "expires": "2022-05-07",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "125 842 €",
+     "effective_at": "2022-01-01",
+     "expires": "2021-12-30",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-568-2022-05-07",
+   "n_versions": 6,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "117 977 €",
+     "effective_at": "2020-01-01",
+     "expires": "2022-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "125 842 €",
+     "effective_at": "2022-01-01",
+     "expires": "2022-05-07",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "125 842 €",
+     "effective_at": "2022-01-01",
+     "expires": "2021-12-30",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "125 842 €",
+     "effective_at": "2022-05-07",
+     "expires": "2023-12-31",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "125 842 €",
+     "effective_at": "2023-12-31",
+     "expires": "2025-07-01",
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-204H-2021-06-12",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "25 000 € par part de quotient familial",
+     "effective_at": "2021-01-01",
+     "expires": "2020-12-31",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "25 654 €",
+     "effective_at": "2021-06-12",
+     "expires": "2022-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "25 654 €",
+     "effective_at": "2022-01-01",
+     "expires": "2022-05-07",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "25 705 €",
+     "effective_at": "2022-05-07",
+     "expires": "2023-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "28 792 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-204H-2022-05-07",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "25 654 €",
+     "effective_at": "2022-01-01",
+     "expires": "2022-05-07",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "25 705 €",
+     "effective_at": "2022-05-07",
+     "expires": "2023-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "25 705 €",
+     "effective_at": "2023-01-01",
+     "expires": "2023-06-03",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "26 065 €",
+     "effective_at": "2023-06-03",
+     "expires": "2024-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "28 792 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "25 705 €"
+   },
+   "answer": "Article 204 H : 25 705 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-204H-2023-06-03",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "25 705 €",
+     "effective_at": "2023-01-01",
+     "expires": "2023-06-03",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "26 065 €",
+     "effective_at": "2023-06-03",
+     "expires": "2024-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "26 065 €",
+     "effective_at": "2024-01-01",
+     "expires": "2024-06-02",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "27 473 €",
+     "effective_at": "2024-06-02",
+     "expires": "2025-02-16",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "28 792 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "26 065 €"
+   },
+   "answer": "Article 204 H : 26 065 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-204H-2024-06-02",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "26 065 €",
+     "effective_at": "2024-01-01",
+     "expires": "2024-06-02",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "27 473 €",
+     "effective_at": "2024-06-02",
+     "expires": "2025-02-16",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "27 473 € par part de quotient familial",
+     "effective_at": "2025-02-16",
+     "expires": "2025-06-19",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "28 792 €",
+     "effective_at": "2025-06-19",
+     "expires": "2026-02-21",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "28 792 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "27 473 €"
+   },
+   "answer": "Article 204 H : 27 473 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-73-2025-06-19",
+   "n_versions": 4,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "32 608 €",
+     "effective_at": "2024-01-01",
+     "expires": "2025-02-16",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "32 608 €",
+     "effective_at": "2025-02-16",
+     "expires": "2025-06-19",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "32 990 €",
+     "effective_at": "2025-06-19",
+     "expires": "2026-02-21",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "32 990 €",
+     "effective_at": "2026-02-21",
+     "expires": null,
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "32 990 €"
+   },
+   "answer": "Article 73 : 32 990 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1609C-2010-05-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1 525 000 euros",
+     "effective_at": "2002-03-31",
+     "expires": "2009-05-29",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1 700 000 €",
+     "effective_at": "2009-05-29",
+     "expires": "2010-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 700 000 €",
+     "effective_at": "2010-01-01",
+     "expires": "2010-05-01",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 706 681 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-06-12",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 732 245 €",
+     "effective_at": "2011-06-12",
+     "expires": "2014-05-30",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 746 189 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "1 706 681 €"
+   },
+   "answer": "Article 1609 C : 1 706 681 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1609C-2011-06-12",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1 700 000 €",
+     "effective_at": "2009-05-29",
+     "expires": "2010-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1 700 000 €",
+     "effective_at": "2010-01-01",
+     "expires": "2010-05-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 706 681 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-06-12",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 732 245 €",
+     "effective_at": "2011-06-12",
+     "expires": "2014-05-30",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 746 189 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 754 920 €",
+     "effective_at": "2015-06-06",
+     "expires": "2015-12-31",
+     "targets": [
+      4
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "1 732 245 €"
+   },
+   "answer": "Article 1609 C : 1 732 245 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1609C-2014-05-30",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1 700 000 €",
+     "effective_at": "2010-01-01",
+     "expires": "2010-05-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1 706 681 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-06-12",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 732 245 €",
+     "effective_at": "2011-06-12",
+     "expires": "2014-05-30",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 746 189 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 754 920 €",
+     "effective_at": "2015-06-06",
+     "expires": "2015-12-31",
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "1 746 189 €"
+   },
+   "answer": "Article 1609 C : 1 746 189 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-1609C-2015-06-06",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "1 706 681 €",
+     "effective_at": "2010-05-01",
+     "expires": "2011-06-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "1 732 245 €",
+     "effective_at": "2011-06-12",
+     "expires": "2014-05-30",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 746 189 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-06-06",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "1 754 920 €",
+     "effective_at": "2015-06-06",
+     "expires": "2015-12-31",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "le plafond prévu au I de l'article 46 de la loi n° 2011-1977 du 28 décembre 2011 de finances pour 2012",
+     "effective_at": "2016-06-13",
+     "expires": "2021-01-01",
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "1 754 920 €"
+   },
+   "answer": "Article 1609 C : 1 754 920 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-5-2014-05-30",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "8 310 euros",
+     "effective_at": "2010-05-01",
+     "expires": "2011-06-12",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "8 440 €",
+     "effective_at": "2011-06-12",
+     "expires": "2013-01-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "8 610 €",
+     "effective_at": "2013-01-01",
+     "expires": "2014-05-30",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "8 680 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-01-01",
+     "targets": [
+      2
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "8 680 €"
+   },
+   "answer": "Article 5 : 8 680 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  },
+  {
+   "qid": "R3-WS-885H-2010-05-01",
+   "n_versions": 7,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "76 000 euros",
+     "effective_at": "2008-04-03",
+     "expires": "2009-01-01",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "100 000 euros",
+     "effective_at": "2009-01-01",
+     "expires": "2010-05-01",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "100 000 euros",
+     "effective_at": "2009-01-01",
+     "expires": "2008-12-31",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "100 393 €",
+     "effective_at": "2010-05-01",
+     "expires": "2010-05-08",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "100 393 €",
+     "effective_at": "2010-05-08",
+     "expires": "2011-06-12",
+     "targets": [
+      3
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "101 897 €",
+     "effective_at": "2011-06-12",
+     "expires": "2014-05-30",
+     "targets": [
+      4
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "101 897 €",
+     "effective_at": "2015-01-01",
+     "expires": "2018-01-01",
+     "targets": [
+      5
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "error",
+    "value": null
+   },
+   "answer": "",
+   "correct": false,
+   "call_errors": 0,
+   "error": "MemoryError: expiry must follow effective time"
+  },
+  {
+   "qid": "R3-WS-885H-2014-05-30",
+   "n_versions": 5,
+   "events": [
+    {
+     "kind": "adopt",
+     "value": "100 393 €",
+     "effective_at": "2010-05-01",
+     "expires": "2010-05-08",
+     "targets": []
+    },
+    {
+     "kind": "replace",
+     "value": "100 393 €",
+     "effective_at": "2010-05-08",
+     "expires": "2011-06-12",
+     "targets": [
+      0
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "101 897 €",
+     "effective_at": "2011-06-12",
+     "expires": "2014-05-30",
+     "targets": [
+      1
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "102 717 €",
+     "effective_at": "2014-05-30",
+     "expires": "2015-01-01",
+     "targets": [
+      2
+     ]
+    },
+    {
+     "kind": "replace",
+     "value": "101 897 €",
+     "effective_at": "2015-01-01",
+     "expires": "2018-01-01",
+     "targets": [
+      3
+     ]
+    }
+   ],
+   "resolved": {
+    "status": "active",
+    "value": "102 717 €"
+   },
+   "answer": "Article 885 H : 102 717 €",
+   "correct": true,
+   "call_errors": 0,
+   "error": ""
+  }
+ ]
+}

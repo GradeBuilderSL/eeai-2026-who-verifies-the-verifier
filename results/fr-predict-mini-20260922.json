@@ -1,0 +1,1525 @@
+{
+ "summary": {
+  "model": "gpt-5.4-mini-2026-03-17",
+  "pairs": 125,
+  "future_recorded": {
+   "n": 47,
+   "llm_correct": 39,
+   "resolve_correct": 45,
+   "resolve_statuses": {
+    "active": 47
+   }
+  },
+  "future_not_recorded": {
+   "n": 78,
+   "llm_correct": 6,
+   "resolve_correct": 2,
+   "resolve_statuses": {
+    "expired": 72,
+    "active": 6
+   }
+  }
+ },
+ "rows": [
+  {
+   "from": "R3-WS-156-2009-01-01",
+   "to": "R3-WS-156-2011-06-12",
+   "future_recorded": false,
+   "llm_answer": "Au 12 juin 2011, l’article 156 prévoit que les déficits provenant d’exploitations agricoles ne sont plus imputables sur le revenu global lorsque le total des revenus nets d’autres sources excède 104 2",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-156-2009-01-01",
+   "to": "R3-WS-156-2015-06-06",
+   "future_recorded": false,
+   "llm_answer": "Au 6 juin 2015, d’après l’article 156, le déficit provenant d’exploitations agricoles n’est plus imputable sur le revenu global lorsque le total des revenus nets d’autres sources excède 104 238 euros.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-156-2009-01-01",
+   "to": "R3-WS-156-2022-05-07",
+   "future_recorded": false,
+   "llm_answer": "Au 7 mai 2022, d’après l’article 156, un déficit provenant d’exploitations agricoles n’est plus imputable sur le revenu global du foyer lorsque le total des revenus nets d’autres sources excède 127 67",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-156-2011-06-12",
+   "to": "R3-WS-156-2015-06-06",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 156 en vigueur au 6 juin 2015, le déficit provenant d’exploitations agricoles n’est plus imputable sur le revenu global lorsque le total des revenus nets d’autres sources excède 106 ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-156-2011-06-12",
+   "to": "R3-WS-156-2022-05-07",
+   "future_recorded": false,
+   "llm_answer": "Au 7 mai 2022, l’article 156 prévoit qu’un déficit provenant d’exploitations agricoles n’est pas imputable sur le revenu global lorsque le total des revenus nets d’autres sources excède 116 300 euros.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-156-2015-06-06",
+   "to": "R3-WS-156-2022-05-07",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 156, au 7 mai 2022, un déficit provenant d’exploitations agricoles n’est plus imputable sur le revenu global lorsque le total des revenus nets d’autres sources excède 107 610 € (arti",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-158-1997-04-11",
+   "to": "R3-WS-158-2005-01-01",
+   "future_recorded": false,
+   "llm_answer": "L’article 158 applicable au 1er janvier 2005 prévoit, pour le 5.a, un plafond de l’abattement de 10 % sur les pensions et retraites fixé à 12 000 F (pour les revenus perçus à compter du 1er janvier 20",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-158-1997-04-11",
+   "to": "R3-WS-158-2006-12-30",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 158, en vigueur au 30 décembre 2006, l’abattement de 10 % sur les pensions et retraites ne peut excéder 4 399 € pour l’ensemble des membres du foyer fiscal. Il s’agit de l’article 15",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-158-1997-04-11",
+   "to": "R3-WS-158-2010-01-01",
+   "future_recorded": false,
+   "llm_answer": "À la date du 1er janvier 2010, le montant maximal de l’abattement de 10 % sur les pensions et retraites est de 3 062 € pour l’ensemble du foyer fiscal, d’après l’article 158.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-158-2005-01-01",
+   "to": "R3-WS-158-2006-12-30",
+   "future_recorded": false,
+   "llm_answer": "Au 30 décembre 2006, l’article 158 prévoit que l’abattement de 10 % sur les pensions et retraites ne peut excéder 3 160 euros pour l’ensemble des membres du foyer fiscal. (Article 158)",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "3 160 euros"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-158-2005-01-01",
+   "to": "R3-WS-158-2010-01-01",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 158, au 1er janvier 2010, l’abattement de 10 % sur les pensions et retraites est plafonné à 3 160 euros pour l’ensemble du foyer fiscal. Article 158.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "3 160 euros"
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-158-2006-12-30",
+   "to": "R3-WS-158-2010-01-01",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 158, au 1er janvier 2010, l’abattement de 10 % sur les pensions et retraites est plafonné à 3 160 euros pour l’ensemble des membres du foyer fiscal. Il s’agit de l’article 158.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "3 160 euros"
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-261-2016-06-13",
+   "to": "R3-WS-261-2017-05-05",
+   "future_recorded": false,
+   "llm_answer": "D'après l'article 261, 7, b, en vigueur au 5 mai 2017, les opérations lucratives accessoires d'un organisme sans but lucratif sont exonérées de TVA si les recettes encaissées afférentes à ces opératio",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-261-2016-06-13",
+   "to": "R3-WS-261-2021-06-12",
+   "future_recorded": false,
+   "llm_answer": "À la date du 12 juin 2021, l’article 261 (7. b) prévoit que les opérations lucratives accessoires d’un organisme sans but lucratif sont exonérées de TVA lorsque les recettes encaissées afférentes à ce",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-261-2017-05-05",
+   "to": "R3-WS-261-2021-06-12",
+   "future_recorded": false,
+   "llm_answer": "Selon l’article 261, 7, b, en vigueur au 12 juin 2021, les opérations lucratives accessoires d’un organisme sans but lucratif sont exonérées de TVA lorsque les recettes encaissées afférentes à ces opé",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-157bis-2005-12-31",
+   "to": "R3-WS-157bis-2008-04-03",
+   "future_recorded": true,
+   "llm_answer": "D’après l’article 157 bis en vigueur au 3 avril 2008, l’abattement maximal de 2 202 euros s’applique si le revenu global net n’excède pas 13 550 euros. (Article 157 bis)",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "13 550 euros"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-157bis-2005-12-31",
+   "to": "R3-WS-157bis-2015-06-06",
+   "future_recorded": false,
+   "llm_answer": "Au 6 juin 2015, c’est l’article 157 bis dans sa version en vigueur du 2008-04-03 au 2009-04-10 qui s’applique d’après l’historique fourni : l’abattement maximal de 2 202 euros est accordé si le revenu",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-157bis-2005-12-31",
+   "to": "R3-WS-157bis-2016-06-13",
+   "future_recorded": false,
+   "llm_answer": "Au 13 juin 2016, l’article 157 bis prévoit qu’un contribuable de plus de 65 ans (ou invalide) bénéficie de l’abattement maximal si son revenu global net n’excède pas 13 550 euros. Il s’agit de l’artic",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-157bis-2008-04-03",
+   "to": "R3-WS-157bis-2015-06-06",
+   "future_recorded": false,
+   "llm_answer": "Au 6 juin 2015, l’article 157 bis prévoit que l’abattement maximal s’applique si le revenu global net n’excède pas 14 010 € ; il s’agit de l’article 157 bis.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-157bis-2008-04-03",
+   "to": "R3-WS-157bis-2016-06-13",
+   "future_recorded": false,
+   "llm_answer": "Au 13 juin 2016, l’article 157 bis n’est pas modifié depuis la version du 2010-05-01 au 2011-06-12 : l’abattement maximal s’applique si le revenu global net n’excède pas 14 010 € (article 157 bis).",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-157bis-2015-06-06",
+   "to": "R3-WS-157bis-2016-06-13",
+   "future_recorded": true,
+   "llm_answer": "D’après l’article 157 bis, en vigueur au 13 juin 2016, l’abattement maximal s’applique si le revenu global net n’excède pas 14 730 €. Article 157 bis.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "14 730 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-196B-1989-12-30",
+   "to": "R3-WS-196B-1991-12-31",
+   "future_recorded": true,
+   "llm_answer": "Au 31 décembre 1991, l’article 196 B prévoit un abattement de 22.100 F sur le revenu global net par personne rattachée, pour le cas d’un enfant majeur marié ou ayant des enfants à charge.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "22.100 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-196B-1989-12-30",
+   "to": "R3-WS-196B-1993-01-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er janvier 1993, d’après l’article 196 B, l’abattement est de 22.100 F sur le revenu global net par personne ainsi prise en charge.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-196B-1989-12-30",
+   "to": "R3-WS-196B-1994-09-02",
+   "future_recorded": false,
+   "llm_answer": "Au 2 septembre 1994, l’article 196 B prévoit un abattement de 22.100 F sur le revenu global net par personne rattachée.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-196B-1991-12-31",
+   "to": "R3-WS-196B-1993-01-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er janvier 1993, l’article 196 B prévoit un abattement de 22.730 F par personne rattachée (pour un enfant majeur marié ou ayant des enfants à charge).",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "22.730 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-196B-1991-12-31",
+   "to": "R3-WS-196B-1994-09-02",
+   "future_recorded": true,
+   "llm_answer": "D’après l’article 196 B, en vigueur au 2 septembre 1994, l’abattement est de 27.120 F par personne rattachée. ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "27.120 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-196B-1993-01-01",
+   "to": "R3-WS-196B-1994-09-02",
+   "future_recorded": true,
+   "llm_answer": "Au 2 septembre 1994, l’article 196 B prévoit un abattement de 27.120 F sur le revenu global net par personne rattachée. ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "27.120 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1417-2000-07-14",
+   "to": "R3-WS-1417-2011-01-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er janvier 2011, l’article 1417 I n’est pas modifié dans l’historique fourni depuis la version du 2002-03-31 : le montant plafond en métropole est de 6 928 euros pour la première part de quotient ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-83-1990-06-15",
+   "to": "R3-WS-83-1995-10-27",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 83 du CGI (article 83), pour l’imposition des revenus de l’année 1993, la déduction forfaitaire de 10 % pour frais professionnels est plafonnée à 68.000 F. ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-200-2009-04-10",
+   "to": "R3-WS-200-2011-06-12",
+   "future_recorded": false,
+   "llm_answer": "Au 12 juin 2011, l’article 200 prévoit que la réduction d’impôt de 75 % s’applique dans la limite de 495 euros de versements. Il s’agit de l’article 200.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1466A-2007-01-01",
+   "to": "R3-WS-1466A-2014-01-01",
+   "future_recorded": false,
+   "llm_answer": "À la date du 1er janvier 2014, les créations d’établissement en zone urbaine sensible relèvent encore de l’article 1466 A dans sa version antérieure à 2026 ; l’exonération y est limitée à un montant d",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1466A-2007-01-01",
+   "to": "R3-WS-1466A-2014-05-30",
+   "future_recorded": false,
+   "llm_answer": "Au 30 mai 2014, le I de l’article 1466 A n’est pas encore dans sa version « cotisation foncière des entreprises » : cette version ne commence qu’au 1er janvier 2026. D’après l’historique fourni, les c",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1466A-2007-01-01",
+   "to": "R3-WS-1466A-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "À la date du 8 juin 2019, les créations d’établissement en quartier prioritaire de la politique de la ville relevaient de l’article 1466 A, I, avec une exonération dans la limite d’un montant de base ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1466A-2014-01-01",
+   "to": "R3-WS-1466A-2014-05-30",
+   "future_recorded": true,
+   "llm_answer": "À la date du 30 mai 2014, l’exonération prévue au I de l’article 1466 A s’applique dans la limite d’un montant de base nette imposable fixé pour 2014 à 28 408 €.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "28 408 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1466A-2014-01-01",
+   "to": "R3-WS-1466A-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "À la date du 8 juin 2019, l’article 1466 A ne prévoit pas encore le régime des quartiers prioritaires de la politique de la ville au I ; ce régime n’entre en vigueur qu’au 1er janvier 2026. Pour cette",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1466A-2014-05-30",
+   "to": "R3-WS-1466A-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "Au 8 juin 2019, l’exonération prévue au I de l’article 1466 A du CGI ne s’appliquait pas encore aux quartiers prioritaires de la politique de la ville ; elle visait les zones urbaines sensibles, dans ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-168-2002-03-31",
+   "to": "R3-WS-168-2007-01-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er janvier 2007, le régime de l’article 168 du CGI s’applique lorsque la somme forfaitaire est supérieure ou égale à 40 000 euros, selon l’article 168.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "40 000 euros"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-168-2002-03-31",
+   "to": "R3-WS-168-2009-04-10",
+   "future_recorded": false,
+   "llm_answer": "Au 10 avril 2009, l'article 168 du CGI applicable est celui en vigueur du 2007-01-01 au 2008-04-03, qui prévoit l'application du régime lorsque la somme forfaitaire est supérieure ou égale à 40 000 eu",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-168-2002-03-31",
+   "to": "R3-WS-168-2010-05-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er mai 2010, l’article 168 du CGI (version en vigueur du 2007-01-01 au 2025-06-19) s’applique lorsque la somme forfaitaire déterminée à partir des éléments du train de vie est supérieure ou égale ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-168-2007-01-01",
+   "to": "R3-WS-168-2009-04-10",
+   "future_recorded": true,
+   "llm_answer": "Au 10 avril 2009, le régime d’imposition forfaitaire de l’article 168 s’applique lorsque la somme forfaitaire issue des éléments du train de vie est au moins égale à 43 938 euros. Il s’agit de l’artic",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "43 938 euros"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-168-2007-01-01",
+   "to": "R3-WS-168-2010-05-01",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 168 du CGI en vigueur au 1er mai 2010, le régime s’applique lorsque la somme forfaitaire est supérieure ou égale à 43 938 euros. Il s’agit de l’article 168.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-168-2009-04-10",
+   "to": "R3-WS-168-2010-05-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er mai 2010, le régime de l’article 168 du CGI s’applique lorsque la somme forfaitaire déterminée à partir des éléments du train de vie est supérieure ou égale à 44 111 € (article 168).",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "44 111 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-231-2005-12-31",
+   "to": "R3-WS-231-2007-01-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er janvier 2007, selon l’article 231 du CGI, le taux marginal supérieur de la taxe sur les salaires s’applique à partir de 14 295 euros de rémunérations individuelles annuelles. Il s’agit de l’art",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "14 295 euros"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-231-2005-12-31",
+   "to": "R3-WS-231-2007-12-28",
+   "future_recorded": true,
+   "llm_answer": "À la date du 28 décembre 2007, l’article 231 du CGI prévoit que le taux marginal supérieur de la taxe sur les salaires s’applique à partir de 14 295 euros de rémunérations individuelles annuelles (art",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "14 295 euros"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-231-2005-12-31",
+   "to": "R3-WS-231-2019-01-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er janvier 2019, l’article 231 du CGI prévoit que le taux marginal de la taxe sur les salaires atteint sa tranche supérieure pour la fraction excédant 14 295 euros de rémunérations individuelles a",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-231-2007-01-01",
+   "to": "R3-WS-231-2007-12-28",
+   "future_recorded": true,
+   "llm_answer": "À la date du 28 décembre 2007, l’article 231 du CGI prévoit que le taux marginal supérieur de la taxe sur les salaires s’applique à partir de 14 295 euros de rémunérations individuelles annuelles. Art",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "14 295 euros"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-231-2007-01-01",
+   "to": "R3-WS-231-2019-01-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er janvier 2019, l’article 231 du CGI prévoit que le taux marginal supérieur de la taxe sur les salaires s’applique à partir de 14 501 € de rémunérations individuelles annuelles. Il s’agit de l’ar",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-231-2007-12-28",
+   "to": "R3-WS-231-2019-01-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er janvier 2019, l’article 231 du CGI prévoit que le taux marginal supérieur de la taxe sur les salaires s’applique à partir de 14 901 € de rémunérations individuelles annuelles, avec un taux de 1",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1414A-1990-06-15",
+   "to": "R3-WS-1414A-1991-06-24",
+   "future_recorded": true,
+   "llm_answer": "Au 24 juin 1991, l’article 1414 A prévoit un dégrèvement d’office pour la fraction de taxe d’habitation excédant 1 370 F, avec une limite fixée à 1 462 F au titre de 1991. Article 1414 A.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "1.370 F"
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1414A-1990-06-15",
+   "to": "R3-WS-1414A-1992-07-04",
+   "future_recorded": true,
+   "llm_answer": "Au 4 juillet 1992, l’article 1414 A prévoit un dégrèvement pour la taxe d’habitation excédant 1.370 F. Article 1414 A.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "1.370 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1414A-1990-06-15",
+   "to": "R3-WS-1414A-1997-04-11",
+   "future_recorded": false,
+   "llm_answer": "Au 11 avril 1997, l’article 1414 A prévoit un dégrèvement à concurrence du montant de l’imposition excédant 1.370 F. Donc le seuil au-delà duquel le dégrèvement partiel s’applique est de 1 370 F (arti",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1414A-1991-06-24",
+   "to": "R3-WS-1414A-1992-07-04",
+   "future_recorded": true,
+   "llm_answer": "Au 4 juillet 1992, l’article 1414 A prévoit un dégrèvement à concurrence du montant de l’imposition excédant 1.370 F pour les contribuables non passibles de l’impôt sur le revenu ; il s’agit de l’arti",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "1.370 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1414A-1991-06-24",
+   "to": "R3-WS-1414A-1997-04-11",
+   "future_recorded": false,
+   "llm_answer": "Au 11 avril 1997, l’article 1414 A prévoit un dégrèvement à concurrence du montant de l’imposition excédant 1 563 F. Le numéro d’article est 1414 A.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1414A-1992-07-04",
+   "to": "R3-WS-1414A-1997-04-11",
+   "future_recorded": true,
+   "llm_answer": "Au 11 avril 1997, l’article 1414 A prévoit un dégrèvement à concurrence du montant de l’imposition excédant 1.563 F ; ce seuil s’applique donc au-delà de 1.563 F. Article 1414 A.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "1.563 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-50-0-1991-12-31",
+   "to": "R3-WS-50-0-1994-09-02",
+   "future_recorded": true,
+   "llm_answer": "Au 2 septembre 1994, l’article 50-0 prévoit que le chiffre d’affaires annuel hors taxes ne doit pas excéder 70 000 F pour relever du régime des micro-entreprises. Le numéro d’article est le 50-0.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "70 000 F hors taxes"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-50-0-1991-12-31",
+   "to": "R3-WS-50-0-1996-05-12",
+   "future_recorded": true,
+   "llm_answer": "Au 12 mai 1996, l’article 50-0 prévoit que le chiffre d’affaires annuel hors taxes ne doit pas excéder 100 000 F pour relever du régime des micro-entreprises. Ce seuil figure au 1 de l’article 50-0 du",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "100 000 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-50-0-1994-09-02",
+   "to": "R3-WS-50-0-1996-05-12",
+   "future_recorded": true,
+   "llm_answer": "Au 12 mai 1996, l’article 50-0 prévoit que le chiffre d’affaires annuel hors taxes ne doit pas excéder 100 000 F pour relever du régime des micro-entreprises. Article 50-0.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "100 000 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1647D-2011-06-12",
+   "to": "R3-WS-1647D-2012-01-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er janvier 2012, l’article 1647 D du CGI fixe le plafond de la base minimum à 2 030 € pour les redevables dont le chiffre d’affaires ou les recettes hors taxes de la période de référence est infér",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "2 030 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1647D-2011-06-12",
+   "to": "R3-WS-1647D-2013-06-07",
+   "future_recorded": false,
+   "llm_answer": "Au 7 juin 2013, l’article 1647 D prévoyait que la base minimum fixée par le conseil municipal devait être comprise entre 206 € et 2 065 € pour les redevables dont le chiffre d’affaires ou les recettes",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1647D-2011-06-12",
+   "to": "R3-WS-1647D-2013-09-21",
+   "future_recorded": false,
+   "llm_answer": "Au 21 septembre 2013, l’article 1647 D du CGI fixe ce plafond à 2065 € pour les redevables dont le chiffre d’affaires ou les recettes hors taxes de la période de référence sont inférieurs à 100 000 €.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1647D-2012-01-01",
+   "to": "R3-WS-1647D-2013-06-07",
+   "future_recorded": false,
+   "llm_answer": "Au 7 juin 2013, l’article 1647 D du CGI fixe, pour les redevables dont le chiffre d’affaires ou les recettes hors taxes est inférieur à 100 000 €, un plafond de base minimum de 2 065 €.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1647D-2012-01-01",
+   "to": "R3-WS-1647D-2013-09-21",
+   "future_recorded": false,
+   "llm_answer": "Au 21 septembre 2013, l’article 1647 D prévoit pour les redevables dont le chiffre d’affaires ou les recettes hors taxes est inférieur à 100 000 € un plafond de base minimum fixé entre 206 € et 2 065 ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1647D-2013-06-07",
+   "to": "R3-WS-1647D-2013-09-21",
+   "future_recorded": true,
+   "llm_answer": "Au 21 septembre 2013, l’article 1647 D prévoit que, pour les redevables dont le chiffre d’affaires ou les recettes hors taxes de la période de référence sont inférieurs à 100 000 €, la base minimum fi",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "2 101 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-199deciesH-2006-01-01",
+   "to": "R3-WS-199deciesH-2007-12-28",
+   "future_recorded": true,
+   "llm_answer": "À la date du 28 décembre 2007, l’article 199 decies H du CGI prévoit que les dépenses de travaux forestiers mentionnées au d du 2 sont retenues dans la limite annuelle de 1 250 euros pour une personne",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "1 250 euros"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1586nonies-2014-01-01",
+   "to": "R3-WS-1586nonies-2017-05-05",
+   "future_recorded": false,
+   "llm_answer": "Au 5 mai 2017, l’article 1586 nonies prévoyait, au V, une limite annuelle de 136 192 € de valeur ajoutée par établissement pour l’exonération ou l’abattement de CVAE lié au I de l’article 1466 A. ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1586nonies-2014-01-01",
+   "to": "R3-WS-1586nonies-2020-01-01",
+   "future_recorded": false,
+   "llm_answer": "À la date du 1er janvier 2020, l’article 1586 nonies du CGI prévoit, au V, une limite annuelle de 152 122 € de valeur ajoutée par établissement pour l’exonération ou l’abattement de CVAE en cas d’exon",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1586nonies-2014-01-01",
+   "to": "R3-WS-1586nonies-2023-06-03",
+   "future_recorded": false,
+   "llm_answer": "Au 3 juin 2023, d’après l’article 1586 nonies du CGI dans sa version en vigueur, l’exonération ou l’abattement de CVAE au titre du I de l’article 1466 A s’applique dans la limite de 136 192 € de valeu",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1586nonies-2017-05-05",
+   "to": "R3-WS-1586nonies-2020-01-01",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 1586 nonies, version en vigueur au 1er janvier 2020, l’exonération ou l’abattement de CVAE prévu au V s’applique dans la limite de 137 283 € de valeur ajoutée par établissement pour ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1586nonies-2017-05-05",
+   "to": "R3-WS-1586nonies-2023-06-03",
+   "future_recorded": false,
+   "llm_answer": "Au 3 juin 2023, l’exonération ou l’abattement de CVAE prévu au V de l’article 1586 nonies s’applique, pour les établissements visés au I de l’article 1466 A, dans la limite de 148 978 € de valeur ajou",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1586nonies-2020-01-01",
+   "to": "R3-WS-1586nonies-2023-06-03",
+   "future_recorded": false,
+   "llm_answer": "À la date du 3 juin 2023, l’article 1586 nonies du CGI prévoit, au V, que l’exonération ou l’abattement de CVAE au titre du I de l’article 1466 A s’applique dans la limite de 162 226 € de valeur ajout",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1605bis-2020-12-31",
+   "to": "R3-WS-1605bis-2021-01-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er janvier 2021, le plafond est de 5 660 € pour la première part de quotient familial en France métropolitaine, au titre de l’article 1605 bis du CGI.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "5 660 €"
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1605bis-2020-12-31",
+   "to": "R3-WS-1605bis-2022-05-07",
+   "future_recorded": true,
+   "llm_answer": "À la date du 7 mai 2022, le plafond de ressources annuelles est de 5 750 € pour la première part de quotient familial en France métropolitaine. Il s’agit de l’article 1605 bis du CGI.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "5 750 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1605bis-2021-01-01",
+   "to": "R3-WS-1605bis-2022-05-07",
+   "future_recorded": true,
+   "llm_answer": "À la date du 2022-05-07, le plafond de ressources annuelles en France métropolitaine est de 5 750 € pour la première part de quotient familial, pour l’article 1605 bis du CGI.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "5 750 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1519A-2002-03-31",
+   "to": "R3-WS-1519A-2009-04-10",
+   "future_recorded": false,
+   "llm_answer": "Au 10 avril 2009, l’article 1519 A prévoit un montant unitaire de 3 150 euros pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts. ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519A-2002-03-31",
+   "to": "R3-WS-1519A-2016-06-13",
+   "future_recorded": false,
+   "llm_answer": "Au 13 juin 2016, l’article 1519 A prévoit un montant unitaire de 3 150 euros pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts. ",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519A-2002-03-31",
+   "to": "R3-WS-1519A-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "Au 8 juin 2019, l’article 1519 A prévoit un montant unitaire de 3 150 euros pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts. Article 1519 A du CGI.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519A-2009-04-10",
+   "to": "R3-WS-1519A-2016-06-13",
+   "future_recorded": false,
+   "llm_answer": "Au 13 juin 2016, l’article 1519 A prévoit pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts un montant unitaire de 3 647 €.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519A-2009-04-10",
+   "to": "R3-WS-1519A-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "Au 8 juin 2019, l’article 1519 A prévoit un montant unitaire de 3 647 € pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519A-2016-06-13",
+   "to": "R3-WS-1519A-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "Au 8 juin 2019, d’après l’article 1519 A du CGI, le montant unitaire est de 4 730 € pour les pylônes supportant des lignes électriques d’une tension supérieure à 350 kilovolts.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519HA-2017-05-05",
+   "to": "R3-WS-1519HA-2018-01-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er janvier 2018, le montant unitaire de l’IFER pour un site de stockage souterrain de gaz naturel est de 529 404 € par site. Cela relève de l’article 1519 HA du CGI.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "529 404 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1519HA-2017-05-05",
+   "to": "R3-WS-1519HA-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "Au 8 juin 2019, l’article 1519 HA prévoit un montant unitaire de 529 404 € par site de stockage souterrain de gaz naturel. Il s’agit de l’article 1519 HA du CGI.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "529 404 €"
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519HA-2017-05-05",
+   "to": "R3-WS-1519HA-2023-06-03",
+   "future_recorded": false,
+   "llm_answer": "Au 3 juin 2023, l’article 1519 HA prévoit pour un site de stockage souterrain de gaz naturel un montant unitaire de 529 404 € par site. Ce montant figure dans la version applicable de l’article 1519 H",
+   "llm_correct": false,
+   "resolve": {
+    "status": "active",
+    "value": "529 404 €"
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519HA-2018-01-01",
+   "to": "R3-WS-1519HA-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "Au 8 juin 2019, l’article 1519 HA prévoit un montant de 534 698 € par site de stockage souterrain de gaz naturel (III).",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519HA-2018-01-01",
+   "to": "R3-WS-1519HA-2023-06-03",
+   "future_recorded": false,
+   "llm_answer": "Au 3 juin 2023, l’article 1519 HA applicable est celui en vigueur depuis le 2019-06-08 jusqu’au 2025-06-19 : le montant unitaire est de 534 698 € par site de stockage souterrain de gaz naturel (III).",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1519HA-2019-06-08",
+   "to": "R3-WS-1519HA-2023-06-03",
+   "future_recorded": false,
+   "llm_answer": "Au 3 juin 2023, l’article 1519 HA prévoit pour un site de stockage souterrain de gaz naturel un montant unitaire de 607 937 € ; le montant applicable est donc celui de la version en vigueur à cette da",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1587-2002-03-31",
+   "to": "R3-WS-1587-2006-12-31",
+   "future_recorded": true,
+   "llm_answer": "Selon l’article 1587 du CGI, en vigueur au 31 décembre 2006, le tarif est de 715 euros par centaine de tonnes nettes extraites pour les gisements de pétrole brut mis en exploitation avant le 1er janvi",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "715 euros par centaine de tonnes nettes extraites"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1587-2002-03-31",
+   "to": "R3-WS-1587-2011-12-30",
+   "future_recorded": true,
+   "llm_answer": "Article 1587 : au 30 décembre 2011, le tarif est de 715 € par centaine de tonnes nettes extraites pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "715 € par centaine de tonnes nettes extraites"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1587-2002-03-31",
+   "to": "R3-WS-1587-2014-05-30",
+   "future_recorded": false,
+   "llm_answer": "À la date du 30 mai 2014, l’article 1587 du CGI prévoit un tarif de 715 € par centaine de tonnes nettes extraites pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1587-2006-12-31",
+   "to": "R3-WS-1587-2011-12-30",
+   "future_recorded": true,
+   "llm_answer": "Au 30 décembre 2011, l’article 1587 du CGI fixe ce tarif à 715 € par centaine de tonnes nettes extraites pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "715 € par centaine de tonnes nettes extraites"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1587-2006-12-31",
+   "to": "R3-WS-1587-2014-05-30",
+   "future_recorded": false,
+   "llm_answer": "D’après l’article 1587 du CGI, en vigueur au 30 mai 2014, le tarif est de 1 017,50 € par centaine de tonnes nettes extraites pour les gisements de pétrole brut mis en exploitation avant le 1er janvier",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1587-2011-12-30",
+   "to": "R3-WS-1587-2014-05-30",
+   "future_recorded": true,
+   "llm_answer": "Au 30 mai 2014, l’article 1587 du CGI fixe ce tarif à 1 068 € par centaine de tonnes nettes extraites pour les gisements de pétrole brut mis en exploitation avant le 1er janvier 1992.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "1 068 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-302bisZG-2020-04-01",
+   "to": "R3-WS-302bisZG-2022-01-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er janvier 2022, l’article 302 bis ZG du CGI prévoit que l’affectation du produit du prélèvement est limitée à 11 361 983 € par an pour les communes mentionnées au V de l’article L. 5210-1-1 du co",
+   "llm_correct": true,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZG-2020-04-01",
+   "to": "R3-WS-302bisZG-2022-05-07",
+   "future_recorded": false,
+   "llm_answer": "Au 7 mai 2022, l’article 302 bis ZG prévoit que l’affectation du produit du prélèvement bénéficie aux communes, dans la limite annuelle totale de 11 361 983 € (article 302 bis ZG).",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZG-2020-04-01",
+   "to": "R3-WS-302bisZG-2025-03-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er mars 2025, l’article 302 bis ZG prévoit une affectation aux communes dans la limite annuelle totale de 11 361 983 € (article 302 bis ZG).",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZG-2022-01-01",
+   "to": "R3-WS-302bisZG-2022-05-07",
+   "future_recorded": true,
+   "llm_answer": "Au 7 mai 2022, l’article 302 bis ZG prévoit que l’affectation aux communes est limitée à 11 532 413 € par an. Cette limite figure à l’article 302 bis ZG du CGI.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "11 532 413 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-302bisZG-2022-01-01",
+   "to": "R3-WS-302bisZG-2025-03-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er mars 2025, l’article 302 bis ZG du CGI prévoit, pour les communes, une affectation du produit du prélèvement dans la limite annuelle totale de 12 028 307 €.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZG-2022-05-07",
+   "to": "R3-WS-302bisZG-2025-03-01",
+   "future_recorded": false,
+   "llm_answer": "Au 1er mars 2025, c’est l’article 302 bis ZG du CGI, dans sa version en vigueur du 2024-06-02 au 2025-03-01, qui s’applique : les communes bénéficient de l’affectation du produit du prélèvement dans l",
+   "llm_correct": true,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZI-2013-06-07",
+   "to": "R3-WS-302bisZI-2015-06-06",
+   "future_recorded": false,
+   "llm_answer": "Au 6 juin 2015, l’article 302 bis ZI du CGI prévoit que l’affectation au profit des communes est limitée à 10 639 737 € par an.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZI-2013-06-07",
+   "to": "R3-WS-302bisZI-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "Au 8 juin 2019, l’article 302 bis ZI du CGI prévoit une affectation aux communes dans la limite annuelle de 10 639 737 €.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZI-2013-06-07",
+   "to": "R3-WS-302bisZI-2020-07-25",
+   "future_recorded": false,
+   "llm_answer": "Au 25 juillet 2020, l’article 302 bis ZI du CGI prévoit que l’affectation aux communes est limitée à 10 639 737 € par an. Article 302 bis ZI.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZI-2015-06-06",
+   "to": "R3-WS-302bisZI-2019-06-08",
+   "future_recorded": false,
+   "llm_answer": "Au 8 juin 2019, l’article 302 bis ZI du CGI prévoit que l’affectation aux communes est limitée à 10 929 593 € par an.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZI-2015-06-06",
+   "to": "R3-WS-302bisZI-2020-07-25",
+   "future_recorded": false,
+   "llm_answer": "Au 25 juillet 2020, l’article 302 bis ZI prévoit que les communes bénéficient de l’affectation du produit du prélèvement dans la limite annuelle de 10 929 593 €.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-302bisZI-2019-06-08",
+   "to": "R3-WS-302bisZI-2020-07-25",
+   "future_recorded": true,
+   "llm_answer": "Au 25 juillet 2020, l’article 302 bis ZI du CGI prévoit que le produit du prélèvement est affecté, dans la limite annuelle de 11 294 218 € aux communes.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "11 294 218 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-302bisZC-1996-05-12",
+   "to": "R3-WS-302bisZC-1997-04-11",
+   "future_recorded": true,
+   "llm_answer": "Au 11 avril 1997, l’article 302 bis ZC prévoit un tarif annuel de 2 500 F par logement pour un logement situé à Paris ou dans une commune limitrophe.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "2 500 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-302bisZC-1996-05-12",
+   "to": "R3-WS-302bisZC-1999-03-31",
+   "future_recorded": true,
+   "llm_answer": "Au 31 mars 1999, l’article 302 bis ZC prévoit un tarif annuel de 2 500 F par logement situé à Paris ou dans une commune limitrophe.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "2 500 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-302bisZC-1997-04-11",
+   "to": "R3-WS-302bisZC-1999-03-31",
+   "future_recorded": true,
+   "llm_answer": "Au 31 mars 1999, d’après l’article 302 bis ZC du CGI, le tarif annuel est de 2 500 F par logement pour un logement situé à Paris ou dans une commune limitrophe.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "2 500 F"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-568-2018-12-31",
+   "to": "R3-WS-568-2019-07-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er juillet 2019, pour les débits situés en Corse, le seuil de chiffre d'affaires annuel sur les livraisons de tabacs manufacturés en deçà duquel le droit de licence est restitué est fixé à 117 977",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "117 977 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-568-2018-12-31",
+   "to": "R3-WS-568-2020-01-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er janvier 2020, pour les débits situés en Corse, le seuil de chiffre d'affaires annuel est de 117 977 € en deçà duquel le droit de licence est restitué. Il s'agit de l'article 568 du CGI.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "117 977 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-568-2018-12-31",
+   "to": "R3-WS-568-2022-05-07",
+   "future_recorded": false,
+   "llm_answer": "Au 7 mai 2022, l’article 568 du CGI prévoit un seuil de chiffre d’affaires annuel de 117 977 € pour les débits situés en Corse, en deçà duquel le droit de licence est restitué.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-568-2019-07-01",
+   "to": "R3-WS-568-2020-01-01",
+   "future_recorded": true,
+   "llm_answer": "Au 1er janvier 2020, l’article 568 prévoit un seuil de 117 977 € pour les débits situés en Corse, en deçà duquel le droit de licence est restitué.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "117 977 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-568-2019-07-01",
+   "to": "R3-WS-568-2022-05-07",
+   "future_recorded": false,
+   "llm_answer": "Au 7 mai 2022, pour l’article 568 du CGI, le seuil de chiffre d’affaires annuel en Corse est de 125 842 €.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-568-2020-01-01",
+   "to": "R3-WS-568-2022-05-07",
+   "future_recorded": false,
+   "llm_answer": "À la date du 7 mai 2022, l’article 568 du CGI prévoit pour les débits situés en Corse un seuil de 125 842 € de chiffre d’affaires annuel sur les livraisons de tabacs manufacturés, en deçà duquel le dr",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "125 842 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-204H-2021-06-12",
+   "to": "R3-WS-204H-2022-05-07",
+   "future_recorded": true,
+   "llm_answer": "Au 7 mai 2022, le taux de prélèvement à la source prévu à l’article 204 E est nul si le montant des revenus est inférieur à 25 705 € par part de quotient familial (article 204 H, II du CGI).",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "25 705 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-204H-2021-06-12",
+   "to": "R3-WS-204H-2023-06-03",
+   "future_recorded": false,
+   "llm_answer": "Au 3 juin 2023, l’article 204 H, II prévoit que le taux de prélèvement à la source est nul si le montant des revenus est inférieur à 25 705 € par part de quotient familial.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-204H-2021-06-12",
+   "to": "R3-WS-204H-2024-06-02",
+   "future_recorded": false,
+   "llm_answer": "Au 2 juin 2024, le taux de prélèvement à la source prévu à l’article 204 E est nul si le montant des revenus est inférieur à 25\u0000a0705 \u0000a0€ par part de quotient familial, d’après l’article 204 H, II du",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-204H-2022-05-07",
+   "to": "R3-WS-204H-2023-06-03",
+   "future_recorded": true,
+   "llm_answer": "Au 3 juin 2023, le taux prévu à l’article 204 E est nul si le montant des revenus est inférieur à 26 065 € par part de quotient familial (article 204 H, II).",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "26 065 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-204H-2022-05-07",
+   "to": "R3-WS-204H-2024-06-02",
+   "future_recorded": false,
+   "llm_answer": "Au 2 juin 2024, le taux prévu à l’article 204 E est nul si le montant des revenus est inférieur à 26 065 € par part de quotient familial (article 204 H, II du CGI).",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-204H-2023-06-03",
+   "to": "R3-WS-204H-2024-06-02",
+   "future_recorded": true,
+   "llm_answer": "Au 2 juin 2024, le taux de prélèvement à la source prévu à l'article 204 E est nul si le montant des revenus est inférieur à 27 473 € par part de quotient familial (article 204 H, II).",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "27 473 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1609C-2010-05-01",
+   "to": "R3-WS-1609C-2011-06-12",
+   "future_recorded": true,
+   "llm_answer": "Au 12 juin 2011, l’article 1609 C prévoit que le montant de la taxe spéciale d’équipement peut être arrêté, chaque année, dans la limite d’un plafond de 1 732 245 €.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "1 732 245 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1609C-2010-05-01",
+   "to": "R3-WS-1609C-2014-05-30",
+   "future_recorded": true,
+   "llm_answer": "Au 30 mai 2014, l’article 1609 C prévoit que le montant de la taxe spéciale d’équipement peut être arrêté dans la limite d’un plafond de 1 746 189 €. ",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "1 746 189 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1609C-2010-05-01",
+   "to": "R3-WS-1609C-2015-06-06",
+   "future_recorded": false,
+   "llm_answer": "Au 6 juin 2015, l’article 1609 C prévoit que le montant de la taxe spéciale d’équipement peut être arrêté chaque année dans la limite d’un plafond de 1 746 189 €. Article 1609 C.",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  },
+  {
+   "from": "R3-WS-1609C-2011-06-12",
+   "to": "R3-WS-1609C-2014-05-30",
+   "future_recorded": true,
+   "llm_answer": "Au 30 mai 2014, l’article 1609 C prévoit un plafond de 1 746 189 € pour le montant de cette taxe spéciale d’équipement. ",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "1 746 189 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1609C-2011-06-12",
+   "to": "R3-WS-1609C-2015-06-06",
+   "future_recorded": true,
+   "llm_answer": "Au 6 juin 2015, l’article 1609 C prévoit que le montant de la taxe spéciale d’équipement peut être arrêté dans la limite d’un plafond de 1 754 920 € par an. Article 1609 C.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "1 754 920 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-1609C-2014-05-30",
+   "to": "R3-WS-1609C-2015-06-06",
+   "future_recorded": true,
+   "llm_answer": "Au 6 juin 2015, l’article 1609 C prévoit que le montant de la taxe spéciale d’équipement peut être arrêté dans la limite d’un plafond de 1 754 920 €.",
+   "llm_correct": true,
+   "resolve": {
+    "status": "active",
+    "value": "1 754 920 €"
+   },
+   "resolve_correct": true
+  },
+  {
+   "from": "R3-WS-885H-2010-05-01",
+   "to": "R3-WS-885H-2014-05-30",
+   "future_recorded": false,
+   "llm_answer": "Au 30 mai 2014, l’article 885 H prévoit que l’exonération d’ISF à concurrence des trois quarts s’applique jusqu’à une valeur totale des biens loués de 101 897 € (au-delà, elle est réduite à moitié). A",
+   "llm_correct": false,
+   "resolve": {
+    "status": "expired",
+    "value": null
+   },
+   "resolve_correct": false
+  }
+ ]
+}

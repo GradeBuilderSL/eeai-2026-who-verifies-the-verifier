@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the talk; the benchmark data must also be cited (see data/README.md)."
+title: "Who Verifies the Verifier? Nobody — the data does. Materials for the EEAI 2026 talk"
+type: software
+authors:
+  - family-names: Gorshkova
+    given-names: Yulia
+repository-code: "https://github.com/GradeBuilderSL/eeai-2026-who-verifies-the-verifier"
+license: Apache-2.0
+keywords:
+  - temporal knowledge
+  - LLM-as-a-judge
+  - bitemporal memory
+  - edge AI
+  - versioned retrieval
+date-released: 2026-10-16

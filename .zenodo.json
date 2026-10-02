@@ -1,0 +1,11 @@
+{
+  "title": "Who Verifies the Verifier? Nobody — the data does. Materials for the EEAI 2026 talk (Malta, 19–21 October 2026)",
+  "upload_type": "software",
+  "creators": [{"name": "Gorshkova, Yulia"}],
+  "description": "Code, raw results, figures and bibliography behind the EEAI 2026 talk. On 100 date-anchored questions over the versioned French tax code (fiscal-fr-bench), three independent LLM judges and a calibrated decision model certify wrong answers whenever the error is invisible in the evidence they share; a bitemporal journal with deterministic as-of resolution catches every such answer with no model, and makes model size stop mattering (97–99 of 100 for gpt-5.4-nano, gpt-5.4-mini and gpt-5.4). Every number is recomputable from the included JSON with verify.py.",
+  "license": "Apache-2.0",
+  "keywords": ["temporal knowledge", "LLM-as-a-judge", "bitemporal memory", "edge AI", "versioned retrieval", "fiscal-fr-bench"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/rosecymbler/fiscal-fr-bench", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ]
+}

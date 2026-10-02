@@ -1,0 +1,291 @@
+{
+  "summary": {
+    "model": "gpt-5.4-2026-03-05",
+    "n": 20,
+    "naive_accepts_false_claim": 8,
+    "anchored_accepts_false_claim": 1,
+    "anchored_rejects": 19,
+    "ctrl_true_claim_supported_on_original": 0,
+    "ctrl_true_claim_on_corrupted": {
+      "skipped": 20
+    },
+    "by_family": {
+      "cancelled_kept": {
+        "naive_accept": 3,
+        "anchored_reject": 4,
+        "d_flip": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "cursor_ignored": {
+        "naive_accept": 2,
+        "anchored_reject": 4,
+        "d_flip": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "eras_merged": {
+        "naive_accept": 1,
+        "anchored_reject": 4,
+        "d_flip": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "interval_dropped": {
+        "naive_accept": 1,
+        "anchored_reject": 3,
+        "d_flip": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "recorded_as_valid": {
+        "naive_accept": 1,
+        "anchored_reject": 4,
+        "d_flip": [
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "d_flip_distribution": {},
+    "d_flip_censored": 0,
+    "critical_span_in_witness": 0,
+    "total_calls": 80
+  },
+  "rows": [
+    {
+      "id": "int-01",
+      "family": "interval_dropped",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "int-02",
+      "family": "interval_dropped",
+      "naive": "uncertain",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "int-03",
+      "family": "interval_dropped",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "int-04",
+      "family": "interval_dropped",
+      "naive": "unsupported",
+      "anchored": "supported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "era-01",
+      "family": "eras_merged",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "era-02",
+      "family": "eras_merged",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "era-03",
+      "family": "eras_merged",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "era-04",
+      "family": "eras_merged",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "can-01",
+      "family": "cancelled_kept",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "can-02",
+      "family": "cancelled_kept",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "can-03",
+      "family": "cancelled_kept",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "can-04",
+      "family": "cancelled_kept",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "rec-01",
+      "family": "recorded_as_valid",
+      "naive": "uncertain",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "rec-02",
+      "family": "recorded_as_valid",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "rec-03",
+      "family": "recorded_as_valid",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "rec-04",
+      "family": "recorded_as_valid",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "cur-01",
+      "family": "cursor_ignored",
+      "naive": "unsupported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "cur-02",
+      "family": "cursor_ignored",
+      "naive": "uncertain",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "cur-03",
+      "family": "cursor_ignored",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    },
+    {
+      "id": "cur-04",
+      "family": "cursor_ignored",
+      "naive": "supported",
+      "anchored": "unsupported",
+      "ctrl_c": "skipped",
+      "ctrl_o": "skipped",
+      "dflip": {
+        "skipped": "judges_only"
+      }
+    }
+  ]
+}

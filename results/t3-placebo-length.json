@@ -1,0 +1,2540 @@
+{
+  "seed": "t3-placebo-20260921-v1",
+  "summary": {
+    "n": 64,
+    "n_unsupported_gold": 32,
+    "n_supported_gold": 32,
+    "false_accepts": {
+      "summary": 6,
+      "original": 11,
+      "placebo": 10
+    },
+    "correct_accepts": {
+      "summary": 25,
+      "original": 29,
+      "placebo": 24
+    },
+    "placebo_agrees_with": {
+      "summary": 52,
+      "original": 48
+    },
+    "errors": 0,
+    "budget": {
+      "run_id": "t3-placebo-20260921",
+      "limits": {
+        "model": "gpt-5.4-mini-2026-03-17",
+        "max_calls": 66,
+        "max_input_chars": 3960000,
+        "max_output_tokens": 33792,
+        "timeout_seconds": 45.0,
+        "max_response_chars": 100000,
+        "provider": "openai",
+        "reasoning_effort": "none"
+      },
+      "calls": [
+        {
+          "call_id": "4560cdc1-e8de-4564-ba3e-da624cfbb497",
+          "request_hash": "9f64d1091732866f9020d145ceab746ac9e9fae4efa3dd8d7b8100313c13d5ac",
+          "input_chars": 4893,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 2017.859,
+            "error_code": "completed",
+            "input_tokens": 1116,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 78,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0767f0eac94915fb016ab0e4406d4487d2ba7d05e444e62704",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "3f459f9f-f52f-4422-8498-e7573f9f8fb1",
+          "request_hash": "174f68d5396908638029696408b91fa288ff29e89f82582118e8d550ac7cb233",
+          "input_chars": 4485,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1259.612,
+            "error_code": "completed",
+            "input_tokens": 950,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 91,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_001ec536f4eba975016ab0e442216c87d2a44bfef9cd7db2e1",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "fd1ff796-7116-4811-b2fc-2946bf80bb4f",
+          "request_hash": "f4f7b5f25074ab21ac1e5bd5512d1edc00d3c6728f867fefe6dcaa33e1baf230",
+          "input_chars": 3481,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1036.708,
+            "error_code": "completed",
+            "input_tokens": 736,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 90,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0efb90265e0f3140016ab0e4436c9c87d29146e3483681852d",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "ba54c2c3-0e5f-460a-bf80-7e55bd0f022a",
+          "request_hash": "4f32cbab2257620f869c8ce164c321f5a3379f7e84e9dc1062ef5863c3273289",
+          "input_chars": 3282,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1086.72,
+            "error_code": "completed",
+            "input_tokens": 681,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 77,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0cfaa452b794a815016ab0e44481c887d2a1830ead18673a82",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "0cd3edac-5778-4fcf-95d4-8eb9a7cdea3e",
+          "request_hash": "b311424d2ca2db3e7c923c44690a2bed4ea492448d4eb1f76e021499ff19b8d1",
+          "input_chars": 3090,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1094.059,
+            "error_code": "completed",
+            "input_tokens": 647,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 102,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_03066d06b2ee740f016ab0e4459a2487d286fd9f188eca3555",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "9e95b540-9e6e-43b4-ab56-a00dbe397fca",
+          "request_hash": "fb3c9294f2b34b1d0474e083204eba9b4c8cb5f5c70fcf8a2e41c4770c5c1aa8",
+          "input_chars": 3020,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 884.257,
+            "error_code": "completed",
+            "input_tokens": 627,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 58,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0b6e06aadd3e298f016ab0e446ba7087d28995a496ba0102fd",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "f62f7253-e8a9-4b21-8005-1d1ea76d56b9",
+          "request_hash": "958752cc6338bdfc032bc919f89e0f15fa810e7df76eac673a8fcbff5358e506",
+          "input_chars": 3735,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1346.231,
+            "error_code": "completed",
+            "input_tokens": 787,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 130,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0facd66c151a2746016ab0e4479f7887d28b0d3c87baf84548",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "99152045-eb76-4ef0-969f-1d90061729af",
+          "request_hash": "b483a7049f5d05cc77b0bb0a9861a0dbc7b1fb2585ad31d927168ae83be563a2",
+          "input_chars": 3797,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1609.348,
+            "error_code": "completed",
+            "input_tokens": 787,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 88,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0654ef7f3470483a016ab0e4490a9087d29c9d04e80331dd15",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "f1e6732d-d514-468d-88ca-c5213d72c39f",
+          "request_hash": "daaf942f6916bc2cfc30f5ab1d2e57951da81b4790b3d1e789c097d77673e85f",
+          "input_chars": 3106,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1192.899,
+            "error_code": "completed",
+            "input_tokens": 667,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 83,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_09558ab59fc58026016ab0e44abca487d2981b0e5c974f511d",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "e4582101-3a81-4c2f-ab78-6db7ed9177a9",
+          "request_hash": "34b0be2dbaeafa33675b5f341f282dbcde797a5727bd04602c854caf6196dc04",
+          "input_chars": 3276,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1392.452,
+            "error_code": "completed",
+            "input_tokens": 712,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 113,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_00cff44a0389f351016ab0e44be1b887d2b779a86729a2dc27",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "60062a2a-4c6a-4cc7-97bd-f1f879725b7b",
+          "request_hash": "48f3bf707f20928b2a4986fbb3691d5391d6b5d13e24d2aa59c591a5ae7d0426",
+          "input_chars": 5822,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1596.006,
+            "error_code": "completed",
+            "input_tokens": 1284,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 213,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0a49aaaeab80234c016ab0e44d48bc87d2b0f812679f6ea06e",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "11867d49-7d34-4a2e-928c-a0f2a1182eeb",
+          "request_hash": "5853b637dee23eb4344ec9e0e2e7c2755da120f05e0788fcd4266ae4f6de6c59",
+          "input_chars": 5570,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1283.593,
+            "error_code": "completed",
+            "input_tokens": 1190,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 111,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_03c7b71c3fdc8e3d016ab0e44ef1e887d28584be919f14ee72",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "2af9c8be-0321-439b-97b8-7f93236aec97",
+          "request_hash": "6241008c1603bd4cf9af9a6870e7571b386a4dd9c7deb1062495ba535c50bb13",
+          "input_chars": 3009,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1264.678,
+            "error_code": "completed",
+            "input_tokens": 628,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 105,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0c591a8b450abc74016ab0e450405c87d2b944339c0460c751",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "16013bbf-0c45-4d93-8115-b420202ff5e5",
+          "request_hash": "ad6ba1b2c0b6d32d15651b6c805eee85eba18e1aa2d09b3120e5318e48bcbcc4",
+          "input_chars": 2759,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1034.394,
+            "error_code": "completed",
+            "input_tokens": 549,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 75,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0dc305a62626aff5016ab0e451878087d2851c35723b35d10c",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "73eb9a05-9e54-4895-a0c4-af46f9ab3845",
+          "request_hash": "658788c2589a62ac6fdae3a31afe49c592e697221e7a848a8a5160f3eb9419ea",
+          "input_chars": 1961,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1137.226,
+            "error_code": "completed",
+            "input_tokens": 430,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 109,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_02eb7fdbead848ee016ab0e452958087d2a5440f3eb012b701",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "707cd474-f748-4aa8-b5e4-f69fbb7a2f37",
+          "request_hash": "70a20b84b2d22500b18d12012b4805d511084476d1d37912f1719aa6e8eb3a29",
+          "input_chars": 2036,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 2487.171,
+            "error_code": "completed",
+            "input_tokens": 440,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 84,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_08b33fd73391ab87016ab0e453f2a087d297459d3d4b3ba769",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "13383560-9f41-452b-a2fc-0608c607cfa6",
+          "request_hash": "19b25034ce9da13540276bf7e651171258c50a27e390d1672da4feec60b3cae5",
+          "input_chars": 4464,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 998.876,
+            "error_code": "completed",
+            "input_tokens": 937,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 59,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0d8a7120273209f2016ab0e456467087d2b669aa9f3b2f1010",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "443c482d-afb3-4cd1-bd21-6c0adc54a896",
+          "request_hash": "932de6367e7ac3bdc1b570774346ff593d860bcb533e19f4af4e7f8aad1b2d00",
+          "input_chars": 4494,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1165.513,
+            "error_code": "completed",
+            "input_tokens": 912,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 90,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_014c2a3765c1a3dd016ab0e4574a5487d2a3ee08630085457b",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "24357de1-50da-433d-ba17-3fff0d507dde",
+          "request_hash": "378857f4b6280f4db2a1c810d501af76edbd16e7da340045edc782135618c17a",
+          "input_chars": 5325,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1397.357,
+            "error_code": "completed",
+            "input_tokens": 1076,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 140,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0b4d3e4e0d7d8ce6016ab0e45881d487d2a02e6b5a7071960f",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "42a78a50-3c68-40cc-b4de-c7474df67fea",
+          "request_hash": "d1bd02ff2cc8366c985e7b659c4fe58feece75e66c42e3fe942fea62e36ca27f",
+          "input_chars": 5306,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1196.043,
+            "error_code": "completed",
+            "input_tokens": 1120,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 104,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0c2bd42b2d631870016ab0e459ed6c87d29ec7f2a5afe5abe8",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "359df703-ba4a-4b5f-b8cd-1f346e8daf9c",
+          "request_hash": "c5133230df83d6a1053fdfd90c46e68b29de4897670911874bd99129748d0015",
+          "input_chars": 4915,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1340.64,
+            "error_code": "completed",
+            "input_tokens": 1022,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 141,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0c174ee1f89b6766016ab0e45b249087d29b3e8b4bcff94d4b",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "ca5d0efb-cae8-4a2d-984e-e48552b9017c",
+          "request_hash": "5915d282e31675adc28c6a760c6ecc8c713f25f61c3871cf586a926dbb22d5fc",
+          "input_chars": 4905,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1161.94,
+            "error_code": "completed",
+            "input_tokens": 1034,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 79,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_05b30b9ef8897de4016ab0e45c893487d2bedf8a8a53060b9a",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "d8cddb15-84ec-4fe7-b1e8-48bf359bc1e4",
+          "request_hash": "0eb927c5c3e83e3419aa38cc7b6cc84075c10db9227585ee266da7cb2163244b",
+          "input_chars": 4964,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1226.272,
+            "error_code": "completed",
+            "input_tokens": 1165,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 93,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0bd03452c6ccf80b016ab0e45dbc3087d2903a420fd5d7b8da",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "34fe36d6-7d86-4ece-9b5c-b2421a089640",
+          "request_hash": "e7e09c6638e12728d6359dedcaec94ed6dff497a65b1b131de31e9d7e988e45d",
+          "input_chars": 4910,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1715.045,
+            "error_code": "completed",
+            "input_tokens": 1042,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 91,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_07e995507027e179016ab0e45f04d487d2a3edec177171d887",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "a16f6d10-0909-4234-8acd-829c1be9809d",
+          "request_hash": "f1fc52ade447658ff47fe7aecb1da783af69374291c17585715f31278a84e944",
+          "input_chars": 5123,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1240.261,
+            "error_code": "completed",
+            "input_tokens": 1050,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 132,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0c861e271283c661016ab0e460b8d087d29b90cadcf30014a6",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "ebb6d0ab-2d66-4625-8dba-79f03d5cffdc",
+          "request_hash": "86cca1a512461b683af4d0caa0924ad8d6117bf61e91a478312ee57cb4ef0615",
+          "input_chars": 5229,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1623.527,
+            "error_code": "completed",
+            "input_tokens": 1137,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 148,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_07225e527a36dadd016ab0e46208b487d28112382c58d50b24",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "10e405a5-664d-4843-a117-192e67a08aa3",
+          "request_hash": "d1476d2d01bc3c71071973922d32fe236d80b943fe72d1fa49223b409f05748f",
+          "input_chars": 2451,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1105.607,
+            "error_code": "completed",
+            "input_tokens": 525,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 45,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0b2d26cc6f405e3f016ab0e463bb0c87d2af4f5befd61e6d5d",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "53b4a7c0-3eea-442a-9856-7fe06036dbfb",
+          "request_hash": "8297354e6b055a82ddca1cab0b00b6c6a6c202f06517814cd982528311d158be",
+          "input_chars": 2436,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1992.341,
+            "error_code": "completed",
+            "input_tokens": 519,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 62,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_03f4e0d0eeebe079016ab0e464cf0c87d29dcd748afb089d5d",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "9057e395-c41c-43dc-aa5d-d2450f9d6232",
+          "request_hash": "5c6b52431113be1dbbf7e9ad24c3fc244aa25c5b3ba7a57fa88e9cea2a081226",
+          "input_chars": 4542,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1059.994,
+            "error_code": "completed",
+            "input_tokens": 931,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 93,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_036063350618869b016ab0e466cd9487d28807fc4cd22b9a1e",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "464ce3fb-61a6-4468-bc31-12526e25342b",
+          "request_hash": "ac1c257caf128df781a5c52dc4cfd33dbfdb8df6a3cc7af8eae354b5695f3618",
+          "input_chars": 4517,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1620.866,
+            "error_code": "completed",
+            "input_tokens": 947,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 98,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0d3aec91972931da016ab0e467e66c87d2b141135278e05880",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "1e8ac70a-b1ad-4070-bd52-1723ff0c2518",
+          "request_hash": "665befc016c5a3c67a7099561acedd6648fc2d03cac9323d92c980398138f5af",
+          "input_chars": 1971,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1423.466,
+            "error_code": "completed",
+            "input_tokens": 405,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 84,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_00fa660c3f45feea016ab0e4698c7087d2a9ccb073d6649a00",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "1aeecc0a-b4ac-44f0-af35-3cf3bc9197c2",
+          "request_hash": "3f9fbb43c35dff949e50fe50f32dc2d08ab0e43ab1674edaf4922e05cb9f20dd",
+          "input_chars": 1962,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1029.992,
+            "error_code": "completed",
+            "input_tokens": 406,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 86,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0056f7d1014bbae3016ab0e46b01f487d2bfdde8c695e50f6f",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "46877275-1b8d-43c4-aa0f-a668104b4a60",
+          "request_hash": "15371a938557dabe841380b9d4e1b735af92ec25708cd41f749ceceeb07fe072",
+          "input_chars": 5480,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1203.044,
+            "error_code": "completed",
+            "input_tokens": 1195,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 106,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_025768f008de9444016ab0e46c14b487d2a0fbd0f7168c2d28",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "b0f10da5-09ff-4988-b885-577f9e7a425d",
+          "request_hash": "1cccb45b50904813ffd05a0dea36dfaf1aff241697d96b332aa27524974fa741",
+          "input_chars": 5444,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1465.807,
+            "error_code": "completed",
+            "input_tokens": 1170,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 136,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0d3061a31a641ec8016ab0e46d557887d289a42d4021e3903b",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "a7ceae44-e64e-401e-b1fd-133f929de8be",
+          "request_hash": "cd799ae3bf0bdf00dcb3a8c7c9e5a244564bc7424eacc36d587bb84f0778ef6e",
+          "input_chars": 2800,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1680.798,
+            "error_code": "completed",
+            "input_tokens": 545,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 117,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0fbc4e83e6bc52e7016ab0e46ecbf487d2838627f460a05245",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "061b1b77-d9d3-4bcb-a95b-a8162aa75e30",
+          "request_hash": "724fc8b5b98cec3d7c79e108b9f46da05b16b91dd3b6eba4abb2e1f103ee5c96",
+          "input_chars": 2972,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 4225.467,
+            "error_code": "completed",
+            "input_tokens": 585,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 106,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_05a0904875789c4b016ab0e470c98487d28dd35c46dc4af946",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "68b6e6c1-096c-4b03-92d6-20c5d6b085dd",
+          "request_hash": "c672b7ca46c9862de53dd1c44348cf5ee07255ef9784db31bdda68b797773470",
+          "input_chars": 8714,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1218.407,
+            "error_code": "completed",
+            "input_tokens": 1859,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 107,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0bf8d427d8011fc2016ab0e474c8d887d28200c2d3cf76f52f",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "8487b05c-8e50-4ec4-9b3e-91cd9fa3aa9a",
+          "request_hash": "94e5f764462d51884222e447119c9bf22563b153048ff4b8e991b7d905ffb763",
+          "input_chars": 8567,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1814.866,
+            "error_code": "completed",
+            "input_tokens": 1810,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 90,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0740557b39e87449016ab0e47615b887d28534295367b555ce",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "57bb8c3f-4a17-4658-8090-d94038d401fa",
+          "request_hash": "f0c0a6c5d1fca739eff937813b2f958c5f9192d32cf51ef8b67c7de1cab60e70",
+          "input_chars": 3151,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1198.5,
+            "error_code": "completed",
+            "input_tokens": 676,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 100,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0c20acbbdfe2b961016ab0e477de4c87d28acf45cd155eb63c",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "5b148e3f-3d87-4d13-a6d2-3983c3e9db92",
+          "request_hash": "4ac22d13a5be27a37c69b8fb73f61aa91866307ffa0534701275f42bad1fe859",
+          "input_chars": 3177,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1118.49,
+            "error_code": "completed",
+            "input_tokens": 672,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 103,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_01dc023b284d9e02016ab0e4791b9c87d28d25a71eb997d4be",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "b6872e3e-1ace-45cb-a2c9-968039f7cbc8",
+          "request_hash": "29ec5c062e66bd2f3415cdcf327f271ca776a2ba80f8a50bc12f65b988140ba2",
+          "input_chars": 6927,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1404.698,
+            "error_code": "completed",
+            "input_tokens": 1528,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 134,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0af06eefd58bd797016ab0e47a3f0087d2ab6b3bf05a3aef2b",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "5ff22046-0e25-41d8-83c8-1a35ae92b6ac",
+          "request_hash": "4bce26501b759f7c6029e9f25c49ed362f1b7c75924f401c94f38df456be0d8a",
+          "input_chars": 6964,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1734.447,
+            "error_code": "completed",
+            "input_tokens": 1579,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 111,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_04fe93cb4858dc3b016ab0e47bc5d487d2b480f940533f51a2",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "aefe964e-2576-4823-a3d1-5b07a3d6085c",
+          "request_hash": "059410feada118bd3894c59f1659a4fc1c6aae1301510db25e3ac13b8e36338d",
+          "input_chars": 4693,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1333.542,
+            "error_code": "completed",
+            "input_tokens": 969,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 139,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0c1c443e8e2485ac016ab0e47d748087d29e29369fcfa76098",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "22fb2af7-02cc-4853-bb2a-9df40ccb31c6",
+          "request_hash": "0ad7f4d9f9261ff53a528f1cd13a1f9629943cce7a069fd28f05830664ab10b9",
+          "input_chars": 4489,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 3296.949,
+            "error_code": "completed",
+            "input_tokens": 920,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 78,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_042771626db16f03016ab0e480a4c887d2ad0088b6c70d1966",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "0456af5f-8c4d-4091-9fc9-c24d12e0a7cf",
+          "request_hash": "6016e548b2a58722157a686dfcceb0e49375d2c1e6402b9957431622803a96d8",
+          "input_chars": 2682,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1279.769,
+            "error_code": "completed",
+            "input_tokens": 548,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 131,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0f56c346b6d77834016ab0e482235887d29452db936f487804",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "d6513f71-e01e-4895-84bd-79c22b89a6ad",
+          "request_hash": "e449423bf914ee901184cd653d3f6733d11f277ff504c49b0b5604e2b12fcc29",
+          "input_chars": 2660,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1223.236,
+            "error_code": "completed",
+            "input_tokens": 543,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 75,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0390423256e69409016ab0e4836fec87d2aa6be70152baecb7",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "d983e5a5-502a-4472-82a0-6814e4330808",
+          "request_hash": "7658abf6aa77db33f0c5cf00906847dee8540ed2aae292a87280a7226ee9c19a",
+          "input_chars": 2766,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1466.57,
+            "error_code": "completed",
+            "input_tokens": 579,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 80,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0746295a8ec712d0016ab0e484b83887d285806413a78e5ba2",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "c26cb0f6-3f71-4bd1-8831-1c919ad34bab",
+          "request_hash": "cd12a94df382132aa4268a82e8114d6be734467beeedd837d39c263c51adf6c3",
+          "input_chars": 2745,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1608.873,
+            "error_code": "completed",
+            "input_tokens": 564,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 114,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_05774cf006b026fd016ab0e486368887d294e9d81035d6deee",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "0fdc4280-6738-4c05-a71d-d1d16b0eb7d4",
+          "request_hash": "b292ac9b037c41a3749d2170fe7fe3383be248cb39ad282e0fe1461205e063ad",
+          "input_chars": 5580,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1307.736,
+            "error_code": "completed",
+            "input_tokens": 1208,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 89,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_05096335570a880d016ab0e487dc2887d280f00726b80e9071",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "5def409b-04e1-4bb0-9994-578d2b7345b1",
+          "request_hash": "cbacd5eb8049637dfaa24d5490d69d82c11faebfabea4bc455c123640cba5373",
+          "input_chars": 5647,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1633.392,
+            "error_code": "completed",
+            "input_tokens": 1157,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 92,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0a82a90dd92e3ccf016ab0e489364c87d2b8d89f467cf15c89",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "0de86efb-1b99-44ad-9dde-602d6abb36d6",
+          "request_hash": "09842e8b5996d7ef9a950065814cda8d9031d7bd84d681811a95f8abc43ec8ae",
+          "input_chars": 3248,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1435.534,
+            "error_code": "completed",
+            "input_tokens": 699,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 119,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0044b93f85b2de24016ab0e48ae03c87d2a4ab51c3e6b52752",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "8847df88-61cc-4d83-a694-350669672700",
+          "request_hash": "788ffe5b8dd6792f6529e5bb3b7ab5c38d7a03aef761d9fcc8dd4abce9e3d5d1",
+          "input_chars": 3111,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1208.854,
+            "error_code": "completed",
+            "input_tokens": 696,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 94,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0516c0b117ce30fe016ab0e48c529487d2b3dd0edea19076bf",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "379d522d-6c5e-4dd5-87ab-22810a28e030",
+          "request_hash": "12b6f8e5285c61216ffe874303f23bf0ce647c43ebe018d2cfecb2da98f10408",
+          "input_chars": 3337,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 2717.45,
+            "error_code": "completed",
+            "input_tokens": 708,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 100,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0d808cad5592f9ed016ab0e48d905c87d2a713443fddb341e6",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "4e761f8a-2c8e-47eb-8372-3ba270c9bcfc",
+          "request_hash": "8fad91524b7f662e20368477df1e5a7bad9060a14c91bcb5b97dfedb48dba271",
+          "input_chars": 3286,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1681.897,
+            "error_code": "completed",
+            "input_tokens": 693,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 75,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_09d0b709141130fb016ab0e49050f487d2881edf6f9c83242b",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "f5553428-1ec9-4eaf-a408-dcefd382b788",
+          "request_hash": "b5aca8a7b7d3c9fa1278dd1ca2d8c49e6812f4d24e5de5c267798dfeff2705bd",
+          "input_chars": 1797,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1096.13,
+            "error_code": "completed",
+            "input_tokens": 388,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 88,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_09ebe4a1702dd690016ab0e492057087d2a9cf0f6fe9662b5f",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "3740c05b-6dee-429b-b86a-2f766f9caaa2",
+          "request_hash": "d157ffc533df5ef78f4b211556d8c894c4a63f065c26ba308fcdf23591056c8f",
+          "input_chars": 1786,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1353.223,
+            "error_code": "completed",
+            "input_tokens": 380,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 88,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0ecf088a03b4c7fc016ab0e49326f887d2b72afd0f30f5a453",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "f03fea99-790f-4dbd-a45c-389be19796a2",
+          "request_hash": "acba27227f4b69573d59bc9e59ddfac06325edd9d000294c6885200aeb902fbc",
+          "input_chars": 6285,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 948.755,
+            "error_code": "completed",
+            "input_tokens": 1360,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 79,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_04e061f7d9d95c02016ab0e49484b087d29b28de2d4bb74442",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "a0f4da7b-cc2f-4110-be07-73b423e70abb",
+          "request_hash": "28ce982dc2558bc6fb49fdcbf10f5dcdd11c98f2fa9e9b9057c075ce4f206f7e",
+          "input_chars": 6278,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1260.43,
+            "error_code": "completed",
+            "input_tokens": 1306,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 80,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0d261b7834654f13016ab0e4958bf887d287837d08cf2b17a8",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "1c453905-3361-4242-9030-8d7fd36ee592",
+          "request_hash": "92a873c739fc50e8d62a3a7478d066b09fa1bbf5f2d9a108aad34a3d1fb87389",
+          "input_chars": 3691,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1228.902,
+            "error_code": "completed",
+            "input_tokens": 848,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 144,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_05ed2075ec5d182a016ab0e496ccc887d293fd1938e683147a",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "4d270512-de17-4084-8b3a-3054ca0cbac6",
+          "request_hash": "6ab0cf71b849c8743aa09d7a47b56e34a5b12473e355847be47ef9fa9b68adc7",
+          "input_chars": 3581,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1175.186,
+            "error_code": "completed",
+            "input_tokens": 760,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 104,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0a3ec2b387090bc2016ab0e4980ad487d29be09e4b6e595217",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "cb0c8b7f-d242-4936-a077-38ef00baa55d",
+          "request_hash": "6863459948f1f451245087b856984cb09c13f52ba29e7c88ef5a3a19341bcf1b",
+          "input_chars": 1539,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1126.476,
+            "error_code": "completed",
+            "input_tokens": 310,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 79,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0759e838e3932282016ab0e49941ac87d29c0da0a52b6a0c8d",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "fe2ef754-5a2f-4fa0-8528-bb5a4095c6a2",
+          "request_hash": "5aa847e1415ca839a88099e499327ee54080fd1b081f3f774514d3c5c2b47941",
+          "input_chars": 1568,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1190.842,
+            "error_code": "completed",
+            "input_tokens": 318,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 88,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0f272c9fb425ddfa016ab0e49a68e087d2a4137a589e078f14",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "7f85bcd2-b5ba-467f-b12c-368a46b2cfe8",
+          "request_hash": "1c433e77ddf0e0451d4a69b25872a8ab7a4f1692f46d3648732f3dfb9e46687f",
+          "input_chars": 3462,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 2923.062,
+            "error_code": "completed",
+            "input_tokens": 699,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 86,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_0143f665cc1f783c016ab0e49d20a087d28f2276f6b9763795",
+            "usage_known": true
+          }
+        },
+        {
+          "call_id": "1af4da62-219d-420a-9f08-072ea820a145",
+          "request_hash": "dc481a409fff2fd4e2775ad3921430a0a8eb33871bdba8b07c9b4f9c4fde9856",
+          "input_chars": 3497,
+          "output_reservation": 512,
+          "result": {
+            "cached_input_tokens": 0,
+            "elapsed_ms": 1249.731,
+            "error_code": "completed",
+            "input_tokens": 698,
+            "model": "gpt-5.4-mini-2026-03-17",
+            "outcome": "completed",
+            "output_tokens": 105,
+            "provider": "openai",
+            "reasoning_effort": "none",
+            "reasoning_tokens": 0,
+            "requested_model": "gpt-5.4-mini-2026-03-17",
+            "response_format": {
+              "type": "json_object"
+            },
+            "response_id": "resp_08097093a5876109016ab0e49e938887d2b56f4c21272b6703",
+            "usage_known": true
+          }
+        }
+      ],
+      "calls_reserved": 64,
+      "input_chars_reserved": 256760,
+      "output_tokens_reserved": 32768,
+      "unknown_usage_calls": 0
+    }
+  },
+  "rows": [
+    {
+      "id": "pair009-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The source article only supports a narrow fact about Jordan Spieth leading after 36 holes and Tiger Woods trailing him. The summary instead is a long repeated list of names, mostly Brandt Snedeker, with no support in the evidence for those repetitions or counts. Any unsupported assertion makes the entire summary unsupported.",
+      "len_summary": 803,
+      "len_original": 3299,
+      "len_placebo": 3299,
+      "tokens": [
+        1116,
+        78
+      ]
+    },
+    {
+      "id": "pair009-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that Lindsey Vonn returned to Augusta on Friday to watch Tiger Woods in the Masters, that Woods shot a three-under-par 69 in the second round, and that he was still 12 strokes behind Jordan Spieth. The summary adds that Vonn looked stressed at times, which is also supported by the evidence’s note that there were “some stressful moments.”",
+      "len_summary": 803,
+      "len_original": 3299,
+      "len_placebo": 3299,
+      "tokens": [
+        950,
+        91
+      ]
+    },
+    {
+      "id": "pair010-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that jurors found Dzhokhar Tsarnaev guilty on Wednesday of all 30 counts in the Boston Marathon bombing trial, that the case next moves to a penalty phase where jurors will hear testimony and arguments and decide whether Tsarnaev will be executed, and that he was 19 at the time of the bombing. This matches the summary.",
+      "len_summary": 1034,
+      "len_original": 2231,
+      "len_placebo": 2231,
+      "tokens": [
+        736,
+        90
+      ]
+    },
+    {
+      "id": "pair010-2",
+      "gold": "unsupported",
+      "summary_verdict": "supported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The source supports that Tsarnaev was eligible for the death penalty and was 19 at the time of the bombing, but it does not support the definite claim that \"he will be executed.\" The article says jurors will decide whether he will be executed, so the outcome is uncertain, not established.",
+      "len_summary": 1034,
+      "len_original": 2231,
+      "len_placebo": 2231,
+      "tokens": [
+        681,
+        77
+      ]
+    },
+    {
+      "id": "pair017-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The source supports that NHS Improvement wanted £1bn reduction in agency spending and that a cap had reportedly saved £600m so far. But the claim says spending is expected to fall by £500m this year, which is not stated in the evidence and conflicts with the £1bn reduction target and £600m saved so far. The specific wording about being expected to fall by £500m despite the cap is therefore unsupported.",
+      "len_summary": 1006,
+      "len_original": 2056,
+      "len_placebo": 2056,
+      "tokens": [
+        647,
+        102
+      ]
+    },
+    {
+      "id": "pair017-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports that NHS Improvement is urging further progress to reduce agency spending and wants the NHS to do more to cut its agency bill. The claim is a faithful summary of that point, without adding unsupported details.",
+      "len_summary": 1006,
+      "len_original": 2056,
+      "len_placebo": 2056,
+      "tokens": [
+        627,
+        58
+      ]
+    },
+    {
+      "id": "pair021-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that Jack Grealish, age 19, impressed in Aston Villa’s FA Cup semi-final win over Liverpool and that he had to choose between the Republic of Ireland and England. However, the summary adds unsupported or inaccurate wording such as “the 19-year-old aston villa side,” “the Irishman,” and the claim that he “is wanted by the republic of ireland and england,” which is not established by the evidence as a direct statement of being wanted by both sides. Because any unsupported assertion makes the full summary unsupported, the claim is unsupported.",
+      "len_summary": 971,
+      "len_original": 2588,
+      "len_placebo": 2588,
+      "tokens": [
+        787,
+        130
+      ]
+    },
+    {
+      "id": "pair021-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports the summary’s relevant claims: Tim Sherwood said Grealish should concentrate on his Aston Villa career and first-team place rather than his international future; Grealish impressed against Liverpool; and he was choosing between the Republic of Ireland and England. The extra Russia/Montenegro material is unrelated but does not contradict the supported Grealish summary.",
+      "len_summary": 971,
+      "len_original": 2588,
+      "len_placebo": 2588,
+      "tokens": [
+        787,
+        88
+      ]
+    },
+    {
+      "id": "pair023-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports that Mark Clattenburg was named to officiate the Manchester derby on Sunday, and that he had sent off three players from United and City that season. It also supports that Vincent Kompany was sent off in Belgium’s 1-0 win over Israel. The summary is factually consistent with the source article.",
+      "len_summary": 1015,
+      "len_original": 1973,
+      "len_placebo": 1973,
+      "tokens": [
+        667,
+        83
+      ]
+    },
+    {
+      "id": "pair023-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports only some unrelated details about the Manchester derby and referee Mark Clattenburg. It does not support the claims that United’s win over Liverpool was their first league win since March 31, that City’s/Manchester City’s win over West Ham was their first league win since March 31, or that Manuel Pellegrini’s side were top of the Premier League table four points clear of Chelsea with a game in hand. Those assertions are not present in the supplied evidence.",
+      "len_summary": 1015,
+      "len_original": 1973,
+      "len_placebo": 1973,
+      "tokens": [
+        712,
+        113
+      ]
+    },
+    {
+      "id": "pair025-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that four Royal Navy sailors were charged in Nova Scotia and granted bail in Dartmouth with unusual conditions including staying in Nova Scotia, surrendering passports, and living at Stadacona naval base in Halifax. However, the summary adds unsupported details: that they appeared 'in turn' in court, that Dartmouth is 'near Halifax' (not stated), that the conditions were 'identical' (implied but not explicitly stated), and that they 'could see them having to live on a Canadian naval base for the next few years' (the evidence says live at Stadacona naval base but does not say 'for the next few years'). It also says two men 'hid their faces as they were led to a provincial court' and that Darren Smalley and his co-accused were ordered to surrender passports; the face-hiding and 'co-accused' wording are not in the evidence. Because the claim combines supported and unsupported assertions, it is unsupported.",
+      "len_summary": 916,
+      "len_original": 4343,
+      "len_placebo": 4343,
+      "tokens": [
+        1284,
+        213
+      ]
+    },
+    {
+      "id": "pair025-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The source supports that four Royal Navy sailors appeared in Dartmouth, Nova Scotia, in a Dartmouth court, and that they agreed to surrender passports and live at Stadacona naval base in Halifax. It does not support the repeated claims that they appeared in turn in courts in Dartmouth, Hampshire, Gloucestershire, or Dartmouth near Halifax as separate items, and the place-name details are inconsistent and partly wrong. Because the summary includes unsupported and altered location assertions, the entire summary is unsupported.",
+      "len_summary": 916,
+      "len_original": 4343,
+      "len_placebo": 4343,
+      "tokens": [
+        1190,
+        111
+      ]
+    },
+    {
+      "id": "pair035-1",
+      "gold": "supported",
+      "summary_verdict": "error",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports the summary’s core assertions: Varvara, a North Pacific gray whale, swam nearly 14,000 miles (22,500 kilometers), and this surpassed a Guinness World Records-listed previous record held by a humpback whale at 10,190 miles. The wording about the route as a round trip between warm breeding waters near the equator is not given verbatim in the evidence, but the substantive record comparison is supported.",
+      "len_summary": 1057,
+      "len_original": 1791,
+      "len_placebo": 1791,
+      "tokens": [
+        628,
+        105
+      ]
+    },
+    {
+      "id": "pair035-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that a North Pacific gray whale named Varvara swam nearly 14,000 miles, but it does not support the claim that this was “from Oregon State University.” Oregon State University scientists tracked the whale and reported the migration; the whale did not originate from Oregon State University.",
+      "len_summary": 1057,
+      "len_original": 1791,
+      "len_placebo": 1791,
+      "tokens": [
+        549,
+        75
+      ]
+    },
+    {
+      "id": "pair042-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that AP McCoy was to ride Mr Mole and that Sprinter Sacre would be ridden by Nico de Boinville because Barry Geraghty is injured. However, the claim’s phrasing includes several unresolved/garbled elements (“installed as one of three UNK in the UNK line-up” and “paul UNK”), so the full summary as written is not cleanly supported by the source.",
+      "len_summary": 664,
+      "len_original": 888,
+      "len_placebo": 888,
+      "tokens": [
+        430,
+        109
+      ]
+    },
+    {
+      "id": "pair042-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that Mr Mole is one of the runners in the Grade One Celebration Chase at Sandown on Saturday, that McCoy and Mr Mole face six rivals, that this will be McCoy’s last ride in a Grade One race, and that his final-day ride list will not be confirmed until Friday morning. These match the claim.",
+      "len_summary": 664,
+      "len_original": 888,
+      "len_placebo": 888,
+      "tokens": [
+        440,
+        84
+      ]
+    },
+    {
+      "id": "pair046-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The source states that the Indonesian government ordered preparations for the execution of 10 death-row inmates, including Filipino maid Mary Jane Veloso and Australians Andrew Chan and Myuran Sukumaran. This supports the summary claim.",
+      "len_summary": 990,
+      "len_original": 3462,
+      "len_placebo": 3462,
+      "tokens": [
+        937,
+        59
+      ]
+    },
+    {
+      "id": "pair046-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The source supports that consular officials were advised to travel to Nusa Kambangan and that the inmates had clemency denied, but it does not support the claim that Jakarta had repeatedly appealed for clemency for the pair. The wording also misstates the subject as if Jakarta itself advised the officials, whereas the evidence attributes the advice to an attorney general spokesman.",
+      "len_summary": 990,
+      "len_original": 3462,
+      "len_placebo": 3462,
+      "tokens": [
+        912,
+        90
+      ]
+    },
+    {
+      "id": "pair047-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that Yves Van De Ven was a Belgian food blogger, age 37, who posted mocked tourist-posing photos from a Paris trip and said he and his friends had fun making them. However, the claim is not fully supported because it says he is French and that he uploaded the picture “in a bid to poke fun” and “thought it would be hilarious to deliberately make fun” of tourist photos, which is stronger and differently framed than the source’s wording. The source does not support the nationality claim and does not quote him saying he uploaded the photo for that explicit purpose or using that exact characterization.",
+      "len_summary": 826,
+      "len_original": 4179,
+      "len_placebo": 4179,
+      "tokens": [
+        1076,
+        140
+      ]
+    },
+    {
+      "id": "pair047-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports the core summary: Yves Van De Ven, age 37, posted photos from a Paris trip on social media/Facebook that mocked clichéd tourist poses and deliberately made fun of typical landmark pictures. His comments about the images being a hit with friends and fun to take are consistent with the claim’s idea that he thought it would be hilarious to do so. The rest of the evidence is unrelated but does not contradict this summary.",
+      "len_summary": 826,
+      "len_original": 4179,
+      "len_placebo": 4179,
+      "tokens": [
+        1120,
+        104
+      ]
+    },
+    {
+      "id": "pair052-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that a 20-year-old British tourist accused taxi driver Salim in Jaipur, India, of molestation/assault, that he was arrested and is in judicial custody, and that police took statements from the woman and her friend. However, the claim adds unsupported/shifted details: it says the driver was arrested after being accused of assaulting the woman and was alleged to have assaulted the tourist, while the evidence specifically says molestation and does not state the exact wording \"assaulting\". Because the claim must be fully supported and includes potentially stronger or different wording, it is not fully supported.",
+      "len_summary": 902,
+      "len_original": 3775,
+      "len_placebo": 3775,
+      "tokens": [
+        1022,
+        141
+      ]
+    },
+    {
+      "id": "pair052-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that a man identified as Salim was accused of molesting a 20-year-old British tourist in Jaipur, India, not that he assaulted a woman in Lahore. The location and specific allegation in the claim are not supported, and the source does not mention Friday evening or an assault accusation in Lahore.",
+      "len_summary": 902,
+      "len_original": 3775,
+      "len_placebo": 3775,
+      "tokens": [
+        1034,
+        79
+      ]
+    },
+    {
+      "id": "pair054-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports the promposal summary: it says teens are devising increasingly elaborate ways to ask someone to prom, and that a Visa survey found students will likely spend about a third of their prom budgets on the promposal itself; with average prom spending around $1,000, that is about $324. The extra rugby material is unrelated to the claim and does not affect support.",
+      "len_summary": 982,
+      "len_original": 3770,
+      "len_placebo": 3770,
+      "tokens": [
+        1165,
+        93
+      ]
+    },
+    {
+      "id": "pair054-2",
+      "gold": "unsupported",
+      "summary_verdict": "supported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence explicitly supports the key claims in the summary: a Visa survey of 3,000 people age 18 or older found students this year will likely spend about a third of their prom budgets on promposals, and the article discusses prior promposal examples as context/primer. The wording is slightly compressed, but it does not add unsupported facts beyond what the evidence states.",
+      "len_summary": 982,
+      "len_original": 3770,
+      "len_placebo": 3770,
+      "tokens": [
+        1042,
+        91
+      ]
+    },
+    {
+      "id": "pair057-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The source states that Michelle Manhart, 38, was arrested/struggled with campus police at Valdosta State University in Georgia after taking a flag from protesters who were trampling it. It also says she heard from a student that the flag was on the ground and being walked on, and that video from Friday shows campus police struggling with her, forcing her to the ground, and driving her away. The summary matches these points, with only minor wording differences such as “handcuffed” versus “arrested,” which are consistent with the article’s description.",
+      "len_summary": 1013,
+      "len_original": 3989,
+      "len_placebo": 3989,
+      "tokens": [
+        1050,
+        132
+      ]
+    },
+    {
+      "id": "pair057-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The source supports that Michelle Manhart, 38, was arrested/handcuffed by campus police at Valdosta State University in Georgia after taking an American flag and being driven away in a patrol car. However, the claim adds unsupported or altered details: it says she was handcuffed in a patrol car, says she grabbed the “stars and stripes” from a patrol car, and misstates the location as a “California state university, georgia.” The quoted statement that the flag belongs to “the entire united states” is not supported by the article wording, which instead quotes her saying it “doesn’t deserve to be on the ground.”",
+      "len_summary": 1013,
+      "len_original": 3989,
+      "len_placebo": 3989,
+      "tokens": [
+        1137,
+        148
+      ]
+    },
+    {
+      "id": "pair062-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that Hollywood Reporter said Sawyer Sweeten was visiting family in Texas. The claim matches this assertion and does not add a conflicting detail.",
+      "len_summary": 772,
+      "len_original": 1503,
+      "len_placebo": 1503,
+      "tokens": [
+        525,
+        45
+      ]
+    },
+    {
+      "id": "pair062-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that Sawyer Sweeten died by suicide and that this was according to his sister Madylin Sweeten in a statement relayed by her manager. The claim matches that attribution and fact.",
+      "len_summary": 772,
+      "len_original": 1503,
+      "len_placebo": 1503,
+      "tokens": [
+        519,
+        62
+      ]
+    },
+    {
+      "id": "pair067-1",
+      "gold": "supported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The source states that UEFA ordered Montenegro to play its next two UEFA competition home games behind closed doors, that Igor Akinfeev was struck on the head by a flare thrown from the stands, and that further trouble included a brawl between players before referee Deniz Aytekin called off the match. The summary matches these points, with only minor wording differences and no unsupported factual addition.",
+      "len_summary": 967,
+      "len_original": 3414,
+      "len_placebo": 3414,
+      "tokens": [
+        931,
+        93
+      ]
+    },
+    {
+      "id": "pair067-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that UEFA ordered Montenegro to play its next two UEFA competition home games behind closed doors after the March 27 abandoned match in which Igor Akinfeev was struck by a flare. However, the claim says Montenegro was ordered to play its next two qualifying games, which changes the sanction and omits the home-games/behind-closed-doors restriction. That wording is not supported by the source.",
+      "len_summary": 967,
+      "len_original": 3414,
+      "len_placebo": 3414,
+      "tokens": [
+        947,
+        98
+      ]
+    },
+    {
+      "id": "pair070-1",
+      "gold": "unsupported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that Deshane Beckford was invited to train with West Ham’s academy earlier this month, that he also has offers from clubs in Belgium, and that West Ham said season tickets at the Olympic Stadium will cost as little as £289. These points support the summary’s claims, with only minor wording differences and no contradiction.",
+      "len_summary": 827,
+      "len_original": 855,
+      "len_placebo": 855,
+      "tokens": [
+        405,
+        84
+      ]
+    },
+    {
+      "id": "pair070-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that West Ham are discussing a deal for Jamaican starlet Deshane Beckford, that the 17-year-old forward was invited to train with West Ham’s academy earlier this month, and that he has been linked with several European clubs. These points match the summary, and no additional unsupported assertion is required for the claim as given.",
+      "len_summary": 827,
+      "len_original": 855,
+      "len_placebo": 855,
+      "tokens": [
+        406,
+        86
+      ]
+    },
+    {
+      "id": "pair087-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The source article states that veteran actor Robert Hardy, 89, is selling more than 200 items (238 lots) from his antiques collection at auction; that he studied English at Magdalen College, Oxford and was taught by J.R.R. Tolkien; and that the sale includes paintings, furniture, swords, flintlock rifles, silverware, and chandeliers. The summary matches these points, with only minor wording differences and no contradiction.",
+      "len_summary": 1049,
+      "len_original": 4301,
+      "len_placebo": 4301,
+      "tokens": [
+        1195,
+        106
+      ]
+    },
+    {
+      "id": "pair087-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The source states that veteran actor Robert Hardy, 89, is selling his antiques collection in a £100,000 auction, that he studied English at Magdalen College, Oxford, and that the sale includes a hand-painted Battle of Agincourt diorama commissioned by Hardy. The summary’s main statements match the article, and the added phrase about him being an expert on the medieval longbow is consistent with the article’s description that he is selling a yew longbow and has a portrait with the bow, though the source does not explicitly call him an expert. The core claims are supported.",
+      "len_summary": 1049,
+      "len_original": 4301,
+      "len_placebo": 4301,
+      "tokens": [
+        1170,
+        136
+      ]
+    },
+    {
+      "id": "pair099-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports that the National Association of Head Teachers’ general secretary was skeptical about using technology as a teaching aid in non-IT classes, and that kindergarten students who shared iPads in class significantly outscored peers on early literacy tests compared with students who had their own devices. The wording about “did much better” is supported by the reported higher scores. The only minor mismatch is “UNK classes,” which is vague, but the source does support the non-IT/earlier-grades context.",
+      "len_summary": 1007,
+      "len_original": 1651,
+      "len_placebo": 1651,
+      "tokens": [
+        545,
+        117
+      ]
+    },
+    {
+      "id": "pair099-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that Blackwell’s findings came amid skepticism from the general secretary of the National Association of Head Teachers about using technology as a teaching aid in non-IT classes, and that shared-iPad students scored around 30 points higher than students with no iPads or their own device. It also says the best outcome came from collaborative learning around the technology, which is consistent with the summary’s claim that shared devices were linked to better literacy results.",
+      "len_summary": 1007,
+      "len_original": 1651,
+      "len_placebo": 1651,
+      "tokens": [
+        585,
+        106
+      ]
+    },
+    {
+      "id": "pair101-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The source states that Saracens beat Racing Metro 92 with a last-minute Marcelo Bosch penalty in a Champions Cup quarter-final, that Bosch converted with 10 seconds left after Fabrice Metz was penalised, and that Saracens were helped by penalties from Charlie Hodgson and Alex Goode. It also says Racing’s only try came from Maxime Machenaud. The claim’s wording is slightly different, but its substantive assertions match the evidence.",
+      "len_summary": 930,
+      "len_original": 7480,
+      "len_placebo": 7480,
+      "tokens": [
+        1859,
+        107
+      ]
+    },
+    {
+      "id": "pair101-2",
+      "gold": "supported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that Racing Metro 92’s only try came from Maxime Machenaud, Charlie Hodgson contributed penalties for Saracens, and Marcelo Bosch scored the last-minute match-winning penalty. However, it does not support the claim that Machenaud crossed for Racing Metro 92 specifically “in the first half,” so the full summary is not fully supported.",
+      "len_summary": 930,
+      "len_original": 7480,
+      "len_placebo": 7480,
+      "tokens": [
+        1810,
+        90
+      ]
+    },
+    {
+      "id": "pair105-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports the summary’s main points: the video was recorded in Auckland, New Zealand; the fly landed on frozen beef steak and got its tongue stuck while appearing to taste it; and after an attempted manual help, the video maker used a heat gun to thaw the ice and free the fly. The extra wording about ‘videoed up-close’ and ‘eventually setting it free’ is consistent with the source.",
+      "len_summary": 555,
+      "len_original": 2011,
+      "len_placebo": 2011,
+      "tokens": [
+        676,
+        100
+      ]
+    },
+    {
+      "id": "pair105-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that the fly was initially seen apparently enjoying the taste, with its tongue stuck to the frozen beef steak, and that it tried to pull free by moving its legs, arching its back, and twisting. However, the claim adds unsupported specifics and wording such as being 'the first to be determined to break free,' 'cracked itself,' and 'twisting slightly,' which are not established by the evidence as stated.",
+      "len_summary": 555,
+      "len_original": 2011,
+      "len_placebo": 2011,
+      "tokens": [
+        672,
+        103
+      ]
+    },
+    {
+      "id": "pair110-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports the summary’s Robert Gentile portion: it says Robert Gentile, a 78-year-old Connecticut man, was arrested Friday in Hartford and charged with selling a firearm to an undercover agent, and his lawyer Ryan McGuigan said the arrest was a ruse to pressure him about the 1990 Isabella Stewart Gardner Museum art heist. The evidence also supports that the FBI had been questioning him because they believed he knew the whereabouts of the Gardner paintings. The later South Sudan/Uganda material is unrelated to the Gentile summary and does not affect support for this claim.",
+      "len_summary": 1046,
+      "len_original": 5531,
+      "len_placebo": 5531,
+      "tokens": [
+        1528,
+        134
+      ]
+    },
+    {
+      "id": "pair110-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports the Robert Gentile portion in substance, but the claim adds unsupported details and errors: it says he was charged with selling a firearm to his attorney, while the evidence says he was charged with selling a firearm to an undercover agent. It also says the heist was a \"$500million heist\"; the evidence instead describes the Isabella Stewart Gardner Museum art heist and does not state that amount. Because the claim must be entirely supported, it is unsupported.",
+      "len_summary": 1046,
+      "len_original": 5531,
+      "len_placebo": 5531,
+      "tokens": [
+        1579,
+        111
+      ]
+    },
+    {
+      "id": "pair116-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports the core political quotes about Cameron saying Labour left millions trapped on welfare in a system that “punished the poor,” that families on benefits were victims of the system, and that Labour should not lecture on poverty. However, the supplied summary also includes several unsupported or distorted assertions, such as the claim that Labour said it was trying to “dare lecture us on poverty on poverty,” and the wording about Labour leaving millions trapped “by tories for failing the poor to work,” which is not supported by the evidence as stated. Since any unsupported assertion makes the whole summary unsupported, the verdict is unsupported.",
+      "len_summary": 1109,
+      "len_original": 3340,
+      "len_placebo": 3340,
+      "tokens": [
+        969,
+        139
+      ]
+    },
+    {
+      "id": "pair116-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The summary matches the evidence: Cameron said Labour had left millions trapped on welfare in a system that “punished the poor,” accused Ed Miliband and Ed Balls of having “some brass neck” for attacking the Tories on poverty, and told them “do n’t you dare lecture us on poverty.”",
+      "len_summary": 1109,
+      "len_original": 3340,
+      "len_placebo": 3340,
+      "tokens": [
+        920,
+        78
+      ]
+    },
+    {
+      "id": "pair119-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that Nigel Pearson urged Leicester to keep their cool and ignore relegation rivals, that Leicester host Swansea on Saturday, that Leicester are three points from safety, and that Jamie Vardy scored an injury-time winner against West Bromwich Albion. However, the claim adds unsupported/incorrect wording: it says \"host swansea\" as if Swansea are host, and \"the foxes host the foxes at west brom in sunday,\" which is not supported by the source and is internally inconsistent. Because any unsupported assertion makes the whole summary unsupported, the claim is unsupported.",
+      "len_summary": 812,
+      "len_original": 1493,
+      "len_placebo": 1493,
+      "tokens": [
+        548,
+        131
+      ]
+    },
+    {
+      "id": "pair119-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that Leicester are bottom but only three points from safety after back-to-back wins, that Nigel Pearson urged his players to ignore relegation rivals, that Leicester host Swansea on Saturday, and that Jamie Vardy scored an injury-time winner against West Brom. These match the summary’s claims.",
+      "len_summary": 812,
+      "len_original": 1493,
+      "len_placebo": 1493,
+      "tokens": [
+        543,
+        75
+      ]
+    },
+    {
+      "id": "pair122-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence states that B.B. King was hospitalized for dehydration, that Claudette King said the dehydration was caused by his Type II diabetes, and that she said he was “much better.” It also says he was leaving the hospital that day, consistent with not being out long. The summary is factually supported.",
+      "len_summary": 850,
+      "len_original": 1682,
+      "len_placebo": 1682,
+      "tokens": [
+        579,
+        80
+      ]
+    },
+    {
+      "id": "pair122-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The source supports that B.B. King’s dehydration was said by his daughter to be caused by his Type II diabetes, and that he was inducted into the Rock and Roll Hall of Fame in 1987. However, the claim’s final assertion that “he is part of the name he used as a Memphis disc jockey” is not supported by the provided evidence. The evidence mentions B.B. King and the hall of fame, but does not state anything about a Memphis disc jockey name.",
+      "len_summary": 850,
+      "len_original": 1682,
+      "len_placebo": 1682,
+      "tokens": [
+        564,
+        114
+      ]
+    },
+    {
+      "id": "pair124-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "uncertain",
+      "placebo_reason": "The evidence says UN officials said the violence in South Sudan could amount to genocide or ethnic cleansing, and that this was only a possibility. That supports a claim that there is concern about a possible genocide threat, but not the stronger, definitive wording that South Sudan is facing an international threat of genocide. The claim’s meaning is therefore unresolved based on the supplied evidence.",
+      "len_summary": 1041,
+      "len_original": 4603,
+      "len_placebo": 4603,
+      "tokens": [
+        1208,
+        89
+      ]
+    },
+    {
+      "id": "pair124-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence does mention South Sudan violence and that an article describes killings, rape, ethnic targeting, and a possible massacre/genocide, but it does not support the specific claim that this was \"in our series of letters from african journalists\" or that film-maker and columnist Farai Sevenzo was the one considering it. That attribution and series framing are not established by the supplied evidence.",
+      "len_summary": 1041,
+      "len_original": 4603,
+      "len_placebo": 4603,
+      "tokens": [
+        1157,
+        92
+      ]
+    },
+    {
+      "id": "pair137-1",
+      "gold": "unsupported",
+      "summary_verdict": "supported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports the summary’s Italy/migrant portion: it says Italy was coping with a rise in desperate migrants from Africa and the Middle East, that 8,480 migrants were rescued from Friday to Monday, that the coast guard received 20 distress calls on Monday alone, and that Save the Children feared 400 migrants might be missing. The extra details in the claim about the coast guard telling CNN are also consistent with the evidence’s attribution to CNN, and the added media wording does not contradict the supplied facts.",
+      "len_summary": 953,
+      "len_original": 1987,
+      "len_placebo": 1987,
+      "tokens": [
+        699,
+        119
+      ]
+    },
+    {
+      "id": "pair137-2",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The source states that the Italian coast guard said 8,480 migrants were rescued from Friday to Monday, that Save the Children feared 400 migrants might be missing, and that Italy was coping with a rise in migrants trying to reach Europe by boat, which supports the summary’s claims about the rescues, the feared missing migrants, and the recent upsurge in Mediterranean crossings into Italy.",
+      "len_summary": 953,
+      "len_original": 1987,
+      "len_placebo": 1987,
+      "tokens": [
+        696,
+        94
+      ]
+    },
+    {
+      "id": "pair142-1",
+      "gold": "unsupported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The source says at least 60 properties were being helped in Cambridgeshire after flash flooding, with crews assisting evacuations and pumping water from homes. The summary’s core claim that at least 60 homes/properties were flooded in Cambridgeshire after heavy rain is supported. Although the source does not explicitly say “early hours of Friday,” it does place the incidents on Friday and does not contradict that timing.",
+      "len_summary": 1121,
+      "len_original": 2328,
+      "len_placebo": 2328,
+      "tokens": [
+        708,
+        100
+      ]
+    },
+    {
+      "id": "pair142-2",
+      "gold": "supported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that at least 60 properties/homes were being helped in Cambridgeshire after flooding, but it does not clearly state that at least 60 homes have been flooded. The source says the exact number affected could not be confirmed, so the claim overstates the supported fact.",
+      "len_summary": 1121,
+      "len_original": 2328,
+      "len_placebo": 2328,
+      "tokens": [
+        693,
+        75
+      ]
+    },
+    {
+      "id": "pair144-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence is about Imax filing an application with the Hong Kong stock exchange and expansion in China. It does not support the claim about \"China's biggest e-commerce company,\" \"the world’s biggest online retailer,\" or any statement that shares have filed for something described as \"fastest\" in China. The subject and details do not match the source article.",
+      "len_summary": 747,
+      "len_original": 777,
+      "len_placebo": 777,
+      "tokens": [
+        388,
+        88
+      ]
+    },
+    {
+      "id": "pair144-2",
+      "gold": "supported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that Imax filed an application with the Hong Kong stock exchange and that its parent company is already listed in New York, but it does not support the claim that Imax is “the world’s biggest parent company,” nor the garbled repetition “for listing on its shares in listing in listing in listing in china.”",
+      "len_summary": 747,
+      "len_original": 777,
+      "len_placebo": 777,
+      "tokens": [
+        380,
+        88
+      ]
+    },
+    {
+      "id": "pair152-1",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence says Hernandez was a marijuana supplier and that he asked Jenkins to discard a marijuana-scented box, but it does not support the claim that he “leave a marijuana blunt he shared with the victim.” The blunt-sharing detail is absent, and the wording about leaving a blunt is not established by the source.",
+      "len_summary": 1219,
+      "len_original": 5304,
+      "len_placebo": 5304,
+      "tokens": [
+        1360,
+        79
+      ]
+    },
+    {
+      "id": "pair152-2",
+      "gold": "supported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "uncertain",
+      "placebo_reason": "The evidence supports that defense lawyer James Sultan argued in closing, and that Wallace and Carlos Ortiz were described as possible perpetrators in the trial. However, it does not explicitly say Sultan tried to implicate them, only that the prosecutors described them as possible perpetrators. The claim’s attribution and intent are therefore not fully supported.",
+      "len_summary": 1219,
+      "len_original": 5304,
+      "len_placebo": 5304,
+      "tokens": [
+        1306,
+        80
+      ]
+    },
+    {
+      "id": "pair153-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence directly supports the summary: it says Myer and Mattel will re-release the original 1959-style Barbie doll in Australia on Saturday, April 11, at five Myer City stores in Melbourne, Sydney, Perth, Brisbane and Adelaide; the first 100 customers at each store at 9am can buy it at the original 1959 price; the original doll was first released at the New York Toy Fair in 1959; and Myer teamed up with Mattel to reproduce the dolls. The extra wording about “collectors’ items” is consistent with this promotion and does not add a conflicting unsupported claim.",
+      "len_summary": 938,
+      "len_original": 2488,
+      "len_placebo": 2488,
+      "tokens": [
+        848,
+        144
+      ]
+    },
+    {
+      "id": "pair153-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports that Myer and Mattel will re-release the original 1959-style Barbie doll, that customers can buy it for the original 1959 price of $3.00, and that the reproduction features a black-and-white striped one-piece swimsuit, black heels, gold hoop earrings, and white sunglasses. The summary’s wording is slightly paraphrased, but it preserves the supported facts and does not add an unsupported assertion.",
+      "len_summary": 938,
+      "len_original": 2488,
+      "len_placebo": 2488,
+      "tokens": [
+        760,
+        104
+      ]
+    },
+    {
+      "id": "pair159-1",
+      "gold": "supported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The evidence supports that a suspected World War Two munition/device was found in South Yorkshire and that police later declared the area safe, but it does not support the claim that \"a controlled explosion has been found\". A controlled explosion is not mentioned, and \"found\" is the wrong relation for the explosion itself.",
+      "len_summary": 597,
+      "len_original": 493,
+      "len_placebo": 597,
+      "tokens": [
+        310,
+        79
+      ]
+    },
+    {
+      "id": "pair159-2",
+      "gold": "unsupported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The evidence supports that an unexploded device believed to be a World War Two munition was found on Matilda Street in Sheffield and that South Yorkshire Police declared the area safe about four hours later. The wording is slightly imprecise about the device being definitively identified, but the summary uses the qualifying phrase 'has been declared safe,' which matches the evidence.",
+      "len_summary": 597,
+      "len_original": 493,
+      "len_placebo": 597,
+      "tokens": [
+        318,
+        88
+      ]
+    },
+    {
+      "id": "pair160-1",
+      "gold": "supported",
+      "summary_verdict": "supported",
+      "original_verdict": "supported",
+      "placebo_verdict": "supported",
+      "placebo_reason": "The summary matches the source article’s key facts: a drone with traces of radioactive material was found on the roof of the Japanese prime minister’s residence, described as Japan’s equivalent of the White House, on Wednesday, and the incident occurred the same day a Japanese court approved restarting two reactors at the Sendai nuclear plant. The evidence supports both assertions.",
+      "len_summary": 1053,
+      "len_original": 2247,
+      "len_placebo": 2247,
+      "tokens": [
+        699,
+        86
+      ]
+    },
+    {
+      "id": "pair160-2",
+      "gold": "unsupported",
+      "summary_verdict": "unsupported",
+      "original_verdict": "unsupported",
+      "placebo_verdict": "unsupported",
+      "placebo_reason": "The source supports that a Japanese court approved a government plan to restart two reactors at the Sendai nuclear plant more than four years after the Fukushima disaster, and that this occurred on the same day as the drone discovery. However, the claim says the plant was in an unknown 'UNK prefecture'; the evidence specifies Sendai nuclear plant but does not support the prefecture wording in the claim, and the exact summary as written is not fully supported.",
+      "len_summary": 1053,
+      "len_original": 2247,
+      "len_placebo": 2247,
+      "tokens": [
+        698,
+        105
+      ]
+    }
+  ]
+}
