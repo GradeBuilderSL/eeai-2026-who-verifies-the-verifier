@@ -22,8 +22,8 @@ measured what that buys, on real versioned law with deterministic gold.
    compressions return nothing) and still reaches **97 of 100** under the layer. *(fig. 1)*
 2. **A second model is not a second opinion — when the lie is invisible.** Three independent judges (mini,
    gpt-5.4, DeepSeek) unanimously certify 2 of 97 wrong answers that are visibly stale (today's text, date
-   mismatch) — and 9 of 23 wrong answers from the compressed history, where the figure is simply one version
-   off. On injected restriction drops: 5 of 9 and 7 of 10. *(fig. 2)*
+   mismatch) — and **9 of 19** wrong answers from the compressed history, where the figure is simply one version
+   off (47 %; four more compressions returned nothing and were never judged). On injected restriction drops: 5 of 9 and 7 of 10. *(fig. 2)*
 3. **Calibration is honesty about the input, not about the lost original.** A calibrated decision model
    (TypeSafe Jev), asked the same question as a fourth judge, signs 8 of those 9 invisible lies and all 9 wrong
    as-of answers with mean P(supported) = 0.89 — 300 verdicts, 90 seconds, $0.025. *(fig. 4)*
@@ -47,7 +47,7 @@ model catches exactly those cases.
 | C — version in force (oracle) | 91 | 90 | 91 |
 | D — one typed figure per version, data own the dates | **99** | **99** (99, 99) | **97** |
 
-Three-judge unanimous certification of WRONG answers: A 9/23 (39 %; 9 of the 19 the judges saw) · B 2/97 (2 %) ·
+Three-judge unanimous certification of WRONG answers: A 9/19 (47 %; 9/23 = 39 % counting the 4 blank compressions) · B 2/97 (2 %) ·
 injected drops 5/9, 7/10 · natural summarizer errors 0/28. Jev: A 10/19, C 9/9 at P̄ 0.89, rejects 1 of 9.
 Resolved value: 16/16 caught, 0 false alarms. Tomorrow: 45/47 vs 38; 72 invented vs 72 declined.
 Whole study ≈ $35 of API calls. Full table with file names: [`results/README.md`](results/README.md).

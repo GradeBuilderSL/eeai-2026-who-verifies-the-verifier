@@ -43,9 +43,9 @@ def unanimous_wrong(judge_files: list[str], run_file: str) -> dict[str, tuple[in
     judges = [{r["qid"]: r["conds"] for r in load(f)} for f in judge_files]
     out: dict[str, tuple[int, int]] = {}
     for cond in ("A_compressed", "B_current", "C_gold"):
-        # A wrong answer includes the 4 cases where compression returned nothing (no answer to judge):
-        # 23 = 19 answered wrong + 4 blank. The talk says "9 of 23"; among the 19 the judges saw it is 9 of 19.
-        wrong = [q for q, r in run.items() if not r["conds"][cond]["correct"]]
+        # Denominator = wrong answers the judges actually saw. In A, 4 more compressions returned nothing
+        # (no answer, nothing to judge): 23 wrong in total, 19 judged. The talk says "9 of 19" (47 %).
+        wrong = [q for q, r in run.items() if r["conds"][cond].get("answer") and not r["conds"][cond]["correct"]]
         unanimous = sum(1 for q in wrong if all(j.get(q, {}).get(cond) == "supported" for j in judges))
         out[cond] = (unanimous, len(wrong))
     return out
@@ -75,8 +75,11 @@ def main() -> int:
     judges = ["fr-judge-mini-g100v3-20260921.json", "fr-judge-gpt54-g100v3-20260921.json",
               "fr-judge-deepseek-g100v3-20260921.json"]
     uw = unanimous_wrong(judges, "fr-gpt54-100v3-20260921.json")
-    check("3 judges unanimously certify WRONG answers — A compressed (23 = 19 answered + 4 blank)", (9, 23),
-          uw["A_compressed"], judges[1])
+    check("3 judges unanimously certify WRONG answers — A compressed (19 judged; 4 blank compressions not judged)",
+          (9, 19), uw["A_compressed"], judges[1])
+    blank = sum(1 for r in load("fr-gpt54-100v3-20260921.json")["rows"] if not r["conds"]["A_compressed"].get("answer"))
+    check("A compressed: compressions that returned nothing (wrong, but never judged)", 4, blank,
+          "fr-gpt54-100v3-20260921.json")
     check("3 judges unanimously certify WRONG answers — B today's version", (2, 97), uw["B_current"], judges[1])
     check("3 judges unanimously certify WRONG answers — C version in force", (5, 9), uw["C_gold"], judges[1])
     seeds = load("seed-merged.json")["agreement"]["naive"]
