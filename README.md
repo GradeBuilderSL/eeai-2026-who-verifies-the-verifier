@@ -93,12 +93,17 @@ legal retrieval), FAITH (faithfulness and time), StateAuditor and the Selective-
 LLM-Modulo and Simplex (model proposes, verifier disposes), the correlated-judges literature. The bibliography
 ([`docs/bibliography/`](docs/bibliography/)) has 557 entries, 537 checked against the primary source.
 
-## About the authors
+## Where this came from
 
-The study comes out of [**Laspi.Pro**](https://laspi.pro) — an AI content assistant for small businesses: the
-owner talks for two minutes, the system writes the week's posts, pictures and short videos. Laspi has to remember
-what a business said *and when it stopped being true* — prices, opening hours, offers that expire — which is
-where this question came from. The journal measured here is Laspi's memory layer in the making.
+This study is a by-product of building [**Laspi.Pro**](https://laspi.pro) — a tool for people who would rather
+not run a blog. You talk for two minutes about what happened this week; it writes the posts, draws the pictures,
+cuts the short videos, and you approve or don't. No content calendar, no "engagement strategy", no second job.
+
+The catch that produced this talk: a business keeps saying things that stop being true — a price, an opening
+hour, an offer that ran out on Friday. A summarizer compresses that history; a verifier reads the compressed
+history and says *supported*; the post goes out with last month's price. Everything measured here happened
+to us first, on our own data. The journal is Laspi's memory layer in the making: `resolve` instead of a second
+model call. If you also would rather not run a blog, that is the whole pitch.
 
 ## Cite
 
